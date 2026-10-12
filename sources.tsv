@@ -1,0 +1,170 @@
+# Eser listesi. Sütunlar sekmeyle ayrılır:
+# aic_id  slug  kategori  odak_x  ad_tr  [ad_en]
+# slug değişmez (uygulamadaki kayıtlar ona bağlı). ad_en boşsa müzedeki ad.
+# kategori: doga, deniz, sehir, naturmort. odak_x: yatay eser 2:3 kırpılırken
+# yatayda nereye odaklanılsın (0 sol, 0.5 orta, 1 sağ).
+146701	mountain_brook	doga	0.5	Dağ Deresi	Mountain Brook
+28146	alpine_scene_dore	doga	0.5	Alp Sahnesi	Alpine Scene
+16568	water_lilies	doga	0.5	Nilüferler	Water Lilies
+76571	cotopaxi	doga	0.5	Cotopaxi Manzarası	View of Cotopaxi
+39554	alpine_scene_courbet	doga	0.5	Alp Manzarası	An Alpine Scene
+4783	poppy_field	doga	0.5	Gelincik Tarlası	Poppy Field (Giverny)
+39542	cattle_in_the_alps	doga	0.5	Alplerde Dinlenen Sığırlar	Cattle at Rest on a Hillside in the Alps
+81546	petite_creuse	doga	0.5	Petite Creuse Nehri	The Petite Creuse River
+24645	great_wave	deniz	0.3	Kanagawa Açıklarında Büyük Dalga	The Great Wave off Kanagawa
+14598	beach_sainte_adresse	deniz	0.5	Sainte-Adresse Plajı	The Beach at Sainte-Adresse
+16487	bay_of_marseille	deniz	0.5	Marsilya Körfezi	The Bay of Marseille, Seen from L'Estaque
+16776	after_the_hurricane	deniz	0.5	Kasırgadan Sonra	After the Hurricane, Bahamas
+20684	paris_street_rainy_day	sehir	0.6	Paris Sokağı, Yağmurlu Gün	Paris Street; Rainy Day
+27992	grande_jatte	sehir	0.5	La Grande Jatte'da Bir Pazar	A Sunday on La Grande Jatte
+16571	gare_saint_lazare	sehir	0.5	Saint-Lazare Garı	Arrival of the Normandy Train, Gare Saint-Lazare
+28560	the_bedroom	sehir	0.5	Yatak Odası	The Bedroom
+64818	wheat_end_of_summer	doga	0.5	Buğday Yığınları (Yaz Sonu)	
+869	watermill_red_roof	doga	0.5	Kırmızı Çatılı Su Değirmeni	
+4758	stoke_by_nayland	doga	0.5	Stoke-by-Nayland	
+60755	castle_of_egmond	doga	0.5	Egmond Kalesi Kalıntıları	
+64724	home_of_the_heron	doga	0.5	Balıkçıl Yuvası	
+64729	tarpon_springs	doga	0.5	Sabah, Tarpon Springs	
+72801	icebound	doga	0.5	Buz Tutmuş Dere	
+90048	niagara_falls	doga	0.5	Uzaktan Niagara Şelalesi	
+127644	autumn_maples	doga	0.5	Güz Akçaağaçları	
+146953	two_cows	doga	0.5	Çayırda İki İnek ve Bir Dana	
+109926	window_on_woods	doga	0.5	Ormana Bakan Pencere	
+144969	palm_house	doga	0.5	Palmiye Serası	
+4800	cattle_pyrenees	doga	0.5	Pireneler'den İnen Sığırlar	
+4887	irises	doga	0.5	Süsenler	
+8980	two_poplars	doga	0.5	İki Kavaklı Manzara	
+9021	bewitched_mill	doga	0.5	Büyülü Değirmen	
+14586	poets_garden	doga	0.5	Şairin Bahçesi	
+14624	wheat_autumn	doga	0.5	Buğday Yığınları (Güz Akşamı)	
+14634	vetheuil	doga	0.5	Vétheuil	
+16502	mill_pont_maupuit	doga	0.5	Pont Maupuit Değirmeni	
+16554	house_at_argenteuil	doga	0.5	Ressamın Argenteuil'deki Evi	
+16560	wheat_snow	doga	0.5	Buğday Yığını (Kar, Kapalı Hava)	
+16564	seine_mist	doga	0.5	Giverny Yakınında Seine (Sis)	
+18743	roadside_tavern	doga	0.5	Yol Kenarında Han	
+20530	rabbit_warren_snow	doga	0.5	Pontoise'da Kar	
+21914	the_storm	doga	0.5	Fırtına	
+27027	rock_of_hautepierre	doga	0.5	Hautepierre Kayası	
+29401	wooded_landscape	doga	0.5	Ormanlık Manzara	
+40549	valley_of_arconville	doga	0.5	Arconville Vadisi	
+44017	landscape_at_chailly	doga	0.5	Chailly'de Manzara	
+45838	snow_louveciennes	doga	0.5	Louveciennes'de Kar	
+57163	new_england_scenery	doga	0.5	New England Manzarası	
+65848	italian_landscape	doga	0.5	İtalyan Manzarası	
+68433	sawmill_paris	doga	0.5	Paris Kenarında Bıçkıhane	
+71971	mist_catskills	doga	0.5	Catskill Dağlarında Akşam Sisi	
+75957	mount_washington	doga	0.5	Washington Dağı	
+81537	bordighera	doga	0.5	Bordighera	
+81539	bank_of_seine	doga	0.5	Seine Kıyısında, Bennecourt	
+81545	wheat_sunset_snow	doga	0.5	Buğday Yığınları (Gün Batımı, Kar)	
+86998	sandvika	doga	0.5	Sandvika, Norveç	
+87088	water_lily_pond_1900	doga	0.5	Nilüfer Havuzu	
+95654	near_the_lake	doga	0.5	Göl Kıyısında	
+96559	turn_in_the_road	doga	0.5	Yolun Dönemeci	
+97933	water_lily_pond_1917	doga	0.5	Nilüfer Havuzu (Geç Dönem)	
+100191	wheat_thaw_sunset	doga	0.5	Buğday Yığını (Erime, Gün Batımı)	
+109938	valley_of_aosta	doga	0.5	Aosta Vadisi: Kar Fırtınası	
+111062	te_raau_rahi	doga	0.5	Büyük Ağaç	
+111318	stack_of_wheat	doga	0.5	Buğday Yığını	
+111669	sheep_picardy	doga	0.5	Picardie'de Koyunlar	
+129639	blasted_tree	doga	0.5	Yıldırım Çarpmış Ağaç	
+209969	landscape_with_hunters	doga	0.5	Avcılı Manzara	
+250450	villa_chigi_staircase	doga	0.5	Villa Chigi Parkında Merdiven	
+250451	near_chiusi	doga	0.5	Chiusi Yakınında Manzara	
+250452	bavarian_farmhouse	doga	0.5	Bavyera Alplerinde Çiftlik Evi	
+250453	sand_pits_hampstead	doga	0.5	Hampstead Kum Ocakları	
+250454	road_to_nice	doga	0.5	Nice Yolunda	
+250456	apennine_landscape	doga	0.5	Apenin Manzarası	
+263514	loading_hay	doga	0.5	Saman Yükleme	
+94127	crossing_the_ford	doga	0.5	Sığ Geçit	
+8097	rock_and_fortress	doga	0.5	Kayalı ve Kaleli Manzara	
+160029	fountain_pergola	doga	0.5	İtalya'da Çeşme ve Pergola	
+160229	pergola_oranges	doga	0.5	Portakallı Pergola	
+209942	fountain_grottaferrata	doga	0.5	Grottaferrata Çeşmesi	
+57996	vesuvius	doga	0.5	Vezüv'ün Patlaması	
+94841	song_of_the_lark	doga	0.5	Tarlakuşunun Şarkısı	
+262794	looking_upon_river	doga	0.5	Nehre Bakarken	
+8360	te_burao	doga	0.5	Ebegümeci Ağacı	
+16633	seine_port_marly	doga	0.5	Port-Marly'de Seine	
+20199	bathers_asnieres	doga	0.5	Asnières'de Yüzenler (Etüt)	
+109314	fishing_in_spring	doga	0.5	Baharda Balık Avı	
+107938	fete_champetre	doga	0.5	Kır Şenliği	
+44018	croquet_scene	doga	0.5	Kroket	
+14620	cliff_walk_pourville	deniz	0.5	Pourville'de Yalıyar Yolu	
+56905	nocturne_southampton	deniz	0.5	Gece: Southampton Suları	
+4796	fishing_boats_turner	deniz	0.5	Balıkçı Tekneleri	
+16343	boats_in_a_calm	deniz	0.5	Durgun Denizde Balıkçı Tekneleri	
+16542	customs_house	deniz	0.5	Varengeville Gümrük Evi	
+20535	etretat_beach	deniz	0.5	Étretat: Plaj ve Yalıyar	
+20545	port_goulphar	deniz	0.5	Port-Goulphar Kayalıkları	
+59927	boats_etretat	deniz	0.5	Étretat Kumsalında Tekneler	
+81535	sea_view_calm	deniz	0.5	Deniz Manzarası, Sakin Hava	
+81540	departure_of_boats	deniz	0.5	Teknelerin Çıkışı, Étretat	
+81572	trouville	deniz	0.5	Trouville (Gri ve Yeşil)	
+84088	deep_sea	deniz	0.5	Mor ve Gümüş: Derin Deniz	
+100476	beach_cabasson	deniz	0.5	Cabasson Plajı	
+121377	boats_at_rest	deniz	0.5	Dinlenen Tekneler	
+147478	sitges	deniz	0.5	Sitges	
+209910	beached_boats	deniz	0.5	Kıyıya Çekilmiş Tekneler	
+212300	les_grands_sables	deniz	0.5	Les Grands Sables Plajı	
+244013	shipwreck	deniz	0.5	Kayalık Kıyıda Batık	
+14309	coast_bathers	deniz	0.5	Kıyıda Yüzenler	
+57191	on_the_nile	deniz	0.5	Nil'de	
+71573	a_holiday	deniz	0.5	Tatil Günü	
+28849	city_park	sehir	0.5	Şehir Parkı	
+111610	palazzo_contarini	sehir	0.5	Palazzo Contarini Bahçesi	
+14556	auvers_panorama	sehir	0.5	Auvers Panoraması	
+14630	palazzo_dario	sehir	0.5	Venedik, Palazzo Dario	
+16544	charing_cross	sehir	0.5	Charing Cross Köprüsü, Londra	
+16545	brooklyn_bridge	sehir	0.5	Brooklyn Köprüsü	
+16584	houses_of_parliament	sehir	0.5	Parlamento Binası, Londra	
+16659	tower_avignon	sehir	0.5	Avignon'da Eski Kule	
+20701	waterloo_bridge_sun	sehir	0.5	Waterloo Köprüsü, Güneş	
+103139	waterloo_bridge_gray	sehir	0.5	Waterloo Köprüsü, Gri Hava	
+25806	view_of_genoa	sehir	0.5	Cenova Manzarası	
+25810	the_courtyard	sehir	0.5	Avlu	
+37741	watering_place_marly	sehir	0.5	Marly'de Sulama Yeri	
+45267	monte_pincio	sehir	0.5	Monte Pincio, Roma	
+57049	the_obelisk	sehir	0.5	Dikilitaş	
+57050	landing_place	sehir	0.5	İskele	
+59455	meetinghouse_hill	sehir	0.5	Meetinghouse Tepesi, Roxbury	
+81551	place_du_havre	sehir	0.5	Place du Havre, Paris	
+81561	street_in_moret	sehir	0.5	Moret'de Bir Sokak	
+81568	notre_dame	sehir	0.5	Notre-Dame de Paris	
+99654	french_street	sehir	0.5	Bir Fransız Sokağı	
+110541	crystal_palace	sehir	0.5	Kristal Saray	
+110752	saint_salvi_albi	sehir	0.5	Albi'de Saint-Salvi Kilisesi	
+111624	spain_street	sehir	0.5	İspanya	
+111655	apple_market	sehir	0.5	Elma Pazarı	
+219254	inside_colosseum	sehir	0.5	Kolezyum'un İçinde	
+250455	venice_public_garden	sehir	0.5	Halk Bahçesinden Venedik	
+250457	venice_riva	sehir	0.5	Riva'dan Venedik	
+30368	medici_colonnade	sehir	0.5	Medici Sarayı Bahçeleri	
+69538	point_breeze	sehir	0.5	Point Breeze Malikânesi	Point Breeze, Bordentown
+81555	rowers_lunch	sehir	0.5	Kürekçilerin Öğle Yemeği	
+87045	geranium	naturmort	0.5	Sardunyalı Natürmort	
+100829	magnolias	naturmort	0.5	Mavi Kadife Üzerinde Manolyalar	
+111436	basket_of_apples	naturmort	0.5	Elma Sepeti	
+120154	strawberries_nuts	naturmort	0.5	Çilekler ve Cevizler	
+14561	vase_of_tulips	naturmort	0.5	Lale Vazosu	
+16549	apples_and_grapes	naturmort	0.5	Elmalar ve Üzümler	
+16629	fruits_of_the_midi	naturmort	0.5	Güney Meyveleri	
+51577	white_tablecloth	naturmort	0.5	Beyaz Masa Örtüsü	
+64001	apples_matisse	naturmort	0.5	Elmalar	
+64029	bouquet_brueghel	naturmort	0.5	Toprak Vazoda Çiçekler	
+65811	plate_of_apples	naturmort	0.5	Elma Tabağı	
+66042	flower_garland	naturmort	0.5	Çiçek Çelengi ve Perde	
+72180	fantin_flowers	naturmort	0.5	Çiçekli Natürmort	
+72183	fruit_wine_jug	naturmort	0.5	Meyve ve Şarap Testisi	
+110982	redon_flowers	naturmort	0.5	Çiçekler	
+111059	porcelain_bowl	naturmort	0.5	Porselen Kâsede Çiçek ve Meyve	
+131407	wine_cheese_fruit	naturmort	0.5	Şarap, Peynir ve Meyve	
+145807	thistles	naturmort	0.5	Devedikenleri	
+156596	fruit_piece	naturmort	0.5	Meyveler	
+257286	breakfast_heda	naturmort	0.5	Kahvaltı	
+264716	blue_ribbon	naturmort	0.5	Mavi Kurdeleli Çiçek ve Meyve	
+265263	grapes_and_flowers	naturmort	0.5	Üzüm ve Çiçekler	
+94126	monkey_still_life	naturmort	0.5	Maymunlu Natürmort	
+69533	birds_nest	naturmort	0.5	Kuş Yuvası ve Eğrelti Otları	
+44065	just_dessert	naturmort	0.5	Tatlı	
