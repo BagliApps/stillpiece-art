@@ -1,0 +1,24 @@
+# Geçici: Met'ten aday tarar, sonuçları bu dala ekler. main'de yok.
+name: Met taraması
+on:
+  push:
+    branches: [met-scout]
+    paths: [scout/met.py, .github/workflows/scout.yml]
+permissions:
+  contents: write
+jobs:
+  scout:
+    runs-on: macos-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow
+      - run: python3 scout/met.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898733+github-actions[bot]@users.noreply.github.com"
+          git add scout/out
+          git commit -m "Met taraması sonuçları" && git push
