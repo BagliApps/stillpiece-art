@@ -32,7 +32,8 @@ def score(img):
 
 cands, seen = [], set()
 for q, cat in Q:
-    r = get(f"{API}/search?" + urllib.parse.urlencode({"q": q, "hasImages": "true", "isPublicDomain": "true"}))
+    r = get(f"{API.replace('/v1', '/v1.1')}/search?" + urllib.parse.urlencode({"q": q, "hasImages": "true", "isPublicDomain": "true", "limit": PER}))
+    if r and not r.get("objectIDs"): print(q, "yanıt:", str(r)[:300], file=sys.stderr)
     ids = (r or {}).get("objectIDs") or []
     n = 0
     for oid in ids[:PER]:
