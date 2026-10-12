@@ -20,7 +20,9 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    # Müze sunucusu bazı Linux makinelerini engelliyor; eski indirme işi
+    # macOS'ta sorunsuz çalışıyordu.
+    runs-on: macos-latest
     timeout-minutes: 60
     environment:
       name: github-pages

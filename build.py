@@ -26,7 +26,12 @@ WIDTH = {l: 1000 if i < 4 else 1686 for i, l in enumerate(LEVELS)}
 THUMB_WIDTH = 300
 CATEGORIES = {"doga", "deniz", "sehir", "naturmort"}
 IIIF = "https://www.artic.edu/iiif/2"
-UA = {"AIC-User-Agent": "Stillpiece (yapboz uygulamasi; github.com/Walletude/stillpiece-art)"}
+# Müze AIC-User-Agent başlığını rica ediyor; Python'un varsayılan
+# "Python-urllib" kimliği ise 403 alıyor.
+UA = {
+    "AIC-User-Agent": "Stillpiece (yapboz uygulamasi; github.com/Walletude/stillpiece-art)",
+    "User-Agent": "Stillpiece/1.0 (+https://github.com/Walletude/stillpiece-art)",
+}
 
 
 def read_sources():
