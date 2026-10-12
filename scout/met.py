@@ -1,25 +1,24 @@
 # Met Open Access'ten aday tarar: kamu malı, dikey, renkli ve desenli eserler.
 # Çıktı: scout/out/cands.json ve numaralı paftalar (sheet_*.jpg).
-import io, json, os, sys, time, urllib.parse, urllib.request
+import functools, io, json, os, sys, time, urllib.parse, urllib.request
 from PIL import Image, ImageDraw, ImageStat, ImageFilter
 
 API = "https://collectionapi.metmuseum.org/public/collection/v1"
-Q = [("Hiroshige", "japon"), ("Hokusai", "japon"), ("Kuniyoshi", "japon"), ("Utamaro", "japon"), ("Kunisada", "japon"),
-     ("Shahnama", "minyatur"), ("Mughal painting", "minyatur"), ("Persian miniature", "minyatur"), ("Rajput painting", "minyatur"),
-     ("Klimt", "modern"), ("Mucha", "modern"), ("Kandinsky", "modern"), ("Franz Marc", "modern"), ("Macke", "modern"), ("Matisse", "modern"),
-     ("Tiffany window", "dekor"), ("Iznik", "dekor"),
-     ("Redouté", "doga"), ("Audubon", "doga"), ("flower still life", "doga"), ("Jacob Marrel", "doga")]
-PER = int(os.environ.get("PER", "60"))
+Q = [("Hiroshige", "japon"), ("Kuniyoshi", "japon"), ("Shahnama", "minyatur"), ("Mughal painting", "minyatur"),
+     ("Klimt", "modern"), ("flower still life", "doga")]
+PER = int(os.environ.get("PER", "12"))
 OUT = "scout/out"; os.makedirs(OUT, exist_ok=True)
 
+print = functools.partial(print, flush=True)
+
 def get(url, raw=False):
-    for i in range(4):
+    for i in range(2):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "stillpiece-scout/1.0"})
-            b = urllib.request.urlopen(req, timeout=60).read()
+            b = urllib.request.urlopen(req, timeout=20).read()
             return b if raw else json.loads(b)
         except Exception as e:
-            err = e; time.sleep(2 + 3 * i)
+            err = e; time.sleep(1)
     print("HATA", url, err, file=sys.stderr); return None
 
 def score(img):
