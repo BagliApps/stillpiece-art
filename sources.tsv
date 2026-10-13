@@ -405,3 +405,39 @@ cma:97178	madonna_in_niche	tablo	0.5	Nişte Meryem ve Çocuk	Madonna and Child i
 cma:311773	violin_player_wine	tablo	0.5	Kadehli Kemancı	Violin Player with a Wine Glass	kolay	
 cma:159309	sweet_melancholy	tablo	0.5	Tatlı Hüzün	Sweet Melancholy	orta	
 cma:111479	saint_james_miracles	tablo	0.5	Aziz Yakup'un Mucizeleri	The Miracles of Saint James the Greater	kolay	
+cma:135659	immaculate_conception	tablo	0.5	Lekesiz Gebelik	The Immaculate Conception	kolay	
+cma:543981	dutton_family	tablo	0.5	Dutton Ailesi	The Dutton Family	orta	
+cma:125944	the_vineyard	tablo	0.5	Bağ	The Vineyard	zor	
+cma:153603	machtelt_suijs	tablo	0.5	Machtelt Suijs	Portrait of Machtelt Suijs	orta	
+cma:155051	manjushri	tablo	0.5	Mancuşri	Manjushri	uzman	0.021,0.013,0.014,0
+cma:147573	eight_hosts_deva	tablo	0.5	Sekiz Deva Ordusu	The Eight Hosts of Deva, Naga, and Yakshi	zor	0.023,0.013,0.018,0
+cma:147572	bodhisattvas_ten_stages	tablo	0.5	On Aşamanın Bodhisattvaları	Bodhisattvas of the Ten Stages	zor	0.018,0.016,0.018,0.013
+cma:311962	ancestor_group_portrait	tablo	0.5	Ata Portresi	Ancestor Group Portrait	zor	0.029,0.016,0.029,0.016
+cma:679266	red_cliff_battle	tablo	0.5	Kızıl Uçurum Savaşı	Fierce Battle at the Red Cliff	zor	
+cma:679368	bird_on_lotus	tablo	0.5	Nilüfer Üstünde Kuş	Bird on Lotus	orta	0.076,0.027,0.019,0.023
+cma:679271	eight_immortals_zodiac	tablo	0.5	Sekiz Ölümsüz ve On İki Burç	Eight Immortals and Twelve Zodiac Animals	zor	0.123,0.116,0.126,0.12
+cma:679366	watermelon_grapes	tablo	0.5	Karpuz ve Üzüm	Watermelon and Grapes	kolay	0.019,0.026,0.023,0.022
+cma:679036	mother_sons_music	tablo	0.5	Müzik Çalan Çocuklar ve Anne	Mother with Sons Playing Music	orta	0.077,0.023,0.077,0.019
+cma:679365	apples_pomegranates	tablo	0.5	Elmalar ve Narlar	Apples and Pomegranates	baslangic	0.019,0.018,0.023,0.022
+cma:679085	two_beauties_lotus	tablo	0.5	Altın Nilüfer	Two Beauties Inspect a Golden Lotus	zor	0.03,0,0.018,0.019
+cma:679355	lotus_seeds_caltrops	tablo	0.5	Nilüfer Tohumu ve Su Kestanesi	Lotus Seeds and Water Caltrops	orta	
+cma:148754	woman_of_the_sabines	tablo	0.5	Sabin Kadını	A Woman of the Sabines	kolay	
+cma:102578	dora_wheeler	tablo	0.5	Dora Wheeler	Portrait of Dora Wheeler	orta	
+cma:108806	the_apple_gatherers	tablo	0.5	Elma Toplayanlar	The Apple Gatherers	zor	
+cma:147828	primrose_collins	tablo	0.5	Çuha Çiçeği	Primrose	orta	
+cma:173669	pitcher_and_glass	tablo	0.5	Sürahi ve Bardak	Pitcher and a Glass on a Table	uzman	
+cma:155783	power_of_music	tablo	0.5	Müziğin Gücü	The Power of Music	orta	
+cma:173640	autumn_catskills	tablo	0.5	Catskill'de Sonbahar	Autumn in the Catskills	zor	
+cma:124040	brierwood_pipe	tablo	0.5	Pipo	The Brierwood Pipe	kolay	
+cma:173633	june_day	tablo	0.5	Haziran Günü	June Day	orta	0.01,0.039,0.231,0.153
+cma:172828	holiday_on_hudson	tablo	0.5	Hudson'da Tatil	Holiday on the Hudson	zor	
+cma:101471	early_spring_california	tablo	0.5	Kaliforniya'da İlkbahar	Early Spring, California	orta	
+cma:150743	st_malo	tablo	0.5	Saint-Malo	St. Malo	orta	
+cma:134072	sunny_autumn_day	tablo	0.5	Güneşli Sonbahar Günü	Sunny Autumn Day	zor	
+cma:97770	the_blue_feather	tablo	0.5	Mavi Tüy	The Blue Feather	kolay	
+cma:101461	daughter_alice	tablo	0.5	Kızım Alice	Portrait of My Daughter Alice	kolay	
+cma:93234	on_the_beach_3	tablo	0.5	Kumsalda	On the Beach, No. 3	zor	
+cma:155431	master_yeongwoldang	tablo	0.5	Büyük Usta Yeongwoldang	Great Master Yeongwoldang Eungjin	orta	0,0.029,0,0.026
+cma:160860	cho_jae_ho	tablo	0.5	Cho Jae-ho	Cho Jae-ho from Punhyang Cho Family	baslangic	0.023,0,0,0
+cma:374816	korean_official	tablo	0.5	Devlet Görevlisi Portresi	Portrait of a Government Official	orta	
+cma:535124	twelve_apostles_diptych	tablo	0.5	On İki Havari	Diptych with Twelve Apostles & St. Paul	zor	0.046,0.049,0.049,0.017
