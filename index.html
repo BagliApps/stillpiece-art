@@ -1,6 +1,96 @@
 <!doctype html>
+<html lang="tr">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Stillpiece eserleri</title>
-<p>Stillpiece yapboz uygulamasının görselleri. Eserler The Art Institute of Chicago'nun açık arşivinden, kamu malı (CC0). Liste: <a href="catalog.json">catalog.json</a>.</p>
-<p>Images for the Stillpiece jigsaw puzzle app. Artworks from The Art Institute of Chicago open access collection, public domain (CC0).</p>
+<style>
+  :root { color-scheme: light dark; --bg: #f6f4ef; --fg: #24221e; --muted: #77716a; --card: #fff; --line: #ddd8ce; --accent: #3d6b5a; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #1b1a18; --fg: #ece8e1; --muted: #9a948b; --card: #26241f; --line: #3a3731; --accent: #8cbca8; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 24px 16px 48px; background: var(--bg); color: var(--fg); font: 15px/1.5 -apple-system, system-ui, sans-serif; }
+  main { max-width: 1200px; margin: 0 auto; }
+  h1 { font-size: 24px; margin: 0 0 8px; }
+  p { margin: 0 0 6px; color: var(--muted); max-width: 70ch; }
+  a { color: var(--accent); }
+  .bar { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 8px; }
+  .bar button { border: 1px solid var(--line); background: var(--card); color: var(--fg); border-radius: 999px; padding: 6px 12px; font: inherit; font-size: 14px; cursor: pointer; }
+  .bar button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+  .bar button small { opacity: .7; margin-left: 6px; }
+  .bar select { border: 1px solid var(--line); background: var(--card); color: var(--fg); border-radius: 999px; padding: 6px 10px; font: inherit; font-size: 14px; }
+  #count { color: var(--muted); font-size: 14px; margin: 4px 0 16px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; text-decoration: none; color: inherit; display: flex; flex-direction: column; }
+  .card img { width: 100%; aspect-ratio: 2 / 3; object-fit: cover; display: block; background: var(--line); }
+  .card div { padding: 8px 10px 10px; }
+  .card b { display: block; font-size: 14px; font-weight: 600; }
+  .card span { display: block; font-size: 12px; color: var(--muted); }
+</style>
+<main>
+  <h1>Stillpiece eserleri</h1>
+  <p>Stillpiece yapboz uygulamasının görselleri. Tablolar The Art Institute of Chicago'nun açık arşivinden (CC0); fotoğraflar Wikimedia Commons üzerinden ABD federal kurumlarının (Milli Parklar, Balık ve Yaban Hayatı, NOAA, USGS…) kamu malı çalışmaları. Liste: <a href="catalog.json">catalog.json</a>.</p>
+  <p lang="en">Images for the Stillpiece jigsaw puzzle app: paintings from The Art Institute of Chicago open access collection (CC0) and US federal public-domain photographs via Wikimedia Commons.</p>
+  <div class="bar" id="sources"></div>
+  <div class="bar">
+    <select id="level" aria-label="Seviye"></select>
+    <select id="category" aria-label="Kategori"></select>
+  </div>
+  <div id="count"></div>
+  <div class="grid" id="grid"></div>
+</main>
+<script>
+const LEVELS = { baslangic: 'Başlangıç', kolay: 'Kolay', orta: 'Orta', zor: 'Zor', uzman: 'Uzman', usta: 'Usta', buyukUsta: 'Büyük Usta', efsane: 'Efsane' };
+const CATEGORIES = { doga: 'Doğa', sehir: 'Şehir', deniz: 'Deniz', hayvan: 'Hayvanlar', naturmort: 'Natürmort' };
+const AIC = 'Art Institute of Chicago';
+// Kaynak: tablolarda müze, Commons fotoğraflarında kurum (artist alanı).
+const sourceOf = a => a.source === 'commons' ? a.artist : AIC;
+const link = a => a.source === 'commons'
+  ? 'https://commons.wikimedia.org/wiki/File:' + encodeURIComponent(a.imageId.replace(/ /g, '_'))
+  : 'https://www.artic.edu/artworks/' + a.aicId;
+const state = { source: '', level: '', category: '' };
+let art = [];
+
+function options(el, label, map, key) {
+  el.innerHTML = `<option value="">${label}</option>` + Object.entries(map)
+    .filter(([k]) => art.some(a => a[key] === k))
+    .map(([k, v]) => `<option value="${k}">${v}</option>`).join('');
+  el.onchange = () => { state[key] = el.value; render(); };
+}
+
+function sources() {
+  const counts = {};
+  art.forEach(a => counts[sourceOf(a)] = (counts[sourceOf(a)] || 0) + 1);
+  const list = [['', 'Tümü', art.length], ...Object.entries(counts)
+    .sort((x, y) => (y[0] === AIC) - (x[0] === AIC) || y[1] - x[1]).map(([k, n]) => [k, k, n])];
+  const bar = document.getElementById('sources');
+  bar.innerHTML = '';
+  for (const [key, label, n] of list) {
+    const b = document.createElement('button');
+    b.innerHTML = `${label}<small>${n}</small>`;
+    b.setAttribute('aria-pressed', state.source === key);
+    b.onclick = () => { state.source = key; sources(); render(); };
+    bar.append(b);
+  }
+}
+
+function render() {
+  const shown = art.filter(a => (!state.source || sourceOf(a) === state.source)
+    && (!state.level || a.level === state.level)
+    && (!state.category || a.category === state.category));
+  document.getElementById('count').textContent = `${shown.length} görsel`;
+  document.getElementById('grid').innerHTML = shown.map(a => `
+    <a class="card" href="${link(a)}" target="_blank" rel="noopener">
+      <img src="thumb/${a.slug}.jpg" alt="" loading="lazy">
+      <div><b>${a.title}</b><span>${a.artist}</span><span>${LEVELS[a.level] || a.level} · ${CATEGORIES[a.category] || a.category}</span></div>
+    </a>`).join('');
+}
+
+fetch('catalog.json').then(r => r.json()).then(d => {
+  const order = Object.keys(LEVELS);
+  art = d.art.sort((x, y) => order.indexOf(x.level) - order.indexOf(y.level));
+  sources();
+  options(document.getElementById('level'), 'Tüm seviyeler', LEVELS, 'level');
+  options(document.getElementById('category'), 'Tüm kategoriler', CATEGORIES, 'category');
+  render();
+});
+</script>
+</html>
