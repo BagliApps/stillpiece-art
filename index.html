@@ -24,6 +24,9 @@
   .card div { padding: 8px 10px 10px; }
   .card b { display: block; font-size: 14px; font-weight: 600; }
   .card span { display: block; font-size: 12px; color: var(--muted); }
+  .grid.small { grid-template-columns: repeat(auto-fill, minmax(76px, 1fr)); gap: 6px; }
+  .grid.small .card { border-radius: 6px; }
+  .grid.small .card div { display: none; }
 </style>
 <main>
   <h1>Stillpiece eserleri</h1>
@@ -33,6 +36,7 @@
   <div class="bar">
     <select id="level" aria-label="Seviye"></select>
     <select id="category" aria-label="Kategori"></select>
+    <button id="size" aria-pressed="false">Küçük resimler</button>
   </div>
   <div id="count"></div>
   <div class="grid" id="grid"></div>
@@ -48,6 +52,34 @@ const link = a => a.source === 'commons'
   : 'https://www.artic.edu/artworks/' + a.aicId;
 const state = { source: '', level: '', category: '' };
 let art = [];
+
+// Resimler 6'şar 6'şar yüklenir: hepsi birden istenince GitHub Pages yarısını
+// hatayla döndürüyor. Hata verene birkaç kez daha denenir.
+let queue = [], running = 0;
+function loadNext() {
+  while (running < 6 && queue.length) {
+    const img = queue.shift();
+    if (!img.isConnected) continue;
+    running++;
+    let tries = 0;
+    const done = () => { running--; loadNext(); };
+    img.onload = done;
+    img.onerror = () => {
+      if (++tries > 3) return done();
+      setTimeout(() => { img.src = img.dataset.src + '?r=' + tries; }, 800 * tries);
+    };
+    img.src = img.dataset.src;
+  }
+}
+
+const size = document.getElementById('size');
+function setSmall(small) {
+  document.getElementById('grid').classList.toggle('small', small);
+  size.setAttribute('aria-pressed', small);
+  try { localStorage.setItem('small', small ? '1' : ''); } catch (e) {}
+}
+size.onclick = () => setSmall(size.getAttribute('aria-pressed') !== 'true');
+try { setSmall(!!localStorage.getItem('small')); } catch (e) {}
 
 function options(el, label, map, key) {
   el.innerHTML = `<option value="">${label}</option>` + Object.entries(map)
@@ -78,10 +110,12 @@ function render() {
     && (!state.category || a.category === state.category));
   document.getElementById('count').textContent = `${shown.length} görsel`;
   document.getElementById('grid').innerHTML = shown.map(a => `
-    <a class="card" href="${link(a)}" target="_blank" rel="noopener">
-      <img src="thumb/${a.slug}.jpg" alt="" loading="lazy">
+    <a class="card" href="${link(a)}" target="_blank" rel="noopener" title="${a.title} · ${a.artist}">
+      <img data-src="thumb/${a.slug}.jpg" alt="">
       <div><b>${a.title}</b><span>${a.artist}</span><span>${LEVELS[a.level] || a.level} · ${CATEGORIES[a.category] || a.category}</span></div>
     </a>`).join('');
+  queue = [...document.querySelectorAll('#grid img')]; running = 0;
+  loadNext();
 }
 
 fetch('catalog.json').then(r => r.json()).then(d => {
