@@ -2493,7 +2493,7 @@
   },
   {
    "slug": "berann_yellowstone",
-   "level": "efsane",
+   "level": "buyukUsta",
    "category": "doga",
    "title": "Yellowstone Panoraması",
    "titleEn": "Panorama of Yellowstone",
@@ -2598,7 +2598,7 @@
   },
   {
    "slug": "berann_yosemite",
-   "level": "efsane",
+   "level": "usta",
    "category": "doga",
    "title": "Yosemite Panoraması",
    "titleEn": "Panorama of Yosemite",
@@ -2703,7 +2703,7 @@
   },
   {
    "slug": "berann_denali",
-   "level": "efsane",
+   "level": "buyukUsta",
    "category": "doga",
    "title": "Denali Panoraması",
    "titleEn": "Panorama of Denali",
@@ -2778,7 +2778,7 @@
   },
   {
    "slug": "monument_falls",
-   "level": "efsane",
+   "level": "orta",
    "category": "doga",
    "title": "Monument Şelalesi",
    "titleEn": "Monument Falls",
@@ -2823,7 +2823,7 @@
   },
   {
    "slug": "bear_and_cubs",
-   "level": "efsane",
+   "level": "orta",
    "category": "hayvan",
    "title": "Ayı ve Yavruları",
    "titleEn": "Bear and Cubs",
@@ -2868,7 +2868,7 @@
   },
   {
    "slug": "pasque_flowers",
-   "level": "efsane",
+   "level": "orta",
    "category": "doga",
    "title": "Dağ Lalesi",
    "titleEn": "Pasque Flowers in Bloom",
@@ -2898,7 +2898,7 @@
   },
   {
    "slug": "red_fox_jump",
-   "level": "efsane",
+   "level": "orta",
    "category": "hayvan",
    "title": "Zıplayan Tilki",
    "titleEn": "Red Fox Jump",
@@ -2943,7 +2943,7 @@
   },
   {
    "slug": "arctic_landscape",
-   "level": "efsane",
+   "level": "zor",
    "category": "doga",
    "title": "Kutup Manzarası",
    "titleEn": "Arctic Landscape",
@@ -3153,7 +3153,7 @@
   },
   {
    "slug": "coreopsis_meadow",
-   "level": "efsane",
+   "level": "zor",
    "category": "doga",
    "title": "Sarı Çiçekli Çayır",
    "titleEn": "Coreopsis in Bloom",
@@ -3258,7 +3258,7 @@
   },
   {
    "slug": "elk_refuge_autumn",
-   "level": "efsane",
+   "level": "orta",
    "category": "doga",
    "title": "Sonbahar Çayırı",
    "titleEn": "Autumn on the National Elk Refuge",
@@ -3348,7 +3348,7 @@
   },
   {
    "slug": "elk_refuge_golden",
-   "level": "efsane",
+   "level": "orta",
    "category": "doga",
    "title": "Altın Sonbahar",
    "titleEn": "Autumn on the National Elk Refuge",
@@ -3378,7 +3378,7 @@
   },
   {
    "slug": "sukakpak_mountain",
-   "level": "efsane",
+   "level": "uzman",
    "category": "doga",
    "title": "Sukakpak Dağı",
    "titleEn": "Sukakpak Mountain",
@@ -3393,7 +3393,7 @@
   },
   {
    "slug": "arctic_tundra",
-   "level": "efsane",
+   "level": "zor",
    "category": "doga",
    "title": "Kutup Tundrası",
    "titleEn": "Arctic Landscape",
@@ -3543,7 +3543,7 @@
   },
   {
    "slug": "desert_bloom",
-   "level": "efsane",
+   "level": "uzman",
    "category": "doga",
    "title": "Çölde Çiçekler",
    "titleEn": "Flowers in Bloom",
@@ -3588,7 +3588,7 @@
   },
   {
    "slug": "wildflowers",
-   "level": "efsane",
+   "level": "uzman",
    "category": "doga",
    "title": "Kır Çiçekleri",
    "titleEn": "Wildflowers in Bloom",
@@ -3618,7 +3618,7 @@
   },
   {
    "slug": "autumn_aspens",
-   "level": "efsane",
+   "level": "zor",
    "category": "doga",
    "title": "Sonbahar Ormanı",
    "titleEn": "Autumn on the National Elk Refuge",
