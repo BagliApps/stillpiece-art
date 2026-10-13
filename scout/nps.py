@@ -2,7 +2,7 @@
 # park adları ve konular, sorgu başına 40, en az 2600 px. Önceki turlarda
 # görülenler ve kataloğa girenler (scout/skip.txt) atlanır. Kolay seviye için
 # desensiz eşiği gevşek: düz alan 0.50'ye kadar elenmez, "kolay" işaretlenir.
-# Sonuç scout/out/nps/results.json.
+# Sonuç scout/out/nps/results.json (dal bu arada ilerlese de iş sonunda commit'lenir).
 import json, os, re, subprocess, sys, time, urllib.parse, urllib.request
 from concurrent.futures import ProcessPoolExecutor
 sys.path.insert(0, "tool")

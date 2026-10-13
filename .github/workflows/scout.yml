@@ -22,4 +22,4 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898733+github-actions[bot]@users.noreply.github.com"
           git add scout/out
-          git commit -m "NPS taraması sonuçları" && git push
+          git commit -m "NPS taraması sonuçları" && git pull --rebase && git push
