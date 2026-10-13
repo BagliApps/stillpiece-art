@@ -1,18 +1,20 @@
-# Commons'tan ABD federal kurumlarının (kamu malı) doğa fotoğrafları; yalnızca
-# Commons editörlerinin seçtiği Quality/Featured/Valued görseller. Her biri
-# tool/quality.py ile puanlanır, sonuç scout/out/commons/index.html.
+# Commons'tan ABD federal kurumlarının (kamu malı) doğa fotoğrafları. İlk tur
+# (scout/out/commons) yalnızca editörlerin seçtiklerini aldı; bu tur tüm havuzu
+# konu konu tarar (en az 2600 px). Her biri tool/quality.py ile puanlanır,
+# sonuç scout/out/commons2/index.html.
 import json, os, subprocess, sys, time, urllib.parse, urllib.request
 sys.path.insert(0, "tool")
 import quality
 
-OUT = "scout/out/commons"; os.makedirs(OUT, exist_ok=True)
+OUT = "scout/out/commons2"; os.makedirs(OUT, exist_ok=True)
 UA = {"User-Agent": "StillpieceScout/1.0 (https://github.com/Walletude/stillpiece-art)"}
 API = "https://commons.wikimedia.org/w/api.php"
 AGENCIES = ["PD-USGov-NPS", "PD-USGov-FWS", "PD-USGov-NOAA", "PD-USGov-USGS",
             "PD-USGov-USDA-FS", "PD-USGov-BLM"]
-PICKED = ["Quality_images", "Featured_pictures_on_Wikimedia_Commons", "Valued_images"]
-PER_QUERY = 40
-LIMIT = 150
+TOPICS = ["wildlife", "bird", "landscape", "mountain", "lake", "waterfall", "flowers",
+          "forest", "canyon", "coral reef", "autumn", "fox", "bear", "butterfly"]
+PER_QUERY = 6
+LIMIT = 220
 # Kişilik hakkı / marka uyarısı olanlar alınmaz.
 BAD_RESTRICTIONS = {"personality", "trademarked", "insignia"}
 
@@ -27,8 +29,9 @@ def get(url, raw=False):
     return None
 
 
-def search(agency, picked):
-    q = f'hastemplate:"{agency}" incategory:"{picked}" filetype:bitmap'
+def search(agency, topic):
+    # Böcek laboratuvarının yakın çekimleri yapboz için itici; dışarıda kalsın.
+    q = f'{topic} hastemplate:"{agency}" filetype:bitmap filew:>2600 -"Bee Inventory"'
     r = get(API + "?" + urllib.parse.urlencode({
         "action": "query", "format": "json", "generator": "search", "gsrsearch": q,
         "gsrnamespace": 6, "gsrlimit": PER_QUERY, "prop": "imageinfo",
@@ -42,9 +45,9 @@ def meta(ii, key):
 
 seen, cands = set(), []
 for agency in AGENCIES:
-    for picked in PICKED:
-        pages = search(agency, picked)
-        print(agency, picked, len(pages), flush=True)
+    for topic in TOPICS:
+        pages = search(agency, topic)
+        print(agency, topic, len(pages), flush=True)
         for p in pages:
             if p["title"] in seen or not p.get("imageinfo"):
                 continue
@@ -56,7 +59,7 @@ for agency in AGENCIES:
             lic = meta(ii, "LicenseShortName")
             if restr or "public domain" not in lic.lower():
                 print("  lisans/kısıt:", p["title"], lic, restr); continue
-            cands.append(dict(title=p["title"], agency=agency, picked=picked,
+            cands.append(dict(title=p["title"], agency=agency, topic=topic,
                               page=ii["descriptionurl"], size=[ii["width"], ii["height"]],
                               license=lic, artist=meta(ii, "Artist")[:200],
                               desc=meta(ii, "ImageDescription")[:300]))
