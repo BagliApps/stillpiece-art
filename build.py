@@ -300,12 +300,12 @@ def main():
             e["bright"], e["detail"] = measure(img)
             if prev and prev.get("level"):
                 e["level"] = prev["level"]
-        # Listede sabitlenen seviye her zaman geçerli.
-        if s["level"]:
-            e["level"] = s["level"]
             # Hepsini bellekte tutmak ~2 GB eder; seviye belli olana kadar diskte.
             masters[s["slug"]] = f"work/{s['slug']}.jpg"
             img.save(masters[s["slug"]], "JPEG", quality=97)
+        # Listede sabitlenen seviye her zaman geçerli.
+        if s["level"]:
+            e["level"] = s["level"]
         entries.append(e)
 
     assign_levels(entries)
