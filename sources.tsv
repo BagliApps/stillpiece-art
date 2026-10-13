@@ -283,7 +283,7 @@ cma:314452	ari_singh_terrace	tablo	0.5	Terasta Maharana Ari Singh	Maharana Ari S
 cma:137505	bashir_tuti_nama	tablo	0.5	Beşir'in Mesajı	Bashir Sends a Message	zor	0.068,0.056,0.073,0.046
 cma:151021	krishna_flower_garland	tablo	0.5	Krişna'ya Çiçek Çelengi	Krishna Receives a Flower Garland	zor	
 cma:314441	gunakali_ragini_leaves	tablo	0.5	Yaprak Toplayan Kadın	A Woman Plucks Leaves	zor	0.112,0.049,0.086,0.099
-cma:162531	balarama_and_krishna	tablo	0.5	Balarama ve Krişna	Balarama and Krishna	zor	
+cma:162531	balarama_and_krishna	tablo	0.5	Balarama ve Krişna	Balarama and Krishna	orta	
 cma:164467	shiva_and_nandi	tablo	0.5	Şiva ve Nandi	Shiva and Nandi	zor	0,0.036,0,0
 cma:314499	shri_raga_garland	tablo	0.5	Şri Raga (Ezgi Çelengi)	Shri Raga (Garland of Melodies)	uzman	0.049,0.026,0.04,0.039
 cma:154764	devagandhara_ragini	tablo	0.5	Devagandhara Ragini	Devagandhara Ragini: An Ascetic in Retreat	zor	0.019,0.116,0.158,0.123
@@ -300,15 +300,15 @@ cma:167973	saxoleine	tablo	0.5	Saxoléine	Saxoléine	orta	0.079,0,0.097,0.133
 cma:143846	lembree_gallery	tablo	0.5	Lembrée Galerisi Afişi	Poster for the Lembrée Gallery	orta	0.091,0.059,0.082,0.073
 cma:79232	illumination_lunois	tablo	0.5	Işıklandırma	L’Illumination	zor	0.143,0.116,0.14,0.116
 cma:133662	tiger_in_the_jungle	tablo	0.5	Ormanda Kaplan	Tiger in the Jungle	usta	0.028,0.019,0.028,0.059
-cma:153747	the_open_window	tablo	0.5	Açık Pencere	The Open Window	zor	0,0,0.048,0
-cma:171219	beefeater	tablo	0.5	Kule Muhafızı	London Types: Beef-eater	zor	0.043,0.033,0.046,0.023
+cma:153747	the_open_window	tablo	0.5	Açık Pencere	The Open Window	kolay	0,0,0.048,0
+cma:171219	beefeater	tablo	0.5	Kule Muhafızı	London Types: Beef-eater	orta	0.043,0.033,0.046,0.023
 cma:132620	orange_lily	tablo	0.5	Turuncu Zambak	Orange Lily	kolay	
 cma:171490	scheherazade	tablo	0.5	Şehrazat	Scheherazade	zor	0.032,0.019,0.069,0.096
-cma:136366	woman_in_green	tablo	0.5	Yeşilli Kadın	Woman in Green	zor	0.125,0.073,0.125,0.093
+cma:136366	woman_in_green	tablo	0.5	Yeşilli Kadın	Woman in Green	orta	0.125,0.073,0.125,0.093
 cma:148501	andalusia_moors	tablo	0.5	Mağribiler Zamanında Endülüs	Andalusia at the Time of the Moors	zor	0.02,0.029,0.072,0.036
 cma:79015	queen_wilhelmina	tablo	0.5	Kraliçe Wilhelmina	Queen Wilhelmina	orta	0.08,0.076,0.083,0.069
 cma:79407	cytisus_foxglove	tablo	0.5	Sarı Salkım ve Yüksükotu	Cytises et Digitales	uzman	0.035,0.036,0.035,0.036
-cma:168963	the_cabriolet	tablo	0.5	Fayton	The Cabriolet	zor	0.039,0.039,0.036,0.046
+cma:168963	the_cabriolet	tablo	0.5	Fayton	The Cabriolet	orta	0.039,0.039,0.036,0.046
 cma:171428	alphonse_price	tablo	0.5	Alphonse	Alphonse	orta	0.05,0.043,0.039,0.066
 cma:104985	la_goulue_moulin_rouge	tablo	0.5	Moulin Rouge'da La Goulue	At the Moulin Rouge: La Goulue and Her Sister	orta	0.135,0.103,0.139,0.126
 cma:118870	peonies_urushibara	tablo	0.5	Şakayıklar	Peonies	orta	0.069,0.049,0.069,0.059
@@ -341,15 +341,15 @@ cma:119915	chozan_blinds	tablo	0.5	Perdeler Önünde Çōzan	Chōzan of Chōjiya
 cma:152497	miho_pine_groves	tablo	0.5	Miho'nun Çam Koruları	Pine Groves of Miho in Suruga	kolay	0.065,0.049,0.06,0.043
 cma:135310	two_poplars_alpilles	tablo	0.5	Alpilles'de İki Kavak	Two Poplars in the Alpilles near Saint-Rémy	uzman	
 cma:115067	vase_of_flowers_redon	tablo	0.5	Çiçekli Vazo	Vase of Flowers	uzman	
-cma:115405	pigeon_tower_bellevue	tablo	0.5	Bellevue'de Güvercinlik	The Pigeon Tower at Bellevue	zor	
-cma:135185	mount_sainte_victoire	tablo	0.5	Sainte-Victoire Dağı	Mount Sainte-Victoire	zor	
+cma:115405	pigeon_tower_bellevue	tablo	0.5	Bellevue'de Güvercinlik	The Pigeon Tower at Bellevue	orta	
+cma:135185	mount_sainte_victoire	tablo	0.5	Sainte-Victoire Dağı	Mount Sainte-Victoire	orta	
 cma:84662	orange_christ	tablo	0.5	Turuncu İsa	The Orange Christ	usta	
-cma:95277	combat_for_colors	tablo	0.5	Sancak Mücadelesi	Combat for the Colors	zor	
-cma:118792	the_letter_hofer	tablo	0.5	Mektup	The Letter	orta	0,0.016,0.084,0.016
+cma:95277	combat_for_colors	tablo	0.5	Sancak Mücadelesi	Combat for the Colors	orta	
+cma:118792	the_letter_hofer	tablo	0.5	Mektup	The Letter	kolay	0,0.016,0.084,0.016
 cma:84371	the_pink_cloud	tablo	0.5	Pembe Bulut	The Pink Cloud	usta	
 cma:142659	cliffs_beg_ar_fry	tablo	0.5	Beg-ar-Fry Kayalıkları	The Cliffs at Beg-ar-Fry, Saint-Jean-du-Doigt	zor	
 cma:169767	canal_in_autumn	tablo	0.5	Sonbaharda Kanal	Canal in Autumn (Gisors)	uzman	
-cma:150078	italian_scene	tablo	0.5	İtalyan Sahnesi	Italian Scene	zor	
+cma:150078	italian_scene	tablo	0.5	İtalyan Sahnesi	Italian Scene	kolay	
 cma:139814	banks_of_the_marne	tablo	0.5	Marne Kıyısı	The Banks of the Marne at Charenton	zor	
 cma:150694	sylvia_gosse	tablo	0.5	Sylvia Gosse	Sylvia Gosse	zor	
 cma:75763	procession_perros_guirec	tablo	0.5	Perros-Guirec'te Alay	Procession or Pardon at Perros-Guirec	zor	
@@ -357,56 +357,56 @@ cma:715339	still_life_blanchard	tablo	0.5	Natürmort	Still Life	uzman
 cma:135480	the_apple_seller	tablo	0.5	Elma Satıcısı	The Apple Seller	zor	
 cma:124801	the_siesta	tablo	0.5	Öğle Uykusu	The Siesta	usta	
 cma:125249	large_plane_trees	tablo	0.5	Büyük Çınarlar	The Large Plane Trees	zor	
-cma:163040	polyhymnia	tablo	0.5	Polyhymnia	Polyhymnia, Muse of Eloquence	zor	
-cma:135517	the_circus_valadon	tablo	0.5	Sirk	The Circus	zor	
+cma:163040	polyhymnia	tablo	0.5	Polyhymnia	Polyhymnia, Muse of Eloquence	kolay	
+cma:135517	the_circus_valadon	tablo	0.5	Sirk	The Circus	orta	
 cma:149562	roses_in_a_vase	tablo	0.5	Vazoda Güller	Roses in a Vase	uzman	
 cma:130967	notre_dame_tournelle	tablo	0.5	Tournelle Rıhtımından Notre Dame	Notre Dame Seen	zor	
 cma:135299	adeline_ravoux	tablo	0.5	Adeline Ravoux	Adeline Ravoux	uzman	
 cma:83635	breton_landscape	tablo	0.5	Brötanya Manzarası	Breton Landscape	usta	0.014,0,0.236,0
-cma:108009	the_burgomaster	tablo	0.5	Belediye Başkanı	The Burgomaster	zor	
+cma:108009	the_burgomaster	tablo	0.5	Belediye Başkanı	The Burgomaster	orta	
 cma:128394	modigliani_woman	tablo	0.5	Kadın Portresi (Modigliani)	Portrait of a Woman (Modigliani)	zor	
 cma:148297	the_large_tree	tablo	0.5	Büyük Ağaç	The Large Tree	zor	
 cma:128364	woman_earring	tablo	0.5	Küpesini Takan Genç Kadın	Young Woman Arranging Her Earring	usta	
 cma:159231	mrs_pearson	tablo	0.5	Bayan Pearson	Mrs. Pearson	baslangic	
-cma:159502	a_calling	tablo	0.5	Bir Çağrı	A Calling	orta	
+cma:159502	a_calling	tablo	0.5	Bir Çağrı	A Calling	kolay	
 cma:81391	drying_the_linen	tablo	0.5	Çamaşır Kurutma	Drying the Linen, or Moonrise at the Priory	usta	
-cma:125248	coronation_virgin_trinity	tablo	0.5	Meryem'in Taç Giyişi	The Coronation of the Virgin with the Trinity	zor	
+cma:125248	coronation_virgin_trinity	tablo	0.5	Meryem'in Taç Giyişi	The Coronation of the Virgin with the Trinity	orta	
 cma:131820	annunciation_medieval	tablo	0.5	Müjde	The Annunciation	zor	0,0.013,0.019,0.023
-cma:142473	berlinghiero_madonna	tablo	0.5	Meryem, Çocuk ve Azizler	Virgin and Child with Saints	zor	
+cma:142473	berlinghiero_madonna	tablo	0.5	Meryem, Çocuk ve Azizler	Virgin and Child with Saints	orta	
 cma:109029	bishop_saint_donor	tablo	0.5	Piskopos Aziz ve Bağışçı	A Bishop Saint with a Donor	zor	0.083,0.036,0.065,0.019
 cma:148990	spinello_madonna	tablo	0.5	Meryem, Çocuk ve Melekler	Virgin and Child with Angels	kolay	
 cma:709468	mary_cleophas_family	tablo	0.5	Meryem Kleopas ve Ailesi	Mary Cleophas and her Family	uzman	0,0.033,0,0
 cma:152842	starnina_madonna	tablo	0.5	Meryem ve Çocuk (Starnina)	Madonna and Child	orta	
 cma:97142	adoration_shepherds	tablo	0.5	Çobanların Tapınması	Adoration of the Shepherds	zor	0,0,0.016,0
 cma:143761	virgin_crowned_angels	tablo	0.5	Meleklerin Taçlandırdığı Meryem	The Virgin Crowned by Angels	orta	
-cma:97192	credi_virgin_child	tablo	0.5	Meryem ve Çocuk (Credi)	Virgin and Child (Credi)	zor	0.03,0,0.03,0
+cma:97192	credi_virgin_child	tablo	0.5	Meryem ve Çocuk (Credi)	Virgin and Child (Credi)	orta	0.03,0,0.03,0
 cma:139727	madonna_of_humility	tablo	0.5	Alçakgönüllülük Meryemi	Madonna of Humility	zor	0.019,0.013,0.062,0
-cma:122338	annunciation_bouts	tablo	0.5	Müjde (Bouts)	The Annunciation (Bouts)	zor	
+cma:122338	annunciation_bouts	tablo	0.5	Müjde (Bouts)	The Annunciation (Bouts)	orta	
 cma:113164	a_bridal_couple	tablo	0.5	Gelin ve Damat	A Bridal Couple	zor	
 cma:113202	lippi_holy_family	tablo	0.5	Kutsal Aile	The Holy Family with Saints	baslangic	
 cma:168322	virgin_eleousa	tablo	0.5	Eleousa İkonası	Virgin Eleousa	uzman	
 cma:130982	nativity_ferrer	tablo	0.5	İsa'nın Doğuşu	The Nativity	uzman	
 cma:149566	fiorenzo_virgin_child	tablo	0.5	Meryem ve Çocuk (Fiorenzo)	Virgin and Child (Fiorenzo)	uzman	
 cma:136865	vladimir_triptych	tablo	0.5	Vladimir Meryemi Triptiği	Portable Triptych Icon	zor	
-cma:128389	adoration_magi_geertgen	tablo	0.5	Müneccimlerin Tapınması	The Adoration of the Magi	zor	
+cma:128389	adoration_magi_geertgen	tablo	0.5	Müneccimlerin Tapınması	The Adoration of the Magi	orta	
 cma:122158	corneille_woman	tablo	0.5	Kadın Portresi (Corneille de Lyon)	Portrait of a Woman (Corneille de Lyon)	orta	
 cma:143206	cardinal_dubois	tablo	0.5	Kardinal Dubois	Portrait of Cardinal Guillaume Dubois	kolay	
-cma:127571	lotto_man	tablo	0.5	Erkek Portresi (Lotto)	Portrait of a Man, Possibly Girolamo Rosati	zor	
-cma:170429	our_lady_good_counsel	tablo	0.5	İyi Öğüt Meryemi	Our Lady of Good Counsel	zor	0.034,0.029,0.034,0
+cma:127571	lotto_man	tablo	0.5	Erkek Portresi (Lotto)	Portrait of a Man, Possibly Girolamo Rosati	kolay	
+cma:170429	our_lady_good_counsel	tablo	0.5	İyi Öğüt Meryemi	Our Lady of Good Counsel	orta	0.034,0.029,0.034,0
 cma:97153	holden_tondo	tablo	0.5	Holden Tondosu	Virgin and Child with Angels	orta	
-cma:78982	resurrection_konig	tablo	0.5	Diriliş	The Resurrection of Christ	zor	
-cma:145135	count_richbourg	tablo	0.5	Kont Richbourg	Comte de Richbourg-le-Toureil	orta	
+cma:78982	resurrection_konig	tablo	0.5	Diriliş	The Resurrection of Christ	kolay	
+cma:145135	count_richbourg	tablo	0.5	Kont Richbourg	Comte de Richbourg-le-Toureil	kolay	
 cma:162623	louis_xiii	tablo	0.5	Kral XIII. Louis	Portrait of King Louis XIII of France	zor	
 cma:130162	tiepolo_woman	tablo	0.5	Kadın Portresi (Tiepolo)	Portrait of a Woman (Tiepolo)	kolay	
 cma:97180	pope_sixtus_iv	tablo	0.5	Papa IV. Sixtus	Portrait of Pope Sixtus IV della Rovere	zor	
-cma:124990	juan_maria_osorio	tablo	0.5	Juan María Osorio	Portrait of Juan Maria Osorio	orta	
+cma:124990	juan_maria_osorio	tablo	0.5	Juan María Osorio	Portrait of Juan Maria Osorio	kolay	
 cma:131819	genoese_lady_child	tablo	0.5	Cenevizli Hanım ve Çocuğu	A Genoese Lady with Her Child	kolay	
-cma:97178	madonna_in_niche	tablo	0.5	Nişte Meryem ve Çocuk	Madonna and Child in a Niche	orta	
+cma:97178	madonna_in_niche	tablo	0.5	Nişte Meryem ve Çocuk	Madonna and Child in a Niche	kolay	
 cma:311773	violin_player_wine	tablo	0.5	Kadehli Kemancı	Violin Player with a Wine Glass	kolay	
 cma:159309	sweet_melancholy	tablo	0.5	Tatlı Hüzün	Sweet Melancholy	orta	
-cma:111479	saint_james_miracles	tablo	0.5	Aziz Yakup'un Mucizeleri	The Miracles of Saint James the Greater	zor	
-cma:135659	immaculate_conception	tablo	0.5	Lekesiz Gebelik	The Immaculate Conception	zor	
-cma:543981	dutton_family	tablo	0.5	Dutton Ailesi	The Dutton Family	zor	
+cma:111479	saint_james_miracles	tablo	0.5	Aziz Yakup'un Mucizeleri	The Miracles of Saint James the Greater	kolay	
+cma:135659	immaculate_conception	tablo	0.5	Lekesiz Gebelik	The Immaculate Conception	kolay	
+cma:543981	dutton_family	tablo	0.5	Dutton Ailesi	The Dutton Family	orta	
 cma:125944	the_vineyard	tablo	0.5	Bağ	The Vineyard	zor	
 cma:153603	machtelt_suijs	tablo	0.5	Machtelt Suijs	Portrait of Machtelt Suijs	orta	
 cma:155051	manjushri	tablo	0.5	Mancuşri	Manjushri	uzman	0.021,0.013,0.014,0
@@ -422,20 +422,20 @@ cma:679365	apples_pomegranates	tablo	0.5	Elmalar ve Narlar	Apples and Pomegranat
 cma:679085	two_beauties_lotus	tablo	0.5	Altın Nilüfer	Two Beauties Inspect a Golden Lotus	zor	0.03,0,0.018,0.019
 cma:679355	lotus_seeds_caltrops	tablo	0.5	Nilüfer Tohumu ve Su Kestanesi	Lotus Seeds and Water Caltrops	orta	
 cma:148754	woman_of_the_sabines	tablo	0.5	Sabin Kadını	A Woman of the Sabines	kolay	
-cma:102578	dora_wheeler	tablo	0.5	Dora Wheeler	Portrait of Dora Wheeler	zor	
+cma:102578	dora_wheeler	tablo	0.5	Dora Wheeler	Portrait of Dora Wheeler	orta	
 cma:108806	the_apple_gatherers	tablo	0.5	Elma Toplayanlar	The Apple Gatherers	zor	
-cma:147828	primrose_collins	tablo	0.5	Çuha Çiçeği	Primrose	zor	
+cma:147828	primrose_collins	tablo	0.5	Çuha Çiçeği	Primrose	orta	
 cma:173669	pitcher_and_glass	tablo	0.5	Sürahi ve Bardak	Pitcher and a Glass on a Table	uzman	
-cma:155783	power_of_music	tablo	0.5	Müziğin Gücü	The Power of Music	zor	
+cma:155783	power_of_music	tablo	0.5	Müziğin Gücü	The Power of Music	orta	
 cma:173640	autumn_catskills	tablo	0.5	Catskill'de Sonbahar	Autumn in the Catskills	zor	
 cma:124040	brierwood_pipe	tablo	0.5	Pipo	The Brierwood Pipe	kolay	
 cma:173633	june_day	tablo	0.5	Haziran Günü	June Day	orta	0.01,0.039,0.231,0.153
 cma:172828	holiday_on_hudson	tablo	0.5	Hudson'da Tatil	Holiday on the Hudson	zor	
 cma:101471	early_spring_california	tablo	0.5	Kaliforniya'da İlkbahar	Early Spring, California	orta	
-cma:150743	st_malo	tablo	0.5	Saint-Malo	St. Malo	zor	
+cma:150743	st_malo	tablo	0.5	Saint-Malo	St. Malo	orta	
 cma:134072	sunny_autumn_day	tablo	0.5	Güneşli Sonbahar Günü	Sunny Autumn Day	zor	
-cma:97770	the_blue_feather	tablo	0.5	Mavi Tüy	The Blue Feather	zor	
-cma:101461	daughter_alice	tablo	0.5	Kızım Alice	Portrait of My Daughter Alice	orta	
+cma:97770	the_blue_feather	tablo	0.5	Mavi Tüy	The Blue Feather	kolay	
+cma:101461	daughter_alice	tablo	0.5	Kızım Alice	Portrait of My Daughter Alice	kolay	
 cma:93234	on_the_beach_3	tablo	0.5	Kumsalda	On the Beach, No. 3	zor	
 cma:155431	master_yeongwoldang	tablo	0.5	Büyük Usta Yeongwoldang	Great Master Yeongwoldang Eungjin	orta	0,0.029,0,0.026
 cma:160860	cho_jae_ho	tablo	0.5	Cho Jae-ho	Cho Jae-ho from Punhyang Cho Family	baslangic	0.023,0,0,0
