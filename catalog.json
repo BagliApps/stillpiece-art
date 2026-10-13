@@ -4705,11 +4705,11 @@
    "artist": "National Park Service",
    "source": "commons",
    "imageId": "Third quarter moon with two birds behind a sequoia. (bb58208f-fbef-4d5e-8257-c3d21c16b7fe).jpg",
-   "bright": 0.2612,
-   "detail": 0.7414,
-   "sha256": "bd2fccb70fe958ccd1874d2016289a2a65dbcb1d4c1155e7c9ca27f5a0e1d03a",
-   "bytes": 751038,
-   "thumbSha256": "2d0153c3d119b51ec5da1e4bf6a73f4471e4b17435a5c3a1876641aeba442c53"
+   "bright": 0.2173,
+   "detail": 0.6243,
+   "sha256": "441c7ec3fc59a0f0b637bc38bcaf3a3aef6236388421025fe5cd9702675bd185",
+   "bytes": 652403,
+   "thumbSha256": "7931e369f760ab107f34a8aef7898272e1d29f69920718fc6e63447e8a5e24d3"
   },
   {
    "slug": "shenandoah_fall",
@@ -5485,11 +5485,11 @@
    "artist": "National Park Service",
    "source": "commons",
    "imageId": "Alaska Natives. Two moose swim through a lake off of the Noatak River in Alaska. Alaska Task Force 2582-37 (08a6b892fc0f416b8d9c8bbd87e35d4d).jpg",
-   "bright": 0.3552,
-   "detail": 0.0932,
-   "sha256": "f8ee7411ede0b6c7547fd8ca342d3dd60ebe5042ac7b66856fa769c51fca40fb",
-   "bytes": 205200,
-   "thumbSha256": "f96a3f3da29b804c597542271ae879f25d5ec14d8e1c193c439b5bce417f0b20"
+   "bright": 0.3516,
+   "detail": 0.0666,
+   "sha256": "257497de882bf97813f340c304d0a9719a3550ed163e6c77847823cb793f0498",
+   "bytes": 194227,
+   "thumbSha256": "3e974cc12711bf7119a34edcf19155e5369267801b79e45248e6863aa379f697"
   },
   {
    "slug": "dune_avalanche",
