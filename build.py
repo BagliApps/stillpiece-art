@@ -1,6 +1,8 @@
 """Stillpiece eser deposunu kurar: sources.tsv'deki eserleri Art Institute of
-Chicago'dan indirir, 2:3 kırpar, ölçer, seviyelere dağıtır ve catalog.json'u
-yazar. Yalnızca eksik görselleri indirir; var olanların seviyesi değişmez.
+Chicago'dan, fotoğrafları Wikimedia Commons'tan (ABD federal kurumlarının
+kamu malı işleri) indirir, 2:3 kırpar, ölçer, seviyelere dağıtır ve
+catalog.json'u yazar. Yalnızca eksik görselleri indirir; var olanların
+seviyesi değişmez.
 
 Kullanım: python3 build.py <artic-api-data.tar.bz2>
 Müze verisi (kamu malı denetimi ve künye için):
@@ -14,6 +16,7 @@ import os
 import sys
 import tarfile
 import time
+import urllib.parse
 import urllib.request
 
 import numpy as np
@@ -24,8 +27,20 @@ LEVELS = ["baslangic", "kolay", "orta", "zor", "uzman", "usta", "buyukUsta", "ef
 # genişlik (kamu malı eserde 1686).
 WIDTH = {l: 1000 if i < 4 else 1686 for i, l in enumerate(LEVELS)}
 THUMB_WIDTH = 300
-CATEGORIES = {"doga", "deniz", "sehir", "naturmort"}
+CATEGORIES = {"doga", "deniz", "sehir", "naturmort", "hayvan"}
 IIIF = "https://www.artic.edu/iiif/2"
+COMMONS = "https://commons.wikimedia.org"
+# Kamu malı sayılan Commons şablonları ve künyede yazılacak kurum adı.
+AGENCIES = {
+    "PD-USGov-NPS": "National Park Service",
+    "PD-USGov-FWS": "U.S. Fish and Wildlife Service",
+    "PD-USGov-NOAA": "NOAA",
+    "PD-USGov-USGS": "U.S. Geological Survey",
+    "PD-USGov-USDA-FS": "U.S. Forest Service",
+    "PD-USGov-BLM": "Bureau of Land Management",
+}
+# Commons'ta kişilik hakkı ya da marka uyarısı olan görsel alınmaz.
+BAD_RESTRICTIONS = {"personality", "trademarked", "insignia"}
 # Müze AIC-User-Agent başlığını rica ediyor; Python'un varsayılan
 # "Python-urllib" kimliği ise 403 alıyor.
 UA = {
@@ -44,13 +59,19 @@ def read_sources():
             sys.exit(f"HATA: eksik sütun: {line!r}")
         if p[2] not in CATEGORIES:
             sys.exit(f"HATA: bilinmeyen kategori {p[2]} ({p[1]})")
+        level = p[6] if len(p) > 6 and p[6] else None
+        if level and level not in LEVELS:
+            sys.exit(f"HATA: bilinmeyen seviye {level} ({p[1]})")
+        commons = p[0][len("commons:"):] if p[0].startswith("commons:") else None
         rows.append({
-            "aicId": int(p[0]),
+            "aicId": 0 if commons else int(p[0]),
+            "file": commons,
             "slug": p[1],
             "category": p[2],
             "focusX": float(p[3]),
             "title": p[4],
             "titleEn": p[5] if len(p) > 5 and p[5] else None,
+            "level": level,
         })
     slugs = [r["slug"] for r in rows]
     if len(set(slugs)) != len(slugs):
@@ -99,6 +120,51 @@ def fetch_master(image_id, focus_x):
     out = min(1686, cw)
     data = get(f"{IIIF}/{image_id}/{x},{y},{cw},{ch}/{out},/0/default.jpg")
     img = Image.open(io.BytesIO(data)).convert("RGB")
+    return to_ratio(img)
+
+
+def read_commons(files):
+    """Commons kayıtları: boyut ve kamu malı denetimi için şablonlar, lisans."""
+    found = {}
+    for i in range(0, len(files), 40):
+        batch = files[i:i + 40]
+        q = urllib.parse.urlencode({
+            "action": "query", "format": "json", "formatversion": 2,
+            "titles": "|".join("File:" + f for f in batch),
+            "prop": "imageinfo|templates", "iiprop": "size|extmetadata",
+            "tltemplates": "|".join("Template:" + t for t in AGENCIES), "tllimit": "max"})
+        data = json.loads(get(f"{COMMONS}/w/api.php?{q}"))
+        norm = {n["to"]: n["from"] for n in data["query"].get("normalized", [])}
+        for page in data["query"]["pages"]:
+            name = norm.get(page["title"], page["title"])[len("File:"):]
+            if page.get("missing") or not page.get("imageinfo"):
+                continue
+            ii = page["imageinfo"][0]
+            meta = ii.get("extmetadata") or {}
+            agencies = [AGENCIES[t["title"][len("Template:"):]] for t in page.get("templates", [])]
+            found[name] = {
+                "width": ii["width"],
+                "height": ii["height"],
+                "license": (meta.get("LicenseShortName") or {}).get("value", ""),
+                "restrictions": set(filter(None, (meta.get("Restrictions") or {}).get("value", "").split("|"))),
+                "agency": agencies[0] if agencies else None,
+            }
+    return found
+
+
+def fetch_commons(name, w, h, focus_x):
+    """Görseli 2:3 kırpılınca en çok 1686 genişlik kalacak boyutta indirir,
+    kırpmayı burada yapar (Commons sunucuda kesmiyor)."""
+    crop_w = min(w, h * 2 // 3)
+    scale = min(1, 1686 / crop_w)
+    width = max(1, round(w * scale))
+    url = f"{COMMONS}/wiki/Special:FilePath/{urllib.parse.quote(name)}?width={width}"
+    img = Image.open(io.BytesIO(get(url))).convert("RGB")
+    w, h = img.size
+    if w * 3 > h * 2:
+        cw = h * 2 // 3
+        x = int((w - cw) * focus_x)
+        img = img.crop((x, 0, x + cw, h))
     return to_ratio(img)
 
 
@@ -160,11 +226,21 @@ def main():
     if len(sys.argv) != 2:
         sys.exit(__doc__)
     sources = read_sources()
-    museum = read_museum(sys.argv[1], [s["aicId"] for s in sources])
+    museum = read_museum(sys.argv[1], [s["aicId"] for s in sources if not s["file"]])
+    commons = read_commons([s["file"] for s in sources if s["file"]])
 
     # Kamu malı denetimi: biri bile geçmezse hiçbir şey yazılmaz.
     bad = 0
     for s in sources:
+        if s["file"]:
+            c = commons.get(s["file"])
+            if c is None:
+                print(f"HATA:  {s['slug']} Commons'ta yok"); bad += 1
+            elif not c["agency"] or "public domain" not in c["license"].lower():
+                print(f"HATA:  {s['slug']} ABD federal kamu malı değil ({c['license']})"); bad += 1
+            elif c["restrictions"] & BAD_RESTRICTIONS:
+                print(f"HATA:  {s['slug']} kısıtlı: {c['restrictions']}"); bad += 1
+            continue
         d = museum.get(s["aicId"])
         if d is None:
             print(f"HATA:  {s['slug']} ({s['aicId']}) müzede kayıt yok"); bad += 1
@@ -184,18 +260,31 @@ def main():
 
     entries, masters = [], {}
     for s in sources:
-        d = museum[s["aicId"]]
-        artist = d.get("artist_title") or (d.get("artist_display") or "").split("\n")[0]
-        e = {
-            "slug": s["slug"],
-            "level": None,
-            "category": s["category"],
-            "title": s["title"],
-            "titleEn": s["titleEn"] or d["title"],
-            "artist": artist,
-            "aicId": s["aicId"],
-            "imageId": d["image_id"],
-        }
+        if s["file"]:
+            c = commons[s["file"]]
+            e = {
+                "slug": s["slug"],
+                "level": None,
+                "category": s["category"],
+                "title": s["title"],
+                "titleEn": s["titleEn"] or s["title"],
+                "artist": c["agency"],
+                "source": "commons",
+                "imageId": s["file"],
+            }
+        else:
+            d = museum[s["aicId"]]
+            artist = d.get("artist_title") or (d.get("artist_display") or "").split("\n")[0]
+            e = {
+                "slug": s["slug"],
+                "level": None,
+                "category": s["category"],
+                "title": s["title"],
+                "titleEn": s["titleEn"] or d["title"],
+                "artist": artist,
+                "aicId": s["aicId"],
+                "imageId": d["image_id"],
+            }
         prev = old.get(s["slug"])
         art_path, thumb_path = f"art/{s['slug']}.jpg", f"thumb/{s['slug']}.jpg"
         if prev and prev["imageId"] == e["imageId"] and os.path.exists(art_path) and os.path.exists(thumb_path):
@@ -203,10 +292,17 @@ def main():
                 e[k] = prev[k]
         else:
             print(f"indiriliyor: {s['slug']}")
-            img = fetch_master(e["imageId"], s["focusX"])
+            if s["file"]:
+                c = commons[s["file"]]
+                img = fetch_commons(s["file"], c["width"], c["height"], s["focusX"])
+            else:
+                img = fetch_master(e["imageId"], s["focusX"])
             e["bright"], e["detail"] = measure(img)
             if prev and prev.get("level"):
                 e["level"] = prev["level"]
+        # Listede sabitlenen seviye her zaman geçerli.
+        if s["level"]:
+            e["level"] = s["level"]
             # Hepsini bellekte tutmak ~2 GB eder; seviye belli olana kadar diskte.
             masters[s["slug"]] = f"work/{s['slug']}.jpg"
             img.save(masters[s["slug"]], "JPEG", quality=97)
