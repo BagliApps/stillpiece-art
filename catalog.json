@@ -2845,11 +2845,11 @@
    "artist": "National Park Service",
    "source": "commons",
    "imageId": "Black Swallowtail Butterfly (31681017448).jpg",
-   "bright": 0.4669,
-   "detail": 0.2007,
-   "sha256": "e0f9ddbbc36f78ebdf592b906e62cf94aea998c75ca0e4b1407c9eacb2785a06",
-   "bytes": 824612,
-   "thumbSha256": "af27f54fe39bd7d3bbe728f033921ab642edddd77ba100441c3f2d7e77abd195"
+   "bright": 0.4622,
+   "detail": 0.1536,
+   "sha256": "4bc2f5c720d8a68a9aa3bbf5e3640b0f27c5d472e750a20f7c6767f6ca635596",
+   "bytes": 778419,
+   "thumbSha256": "eb8e93918e6d1661472ed072f4c59c38cfedac8c6333aabdbdc8cf847664cadd"
   },
   {
    "slug": "night_heron",
@@ -3505,11 +3505,11 @@
    "artist": "National Park Service",
    "source": "commons",
    "imageId": "Bear in motion, Lamar Valley (18394494681).jpg",
-   "bright": 0.2389,
-   "detail": 0.157,
-   "sha256": "a5a56ddff9d17968b0b10886007969ae2ef59a69bc01f57a98900fbd364c6670",
-   "bytes": 243180,
-   "thumbSha256": "b23c6941a231d17b3bec6bbbdb63aa608869a0309b4f8f801cd74a7c5a0a54b8"
+   "bright": 0.329,
+   "detail": 0.1706,
+   "sha256": "0789689b5e417b3670bf2ef26cd34c0380816a774a7f2cdf8579a218c71bb361",
+   "bytes": 253027,
+   "thumbSha256": "cb8c1850e7eada2063311e89f30a706e739fdb9a2700a5c0f41282e4a251d422"
   },
   {
    "slug": "tahquamenon_falls",
