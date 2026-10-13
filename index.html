@@ -24,9 +24,11 @@
   .card div { padding: 8px 10px 10px; }
   .card b { display: block; font-size: 14px; font-weight: 600; }
   .card span { display: block; font-size: 12px; color: var(--muted); }
-  .grid.small { grid-template-columns: repeat(auto-fill, minmax(76px, 1fr)); gap: 6px; }
-  .grid.small .card { border-radius: 6px; }
-  .grid.small .card div { display: none; }
+  h2 { font-size: 18px; margin: 28px 0 10px; }
+  h2 small { font-size: 14px; font-weight: 400; color: var(--muted); margin-left: 6px; }
+  .small .grid { grid-template-columns: repeat(auto-fill, minmax(76px, 1fr)); gap: 6px; }
+  .small .card { border-radius: 6px; }
+  .small .card div { display: none; }
 </style>
 <main>
   <h1>Stillpiece eserleri</h1>
@@ -39,7 +41,7 @@
     <button id="size" aria-pressed="false">Küçük resimler</button>
   </div>
   <div id="count"></div>
-  <div class="grid" id="grid"></div>
+  <div id="grid"></div>
 </main>
 <script>
 const LEVELS = { baslangic: 'Başlangıç', kolay: 'Kolay', orta: 'Orta', zor: 'Zor', uzman: 'Uzman', usta: 'Usta', buyukUsta: 'Büyük Usta', efsane: 'Efsane' };
@@ -79,7 +81,9 @@ function setSmall(small) {
   try { localStorage.setItem('small', small ? '1' : ''); } catch (e) {}
 }
 size.onclick = () => setSmall(size.getAttribute('aria-pressed') !== 'true');
-try { setSmall(!!localStorage.getItem('small')); } catch (e) {}
+// ?kucuk ile açılan adres doğrudan küçük resimlerle gelir.
+if (new URLSearchParams(location.search).has('kucuk')) setSmall(true);
+else try { setSmall(!!localStorage.getItem('small')); } catch (e) {}
 
 function options(el, label, map, key) {
   el.innerHTML = `<option value="">${label}</option>` + Object.entries(map)
@@ -109,11 +113,16 @@ function render() {
     && (!state.level || a.level === state.level)
     && (!state.category || a.category === state.category));
   document.getElementById('count').textContent = `${shown.length} görsel`;
-  document.getElementById('grid').innerHTML = shown.map(a => `
+  const card = a => `
     <a class="card" href="${link(a)}" target="_blank" rel="noopener" title="${a.title} · ${a.artist}">
       <img data-src="thumb/${a.slug}.jpg" alt="">
       <div><b>${a.title}</b><span>${a.artist}</span><span>${LEVELS[a.level] || a.level} · ${CATEGORIES[a.category] || a.category}</span></div>
-    </a>`).join('');
+    </a>`;
+  // Seviye seviye: her seviye kendi başlığı altında.
+  document.getElementById('grid').innerHTML = Object.entries(LEVELS).map(([key, name]) => {
+    const group = shown.filter(a => a.level === key);
+    return group.length ? `<h2>${name}<small>${group.length}</small></h2><div class="grid">${group.map(card).join('')}</div>` : '';
+  }).join('');
   queue = [...document.querySelectorAll('#grid img')]; running = 0;
   loadNext();
 }
