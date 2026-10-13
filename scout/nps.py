@@ -48,13 +48,25 @@ def get(url, raw=False):
 def search(term):
     q = f'{term} hastemplate:"PD-USGov-NPS" filetype:bitmap filew:>2600 {NOT}'
     r = get(API + "?" + urllib.parse.urlencode({
-        "action": "query", "format": "json", "generator": "search", "gsrsearch": q,
-        "gsrnamespace": 6, "gsrlimit": PER_QUERY, "prop": "imageinfo",
-        "iiprop": "url|size|extmetadata|mime"}))
-    if r and "error" in r or len(q) > 300:
+        "action": "query", "format": "json", "list": "search", "srsearch": q,
+        "srnamespace": 6, "srlimit": PER_QUERY}))
+    if not r or "error" in r or len(q) > 300:
         print("ARAMA HATASI", len(q), (r or {}).get("error"), flush=True)
-    pages = list(((r or {}).get("query") or {}).get("pages", {}).values())
-    return sorted(pages, key=lambda p: p.get("index", 0))
+    return [x["title"] for x in ((r or {}).get("query") or {}).get("search", [])]
+
+
+def info(titles):
+    """Dosya bilgileri 10'arlı gruplarla: extmetadata büyük, tek yanıta sığmıyor."""
+    out = {}
+    for i in range(0, len(titles), 10):
+        r = get(API + "?" + urllib.parse.urlencode({
+            "action": "query", "format": "json", "titles": "|".join(titles[i:i + 10]),
+            "prop": "imageinfo", "iiprop": "url|size|extmetadata|mime"}))
+        for p in ((r or {}).get("query") or {}).get("pages", {}).values():
+            if p.get("imageinfo"):
+                out[p["title"]] = p["imageinfo"][0]
+        time.sleep(0.3)
+    return out
 
 
 def meta(ii, key):
@@ -89,35 +101,41 @@ def main():
     queries = [p + " National Park" for p in PARKS] + TOPICS
     per_query = []
     for term in queries:
-        pages = search(term)
-        print(term, len(pages), flush=True)
-        per_query.append((term, pages))
+        titles = search(term)
+        print(term, len(titles), flush=True)
+        per_query.append((term, titles))
         time.sleep(1)
 
     # Sorgular arasında sırayla al ki ilk sorgular sınırı doldurmasın.
-    seen, cands = set(), []
+    seen, order = set(), []
     for i in range(PER_QUERY):
-        for term, pages in per_query:
-            if i >= len(pages) or len(cands) >= LIMIT:
-                continue
-            p = pages[i]
-            key = p["title"][5:].replace(" ", "_")
-            if key in SKIP or key in seen or not p.get("imageinfo"):
-                continue
-            seen.add(key)
-            ii = p["imageinfo"][0]
-            if ii.get("mime") not in ("image/jpeg", "image/png", "image/tiff"):
-                continue
-            restr = set(meta(ii, "Restrictions").split("|")) & BAD_RESTRICTIONS
-            lic = meta(ii, "LicenseShortName")
-        text = (p["title"] + " " + meta(ii, "ImageDescription")).lower()
-        if re.search(r"\b(" + "|".join(BAD_WORDS) + r")s?\b", text):
-            print("  kişi/yapı:", p["title"]); continue
-            if restr or "public domain" not in lic.lower():
-                print("  lisans/kısıt:", p["title"], lic, restr); continue
-            cands.append(dict(title=p["title"], query=term, page=ii["descriptionurl"],
-                              size=[ii["width"], ii["height"]], license=lic,
-                              artist=meta(ii, "Artist")[:200], desc=meta(ii, "ImageDescription")[:300]))
+        for term, titles in per_query:
+            if i < len(titles):
+                key = titles[i][5:].replace(" ", "_")
+                if key not in SKIP and key not in seen:
+                    seen.add(key)
+                    order.append((term, titles[i]))
+    print("yeni dosya", len(order), "atlanan önceki", sum(len(t) for _, t in per_query) - len(order), flush=True)
+    infos = info([t for _, t in order])
+    cands, drop = [], {}
+    for term, title in order:
+        if len(cands) >= LIMIT:
+            break
+        ii = infos.get(title)
+        lic = meta(ii, "LicenseShortName") if ii else ""
+        restr = set(meta(ii, "Restrictions").split("|")) & BAD_RESTRICTIONS if ii else set()
+        text = (title + " " + meta(ii, "ImageDescription")).lower() if ii else ""
+        reason = ("bilgi yok" if not ii else
+                  "biçim" if ii.get("mime") not in ("image/jpeg", "image/png", "image/tiff") else
+                  "lisans/kısıt" if restr or "public domain" not in lic.lower() else
+                  "kişi/yapı" if re.search(r"\b(" + "|".join(BAD_WORDS) + r")s?\b", text) else None)
+        if reason:
+            drop[reason] = drop.get(reason, 0) + 1
+            continue
+        cands.append(dict(title=title, query=term, page=ii["descriptionurl"],
+                          size=[ii["width"], ii["height"]], license=lic,
+                          artist=meta(ii, "Artist")[:200], desc=meta(ii, "ImageDescription")[:300]))
+    print("elenen", drop, flush=True)
     print("aday", len(cands), flush=True)
 
     results, jobs = [], []
