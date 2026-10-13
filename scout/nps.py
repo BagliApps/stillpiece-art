@@ -35,8 +35,8 @@ BAD_WORDS = ("ranger", "visitor", "sign", "building", "construction", "staff",
 EASY_FLAT = 0.50
 
 
-def get(url, raw=False):
-    for attempt in range(4):
+def get(url, raw=False, tries=4):
+    for attempt in range(tries):
         try:
             b = urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60).read()
             return b if raw else json.loads(b)
@@ -61,7 +61,9 @@ def info(titles):
     for i in range(0, len(titles), 10):
         r = get(API + "?" + urllib.parse.urlencode({
             "action": "query", "format": "json", "titles": "|".join(titles[i:i + 10]),
-            "prop": "imageinfo", "iiprop": "url|size|extmetadata|mime"}))
+            "prop": "imageinfo", "iiprop": "url|size|extmetadata|mime",
+            # Standart küçük kopya: hazır üretilmiş, kısıtlamaya takılmaz.
+            "iiurlwidth": 1920}))
         for p in ((r or {}).get("query") or {}).get("pages", {}).values():
             if p.get("imageinfo"):
                 out[p["title"]] = p["imageinfo"][0]
@@ -95,6 +97,11 @@ def score(c):
     r["size"] = f"{w}x{h}"
     print(f"{os.path.basename(path)} {'GEÇTİ' if not why else ','.join(why):20} {c['title'][:70]}", flush=True)
     return r
+
+
+def save(results):
+    results = sorted((r for r in results if r), key=lambda r: (bool(r["why"]), r["flat"]))
+    json.dump(results, open(f"{OUT}/results.json", "w"), ensure_ascii=False, indent=1)
 
 
 def main():
@@ -132,7 +139,7 @@ def main():
         if reason:
             drop[reason] = drop.get(reason, 0) + 1
             continue
-        cands.append(dict(title=title, query=term, page=ii["descriptionurl"],
+        cands.append(dict(title=title, query=term, page=ii["descriptionurl"], thumb=ii.get("thumburl"),
                           size=[ii["width"], ii["height"]], license=lic,
                           artist=meta(ii, "Artist")[:200], desc=meta(ii, "ImageDescription")[:300]))
     print("elenen", drop, flush=True)
@@ -141,22 +148,20 @@ def main():
     results, jobs = [], []
     with ProcessPoolExecutor(3) as pool:
         for k, c in enumerate(cands):
-            w, h = c["size"]
-            # Ölçüm için yeterli boyut: 2:3 kırpınca 1686 genişlik kalacak kadar.
-            need = min(w, max(1800, round(2600 * w / h)))
-            url = ("https://commons.wikimedia.org/wiki/Special:FilePath/"
-                   + urllib.parse.quote(c["title"][5:]) + f"?width={need}")
-            data = get(url, raw=True)
+            thumb = c.pop("thumb")
+            data = thumb and get(thumb, raw=True, tries=2)
             if not data:
                 continue
             c["file"] = f"{OUT}/{k:03}.jpg"
             open(c["file"], "wb").write(data)
             jobs.append(pool.submit(score, c))
-            time.sleep(0.5)
+            if k % 25 == 24:
+                print("indirilen", k + 1, flush=True)
+                save([j.result() for j in jobs if j.done()])
+            time.sleep(0.2)
         results = [r for r in (j.result() for j in jobs) if r]
 
-    results.sort(key=lambda r: (bool(r["why"]), r["flat"]))
-    json.dump(results, open(f"{OUT}/results.json", "w"), ensure_ascii=False, indent=1)
+    save(results)
     ok = [r for r in results if not r["why"]]
     print(f"{len(ok)}/{len(results)} geçti, {sum(r['easy'] for r in ok)} kolay adayı")
 
