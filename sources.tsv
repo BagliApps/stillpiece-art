@@ -1,177 +1,14 @@
 # Eser listesi. Sütunlar sekmeyle ayrılır:
-# aic_id  slug  kategori  odak_x  ad_tr  [ad_en]  [seviye]
-# slug değişmez (uygulamadaki kayıtlar ona bağlı). ad_en boşsa müzedeki ad.
+# kaynak  slug  kategori  odak_x  ad_tr  [ad_en]  [seviye]  [kenar]
+# kaynak: cma:<Cleveland Museum of Art eser no> (CC0 tablo) ya da
+# commons:<Wikimedia Commons dosya adı> (ABD federal kurumu fotoğrafı).
+# slug değişmez (uygulamadaki kayıtlar ona bağlı); kaldırılan eserin slug'ı
+# başka esere verilmez. ad_en boşsa kaynaktaki ad.
 # seviye boşsa ölçülerek verilir (baslangic, kolay, ... efsane).
-# kategori: doga, deniz, sehir, naturmort, hayvan. odak_x: yatay eser 2:3 kırpılırken
+# kategori: doga, deniz, hayvan, tablo. odak_x: yatay eser 2:3 kırpılırken
 # yatayda nereye odaklanılsın (0 sol, 0.5 orta, 1 sağ).
-146701	mountain_brook	doga	0.5	Dağ Deresi	Mountain Brook
-28146	alpine_scene_dore	doga	0.5	Alp Sahnesi	Alpine Scene
-16568	water_lilies	doga	0.5	Nilüferler	Water Lilies
-76571	cotopaxi	doga	0.5	Cotopaxi Manzarası	View of Cotopaxi
-39554	alpine_scene_courbet	doga	0.5	Alp Manzarası	An Alpine Scene
-4783	poppy_field	doga	0.5	Gelincik Tarlası	Poppy Field (Giverny)
-39542	cattle_in_the_alps	doga	0.5	Alplerde Dinlenen Sığırlar	Cattle at Rest on a Hillside in the Alps
-81546	petite_creuse	doga	0.5	Petite Creuse Nehri	The Petite Creuse River
-24645	great_wave	deniz	0.3	Kanagawa Açıklarında Büyük Dalga	The Great Wave off Kanagawa
-14598	beach_sainte_adresse	deniz	0.5	Sainte-Adresse Plajı	The Beach at Sainte-Adresse
-16487	bay_of_marseille	deniz	0.5	Marsilya Körfezi	The Bay of Marseille, Seen from L'Estaque
-16776	after_the_hurricane	deniz	0.5	Kasırgadan Sonra	After the Hurricane, Bahamas
-20684	paris_street_rainy_day	sehir	0.6	Paris Sokağı, Yağmurlu Gün	Paris Street; Rainy Day
-27992	grande_jatte	sehir	0.5	La Grande Jatte'da Bir Pazar	A Sunday on La Grande Jatte
-16571	gare_saint_lazare	sehir	0.5	Saint-Lazare Garı	Arrival of the Normandy Train, Gare Saint-Lazare
-28560	the_bedroom	sehir	0.5	Yatak Odası	The Bedroom
-64818	wheat_end_of_summer	doga	0.5	Buğday Yığınları (Yaz Sonu)	
-869	watermill_red_roof	doga	0.5	Kırmızı Çatılı Su Değirmeni	
-4758	stoke_by_nayland	doga	0.5	Stoke-by-Nayland	
-60755	castle_of_egmond	doga	0.5	Egmond Kalesi Kalıntıları	
-64724	home_of_the_heron	doga	0.5	Balıkçıl Yuvası	
-64729	tarpon_springs	doga	0.5	Sabah, Tarpon Springs	
-72801	icebound	doga	0.5	Buz Tutmuş Dere	
-90048	niagara_falls	doga	0.5	Uzaktan Niagara Şelalesi	
-127644	autumn_maples	doga	0.5	Güz Akçaağaçları	
-146953	two_cows	doga	0.5	Çayırda İki İnek ve Bir Dana	
-109926	window_on_woods	doga	0.5	Ormana Bakan Pencere	
-144969	palm_house	doga	0.5	Palmiye Serası	
-4800	cattle_pyrenees	doga	0.5	Pireneler'den İnen Sığırlar	
-4887	irises	doga	0.5	Süsenler	
-8980	two_poplars	doga	0.5	İki Kavaklı Manzara	
-9021	bewitched_mill	doga	0.5	Büyülü Değirmen	
-14586	poets_garden	doga	0.5	Şairin Bahçesi	
-14624	wheat_autumn	doga	0.5	Buğday Yığınları (Güz Akşamı)	
-14634	vetheuil	doga	0.5	Vétheuil	
-16502	mill_pont_maupuit	doga	0.5	Pont Maupuit Değirmeni	
-16554	house_at_argenteuil	doga	0.5	Ressamın Argenteuil'deki Evi	
-16560	wheat_snow	doga	0.5	Buğday Yığını (Kar, Kapalı Hava)	
-16564	seine_mist	doga	0.5	Giverny Yakınında Seine (Sis)	
-18743	roadside_tavern	doga	0.5	Yol Kenarında Han	
-20530	rabbit_warren_snow	doga	0.5	Pontoise'da Kar	
-21914	the_storm	doga	0.5	Fırtına	
-27027	rock_of_hautepierre	doga	0.5	Hautepierre Kayası	
-29401	wooded_landscape	doga	0.5	Ormanlık Manzara	
-40549	valley_of_arconville	doga	0.5	Arconville Vadisi	
-44017	landscape_at_chailly	doga	0.5	Chailly'de Manzara	
-45838	snow_louveciennes	doga	0.5	Louveciennes'de Kar	
-57163	new_england_scenery	doga	0.5	New England Manzarası	
-65848	italian_landscape	doga	0.5	İtalyan Manzarası	
-68433	sawmill_paris	doga	0.5	Paris Kenarında Bıçkıhane	
-71971	mist_catskills	doga	0.5	Catskill Dağlarında Akşam Sisi	
-75957	mount_washington	doga	0.5	Washington Dağı	
-81537	bordighera	doga	0.5	Bordighera	
-81539	bank_of_seine	doga	0.5	Seine Kıyısında, Bennecourt	
-81545	wheat_sunset_snow	doga	0.5	Buğday Yığınları (Gün Batımı, Kar)	
-86998	sandvika	doga	0.5	Sandvika, Norveç	
-87088	water_lily_pond_1900	doga	0.5	Nilüfer Havuzu	
-95654	near_the_lake	doga	0.5	Göl Kıyısında	
-96559	turn_in_the_road	doga	0.5	Yolun Dönemeci	
-97933	water_lily_pond_1917	doga	0.5	Nilüfer Havuzu (Geç Dönem)	
-100191	wheat_thaw_sunset	doga	0.5	Buğday Yığını (Erime, Gün Batımı)	
-109938	valley_of_aosta	doga	0.5	Aosta Vadisi: Kar Fırtınası	
-111062	te_raau_rahi	doga	0.5	Büyük Ağaç	
-111318	stack_of_wheat	doga	0.5	Buğday Yığını	
-111669	sheep_picardy	doga	0.5	Picardie'de Koyunlar	
-129639	blasted_tree	doga	0.5	Yıldırım Çarpmış Ağaç	
-209969	landscape_with_hunters	doga	0.5	Avcılı Manzara	
-250450	villa_chigi_staircase	doga	0.5	Villa Chigi Parkında Merdiven	
-250451	near_chiusi	doga	0.5	Chiusi Yakınında Manzara	
-250452	bavarian_farmhouse	doga	0.5	Bavyera Alplerinde Çiftlik Evi	
-250453	sand_pits_hampstead	doga	0.5	Hampstead Kum Ocakları	
-250454	road_to_nice	doga	0.5	Nice Yolunda	
-250456	apennine_landscape	doga	0.5	Apenin Manzarası	
-263514	loading_hay	doga	0.5	Saman Yükleme	
-94127	crossing_the_ford	doga	0.5	Sığ Geçit	
-8097	rock_and_fortress	doga	0.5	Kayalı ve Kaleli Manzara	
-160029	fountain_pergola	doga	0.5	İtalya'da Çeşme ve Pergola	
-160229	pergola_oranges	doga	0.5	Portakallı Pergola	
-209942	fountain_grottaferrata	doga	0.5	Grottaferrata Çeşmesi	
-57996	vesuvius	doga	0.5	Vezüv'ün Patlaması	
-94841	song_of_the_lark	doga	0.5	Tarlakuşunun Şarkısı	
-262794	looking_upon_river	doga	0.5	Nehre Bakarken	
-8360	te_burao	doga	0.5	Ebegümeci Ağacı	
-16633	seine_port_marly	doga	0.5	Port-Marly'de Seine	
-20199	bathers_asnieres	doga	0.5	Asnières'de Yüzenler (Etüt)	
-109314	fishing_in_spring	doga	0.5	Baharda Balık Avı	
-107938	fete_champetre	doga	0.5	Kır Şenliği	
-44018	croquet_scene	doga	0.5	Kroket	
-14620	cliff_walk_pourville	deniz	0.5	Pourville'de Yalıyar Yolu	
-56905	nocturne_southampton	deniz	0.5	Gece: Southampton Suları	
-4796	fishing_boats_turner	deniz	0.5	Balıkçı Tekneleri	
-16343	boats_in_a_calm	deniz	0.5	Durgun Denizde Balıkçı Tekneleri	
-16542	customs_house	deniz	0.5	Varengeville Gümrük Evi	
-20535	etretat_beach	deniz	0.5	Étretat: Plaj ve Yalıyar	
-20545	port_goulphar	deniz	0.5	Port-Goulphar Kayalıkları	
-59927	boats_etretat	deniz	0.5	Étretat Kumsalında Tekneler	
-81535	sea_view_calm	deniz	0.5	Deniz Manzarası, Sakin Hava	
-81540	departure_of_boats	deniz	0.5	Teknelerin Çıkışı, Étretat	
-81572	trouville	deniz	0.5	Trouville (Gri ve Yeşil)	
-84088	deep_sea	deniz	0.5	Mor ve Gümüş: Derin Deniz	
-100476	beach_cabasson	deniz	0.5	Cabasson Plajı	
-121377	boats_at_rest	deniz	0.5	Dinlenen Tekneler	
-147478	sitges	deniz	0.5	Sitges	
-209910	beached_boats	deniz	0.5	Kıyıya Çekilmiş Tekneler	
-212300	les_grands_sables	deniz	0.5	Les Grands Sables Plajı	
-244013	shipwreck	deniz	0.5	Kayalık Kıyıda Batık	
-14309	coast_bathers	deniz	0.5	Kıyıda Yüzenler	
-57191	on_the_nile	deniz	0.5	Nil'de	
-71573	a_holiday	deniz	0.5	Tatil Günü	
-28849	city_park	sehir	0.5	Şehir Parkı	
-111610	palazzo_contarini	sehir	0.5	Palazzo Contarini Bahçesi	
-14556	auvers_panorama	sehir	0.5	Auvers Panoraması	
-14630	palazzo_dario	sehir	0.5	Venedik, Palazzo Dario	
-16544	charing_cross	sehir	0.5	Charing Cross Köprüsü, Londra	
-16545	brooklyn_bridge	sehir	0.5	Brooklyn Köprüsü	
-16584	houses_of_parliament	sehir	0.5	Parlamento Binası, Londra	
-16659	tower_avignon	sehir	0.5	Avignon'da Eski Kule	
-20701	waterloo_bridge_sun	sehir	0.5	Waterloo Köprüsü, Güneş	
-103139	waterloo_bridge_gray	sehir	0.5	Waterloo Köprüsü, Gri Hava	
-25806	view_of_genoa	sehir	0.5	Cenova Manzarası	
-25810	the_courtyard	sehir	0.5	Avlu	
-37741	watering_place_marly	sehir	0.5	Marly'de Sulama Yeri	
-45267	monte_pincio	sehir	0.5	Monte Pincio, Roma	
-57049	the_obelisk	sehir	0.5	Dikilitaş	
-57050	landing_place	sehir	0.5	İskele	
-59455	meetinghouse_hill	sehir	0.5	Meetinghouse Tepesi, Roxbury	
-81551	place_du_havre	sehir	0.5	Place du Havre, Paris	
-81561	street_in_moret	sehir	0.5	Moret'de Bir Sokak	
-81568	notre_dame	sehir	0.5	Notre-Dame de Paris	
-99654	french_street	sehir	0.5	Bir Fransız Sokağı	
-110541	crystal_palace	sehir	0.5	Kristal Saray	
-110752	saint_salvi_albi	sehir	0.5	Albi'de Saint-Salvi Kilisesi	
-111624	spain_street	sehir	0.5	İspanya	
-111655	apple_market	sehir	0.5	Elma Pazarı	
-219254	inside_colosseum	sehir	0.5	Kolezyum'un İçinde	
-250455	venice_public_garden	sehir	0.5	Halk Bahçesinden Venedik	
-250457	venice_riva	sehir	0.5	Riva'dan Venedik	
-30368	medici_colonnade	sehir	0.5	Medici Sarayı Bahçeleri	
-69538	point_breeze	sehir	0.5	Point Breeze Malikânesi	Point Breeze, Bordentown
-81555	rowers_lunch	sehir	0.5	Kürekçilerin Öğle Yemeği	
-87045	geranium	naturmort	0.5	Sardunyalı Natürmort	
-100829	magnolias	naturmort	0.5	Mavi Kadife Üzerinde Manolyalar	
-111436	basket_of_apples	naturmort	0.5	Elma Sepeti	
-120154	strawberries_nuts	naturmort	0.5	Çilekler ve Cevizler	
-14561	vase_of_tulips	naturmort	0.5	Lale Vazosu	
-16549	apples_and_grapes	naturmort	0.5	Elmalar ve Üzümler	
-16629	fruits_of_the_midi	naturmort	0.5	Güney Meyveleri	
-51577	white_tablecloth	naturmort	0.5	Beyaz Masa Örtüsü	
-64001	apples_matisse	naturmort	0.5	Elmalar	
-64029	bouquet_brueghel	naturmort	0.5	Toprak Vazoda Çiçekler	
-65811	plate_of_apples	naturmort	0.5	Elma Tabağı	
-66042	flower_garland	naturmort	0.5	Çiçek Çelengi ve Perde	
-72180	fantin_flowers	naturmort	0.5	Çiçekli Natürmort	
-72183	fruit_wine_jug	naturmort	0.5	Meyve ve Şarap Testisi	
-110982	redon_flowers	naturmort	0.5	Çiçekler	
-111059	porcelain_bowl	naturmort	0.5	Porselen Kâsede Çiçek ve Meyve	
-131407	wine_cheese_fruit	naturmort	0.5	Şarap, Peynir ve Meyve	
-145807	thistles	naturmort	0.5	Devedikenleri	
-156596	fruit_piece	naturmort	0.5	Meyveler	
-257286	breakfast_heda	naturmort	0.5	Kahvaltı	
-264716	blue_ribbon	naturmort	0.5	Mavi Kurdeleli Çiçek ve Meyve	
-265263	grapes_and_flowers	naturmort	0.5	Üzüm ve Çiçekler	
-94126	monkey_still_life	naturmort	0.5	Maymunlu Natürmort	
-69533	birds_nest	naturmort	0.5	Kuş Yuvası ve Eğrelti Otları	
-44065	just_dessert	naturmort	0.5	Tatlı	
-
-# ABD federal kurumlarının kamu malı fotoğrafları (Wikimedia Commons). İlk
-# sütun commons:<dosya adı>; son sütun (seviye) doluysa seviye sabittir.
+# kenar: tablonun çevresindeki düz kâğıt/paspartu/bordür, oranla
+# "sol,üst,sağ,alt"; 2:3 kırpmadan önce kesilir (tool/trim.py bulur).
 commons:Female anhinga (49831291276).jpg	anhinga	hayvan	0.45	Yılanboyunlu Kuş	Female Anhinga
 commons:Heinrich Berann NPS Panorama of Yellowstone without labels.jpg	berann_yellowstone	doga	0.45	Yellowstone Panoraması	Panorama of Yellowstone	buyukUsta
 commons:Regal Sea Goddess Nudibranch.jpg	sea_goddess_nudibranch	deniz	0.6	Deniz Salyangozu	Regal Sea Goddess Nudibranch
@@ -184,7 +21,7 @@ commons:Heinrich Berann NPS Panorama of Yosemite without labels.jpg	berann_yosem
 commons:Aurora australis dancing over an LED illuminated igloo.jpg	aurora_igloo	doga	0.53	Güney Işıkları	Aurora Australis over an Igloo	baslangic
 commons:Oolah Valley (16089307144).jpg	oolah_valley	doga	0.6	Oolah Vadisi	Oolah Valley
 commons:Mt Redoubt 2009-03-21 1237756418 ak231.JPG	mount_redoubt	doga	0.72	Redoubt Yanardağı	Mount Redoubt	kolay
-commons:Low-end EF3 damage to a home in Virginia Beach, Virginia.jpg	storm_damaged_house	sehir	0.8	Fırtınadan Sonra	Storm Damage in Virginia Beach	kolay
+commons:Low-end EF3 damage to a home in Virginia Beach, Virginia.jpg	storm_damaged_house	doga	0.8	Fırtınadan Sonra	Storm Damage in Virginia Beach	kolay
 commons:Front view of a resting Canis lupus ssp.jpg	resting_wolf	hayvan	0.5	Kurt	Resting Wolf
 commons:Red squirrel (52870194200).jpg	red_squirrel	hayvan	0.5	Kızıl Sincap	Red Squirrel	baslangic
 commons:Heinrich Berann NPS Panorama of Denali without labels.jpg	berann_denali	doga	0.6	Denali Panoraması	Panorama of Denali	buyukUsta
@@ -408,3 +245,199 @@ commons:Northern Lights over Apgar Mountain (48714029552).jpg	apgar_aurora	doga	
 commons:Lassen Volcanic National Park (0e9c54d1-8ed8-4e7a-a135-cd518a544942).jpg	lassen_pine	doga	0.8	Dağlara Bakan Çam	Pine Overlooking Mountains	baslangic
 commons:Olympic National Park (22476957334).jpg	lake_crescent	doga	0.5	Sisli Göl	Misty Lake in Olympic	baslangic
 commons:Morning light on steam in the Lower Geyser Basin.jpg	lower_geyser_steam	doga	0.5	Sabah Buharı	Morning Light on Steam	baslangic
+cma:169359	vivacha_ragaputra	tablo	0.5	Vivaça Ragaputra	Vivacha Ragaputra	uzman	0.042,0.079,0.11,0.086
+cma:314122	dana_lila_toll	tablo	0.5	Haraç Alınışı (Dana-Lila)	Taking of the toll, Dana-Lila	orta	0.028,0.103,0.028,0.109
+cma:314473	maru_ragini	tablo	0.5	Maru Ragini	Maru Ragini	uzman	0.032,0.053,0.052,0.066
+cma:155382	dipak_raga	tablo	0.5	Dipak Raga	Dipak Raga	uzman	0.103,0.099,0.103,0.099
+cma:314433	rama_sita_bharadvaja	tablo	0.5	Rama ve Sita Bilgenin İnzivasında	Rama, Sita and Lakshmana at the Hermitage of Bharadvaja	usta	0.022,0.019,0.026,0
+cma:314444	malavi_ragini	tablo	0.5	Malavi Ragini	A Heroine and Her Paramour: Malavi Ragini	uzman	0.019,0.009,0.019,0.013
+cma:314443	desavarari_ragini	tablo	0.5	Köşkteki Saraylı Kadın	A Royal Woman in a Pavilion	uzman	0.019,0,0.019,0.019
+cma:164457	woman_in_profile_mithila	tablo	0.5	Profilden Kadın	Woman in Profile	zor	0,0.039,0.051,0.049
+cma:314481	verati_ragini	tablo	0.5	Sevgilisini Bekleyen Kadın	Woman Longing for Her Lover	usta	0.019,0.016,0.019,0.016
+cma:161884	dvaraka_nathji_kankroli	tablo	0.5	Kankroli'de Dvaraka Nathji	Worship of Dvaraka Nathji at Kankroli	uzman	0.066,0,0.062,0.043
+cma:148378	hindola_raga	tablo	0.5	Hindola Raga	Hindola Raga	uzman	
+cma:314437	chitrini_nayika	tablo	0.5	Radha ve Krişna İçin Müzik	Women Play Music for Radha and Krishna	usta	
+cma:164465	many_armed_figure	tablo	0.5	Çok Kollu Figür	Multi-Armed Figure	usta	0.02,0.013,0.015,0.019
+cma:314436	shri_raga_musicians	tablo	0.5	Kral Önünde Üç Müzisyen	Three Musicians Perform Before a King	uzman	0.052,0.053,0.056,0.049
+cma:155593	radha_awaiting	tablo	0.5	Krişna'yı Bekleyen Radha	Radha Awaiting Reconciliation with Krishna	zor	0.036,0.026,0.046,0.018
+cma:162857	krishna_and_gopis	tablo	0.5	Krişna ve Çoban Kızları	Krishna and Gopis	usta	0.036,0.033,0.032,0
+cma:314464	gujari_ragini_peacock	tablo	0.5	Tavus Kuşuyla Konuşan Kadın	Woman Addressing a Peacock	zor	0.141,0.116,0.145,0.013
+cma:136418	gunakali_ragini	tablo	0.5	Gunakali Ragini	Gunakali Ragini	usta	0,0.076,0,0
+cma:112858	shri_raga	tablo	0.5	Şri Raga	Shri Raga	uzman	0.031,0.026,0.026,0.036
+cma:152014	birth_of_krishna	tablo	0.5	Krişna'nın Doğumu	The Birth of Krishna	zor	0.059,0.026,0.059,0.033
+cma:314438	brahmin_message_krishna	tablo	0.5	Krişna'ya Gelen Davet	A Brahmin Brings Krishna an Invitation	orta	0.016,0.018,0.019,0.014
+cma:154260	krishna_birth_celebration	tablo	0.5	Krişna'nın Doğum Şenliği	Celebrations of Krishna's Birth	orta	0.149,0.109,0.158,0.123
+cma:146202	kakubha_ragini	tablo	0.5	Kakubha Ragini	Kakubha Ragini	orta	0.093,0.059,0.124,0.093
+cma:155590	vishnu_lakshmi_garuda	tablo	0.5	Garuda Üstünde Vişnu ve Lakşmi	Vishnu and Lakshmi on Garuda	zor	
+cma:314454	jawan_singh_falcon	tablo	0.5	Doğanlı Maharana Cevan Singh	Maharana Jawan Singh Holding a Falcon	zor	0.159,0.119,0,0.099
+cma:161703	tsakali_buddha	tablo	0.5	Vaaz Veren Buda	Preaching Buddha Shakyamuni	uzman	
+cma:314457	balwant_singh_procession	tablo	0.5	Maharaca Balvant Singh'in Alayı	Maharaja Balwant Singh in Procession	zor	0.009,0.014,0.009,0.018
+cma:167578	king_bali_vamana	tablo	0.5	Kral Bali ve Vamana	King Bali gives a gift of land to Vamana	usta	0.063,0,0.076,0.009
+cma:314505	asavari_ragini	tablo	0.5	Yılan Oynatan Kadın	A Woman Charms Snakes in the Wilderness	zor	0.096,0.129,0.1,0.053
+cma:164466	four_armed_goddess	tablo	0.5	Dört Kollu Tanrıça	Four-Armed Goddess	usta	
+cma:170803	hulagu_feast	tablo	0.5	Hülagü Han'ın Ziyafeti	Hulagu Khan Giving a Feast	uzman	0.063,0.046,0.048,0.059
+cma:314506	bagalamukhi	tablo	0.5	Bagalamukhi	Bagalamukhi, the eighth Mahavidya	usta	0.019,0.013,0.019,0.009
+cma:153618	kagyu_lineage_masters	tablo	0.5	İki Kagyu Ustası	Two Lineage Masters of the Kagyu Order	uzman	0.032,0.036,0.019,0.043
+cma:151879	krishna_asks_sweets	tablo	0.5	Tatlı İsteyen Krişna	Krishna asks for sweets	zor	0.055,0.043,0.05,0.033
+cma:314452	ari_singh_terrace	tablo	0.5	Terasta Maharana Ari Singh	Maharana Ari Singh II on a Terrace	orta	0.09,0.046,0.1,0.056
+cma:137505	bashir_tuti_nama	tablo	0.5	Beşir'in Mesajı	Bashir Sends a Message	zor	0.068,0.056,0.073,0.046
+cma:151021	krishna_flower_garland	tablo	0.5	Krişna'ya Çiçek Çelengi	Krishna Receives a Flower Garland	usta	
+cma:314441	gunakali_ragini_leaves	tablo	0.5	Yaprak Toplayan Kadın	A Woman Plucks Leaves	uzman	0.112,0.049,0.086,0.099
+cma:162531	balarama_and_krishna	tablo	0.5	Balarama ve Krişna	Balarama and Krishna	zor	
+cma:164467	shiva_and_nandi	tablo	0.5	Şiva ve Nandi	Shiva and Nandi	usta	0,0.036,0,0
+cma:314499	shri_raga_garland	tablo	0.5	Şri Raga (Ezgi Çelengi)	Shri Raga (Garland of Melodies)	usta	0.049,0.026,0.04,0.039
+cma:154764	devagandhara_ragini	tablo	0.5	Devagandhara Ragini	Devagandhara Ragini: An Ascetic in Retreat	zor	0.019,0.116,0.158,0.123
+cma:162858	gujari_ragini_flute	tablo	0.5	Flüt Çalan Krişna	Krishna Playing the Flute	usta	
+cma:146193	holi_girls	tablo	0.5	Holi'de Kızlar	Girls Spraying Each Other at Holi	uzman	0.05,0.046,0.031,0.043
+cma:167976	in_the_square	tablo	0.5	Meydanda	In the Square	orta	0.025,0.016,0.02,0.023
+cma:171303	estampe_moderne_jane	tablo	0.5	Jane	Jane	orta	0.053,0.039,0.053,0.039
+cma:167961	aureole_du_midi	tablo	0.5	Öğlen Işığı	The Aura of Noon	orta	
+cma:157345	fancy_goods_store	tablo	0.5	Tuhafiye Dükkânı	The Fancy Goods Store	zor	0.036,0.036,0.033,0.062
+cma:149248	exposition_1900	tablo	0.5	1900 Sergisi	Exposition 1900	uzman	0.043,0.039,0.047,0.029
+cma:167931	le_reve	tablo	0.5	Düş	The Dream	uzman	0.036,0.076,0.092,0.063
+cma:148503	librairie_sagot	tablo	0.5	Sagot Kitabevi	Bookstore Ed. Sagot	usta	
+cma:167973	saxoleine	tablo	0.5	Saxoléine	Saxoléine	orta	0.079,0,0.097,0.133
+cma:143846	lembree_gallery	tablo	0.5	Lembrée Galerisi Afişi	Poster for the Lembrée Gallery	orta	0.091,0.059,0.082,0.073
+cma:79232	illumination_lunois	tablo	0.5	Işıklandırma	L’Illumination	zor	0.143,0.116,0.14,0.116
+cma:133662	tiger_in_the_jungle	tablo	0.5	Ormanda Kaplan	Tiger in the Jungle	usta	0.028,0.019,0.028,0.059
+cma:153747	the_open_window	tablo	0.5	Açık Pencere	The Open Window	zor	0,0,0.048,0
+cma:171219	beefeater	tablo	0.5	Kule Muhafızı	London Types: Beef-eater	zor	0.043,0.033,0.046,0.023
+cma:132620	orange_lily	tablo	0.5	Turuncu Zambak	Orange Lily	kolay	
+cma:171490	scheherazade	tablo	0.5	Şehrazat	Scheherazade	zor	0.032,0.019,0.069,0.096
+cma:136366	woman_in_green	tablo	0.5	Yeşilli Kadın	Woman in Green	zor	0.125,0.073,0.125,0.093
+cma:148501	andalusia_moors	tablo	0.5	Mağribiler Zamanında Endülüs	Andalusia at the Time of the Moors	uzman	0.02,0.029,0.072,0.036
+cma:79015	queen_wilhelmina	tablo	0.5	Kraliçe Wilhelmina	Queen Wilhelmina	orta	0.08,0.076,0.083,0.069
+cma:79407	cytisus_foxglove	tablo	0.5	Sarı Salkım ve Yüksükotu	Cytises et Digitales	usta	0.035,0.036,0.035,0.036
+cma:168963	the_cabriolet	tablo	0.5	Fayton	The Cabriolet	zor	0.039,0.039,0.036,0.046
+cma:171428	alphonse_price	tablo	0.5	Alphonse	Alphonse	orta	0.05,0.043,0.039,0.066
+cma:104985	la_goulue_moulin_rouge	tablo	0.5	Moulin Rouge'da La Goulue	At the Moulin Rouge: La Goulue and Her Sister	orta	0.135,0.103,0.139,0.126
+cma:118870	peonies_urushibara	tablo	0.5	Şakayıklar	Peonies	orta	0.069,0.049,0.069,0.059
+cma:128459	beach_at_sumiyoshi	tablo	0.5	Sumiyoşi Kıyısı	The Beach at Sumiyoshi	usta	0.014,0.013,0.014,0.013
+cma:140476	paulownias_chrysanthemums	tablo	0.5	Pavlonyalar ve Kasımpatılar	Paulownias and Chrysanthemums	zor	0.049,0.048,0.056,0.02
+cma:299513	bucket_puppet_lady	tablo	0.5	Kovadan Kukla	A Puppet Made from a Bucket	usta	0.076,0.069,0.076,0.009
+cma:123465	sakurai_new_room_left	tablo	0.5	Sakurai'deki Büyük Oda I	The Large New Room at Sakurai I	usta	0,0.023,0.039,0.026
+cma:130358	amida_raigo	tablo	0.5	Amida'nın İnişi	Welcoming Descent of Amida (Amida Raigō)	zor	0,0.019,0,0.016
+cma:123141	pleasure_quarter_viewing_left	tablo	0.5	Eğlence Mahallesinde Seyir I	Viewing in the Pleasure Quarters I	uzman	0,0.023,0.034,0.023
+cma:123140	pleasure_quarter_viewing_center	tablo	0.5	Eğlence Mahallesinde Seyir II	Viewing in the Pleasure Quarters II	usta	
+cma:95410	ukiyo_matahei_left	tablo	0.5	Ukiyo Matahei'nin Resimleri I	Ukiyo Matahei and His Famous Paintings I	usta	0.016,0.016,0.016,0.013
+cma:304484	aizen_myoo	tablo	0.5	Aizen Myōō	Aizen Myōō	orta	0.147,0.106,0.044,0.126
+cma:123463	sakurai_new_room_right	tablo	0.5	Sakurai'deki Büyük Oda II	The Large New Room at Sakurai II	usta	0.039,0.026,0,0.023
+cma:123111	courtesan_kimono_rack	tablo	0.5	Kimono Askısının Yanında	Courtesan Beside Kimono Rack	uzman	0.03,0.019,0.025,0.019
+cma:95412	hanamurasaki_mallow	tablo	0.5	Ebegümeci Arasında Hanamurasaki	The Courtesan Hanamurasaki of the Tsuchiya	orta	0.021,0.016,0.021,0.016
+cma:152494	evening_glow_seta	tablo	0.5	Seta'da Akşam Kızıllığı	Evening Glow at Seta	orta	0.084,0.076,0.065,0.046
+cma:95409	ukiyo_matahei_right	tablo	0.5	Ukiyo Matahei'nin Resimleri II	Ukiyo Matahei and His Famous Paintings II	uzman	0.044,0.013,0.015,0.016
+cma:95378	hinaogi_kadomachi	tablo	0.5	Kadomaçi Girişinde Hinaogi	The Courtesan Hinaogi at Kadomachi	orta	0.02,0.019,0.02,0.023
+cma:118814	courtesans_in_rain	tablo	0.5	Yağmurda Gezinti	Courtesans Promenading in the Rain	uzman	0.016,0.019,0,0.023
+cma:122836	futamigaura_bay	tablo	0.5	Futamigaura Koyu	Splendid View at Futamigaura Bay	uzman	0,0.016,0.016,0.013
+cma:126700	eizan_beauty	tablo	0.5	Eizan'dan Bir Güzel	Beauty	usta	0.045,0.029,0.035,0.029
+cma:152499	moon_viewing_promontory	tablo	0.5	Ay Seyri Burnu	The Moon-Viewing Promontory	usta	0.021,0.016,0.021,0.016
+cma:152398	tokaido_numazu	tablo	0.5	Tokaido: Numazu	Tokaido: Numazu	orta	0.042,0.106,0.096,0.059
+cma:119913	woman_combing_hair	tablo	0.5	Saçını Tarayan Kadın	Woman Combing Her Hair	orta	0.052,0.056,0.057,0.063
+cma:152397	tokaido_hara	tablo	0.5	Tokaido: Hara	Tokaido: Hara	orta	0.083,0.109,0.042,0.056
+cma:123046	carp_water_weeds	tablo	0.5	Su Otları Arasında Sazan	Carp Swimming by Water Weeds	orta	0.046,0.039,0.046,0
+cma:148355	kabuki_battle	tablo	0.5	Kabuki Düellosu	Kabuki Actors Battling	uzman	0.021,0.016,0.021,0.016
+cma:111666	balcony_nakasu	tablo	0.5	Nakasu'da Balkon Eğlencesi	Entertainment on a Balcony at Nakasu	orta	0,0.016,0.03,0.016
+cma:119915	chozan_blinds	tablo	0.5	Perdeler Önünde Çōzan	Chōzan of Chōjiya	uzman	0.044,0.033,0.039,0.033
+cma:152497	miho_pine_groves	tablo	0.5	Miho'nun Çam Koruları	Pine Groves of Miho in Suruga	kolay	0.065,0.049,0.06,0.043
+cma:135310	two_poplars_alpilles	tablo	0.5	Alpilles'de İki Kavak	Two Poplars in the Alpilles near Saint-Rémy	usta	
+cma:115067	vase_of_flowers_redon	tablo	0.5	Çiçekli Vazo	Vase of Flowers	usta	
+cma:115405	pigeon_tower_bellevue	tablo	0.5	Bellevue'de Güvercinlik	The Pigeon Tower at Bellevue	zor	
+cma:135185	mount_sainte_victoire	tablo	0.5	Sainte-Victoire Dağı	Mount Sainte-Victoire	zor	
+cma:84662	orange_christ	tablo	0.5	Turuncu İsa	The Orange Christ	usta	
+cma:95277	combat_for_colors	tablo	0.5	Sancak Mücadelesi	Combat for the Colors	uzman	
+cma:118792	the_letter_hofer	tablo	0.5	Mektup	The Letter	orta	0,0.016,0.084,0.016
+cma:84371	the_pink_cloud	tablo	0.5	Pembe Bulut	The Pink Cloud	usta	
+cma:142659	cliffs_beg_ar_fry	tablo	0.5	Beg-ar-Fry Kayalıkları	The Cliffs at Beg-ar-Fry, Saint-Jean-du-Doigt	zor	
+cma:169767	canal_in_autumn	tablo	0.5	Sonbaharda Kanal	Canal in Autumn (Gisors)	uzman	
+cma:150078	italian_scene	tablo	0.5	İtalyan Sahnesi	Italian Scene	uzman	
+cma:139814	banks_of_the_marne	tablo	0.5	Marne Kıyısı	The Banks of the Marne at Charenton	zor	
+cma:150694	sylvia_gosse	tablo	0.5	Sylvia Gosse	Sylvia Gosse	uzman	
+cma:75763	procession_perros_guirec	tablo	0.5	Perros-Guirec'te Alay	Procession or Pardon at Perros-Guirec	uzman	
+cma:715339	still_life_blanchard	tablo	0.5	Natürmort	Still Life	usta	
+cma:135480	the_apple_seller	tablo	0.5	Elma Satıcısı	The Apple Seller	uzman	
+cma:124801	the_siesta	tablo	0.5	Öğle Uykusu	The Siesta	usta	
+cma:125249	large_plane_trees	tablo	0.5	Büyük Çınarlar	The Large Plane Trees	zor	
+cma:163040	polyhymnia	tablo	0.5	Polyhymnia	Polyhymnia, Muse of Eloquence	zor	
+cma:135517	the_circus_valadon	tablo	0.5	Sirk	The Circus	zor	
+cma:149562	roses_in_a_vase	tablo	0.5	Vazoda Güller	Roses in a Vase	usta	
+cma:130967	notre_dame_tournelle	tablo	0.5	Tournelle Rıhtımından Notre Dame	Notre Dame Seen	zor	
+cma:135299	adeline_ravoux	tablo	0.5	Adeline Ravoux	Adeline Ravoux	usta	
+cma:83635	breton_landscape	tablo	0.5	Brötanya Manzarası	Breton Landscape	usta	0.014,0,0.236,0
+cma:108009	the_burgomaster	tablo	0.5	Belediye Başkanı	The Burgomaster	uzman	
+cma:128394	modigliani_woman	tablo	0.5	Kadın Portresi (Modigliani)	Portrait of a Woman (Modigliani)	usta	
+cma:148297	the_large_tree	tablo	0.5	Büyük Ağaç	The Large Tree	zor	
+cma:128364	woman_earring	tablo	0.5	Küpesini Takan Genç Kadın	Young Woman Arranging Her Earring	usta	
+cma:159231	mrs_pearson	tablo	0.5	Bayan Pearson	Mrs. Pearson	baslangic	
+cma:159502	a_calling	tablo	0.5	Bir Çağrı	A Calling	orta	
+cma:81391	drying_the_linen	tablo	0.5	Çamaşır Kurutma	Drying the Linen, or Moonrise at the Priory	usta	
+cma:125248	coronation_virgin_trinity	tablo	0.5	Meryem'in Taç Giyişi	The Coronation of the Virgin with the Trinity	zor	
+cma:131820	annunciation_medieval	tablo	0.5	Müjde	The Annunciation	uzman	0,0.013,0.019,0.023
+cma:142473	berlinghiero_madonna	tablo	0.5	Meryem, Çocuk ve Azizler	Virgin and Child with Saints	zor	
+cma:109029	bishop_saint_donor	tablo	0.5	Piskopos Aziz ve Bağışçı	A Bishop Saint with a Donor	uzman	0.083,0.036,0.065,0.019
+cma:148990	spinello_madonna	tablo	0.5	Meryem, Çocuk ve Melekler	Virgin and Child with Angels	kolay	
+cma:709468	mary_cleophas_family	tablo	0.5	Meryem Kleopas ve Ailesi	Mary Cleophas and her Family	usta	0,0.033,0,0
+cma:152842	starnina_madonna	tablo	0.5	Meryem ve Çocuk (Starnina)	Madonna and Child	orta	
+cma:97142	adoration_shepherds	tablo	0.5	Çobanların Tapınması	Adoration of the Shepherds	usta	0,0,0.016,0
+cma:143761	virgin_crowned_angels	tablo	0.5	Meleklerin Taçlandırdığı Meryem	The Virgin Crowned by Angels	orta	
+cma:97192	credi_virgin_child	tablo	0.5	Meryem ve Çocuk (Credi)	Virgin and Child (Credi)	zor	0.03,0,0.03,0
+cma:139727	madonna_of_humility	tablo	0.5	Alçakgönüllülük Meryemi	Madonna of Humility	uzman	0.019,0.013,0.062,0
+cma:122338	annunciation_bouts	tablo	0.5	Müjde (Bouts)	The Annunciation (Bouts)	uzman	
+cma:113164	a_bridal_couple	tablo	0.5	Gelin ve Damat	A Bridal Couple	zor	
+cma:113202	lippi_holy_family	tablo	0.5	Kutsal Aile	The Holy Family with Saints	baslangic	
+cma:168322	virgin_eleousa	tablo	0.5	Eleousa İkonası	Virgin Eleousa	usta	
+cma:130982	nativity_ferrer	tablo	0.5	İsa'nın Doğuşu	The Nativity	usta	
+cma:149566	fiorenzo_virgin_child	tablo	0.5	Meryem ve Çocuk (Fiorenzo)	Virgin and Child (Fiorenzo)	usta	
+cma:136865	vladimir_triptych	tablo	0.5	Vladimir Meryemi Triptiği	Portable Triptych Icon	zor	
+cma:128389	adoration_magi_geertgen	tablo	0.5	Müneccimlerin Tapınması	The Adoration of the Magi	zor	
+cma:122158	corneille_woman	tablo	0.5	Kadın Portresi (Corneille de Lyon)	Portrait of a Woman (Corneille de Lyon)	orta	
+cma:143206	cardinal_dubois	tablo	0.5	Kardinal Dubois	Portrait of Cardinal Guillaume Dubois	kolay	
+cma:127571	lotto_man	tablo	0.5	Erkek Portresi (Lotto)	Portrait of a Man, Possibly Girolamo Rosati	uzman	
+cma:170429	our_lady_good_counsel	tablo	0.5	İyi Öğüt Meryemi	Our Lady of Good Counsel	uzman	0.034,0.029,0.034,0
+cma:97153	holden_tondo	tablo	0.5	Holden Tondosu	Virgin and Child with Angels	orta	
+cma:78982	resurrection_konig	tablo	0.5	Diriliş	The Resurrection of Christ	uzman	
+cma:145135	count_richbourg	tablo	0.5	Kont Richbourg	Comte de Richbourg-le-Toureil	orta	
+cma:162623	louis_xiii	tablo	0.5	Kral XIII. Louis	Portrait of King Louis XIII of France	zor	
+cma:130162	tiepolo_woman	tablo	0.5	Kadın Portresi (Tiepolo)	Portrait of a Woman (Tiepolo)	kolay	
+cma:97180	pope_sixtus_iv	tablo	0.5	Papa IV. Sixtus	Portrait of Pope Sixtus IV della Rovere	usta	
+cma:124990	juan_maria_osorio	tablo	0.5	Juan María Osorio	Portrait of Juan Maria Osorio	orta	
+cma:131819	genoese_lady_child	tablo	0.5	Cenevizli Hanım ve Çocuğu	A Genoese Lady with Her Child	kolay	
+cma:97178	madonna_in_niche	tablo	0.5	Nişte Meryem ve Çocuk	Madonna and Child in a Niche	orta	
+cma:311773	violin_player_wine	tablo	0.5	Kadehli Kemancı	Violin Player with a Wine Glass	kolay	
+cma:159309	sweet_melancholy	tablo	0.5	Tatlı Hüzün	Sweet Melancholy	orta	
+cma:111479	saint_james_miracles	tablo	0.5	Aziz Yakup'un Mucizeleri	The Miracles of Saint James the Greater	uzman	
+cma:135659	immaculate_conception	tablo	0.5	Lekesiz Gebelik	The Immaculate Conception	zor	
+cma:543981	dutton_family	tablo	0.5	Dutton Ailesi	The Dutton Family	zor	
+cma:125944	the_vineyard	tablo	0.5	Bağ	The Vineyard	zor	
+cma:153603	machtelt_suijs	tablo	0.5	Machtelt Suijs	Portrait of Machtelt Suijs	orta	
+cma:155051	manjushri	tablo	0.5	Mancuşri	Manjushri	usta	0.021,0.013,0.014,0
+cma:147573	eight_hosts_deva	tablo	0.5	Sekiz Deva Ordusu	The Eight Hosts of Deva, Naga, and Yakshi	zor	0.023,0.013,0.018,0
+cma:147572	bodhisattvas_ten_stages	tablo	0.5	On Aşamanın Bodhisattvaları	Bodhisattvas of the Ten Stages	uzman	0.018,0.016,0.018,0.013
+cma:311962	ancestor_group_portrait	tablo	0.5	Ata Portresi	Ancestor Group Portrait	zor	0.029,0.016,0.029,0.016
+cma:679266	red_cliff_battle	tablo	0.5	Kızıl Uçurum Savaşı	Fierce Battle at the Red Cliff	uzman	
+cma:679368	bird_on_lotus	tablo	0.5	Nilüfer Üstünde Kuş	Bird on Lotus	orta	0.076,0.027,0.019,0.023
+cma:679271	eight_immortals_zodiac	tablo	0.5	Sekiz Ölümsüz ve On İki Burç	Eight Immortals and Twelve Zodiac Animals	zor	0.123,0.116,0.126,0.12
+cma:679366	watermelon_grapes	tablo	0.5	Karpuz ve Üzüm	Watermelon and Grapes	kolay	0.019,0.026,0.023,0.022
+cma:679036	mother_sons_music	tablo	0.5	Müzik Çalan Çocuklar ve Anne	Mother with Sons Playing Music	orta	0.077,0.023,0.077,0.019
+cma:679365	apples_pomegranates	tablo	0.5	Elmalar ve Narlar	Apples and Pomegranates	baslangic	0.019,0.018,0.023,0.022
+cma:679085	two_beauties_lotus	tablo	0.5	Altın Nilüfer	Two Beauties Inspect a Golden Lotus	uzman	0.03,0,0.018,0.019
+cma:679355	lotus_seeds_caltrops	tablo	0.5	Nilüfer Tohumu ve Su Kestanesi	Lotus Seeds and Water Caltrops	orta	
+cma:148754	woman_of_the_sabines	tablo	0.5	Sabin Kadını	A Woman of the Sabines	kolay	
+cma:102578	dora_wheeler	tablo	0.5	Dora Wheeler	Portrait of Dora Wheeler	zor	
+cma:108806	the_apple_gatherers	tablo	0.5	Elma Toplayanlar	The Apple Gatherers	usta	
+cma:147828	primrose_collins	tablo	0.5	Çuha Çiçeği	Primrose	uzman	
+cma:173669	pitcher_and_glass	tablo	0.5	Sürahi ve Bardak	Pitcher and a Glass on a Table	uzman	
+cma:155783	power_of_music	tablo	0.5	Müziğin Gücü	The Power of Music	zor	
+cma:173640	autumn_catskills	tablo	0.5	Catskill'de Sonbahar	Autumn in the Catskills	usta	
+cma:124040	brierwood_pipe	tablo	0.5	Pipo	The Brierwood Pipe	kolay	
+cma:173633	june_day	tablo	0.5	Haziran Günü	June Day	orta	0.01,0.039,0.231,0.153
+cma:172828	holiday_on_hudson	tablo	0.5	Hudson'da Tatil	Holiday on the Hudson	zor	
+cma:101471	early_spring_california	tablo	0.5	Kaliforniya'da İlkbahar	Early Spring, California	orta	
+cma:150743	st_malo	tablo	0.5	Saint-Malo	St. Malo	zor	
+cma:134072	sunny_autumn_day	tablo	0.5	Güneşli Sonbahar Günü	Sunny Autumn Day	zor	
+cma:97770	the_blue_feather	tablo	0.5	Mavi Tüy	The Blue Feather	zor	
+cma:101461	daughter_alice	tablo	0.5	Kızım Alice	Portrait of My Daughter Alice	orta	
+cma:93234	on_the_beach_3	tablo	0.5	Kumsalda	On the Beach, No. 3	zor	
+cma:155431	master_yeongwoldang	tablo	0.5	Büyük Usta Yeongwoldang	Great Master Yeongwoldang Eungjin	orta	0,0.029,0,0.026
+cma:160860	cho_jae_ho	tablo	0.5	Cho Jae-ho	Cho Jae-ho from Punhyang Cho Family	baslangic	0.023,0,0,0
+cma:374816	korean_official	tablo	0.5	Devlet Görevlisi Portresi	Portrait of a Government Official	orta	
+cma:535124	twelve_apostles_diptych	tablo	0.5	On İki Havari	Diptych with Twelve Apostles & St. Paul	uzman	0.046,0.049,0.049,0.017

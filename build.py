@@ -1,12 +1,10 @@
-"""Stillpiece eser deposunu kurar: sources.tsv'deki eserleri Art Institute of
-Chicago'dan, fotoğrafları Wikimedia Commons'tan (ABD federal kurumlarının
-kamu malı işleri) indirir, 2:3 kırpar, ölçer, seviyelere dağıtır ve
-catalog.json'u yazar. Yalnızca eksik görselleri indirir; var olanların
+"""Stillpiece eser deposunu kurar: sources.tsv'deki tabloları Cleveland Museum
+of Art açık arşivinden (CC0), fotoğrafları Wikimedia Commons'tan (ABD federal
+kurumlarının kamu malı işleri) indirir, 2:3 kırpar, ölçer, seviyelere dağıtır
+ve catalog.json'u yazar. Yalnızca eksik görselleri indirir; var olanların
 seviyesi değişmez.
 
-Kullanım: python3 build.py <artic-api-data.tar.bz2>
-Müze verisi (kamu malı denetimi ve künye için):
-https://artic-api-data.s3.amazonaws.com/artic-api-data.tar.bz2
+Kullanım: python3 build.py
 """
 
 import hashlib
@@ -14,7 +12,6 @@ import io
 import json
 import os
 import sys
-import tarfile
 import time
 import urllib.parse
 import urllib.request
@@ -23,12 +20,12 @@ import numpy as np
 from PIL import Image
 
 LEVELS = ["baslangic", "kolay", "orta", "zor", "uzman", "usta", "buyukUsta", "efsane"]
-# Küçük seviyelerde ~1000 px yeter; büyüklerde müzenin izin verdiği en büyük
-# genişlik (kamu malı eserde 1686).
+# Küçük seviyelerde ~1000 px yeter; büyüklerde 1686 (uygulamanın en büyük
+# yapbozu için yeterli, dosyalar küçük kalır).
 WIDTH = {l: 1000 if i < 4 else 1686 for i, l in enumerate(LEVELS)}
 THUMB_WIDTH = 300
-CATEGORIES = {"doga", "deniz", "sehir", "naturmort", "hayvan"}
-IIIF = "https://www.artic.edu/iiif/2"
+CATEGORIES = {"doga", "deniz", "hayvan", "tablo"}
+CMA = "https://openaccess-api.clevelandart.org/api/artworks"
 COMMONS = "https://commons.wikimedia.org"
 # Kamu malı sayılan Commons şablonları ve künyede yazılacak kurum adı.
 AGENCIES = {
@@ -41,10 +38,8 @@ AGENCIES = {
 }
 # Commons'ta kişilik hakkı ya da marka uyarısı olan görsel alınmaz.
 BAD_RESTRICTIONS = {"personality", "trademarked", "insignia"}
-# Müze AIC-User-Agent başlığını rica ediyor; Python'un varsayılan
-# "Python-urllib" kimliği ise 403 alıyor.
+# Python'un varsayılan "Python-urllib" kimliği müzede 403 alıyor.
 UA = {
-    "AIC-User-Agent": "Stillpiece (yapboz uygulamasi; github.com/Walletude/stillpiece-art)",
     "User-Agent": "Stillpiece/1.0 (+https://github.com/Walletude/stillpiece-art)",
 }
 
@@ -62,9 +57,14 @@ def read_sources():
         level = p[6] if len(p) > 6 and p[6] else None
         if level and level not in LEVELS:
             sys.exit(f"HATA: bilinmeyen seviye {level} ({p[1]})")
-        commons = p[0][len("commons:"):] if p[0].startswith("commons:") else None
+        if p[0].startswith("commons:"):
+            commons, cma = p[0][len("commons:"):], 0
+        elif p[0].startswith("cma:"):
+            commons, cma = None, int(p[0][len("cma:"):])
+        else:
+            sys.exit(f"HATA: bilinmeyen kaynak {p[0]} ({p[1]})")
         rows.append({
-            "aicId": 0 if commons else int(p[0]),
+            "cmaId": cma,
             "file": commons,
             "slug": p[1],
             "category": p[2],
@@ -72,6 +72,7 @@ def read_sources():
             "title": p[4],
             "titleEn": p[5] if len(p) > 5 and p[5] else None,
             "level": level,
+            "trim": read_trim(p[7]) if len(p) > 7 and p[7] else (0.0, 0.0, 0.0, 0.0),
         })
     slugs = [r["slug"] for r in rows]
     if len(set(slugs)) != len(slugs):
@@ -79,17 +80,14 @@ def read_sources():
     return rows
 
 
-def read_museum(dump, ids):
-    """Müze kayıtları, yalnızca listedeki eserler."""
-    want = {f"artic-api-data/json/artworks/{i}.json": i for i in ids}
+def read_cleveland(ids):
+    """Cleveland kayıtları: CC0 denetimi, künye ve baskı görseli."""
     found = {}
-    with tarfile.open(dump, "r:bz2") as tar:
-        for m in tar:
-            i = want.get(m.name)
-            if i is not None:
-                found[i] = json.load(tar.extractfile(m))
-                if len(found) == len(want):
-                    break
+    for i in ids:
+        try:
+            found[i] = json.loads(get(f"{CMA}/{i}"))["data"]
+        except RuntimeError as e:
+            print(f"  {e}")
     return found
 
 
@@ -107,19 +105,35 @@ def get(url):
     raise RuntimeError(f"indirilemedi: {url}")
 
 
-def fetch_master(image_id, focus_x):
-    """Eserin 2:3 kısmını sunucuda kesip en büyük genişlikte indirir."""
-    info = json.loads(get(f"{IIIF}/{image_id}/info.json"))
-    w, h = info["width"], info["height"]
+def read_trim(text):
+    """8. sütun: kesilecek düz kenar, oranla "sol,üst,sağ,alt" (tool/trim.py)."""
+    try:
+        t = tuple(float(v) for v in text.split(","))
+    except ValueError:
+        t = ()
+    if len(t) != 4 or not all(0 <= v < 0.5 for v in t):
+        sys.exit(f"HATA: geçersiz kenar {text!r}")
+    return t
+
+
+def fetch_cleveland(url, focus_x, trim):
+    """Baskı görselini (en çok 3400 px) indirir, düz kenarını keser, 2:3
+    kırpar, 1686 genişliğe indirir."""
+    img = Image.open(io.BytesIO(get(url))).convert("RGB")
+    w, h = img.size
+    l, t, r, b = trim
+    img = img.crop((round(w * l), round(h * t), round(w * (1 - r)), round(h * (1 - b))))
+    w, h = img.size
     if w * 3 > h * 2:
-        cw, ch = h * 2 // 3, h
-        x, y = int((w - cw) * focus_x), 0
+        cw = h * 2 // 3
+        x = int((w - cw) * focus_x)
+        img = img.crop((x, 0, x + cw, h))
     else:
-        cw, ch = w, w * 3 // 2
-        x, y = 0, (h - ch) // 2
-    out = min(1686, cw)
-    data = get(f"{IIIF}/{image_id}/{x},{y},{cw},{ch}/{out},/0/default.jpg")
-    img = Image.open(io.BytesIO(data)).convert("RGB")
+        ch = w * 3 // 2
+        y = (h - ch) // 2
+        img = img.crop((0, y, w, y + ch))
+    if img.size[0] > 1686:
+        img = img.resize((1686, round(img.size[1] * 1686 / img.size[0])), Image.LANCZOS)
     return to_ratio(img)
 
 
@@ -223,10 +237,10 @@ def assign_levels(entries):
 
 
 def main():
-    if len(sys.argv) != 2:
+    if len(sys.argv) != 1:
         sys.exit(__doc__)
     sources = read_sources()
-    museum = read_museum(sys.argv[1], [s["aicId"] for s in sources if not s["file"]])
+    museum = read_cleveland([s["cmaId"] for s in sources if not s["file"]])
     commons = read_commons([s["file"] for s in sources if s["file"]])
 
     # Kamu malı denetimi: biri bile geçmezse hiçbir şey yazılmaz.
@@ -241,12 +255,12 @@ def main():
             elif c["restrictions"] & BAD_RESTRICTIONS:
                 print(f"HATA:  {s['slug']} kısıtlı: {c['restrictions']}"); bad += 1
             continue
-        d = museum.get(s["aicId"])
+        d = museum.get(s["cmaId"])
         if d is None:
-            print(f"HATA:  {s['slug']} ({s['aicId']}) müzede kayıt yok"); bad += 1
-        elif d.get("is_public_domain") is not True:
-            print(f"HATA:  {s['slug']} kamu malı değil"); bad += 1
-        elif not d.get("image_id"):
+            print(f"HATA:  {s['slug']} ({s['cmaId']}) müzede kayıt yok"); bad += 1
+        elif d.get("share_license_status") != "CC0":
+            print(f"HATA:  {s['slug']} CC0 değil"); bad += 1
+        elif not ((d.get("images") or {}).get("print") or {}).get("url"):
             print(f"HATA:  {s['slug']} görseli yok"); bad += 1
     if bad:
         sys.exit(f"{bad} eserde sorun var, hiçbir şey değişmedi.")
@@ -273,17 +287,20 @@ def main():
                 "imageId": s["file"],
             }
         else:
-            d = museum[s["aicId"]]
-            artist = d.get("artist_title") or (d.get("artist_display") or "").split("\n")[0]
+            d = museum[s["cmaId"]]
+            # "Odilon Redon (French, 1840–1916)" → "Odilon Redon"
+            creators = d.get("creators") or []
+            artist = (creators[0].get("description") or "").split(" (")[0] if creators else ""
             e = {
                 "slug": s["slug"],
                 "level": None,
                 "category": s["category"],
                 "title": s["title"],
                 "titleEn": s["titleEn"] or d["title"],
-                "artist": artist,
-                "aicId": s["aicId"],
-                "imageId": d["image_id"],
+                "artist": artist or (d.get("culture") or [""])[0].split(",")[0],  # "Northern India, Pahari ..." → "Northern India"
+                "source": "cma",
+                "cmaId": s["cmaId"],
+                "imageId": d["images"]["print"]["url"],
             }
         prev = old.get(s["slug"])
         art_path, thumb_path = f"art/{s['slug']}.jpg", f"thumb/{s['slug']}.jpg"
@@ -296,7 +313,7 @@ def main():
                 c = commons[s["file"]]
                 img = fetch_commons(s["file"], c["width"], c["height"], s["focusX"])
             else:
-                img = fetch_master(e["imageId"], s["focusX"])
+                img = fetch_cleveland(e["imageId"], s["focusX"], s["trim"])
             e["bright"], e["detail"] = measure(img)
             if prev and prev.get("level"):
                 e["level"] = prev["level"]

@@ -36,20 +36,8 @@ jobs:
 
       - run: pip install pillow numpy
 
-      # Müzenin toplu verisi (~130 MB) kamu malı denetimi ve künye için;
-      # haftada bir tazelenir.
-      - id: week
-        run: echo "week=$(date +%G-%V)" >> "$GITHUB_OUTPUT"
-      - uses: actions/cache@v4
-        with:
-          path: aic.tar.bz2
-          key: aic-${{ steps.week.outputs.week }}
-      - name: Müze verisi
-        run: |
-          [ -s aic.tar.bz2 ] || curl -fsSL https://artic-api-data.s3.amazonaws.com/artic-api-data.tar.bz2 -o aic.tar.bz2
-
       - name: Eserleri kur
-        run: python3 build.py aic.tar.bz2
+        run: python3 build.py
 
       - name: Depoya ekle
         run: |
