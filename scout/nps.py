@@ -3,7 +3,7 @@
 # görülenler ve kataloğa girenler (scout/skip.txt) atlanır. Kolay seviye için
 # desensiz eşiği gevşek: düz alan 0.50'ye kadar elenmez, "kolay" işaretlenir.
 # Sonuç scout/out/nps/results.json.
-import json, os, subprocess, sys, time, urllib.parse, urllib.request
+import json, os, re, subprocess, sys, time, urllib.parse, urllib.request
 from concurrent.futures import ProcessPoolExecutor
 sys.path.insert(0, "tool")
 import quality
@@ -25,10 +25,13 @@ PER_QUERY = 40
 LIMIT = 500
 SKIP = set(open("scout/skip.txt").read().split())
 BAD_RESTRICTIONS = {"personality", "trademarked", "insignia"}
-# Kişi, yapı, tabela, etkinlik ve belge karelerini aramada ele.
-NOT = ('-ranger -visitor -visitors -sign -signage -building -construction -staff '
-       '-superintendent -ceremony -meeting -event -volunteer -employee -map -brochure '
-       '-logo -poster -museum -exhibit -"Bee Inventory"')
+# Kişi, yapı, tabela, etkinlik ve belge kareleri. Commons araması 300 karakterle
+# sınırlı; birkaçı aramada, hepsi başlık ve açıklamada elenir.
+NOT = "-ranger -visitor -sign -building -map"
+BAD_WORDS = ("ranger", "visitor", "sign", "building", "construction", "staff",
+             "superintendent", "ceremony", "meeting", "event", "volunteer", "employee",
+             "map", "brochure", "logo", "poster", "museum", "exhibit", "bee inventory",
+             "people", "hiker", "crowd", "family", "student", "parking", "road work")
 EASY_FLAT = 0.50
 
 
@@ -48,6 +51,8 @@ def search(term):
         "action": "query", "format": "json", "generator": "search", "gsrsearch": q,
         "gsrnamespace": 6, "gsrlimit": PER_QUERY, "prop": "imageinfo",
         "iiprop": "url|size|extmetadata|mime"}))
+    if r and "error" in r or len(q) > 300:
+        print("ARAMA HATASI", len(q), (r or {}).get("error"), flush=True)
     pages = list(((r or {}).get("query") or {}).get("pages", {}).values())
     return sorted(pages, key=lambda p: p.get("index", 0))
 
@@ -105,6 +110,9 @@ def main():
                 continue
             restr = set(meta(ii, "Restrictions").split("|")) & BAD_RESTRICTIONS
             lic = meta(ii, "LicenseShortName")
+        text = (p["title"] + " " + meta(ii, "ImageDescription")).lower()
+        if re.search(r"\b(" + "|".join(BAD_WORDS) + r")s?\b", text):
+            print("  kişi/yapı:", p["title"]); continue
             if restr or "public domain" not in lic.lower():
                 print("  lisans/kısıt:", p["title"], lic, restr); continue
             cands.append(dict(title=p["title"], query=term, page=ii["descriptionurl"],
