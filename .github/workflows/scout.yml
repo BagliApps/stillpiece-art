@@ -1,9 +1,9 @@
-# Geçici: Met'ten aday tarar, sonuçları bu dala ekler. main'de yok.
-name: Met taraması
+# Geçici: aday tarar, sonuçları bu dala ekler. main'de yok.
+name: Aday taraması
 on:
   push:
     branches: [met-scout]
-    paths: [scout/loc.py]
+    paths: [scout/commons.py]
 permissions:
   contents: write
 jobs:
@@ -16,9 +16,9 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install pillow
-      - run: python3 scout/loc.py
+      - run: python3 scout/commons.py
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898733+github-actions[bot]@users.noreply.github.com"
           git add scout/out
-          git commit -m "Met taraması sonuçları" && git push
+          git commit -m "Commons taraması sonuçları" && git push

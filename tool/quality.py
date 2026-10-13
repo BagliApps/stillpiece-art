@@ -207,10 +207,13 @@ def write_html(results, out):
             "<i style='background:%s'></i>" % ("rgba(255,0,0,.45)" if f else "transparent")
             for line in r["grid"] for f in line)
         ok = not r["why"]
+        name = f"<b>{html.escape(r.get('title') or os.path.basename(r['file']))}</b>"
+        if r.get("page"):
+            name = f"<a href='{html.escape(r['page'])}' target=_blank>{name}</a>"
         rows.append(
             f"<figure class='{'ok' if ok else 'no'}'><div class='im' style='aspect-ratio:{r['size'].replace('x', '/')}'>"
             f"<img src='{html.escape(os.path.relpath(r['file'], os.path.dirname(out) or '.'))}'>"
-            f"<div class='g' style='grid-template-columns:repeat({cols},1fr)'>{cells}</div></div><figcaption><b>{html.escape(os.path.basename(r['file']))}</b><br>"
+            f"<div class='g' style='grid-template-columns:repeat({cols},1fr)'>{cells}</div></div><figcaption>{name}<br>"
             f"{r['size']} · renk {r['color']} · netlik {r['sharp']} · düz {r['flat']}<br>"
             f"<span>{'geçti' if ok else ', '.join(r['why'])}</span></figcaption></figure>")
     page = f"""<!doctype html><meta charset=utf-8><title>Kalite taraması</title>
