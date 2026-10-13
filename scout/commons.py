@@ -11,7 +11,7 @@ API = "https://commons.wikimedia.org/w/api.php"
 AGENCIES = ["PD-USGov-NPS", "PD-USGov-FWS", "PD-USGov-NOAA", "PD-USGov-USGS",
             "PD-USGov-USDA-FS", "PD-USGov-BLM"]
 PICKED = ["Quality_images", "Featured_pictures_on_Wikimedia_Commons", "Valued_images"]
-PER_QUERY = 15
+PER_QUERY = 40
 LIMIT = 150
 # Kişilik hakkı / marka uyarısı olanlar alınmaz.
 BAD_RESTRICTIONS = {"personality", "trademarked", "insignia"}
@@ -81,12 +81,12 @@ for k, c in enumerate(cands):
         print("okunamadı", c["title"], e); os.remove(path); continue
     # Ölçü orijinal boyuta göre; indirilen kopya küçültülmüş olabilir.
     r["width"] = min(w, h * 2 // 3)
-    r["size"] = f"{w}x{h}"
     r["why"] = [x for x in r["why"] if x != "küçük"] + (["küçük"] if r["width"] < quality.MIN_WIDTH else [])
     # Sayfa için küçük kopya yeter (depoyu şişirmesin).
     subprocess.run(["sips", "-Z", "600", path], capture_output=True)
-    r["file"] = path
     r.update(c)
+    r["file"] = path
+    r["size"] = f"{w}x{h}"
     results.append(r)
     print(f"{k:03} {'GEÇTİ' if not r['why'] else ','.join(r['why']):20} {c['title'][:70]}", flush=True)
     time.sleep(0.5)
