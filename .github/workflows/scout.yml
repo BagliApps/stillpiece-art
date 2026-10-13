@@ -16,10 +16,17 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install pillow
-      - run: python3 scout/nps.py
-      - if: always()
-        run: |
+      - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898733+github-actions[bot]@users.noreply.github.com"
+      # Ara kayıt: tarama sürerken 5 dakikada bir sonuçlar dala itilir.
+      - run: |
+          (while sleep 300; do
+            git add scout/out && git commit -qm "NPS taraması ara kayıt" && git pull -q --rebase --autostash && git push -q
+          done) &
+          python3 scout/nps.py
+      - if: always()
+        run: |
           git add scout/out
-          git commit -m "NPS taraması sonuçları" && git pull --rebase && git push
+          git commit -m "NPS taraması sonuçları" || true
+          git pull --rebase --autostash && git push

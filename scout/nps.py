@@ -2,7 +2,8 @@
 # park adları ve konular, sorgu başına 40, en az 2600 px. Önceki turlarda
 # görülenler ve kataloğa girenler (scout/skip.txt) atlanır. Kolay seviye için
 # desensiz eşiği gevşek: düz alan 0.50'ye kadar elenmez, "kolay" işaretlenir.
-# Sonuç scout/out/nps/results.json (dal bu arada ilerlese de iş sonunda commit'lenir).
+# Sonuç scout/out/nps/results.json; workflow 5 dakikada bir dala commit'ler, yeniden
+# başlayan tarama orada olanları atlar.
 import json, os, re, subprocess, sys, time, urllib.parse, urllib.request
 from concurrent.futures import ProcessPoolExecutor
 sys.path.insert(0, "tool")
@@ -145,9 +146,19 @@ def main():
     print("elenen", drop, flush=True)
     print("aday", len(cands), flush=True)
 
+    # Yarıda kalan bir turun sonuçları dalda durur; bakılanlar yeniden indirilmez.
+    path = f"{OUT}/results.json"
+    done = json.load(open(path)) if os.path.exists(path) else []
+    have = {r["title"] for r in done}
+    k = max((int(r["file"][-7:-4]) for r in done), default=-1)
+    print("önceki kayıttan", len(done), flush=True)
+
     results, jobs = [], []
     with ProcessPoolExecutor(3) as pool:
-        for k, c in enumerate(cands):
+        for c in cands:
+            if c["title"] in have:
+                continue
+            k += 1
             thumb = c.pop("thumb")
             data = thumb and get(thumb, raw=True, tries=2)
             if not data:
@@ -157,9 +168,9 @@ def main():
             jobs.append(pool.submit(score, c))
             if k % 25 == 24:
                 print("indirilen", k + 1, flush=True)
-                save([j.result() for j in jobs if j.done()])
+                save(done + [j.result() for j in jobs if j.done()])
             time.sleep(0.2)
-        results = [r for r in (j.result() for j in jobs) if r]
+        results = done + [r for r in (j.result() for j in jobs) if r]
 
     save(results)
     ok = [r for r in results if not r["why"]]
