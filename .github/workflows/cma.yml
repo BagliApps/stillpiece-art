@@ -1,0 +1,31 @@
+# Geçici: Cleveland adaylarını puanlar, sonuçları bu dala ekler. main'de yok.
+name: Cleveland taraması
+on:
+  push:
+    branches: [met-scout]
+    paths: [scout/cma/scout.py]
+permissions:
+  contents: write
+jobs:
+  scout:
+    runs-on: macos-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898733+github-actions[bot]@users.noreply.github.com"
+      # Ara kayıt: 5 dakikada bir yalnızca results.json dala itilir. Dal arada
+      # ilerlemişse üstüne konur (yazım os.replace ile, yarım dosya olmaz).
+      - run: |
+          save() {
+            cp scout/cma/results.json /tmp/r.json || return 0
+            git fetch -q origin met-scout && git reset -q --hard origin/met-scout
+            cp /tmp/r.json scout/cma/results.json
+            git add scout/cma/results.json
+            git commit -qm "$1" && git push -q
+          }
+          (while sleep 300; do save "Cleveland taraması ara kayıt"; done) &
+          python3 scout/cma/scout.py
+          kill %1 || true
+          save "Cleveland taraması sonuçları"
