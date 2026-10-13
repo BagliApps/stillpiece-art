@@ -305,3 +305,53 @@ cma:171219	beefeater	tablo	0.5	Kule Muhafızı	London Types: Beef-eater	orta	0.0
 cma:132620	orange_lily	tablo	0.5	Turuncu Zambak	Orange Lily	kolay	
 cma:171490	scheherazade	tablo	0.5	Şehrazat	Scheherazade	zor	0.032,0.019,0.069,0.096
 cma:136366	woman_in_green	tablo	0.5	Yeşilli Kadın	Woman in Green	orta	0.125,0.073,0.125,0.093
+cma:148501	andalusia_moors	tablo	0.5	Mağribiler Zamanında Endülüs	Andalusia at the Time of the Moors	zor	0.02,0.029,0.072,0.036
+cma:79015	queen_wilhelmina	tablo	0.5	Kraliçe Wilhelmina	Queen Wilhelmina	orta	0.08,0.076,0.083,0.069
+cma:79407	cytisus_foxglove	tablo	0.5	Sarı Salkım ve Yüksükotu	Cytises et Digitales	uzman	0.035,0.036,0.035,0.036
+cma:168963	the_cabriolet	tablo	0.5	Fayton	The Cabriolet	orta	0.039,0.039,0.036,0.046
+cma:171428	alphonse_price	tablo	0.5	Alphonse	Alphonse	orta	0.05,0.043,0.039,0.066
+cma:104985	la_goulue_moulin_rouge	tablo	0.5	Moulin Rouge'da La Goulue	At the Moulin Rouge: La Goulue and Her Sister	orta	0.135,0.103,0.139,0.126
+cma:118870	peonies_urushibara	tablo	0.5	Şakayıklar	Peonies	orta	0.069,0.049,0.069,0.059
+cma:128459	beach_at_sumiyoshi	tablo	0.5	Sumiyoşi Kıyısı	The Beach at Sumiyoshi	uzman	0.014,0.013,0.014,0.013
+cma:140476	paulownias_chrysanthemums	tablo	0.5	Pavlonyalar ve Kasımpatılar	Paulownias and Chrysanthemums	zor	0.049,0.048,0.056,0.02
+cma:299513	bucket_puppet_lady	tablo	0.5	Kovadan Kukla	A Puppet Made from a Bucket	uzman	0.076,0.069,0.076,0.009
+cma:123465	sakurai_new_room_left	tablo	0.5	Sakurai'deki Büyük Oda I	The Large New Room at Sakurai I	uzman	0,0.023,0.039,0.026
+cma:130358	amida_raigo	tablo	0.5	Amida'nın İnişi	Welcoming Descent of Amida (Amida Raigō)	zor	0,0.019,0,0.016
+cma:123141	pleasure_quarter_viewing_left	tablo	0.5	Eğlence Mahallesinde Seyir I	Viewing in the Pleasure Quarters I	zor	0,0.023,0.034,0.023
+cma:123140	pleasure_quarter_viewing_center	tablo	0.5	Eğlence Mahallesinde Seyir II	Viewing in the Pleasure Quarters II	uzman	
+cma:95410	ukiyo_matahei_left	tablo	0.5	Ukiyo Matahei'nin Resimleri I	Ukiyo Matahei and His Famous Paintings I	uzman	0.016,0.016,0.016,0.013
+cma:304484	aizen_myoo	tablo	0.5	Aizen Myōō	Aizen Myōō	orta	0.147,0.106,0.044,0.126
+cma:123463	sakurai_new_room_right	tablo	0.5	Sakurai'deki Büyük Oda II	The Large New Room at Sakurai II	uzman	0.039,0.026,0,0.023
+cma:123111	courtesan_kimono_rack	tablo	0.5	Kimono Askısının Yanında	Courtesan Beside Kimono Rack	zor	0.03,0.019,0.025,0.019
+cma:95412	hanamurasaki_mallow	tablo	0.5	Ebegümeci Arasında Hanamurasaki	The Courtesan Hanamurasaki of the Tsuchiya	orta	0.021,0.016,0.021,0.016
+cma:152494	evening_glow_seta	tablo	0.5	Seta'da Akşam Kızıllığı	Evening Glow at Seta	orta	0.084,0.076,0.065,0.046
+cma:95409	ukiyo_matahei_right	tablo	0.5	Ukiyo Matahei'nin Resimleri II	Ukiyo Matahei and His Famous Paintings II	zor	0.044,0.013,0.015,0.016
+cma:95378	hinaogi_kadomachi	tablo	0.5	Kadomaçi Girişinde Hinaogi	The Courtesan Hinaogi at Kadomachi	orta	0.02,0.019,0.02,0.023
+cma:118814	courtesans_in_rain	tablo	0.5	Yağmurda Gezinti	Courtesans Promenading in the Rain	zor	0.016,0.019,0,0.023
+cma:122836	futamigaura_bay	tablo	0.5	Futamigaura Koyu	Splendid View at Futamigaura Bay	zor	0,0.016,0.016,0.013
+cma:126700	eizan_beauty	tablo	0.5	Eizan'dan Bir Güzel	Beauty	uzman	0.045,0.029,0.035,0.029
+cma:152499	moon_viewing_promontory	tablo	0.5	Ay Seyri Burnu	The Moon-Viewing Promontory	uzman	0.021,0.016,0.021,0.016
+cma:152398	tokaido_numazu	tablo	0.5	Tokaido: Numazu	Tokaido: Numazu	orta	0.042,0.106,0.096,0.059
+cma:119913	woman_combing_hair	tablo	0.5	Saçını Tarayan Kadın	Woman Combing Her Hair	orta	0.052,0.056,0.057,0.063
+cma:152397	tokaido_hara	tablo	0.5	Tokaido: Hara	Tokaido: Hara	orta	0.083,0.109,0.042,0.056
+cma:123046	carp_water_weeds	tablo	0.5	Su Otları Arasında Sazan	Carp Swimming by Water Weeds	orta	0.046,0.039,0.046,0
+cma:148355	kabuki_battle	tablo	0.5	Kabuki Düellosu	Kabuki Actors Battling	zor	0.021,0.016,0.021,0.016
+cma:111666	balcony_nakasu	tablo	0.5	Nakasu'da Balkon Eğlencesi	Entertainment on a Balcony at Nakasu	orta	0,0.016,0.03,0.016
+cma:119915	chozan_blinds	tablo	0.5	Perdeler Önünde Çōzan	Chōzan of Chōjiya	zor	0.044,0.033,0.039,0.033
+cma:152497	miho_pine_groves	tablo	0.5	Miho'nun Çam Koruları	Pine Groves of Miho in Suruga	kolay	0.065,0.049,0.06,0.043
+cma:135310	two_poplars_alpilles	tablo	0.5	Alpilles'de İki Kavak	Two Poplars in the Alpilles near Saint-Rémy	uzman	
+cma:115067	vase_of_flowers_redon	tablo	0.5	Çiçekli Vazo	Vase of Flowers	uzman	
+cma:115405	pigeon_tower_bellevue	tablo	0.5	Bellevue'de Güvercinlik	The Pigeon Tower at Bellevue	orta	
+cma:135185	mount_sainte_victoire	tablo	0.5	Sainte-Victoire Dağı	Mount Sainte-Victoire	orta	
+cma:84662	orange_christ	tablo	0.5	Turuncu İsa	The Orange Christ	usta	
+cma:95277	combat_for_colors	tablo	0.5	Sancak Mücadelesi	Combat for the Colors	orta	
+cma:118792	the_letter_hofer	tablo	0.5	Mektup	The Letter	kolay	0,0.016,0.084,0.016
+cma:84371	the_pink_cloud	tablo	0.5	Pembe Bulut	The Pink Cloud	usta	
+cma:142659	cliffs_beg_ar_fry	tablo	0.5	Beg-ar-Fry Kayalıkları	The Cliffs at Beg-ar-Fry, Saint-Jean-du-Doigt	zor	
+cma:169767	canal_in_autumn	tablo	0.5	Sonbaharda Kanal	Canal in Autumn (Gisors)	uzman	
+cma:150078	italian_scene	tablo	0.5	İtalyan Sahnesi	Italian Scene	kolay	
+cma:139814	banks_of_the_marne	tablo	0.5	Marne Kıyısı	The Banks of the Marne at Charenton	zor	
+cma:150694	sylvia_gosse	tablo	0.5	Sylvia Gosse	Sylvia Gosse	zor	
+cma:75763	procession_perros_guirec	tablo	0.5	Perros-Guirec'te Alay	Procession or Pardon at Perros-Guirec	zor	
+cma:715339	still_life_blanchard	tablo	0.5	Natürmort	Still Life	uzman	
+cma:135480	the_apple_seller	tablo	0.5	Elma Satıcısı	The Apple Seller	zor	
