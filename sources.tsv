@@ -1,11 +1,12 @@
 # Eser listesi. Sütunlar sekmeyle ayrılır:
 # kaynak  slug  kategori  odak_x  ad_tr  [ad_en]  [seviye]  [kenar]
-# kaynak: cma:<Cleveland Museum of Art eser no> (CC0 tablo) ya da
-# commons:<Wikimedia Commons dosya adı> (ABD federal kurumu fotoğrafı).
+# kaynak: cma:<Cleveland Museum of Art eser no> (CC0 tablo),
+# commons:<Wikimedia Commons dosya adı> (ABD federal kurumu fotoğrafı) ya da
+# loc:<Library of Congress kayıt no> (FSA/OWI renkli fotoğraf, 1939-1945).
 # slug değişmez (uygulamadaki kayıtlar ona bağlı); kaldırılan eserin slug'ı
 # başka esere verilmez. ad_en boşsa kaynaktaki ad.
 # seviye boşsa ölçülerek verilir (baslangic, kolay, ... efsane).
-# kategori: doga, deniz, hayvan, tablo. odak_x: yatay eser 2:3 kırpılırken
+# kategori: doga, deniz, hayvan, tablo, eski. odak_x: yatay eser 2:3 kırpılırken
 # yatayda nereye odaklanılsın (0 sol, 0.5 orta, 1 sağ).
 # kenar: tablonun çevresindeki düz kâğıt/paspartu/bordür, oranla
 # "sol,üst,sağ,alt"; 2:3 kırpmadan önce kesilir (tool/trim.py bulur).
@@ -441,3 +442,4 @@ cma:155431	master_yeongwoldang	tablo	0.5	Büyük Usta Yeongwoldang	Great Master 
 cma:160860	cho_jae_ho	tablo	0.5	Cho Jae-ho	Cho Jae-ho from Punhyang Cho Family	baslangic	0.023,0,0,0
 cma:374816	korean_official	tablo	0.5	Devlet Görevlisi Portresi	Portrait of a Government Official	orta	
 cma:535124	twelve_apostles_diptych	tablo	0.5	On İki Havari	Diptych with Twelve Apostles & St. Paul	zor	0.046,0.049,0.049,0.017
+loc:2017877441	skyline_cornshocks	eski	0.5	Dağ Çiftliğinde Mısır Demetleri	Cornshocks on a Mountain Farm	baslangic	0.048,0.066,0.05,0.059

@@ -1,6 +1,7 @@
 """Stillpiece eser deposunu kurar: sources.tsv'deki tabloları Cleveland Museum
 of Art açık arşivinden (CC0), fotoğrafları Wikimedia Commons'tan (ABD federal
-kurumlarının kamu malı işleri) indirir, 2:3 kırpar, ölçer, seviyelere dağıtır
+kurumlarının kamu malı işleri) ve Library of Congress'in FSA/OWI renkli
+koleksiyonundan (federal, kısıtlamasız) indirir, 2:3 kırpar, ölçer, seviyelere dağıtır
 ve catalog.json'u yazar. Yalnızca eksik görselleri indirir; var olanların
 seviyesi değişmez.
 
@@ -23,10 +24,15 @@ LEVELS = ["baslangic", "kolay", "orta", "zor", "uzman", "usta", "buyukUsta", "ef
 # Küçük seviyelerde ~1000 px yeter; büyüklerde 1686 (uygulamanın en büyük
 # yapbozu için yeterli, dosyalar küçük kalır).
 WIDTH = {l: 1000 if i < 4 else 1686 for i, l in enumerate(LEVELS)}
+# LoC taramaları çok büyük (~7800 px): en büyük iki seviyede parçalar
+# yakınlaşınca da keskin kalsın diye 2400 (uygulama 3600 px yüksekliğe kadar
+# açar). Öbür kaynaklara dokunulmaz, var olan eserler yeniden kurulmaz.
+LOC_WIDTH = dict(WIDTH, buyukUsta=2400, efsane=2400)
 THUMB_WIDTH = 300
-CATEGORIES = {"doga", "deniz", "hayvan", "tablo"}
+CATEGORIES = {"doga", "deniz", "hayvan", "tablo", "eski"}
 CMA = "https://openaccess-api.clevelandart.org/api/artworks"
 COMMONS = "https://commons.wikimedia.org"
+LOC = "https://www.loc.gov/pictures/item"
 # Kamu malı sayılan Commons şablonları ve künyede yazılacak kurum adı.
 AGENCIES = {
     "PD-USGov-NPS": "National Park Service",
@@ -57,15 +63,19 @@ def read_sources():
         level = p[6] if len(p) > 6 and p[6] else None
         if level and level not in LEVELS:
             sys.exit(f"HATA: bilinmeyen seviye {level} ({p[1]})")
+        loc = None
         if p[0].startswith("commons:"):
             commons, cma = p[0][len("commons:"):], 0
         elif p[0].startswith("cma:"):
             commons, cma = None, int(p[0][len("cma:"):])
+        elif p[0].startswith("loc:"):
+            commons, cma, loc = None, 0, p[0][len("loc:"):]
         else:
             sys.exit(f"HATA: bilinmeyen kaynak {p[0]} ({p[1]})")
         rows.append({
             "cmaId": cma,
             "file": commons,
+            "loc": loc,
             "slug": p[1],
             "category": p[2],
             "focusX": float(p[3]),
@@ -89,6 +99,38 @@ def read_cleveland(ids):
         except RuntimeError as e:
             print(f"  {e}")
     return found
+
+
+def read_loc(ids):
+    """LoC kayıtları: hak notu, fotoğrafçı ve özgün TIFF (~150 MB)."""
+    found = {}
+    for i in ids:
+        try:
+            found[i] = json.loads(get(f"{LOC}/{i}/?fo=json"))
+        except RuntimeError as e:
+            print(f"  {e}")
+    return found
+
+
+def fetch_loc(url, focus_x, trim):
+    """Özgün TIFF'i indirir, film çerçevesini keser, 2:3 kırpar, 2400
+    genişliğe indirir."""
+    img = Image.open(io.BytesIO(get(url))).convert("RGB")
+    w, h = img.size
+    l, t, r, b = trim
+    img = img.crop((round(w * l), round(h * t), round(w * (1 - r)), round(h * (1 - b))))
+    w, h = img.size
+    if w * 3 > h * 2:
+        cw = h * 2 // 3
+        x = int((w - cw) * focus_x)
+        img = img.crop((x, 0, x + cw, h))
+    else:
+        ch = w * 3 // 2
+        y = (h - ch) // 2
+        img = img.crop((0, y, w, y + ch))
+    if img.size[0] > 2400:
+        img = img.resize((2400, round(img.size[1] * 2400 / img.size[0])), Image.LANCZOS)
+    return to_ratio(img)
 
 
 def get(url):
@@ -240,7 +282,8 @@ def main():
     if len(sys.argv) != 1:
         sys.exit(__doc__)
     sources = read_sources()
-    museum = read_cleveland([s["cmaId"] for s in sources if not s["file"]])
+    museum = read_cleveland([s["cmaId"] for s in sources if s["cmaId"]])
+    library = read_loc([s["loc"] for s in sources if s["loc"]])
     commons = read_commons([s["file"] for s in sources if s["file"]])
 
     # Kamu malı denetimi: biri bile geçmezse hiçbir şey yazılmaz.
@@ -254,6 +297,16 @@ def main():
                 print(f"HATA:  {s['slug']} ABD federal kamu malı değil ({c['license']})"); bad += 1
             elif c["restrictions"] & BAD_RESTRICTIONS:
                 print(f"HATA:  {s['slug']} kısıtlı: {c['restrictions']}"); bad += 1
+            continue
+        if s["loc"]:
+            d = library.get(s["loc"])
+            res = (d or {}).get("resources") or [{}]
+            if d is None:
+                print(f"HATA:  {s['slug']} ({s['loc']}) LoC'de kayıt yok"); bad += 1
+            elif d["item"].get("rights_information") != "No known restrictions on publication.":
+                print(f"HATA:  {s['slug']} kısıtlı: {d['item'].get('rights_information')}"); bad += 1
+            elif res[0].get("aggregate") != "fsac" or not (res[0].get("larger") or "").endswith(".tif"):
+                print(f"HATA:  {s['slug']} FSA/OWI renkli TIFF'i yok"); bad += 1
             continue
         d = museum.get(s["cmaId"])
         if d is None:
@@ -286,6 +339,21 @@ def main():
                 "source": "commons",
                 "imageId": s["file"],
             }
+        elif s["loc"]:
+            d = library[s["loc"]]
+            # "Lee, Russell, 1903-1986" → "Russell Lee"
+            name = ((d["item"].get("creators") or [{}])[0].get("title") or "").split(", ")
+            e = {
+                "slug": s["slug"],
+                "level": None,
+                "category": s["category"],
+                "title": s["title"],
+                "titleEn": s["titleEn"] or d["item"]["title"],
+                "artist": f"{name[1]} {name[0]}" if len(name) > 1 else "Farm Security Administration",
+                "source": "loc",
+                "locId": s["loc"],
+                "imageId": d["resources"][0]["larger"],
+            }
         else:
             d = museum[s["cmaId"]]
             # "Odilon Redon (French, 1840–1916)" → "Odilon Redon"
@@ -312,6 +380,8 @@ def main():
             if s["file"]:
                 c = commons[s["file"]]
                 img = fetch_commons(s["file"], c["width"], c["height"], s["focusX"])
+            elif s["loc"]:
+                img = fetch_loc(e["imageId"], s["focusX"], s["trim"])
             else:
                 img = fetch_cleveland(e["imageId"], s["focusX"], s["trim"])
             e["bright"], e["detail"] = measure(img)
@@ -332,7 +402,7 @@ def main():
         if master is None:
             continue
         img = Image.open(master).convert("RGB")
-        width = min(WIDTH[e["level"]], img.size[0])
+        width = min((LOC_WIDTH if e["source"] == "loc" else WIDTH)[e["level"]], img.size[0])
         data = save_jpeg(img, width, f"art/{e['slug']}.jpg", 86)
         thumb = save_jpeg(img, THUMB_WIDTH, f"thumb/{e['slug']}.jpg", 80)
         e["sha256"], e["bytes"], e["thumbSha256"] = sha(data), len(data), sha(thumb)
