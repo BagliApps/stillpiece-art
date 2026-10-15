@@ -452,3 +452,53 @@ loc:2017877681	bean_factory_crane	eski	0.5	Fasulye Fabrikasının Vinci	Bean Fac
 loc:2017877597	walla_walla_wheat	eski	0.5	Walla Walla'da Buğday Çiftliği	Wheat Farm, Walla Walla	baslangic	0.048,0.069,0.05,0.055
 loc:2017878213	etna_blast_furnace	eski	0.5	Yüksek Fırın	Blast Furnace	kolay	0.08,0.072,0.073,0.18
 loc:2017878212	etna_ore_piles	eski	0.5	Demir Cevheri Yığınları	Iron Ore Piles and Blast Furnaces	kolay	0.053,0.076,0.062,0.178
+loc:2017878070	red_caboose	eski	0.5	Kırmızı Vagon	Red Caboose	kolay	0.068,0.065,0.05,0.088
+loc:2017877419	skyline_field	eski	0.5	Skyline Yolunda Bir Tarla	Field along Skyline Drive	kolay	0.048,0.059,0.05,0.059
+loc:2017878834	sulphur_crane	eski	0.5	Kükürt Ocağında Vinç	Crane at the Sulphur Vat	kolay	0.062,0.078,0.065,0.091
+loc:2017877975	shasta_dam	eski	0.5	Shasta Barajı İnşaatı	Shasta Dam under Construction	kolay	0.057,0.078,0.05,0.075
+loc:2017878711	questa_store	eski	0.5	Questa Yakınında Dükkân	General Store near Questa	kolay	0.06,0.061,0.042,0.073
+loc:2017878778	yellow_patrol_plane	eski	0.5	Sarı Devriye Uçağı	Yellow Patrol Plane	kolay	0.062,0.085,0.048,0.075
+loc:2017877675	bean_field	eski	0.5	Fasulye Tarlası	Bean Field	kolay	0.05,0.076,0.057,0.076
+loc:2017878714	la_alama	eski	0.5	La Alama Köyü	La Alama, New Mexico	kolay	0.06,0.082,0.045,0.177
+loc:2017877382	farm_auction	eski	0.5	Çiftlik Mezadı	Farm Auction	kolay	0.05,0.059,0.035,0.038
+loc:2017878302	metal_tubing	eski	0.5	Metal Borular	Metal Tubing	kolay	0.18,0.179,0.18,0.179
+loc:2017877582	emmett_road	eski	0.5	Tepelerden Geçen Yol	Road Cut into the Hills	orta	0.083,0.138,0.1,0.154
+loc:2017877445	mountain_farm_field	eski	0.5	Dağ Çiftliğinin Tarlası	Field of a Mountain Farm	orta	0.05,0.066,0.053,0.062
+loc:2017877465	levee_home	eski	0.5	Set Kenarında Bir Ev	House by the Levee	orta	0.042,0.066,0.033,0.038
+loc:2017877807	yauco_tomatoes	eski	0.5	Domates Sepetleri	Baskets of Tomatoes	orta	0.053,0.087,0.05,0.18
+loc:2017877743	llano_church	eski	0.5	Llano de San Juan Kilisesi	Church at Llano de San Juan	orta	0.072,0.091,0.048,0.075
+loc:2017877897	prince_street	eski	0.5	Prince Sokağı	Prince Street, Christiansted	orta	0.048,0.055,0.05,0.052
+loc:2017877845	christiansted_waterfront	eski	0.5	Christiansted Rıhtımı	Waterfront, Christiansted	orta	0.042,0.055,0.045,0.062
+loc:2017878848	steel_mill_scaffold	eski	0.5	Çelik Fabrikası İnşaatı	Building a Steel Mill	orta	0.065,0.082,0.05,0.076
+loc:2017878844	open_hearth_stacks	eski	0.5	Ocak Bacaları	Open Hearth Stacks	orta	0.055,0.082,0.055,0.1
+loc:2017878568	pennsylvania_wheat	eski	0.5	Buğday Demetleri	Wheat, Pennsylvania	orta	0.057,0.07,0.045,0.082
+loc:2017878207	hulett_unloader	eski	0.5	Cevher Boşaltıcı	Hulett Ore Unloader	orta	0.095,0.057,0.18,0.18
+loc:2017877843	st_croix_coast	eski	0.5	St. Croix Kıyısı	Coast of Saint Croix	orta	0.048,0.059,0.05,0.059
+loc:2017877856	christiansted_church	eski	0.5	Christiansted Kilisesi	Church in Christiansted	zor	0.056,0.048,0.056,0.115
+loc:2017878781	patrol_hangar	eski	0.5	Hangar	Patrol Hangar, Bar Harbor	zor	0.06,0.079,0.053,0.073
+loc:2017878349	governors_palace	eski	0.5	Vali Konağı, Williamsburg	Governor's Palace, Williamsburg	zor	0.053,0.078,0.05,0.078
+loc:2017878594	pompey_farm	eski	0.5	Çiftlikte Traktör	Tractor on the Farm	zor	0.053,0.078,0.072,0.068
+loc:2017877851	christiansted_street	eski	0.5	Christiansted'de Bir Sokak	Street in Christiansted	zor	0.048,0.07,0.147,0.059
+loc:2017878797	gravelly_range_sheep	eski	0.5	Black Butte Eteğinde Koyunlar	Sheep below Black Butte	zor	0.062,0.078,0.07,0.091
+loc:2017877755	pie_town_garden	eski	0.5	Pie Town'da Bir Bahçe	Garden in Pie Town	zor	0.062,0.068,0.098,0.094
+loc:2017877971	washington_storefronts	eski	0.5	Dükkânlar	Storefronts, Washington	uzman	0.07,0.096,0.042,0.05
+loc:2017877516	eroded_bank	eski	0.5	Aşınmış Toprak	Eroded Land, Greene County	uzman	0.077,0.088,0.055,0.081
+loc:2017877523	white_plains_cabin	eski	0.5	Kütük Ev	Log House near White Plains	uzman	0.158,0.1,0.05,0.074
+loc:2017877696	pie_town_barn	eski	0.5	Ahır	Barn in Pie Town	uzman	0.05,0.066,0.053,0.062
+loc:2017877873	clock_tower	eski	0.5	Saat Kulesi	Clock Tower	uzman	0.063,0.053,0.052,0.048
+loc:2017878891	canned_food	eski	0.5	Kavanozlar	Home-Canned Food	uzman	0.091,0.068,0.091,0.065
+loc:2017877968	washington_house	eski	0.5	Sonbaharda Bir Ev	House in Autumn	uzman	0.055,0.057,0.065,0.067
+loc:2017878147	orange_dumper	eski	0.5	Portakal Fabrikası	Orange Packing Plant	usta	0.083,0.107,0.048,0.149
+loc:2017877455	tennessee_cornfield	eski	0.5	Mısır Ekimi	Planting Corn, Tennessee	usta	0.0,0.0,0.0,0.0
+loc:2017877719	pie_town_corn	eski	0.5	Mısır Toplama	Gathering Corn	usta	0.045,0.055,0.053,0.059
+loc:2017877668	muskogee_wheat	eski	0.5	Buğday Başakları	Wheat near Muskogee	usta	0.155,0.055,0.053,0.059
+loc:2017877893	sugar_cane_country	eski	0.5	Şeker Kamışı Diyarı	Sugar Cane Country	usta	0.06,0.081,0.053,0.071
+loc:2017877883	frederiksted_street	eski	0.5	Ada Sokağı	Street in Christiansted, St. Croix	usta	0.049,0.045,0.063,0.048
+loc:2017877878	frederiksted_fort	eski	0.5	Eski Kalede	In the Old Fort, Frederiksted	usta	0.07,0.058,0.18,0.065
+loc:2017878152	drying_oranges	eski	0.5	Kuruyan Portakallar	Drying Oranges	buyukUsta	0.075,0.107,0.057,0.13
+loc:2017877695	pie_town_station	eski	0.5	Benzin İstasyonu	Filling Station, Pie Town	buyukUsta	0.033,0.0,0.0,0.027
+loc:2017877457	copper_basin	eski	0.5	Bakır Havzası	Copper Basin, Tennessee	buyukUsta	0.18,0.059,0.055,0.056
+loc:2017877929	eroded_land	eski	0.5	Aşınmış Yamaç	Eroded Hillside	buyukUsta	0.062,0.048,0.062,0.045
+loc:2017878569	vermont_wildflowers	eski	0.5	Kır Çiçekleri	Field of Wildflowers	buyukUsta	0.06,0.079,0.055,0.079
+loc:2017878223	electric_furnace	eski	0.5	Akan Çelik	Steel from an Electric Furnace	buyukUsta	0.035,0.054,0.04,0.048
+loc:2017877627	camp_bird_mill	eski	0.5	Camp Bird Madeni	Mill at the Camp Bird Mine	buyukUsta	0.0,0.0,0.0,0.0
