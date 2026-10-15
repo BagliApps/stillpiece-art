@@ -1,0 +1,23 @@
+# Geçici: LoC FSA/OWI renkli koleksiyonunu listeler, list.json'u bu dala ekler. main'de yok.
+name: LoC listesi
+on:
+  push:
+    branches: [met-scout]
+    paths: [scout/loc/list.py]
+permissions:
+  contents: write
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898733+github-actions[bot]@users.noreply.github.com"
+      - run: python3 scout/loc/list.py
+      - if: always()
+        run: |
+          git add scout/loc/list.json
+          git commit -m "LoC listesi" || true
+          git pull --rebase --autostash && git push
