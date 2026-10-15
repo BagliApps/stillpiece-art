@@ -1,0 +1,1848 @@
+{
+ "https://www.loc.gov/pictures/item/2017877582/?fo=json": {
+  "reproductions": "<p>If an image is displaying, you can download it yourself. (Some images \ndisplay only as thumbnails outside the Library of Congress because of rights \nconsiderations, but you have access to larger size images on site.)\n</p>\n\n<p>  \nAlternatively, you can purchase copies of various types through Library \nof Congress Duplication Services</a>.\n</p>\n\n<p> \n<ol>\n<p>\n<li><strong>If a digital image is displaying:</strong> The qualities of the digital image \npartially depend on whether it was made from the original or an \nintermediate such as a copy negative or transparency. If the Reproduction \nNumber field above includes a reproduction number that starts with \nLC-DIG..., then there is a digital image that was made directly \nfrom the original and is of sufficient resolution for most publication\n purposes.\n</li> \n</p>\n\n<li><strong>If there is information listed in the Reproduction Number field above:</strong> \nYou can use the reproduction number to purchase a copy from Duplication \nServices.  It will be made from the source listed in the parentheses after\n the number.  \n<p> \nIf only black-and-white (&quot;b&w&quot;) sources are listed and you \n desire a copy showing color or tint (assuming the original has any), \n you can generally purchase a quality copy of the original in color by \n citing the Call Number listed above and including the catalog record \n (&quot;About This Item&quot;) with your request.\n </p>\n</li>\n\n<li><strong>If there is no information listed in the Reproduction Number field \nabove:</strong> You can generally purchase a quality copy through \nDuplication Services. Cite the Call Number listed above and include the catalog record (&quot;About This Item&quot;) with \n your request.\n</li>\n</ol>\n</p>\n\n<p> \nPrice lists, contact information, and order forms are available on the\n <a href=\"https://www.loc.gov/duplicationservices/\">Duplication Services Web site</a>.  \n</p>\n\n\n\n",
+  "item": {
+   "source_created": "1985-01-01T00:00:00Z",
+   "restriction": "",
+   "other_number": "",
+   "resource_links": [
+    "https://hdl.loc.gov/loc.pnp/fsac.1a34210"
+   ],
+   "title": "Road cut into the barren hills which lead into Emmett, Idaho",
+   "related_items": [],
+   "medium_brief": "1 transparency :",
+   "service_medium": "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34210r.jpg",
+   "collections": [
+    {
+     "code": "fsac",
+     "link": "https://www.loc.gov/pictures/collection/fsac/",
+     "title": "Farm Security Administration/Office of War Information Color Photographs"
+    }
+   ],
+   "part_of_group": null,
+   "stmt_of_responsibility": "",
+   "other_titles": "",
+   "link": "https://www.loc.gov/pictures/item/2017877582/",
+   "other_control_numbers": [
+    "19979501",
+    "fsa1992000243/PP"
+   ],
+   "notes": [
+    {
+     "note": "11671-15.",
+     "label": null
+    },
+    {
+     "note": "Transfer from U.S. Office of War Information, 1944.",
+     "label": null
+    },
+    {
+     "note": "General information about the FSA/OWI Color Photographs is available at http://hdl.loc.gov/loc.pnp/pp.fsac",
+     "label": null
+    },
+    {
+     "note": "Title from FSA or OWI agency caption.",
+     "label": null
+    },
+    {
+     "note": "Additional information about this photograph might be available through the Flickr Commons project at http://www.flickr.com/photos/library_of_congress/2178286587",
+     "label": null
+    }
+   ],
+   "modified": "2023-02-21T05:36:47Z",
+   "summary": "",
+   "formats": [
+    {
+     "link": "https://www.loc.gov/pictures/related/?fi=format&q=Transparencies--Color.",
+     "title": "Transparencies--Color."
+    }
+   ],
+   "marc": "https://www.loc.gov/pictures/item/2017877582/marc/",
+   "mediums": [
+    {
+     "medium": "1 transparency : color.",
+     "label": null
+    }
+   ],
+   "group_has_items": false,
+   "thumb_gallery": "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34210_150px.jpg",
+   "rights_information": "No known restrictions on publication.",
+   "display_offsite": true,
+   "related_names": [],
+   "created_published": "1941 July",
+   "title_translation": "",
+   "id": "2017877582",
+   "contents": "",
+   "raw_collections": [
+    "ammem",
+    "diof",
+    "flickrppoc",
+    "fsac",
+    "pp",
+    "srtg"
+   ],
+   "call_number": "LC-USF35-214 [P&P]",
+   "sort_date": "1939",
+   "subjects": [
+    {
+     "link": "https://www.loc.gov/pictures/related/?fi=subject&q=roads",
+     "title": "roads"
+    },
+    {
+     "link": "https://www.loc.gov/pictures/related/?fi=subject&q=United%20States--Idaho--Emmett",
+     "title": "United States--Idaho--Emmett"
+    }
+   ],
+   "source_modified": "2023-02-14T16:53:04Z",
+   "part_of": "Farm Security Administration - Office of War Information color slides and transparencies collection (Library of Congress)",
+   "terms": [],
+   "reproduction_number": "LC-DIG-fsac-1a34210 (digital file from original transparency)\nLC-USF351-214 (color film copy slide)",
+   "repository": "Library of Congress Prints and Photographs Division Washington, D.C. 20540 USA http://hdl.loc.gov/loc.pnp/pp.print",
+   "service_low": "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34210_150px.jpg",
+   "date": "1941 July",
+   "created": "2023-02-21T05:36:47Z",
+   "control_number": "2017877582",
+   "place": [
+    {
+     "latitude": "",
+     "link": "https://www.loc.gov/pictures/related/?fi=place&q=Idaho--Emmett",
+     "longitude": "",
+     "title": "Idaho--Emmett"
+    }
+   ],
+   "creators": [
+    {
+     "link": "https://www.loc.gov/pictures/related/?fi=name&q=Lee%2C%20Russell%2C%201903-1986",
+     "role": "photographer",
+     "title": "Lee, Russell, 1903-1986"
+    }
+   ],
+   "created_published_date": "1941 July"
+  },
+  "thesaurus_entry": null,
+  "resources": [
+   {
+    "note": "digital file from original transparency",
+    "medium": "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34210r.jpg",
+    "largest": "https://memory.loc.gov/pp/notdig.gif",
+    "largest_s": 0,
+    "url": "https://hdl.loc.gov/loc.pnp/fsac.1a34210",
+    "medium_s": 59308,
+    "small_s": 5848,
+    "large": "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34210v.jpg",
+    "item": "1a34210",
+    "larger_s": 150046428,
+    "large_s": 328434,
+    "external": null,
+    "larger": "https://tile.loc.gov/storage-services/master/pnp/fsac/1a34000/1a34200/1a34210u.tif",
+    "aggregate": "fsac",
+    "small": "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34210_150px.jpg",
+    "id": "fsac.1a34210",
+    "link": "https://www.loc.gov/pictures/resource/fsac.1a34210/"
+   }
+  ],
+  "links": {
+   "json": "https://www.loc.gov/pictures/item/2017877582/?fo=json",
+   "html": "https://www.loc.gov/pictures/item/2017877582/"
+  },
+  "related": {
+   "lot_link": null,
+   "neighbors": "https://www.loc.gov/pictures/related/?&pk=2017877582&st=gallery&sb=call_number#focus",
+   "survey_link": null,
+   "group_record": null
+  },
+  "unrestricted": true,
+  "collection": null
+ },
+ "https://www.loc.gov/item/2017877582/?fo=json": {
+  "articles_and_essays": [
+   {
+    "score": 6.926182,
+    "title": "Not Farewell: The Exploration and Discovery Continues",
+    "url": "https://blogs.loc.gov/teachers/2019/07/not-farewell-the-exploration-and-discovery-continues/"
+   }
+  ],
+  "cite_this": {
+   "apa": "Lee, R., photographer. (1941) <cite>Road cut into the barren hills which lead into Emmett, Idaho</cite>. United States Emmett Idaho, 1941. July. [Photograph] Retrieved from the Library of Congress, https://www.loc.gov/item/2017877582/.",
+   "chicago": "Lee, Russell, photographer. <cite>Road cut into the barren hills which lead into Emmett, Idaho</cite>. United States Emmett Idaho, 1941. July. Photograph. https://www.loc.gov/item/2017877582/.",
+   "mla": "Lee, Russell, photographer. <cite>Road cut into the barren hills which lead into Emmett, Idaho</cite>. July. Photograph. Retrieved from the Library of Congress, &lt;www.loc.gov/item/2017877582/&gt;."
+  },
+  "item": {
+   "_version_": 1758810663149371392,
+   "access_restricted": false,
+   "aka": [
+    "https://www.loc.gov/pictures/item/2017877582/",
+    "http://www.loc.gov/item/2017877582/",
+    "http://www.loc.gov/pictures/item/2017877582/",
+    "https://www.loc.gov/pictures/collection/fsac/item/2017877582/",
+    "http://www.loc.gov/pictures/collection/fsac/item/2017877582/",
+    "https://hdl.loc.gov/loc.pnp/fsac.1a34210",
+    "https://hdl.loc.gov/loc.pnp/fsac.1a34210",
+    "http://www.loc.gov/resource/fsac.1a34210/",
+    "http://lccn.loc.gov/2017877582"
+   ],
+   "call_number": "LC-USF35-214 [P&P]",
+   "campaigns": [],
+   "contributor_names": [
+    "Lee, Russell, 1903-1986, photographer"
+   ],
+   "contributors": [
+    {
+     "lee, russell": "https://www.loc.gov/search/?fa=contributor:lee,+russell&fo=json"
+    }
+   ],
+   "control_number": "",
+   "created": "2023-02-21T05:36:47Z",
+   "created_published": [
+    "1941 July"
+   ],
+   "created_published_date": "1941 July",
+   "date": "1939-01-01",
+   "dates": [
+    {
+     "1939": "https://www.loc.gov/search/?dates=1939/1939&fo=json"
+    }
+   ],
+   "description": [
+    "1 transparency : color."
+   ],
+   "digital_id": [
+    "fsac 1a34210 https://hdl.loc.gov/loc.pnp/fsac.1a34210"
+   ],
+   "digitized": true,
+   "display_offsite": true,
+   "extract_timestamp": "2023-02-25T13:24:40.660Z",
+   "extract_urls": [
+    "http://www.loc.gov/pictures/collection/fsac/item/2017877582/#fsac",
+    "http://lccn.loc.gov/2017877582#catalog-split-15"
+   ],
+   "format": [
+    {
+     "photo, print, drawing": "https://www.loc.gov/search/?fa=original_format:photo,+print,+drawing&fo=json"
+    }
+   ],
+   "format_headings": [
+    "Transparencies--Color."
+   ],
+   "genre": [
+    "Transparencies--Color"
+   ],
+   "group": [
+    "fsac",
+    "catalog-split-15",
+    "catalog",
+    "fsa-owi-color-photographs",
+    "main-catalog-split-15",
+    "main-catalog"
+   ],
+   "hassegments": false,
+   "id": "http://www.loc.gov/item/2017877582/",
+   "image_url": [
+    "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34210_150px.jpg#h=120&w=150",
+    "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34210t.gif#h=120&w=150",
+    "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34210r.jpg#h=513&w=640",
+    "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34210v.jpg#h=822&w=1024"
+   ],
+   "index": 1,
+   "item": {
+    "call_number": "LC-USF35-214 [P&P]",
+    "contributors": [
+     "Lee, Russell, 1903-1986, photographer"
+    ],
+    "control_number": "2017877582",
+    "created": "2023-02-21T05:36:47Z",
+    "created_published": "1941 July",
+    "created_published_date": "1941 July",
+    "creators": [
+     {
+      "link": "https://www.loc.gov/pictures/related/?fi=name&q=Lee%2C%20Russell%2C%201903-1986&co=fsac",
+      "role": "photographer",
+      "title": "Lee, Russell, 1903-1986"
+     }
+    ],
+    "date": "1941 July",
+    "digital_id": [
+     "fsac 1a34210 https://hdl.loc.gov/loc.pnp/fsac.1a34210"
+    ],
+    "display_offsite": true,
+    "format": [
+     "still image"
+    ],
+    "formats": [
+     {
+      "link": "https://www.loc.gov/pictures/related/?fi=format&q=Transparencies--Color.&co=fsac",
+      "title": "Transparencies--Color."
+     }
+    ],
+    "genre": [
+     "Transparencies--Color"
+    ],
+    "id": "2017877582",
+    "language": [
+     "eng"
+    ],
+    "link": "https://www.loc.gov/pictures/item/2017877582/",
+    "marc": "https://www.loc.gov/pictures/item/2017877582/marc/",
+    "medium": [
+     "1 transparency : color."
+    ],
+    "medium_brief": "1 transparency :",
+    "mediums": [
+     "1 transparency : color."
+    ],
+    "modified": "2023-02-21T05:36:47Z",
+    "notes": [
+     "11671-15.",
+     "Transfer from U.S. Office of War Information, 1944.",
+     "General information about the FSA/OWI Color Photographs is available at http://hdl.loc.gov/loc.pnp/pp.fsac",
+     "Title from FSA or OWI agency caption.",
+     "Additional information about this photograph might be available through the Flickr Commons project at http://www.flickr.com/photos/library_of_congress/2178286587"
+    ],
+    "number_former_id": [
+     "https://www.loc.gov/item/2017877582",
+     "https://www.loc.gov/item/fsa1992000243/PP"
+    ],
+    "other_control_numbers": [
+     "19979501",
+     "fsa1992000243/PP"
+    ],
+    "part_of": "Farm Security Administration - Office of War Information color slides and transparencies collection (Library of Congress)",
+    "place": [
+     {
+      "latitude": "",
+      "link": "https://www.loc.gov/pictures/related/?fi=place&q=Idaho--Emmett&co=fsac",
+      "longitude": "",
+      "title": "Idaho--Emmett"
+     }
+    ],
+    "raw_collections": [
+     "ammem",
+     "diof",
+     "flickrppoc",
+     "fsac",
+     "pp",
+     "srtg"
+    ],
+    "repository": "Library of Congress Prints and Photographs Division Washington, D.C. 20540 USA http://hdl.loc.gov/loc.pnp/pp.print",
+    "reproduction_number": "LC-DIG-fsac-1a34210 (digital file from original transparency)\nLC-USF351-214 (color film copy slide)",
+    "resource_links": [
+     "https://hdl.loc.gov/loc.pnp/fsac.1a34210"
+    ],
+    "rights_advisory": "No known restrictions on publication.",
+    "rights_information": "No known restrictions on publication.",
+    "service_low": "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34210_150px.jpg",
+    "service_medium": "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34210r.jpg",
+    "sort_date": "1939",
+    "source_collection": [
+     "Farm Security Administration - Office of War Information color slides and transparencies collection (Library of Congress)"
+    ],
+    "source_created": "1985-01-01T00:00:00Z",
+    "source_modified": "2023-02-14T16:53:04Z",
+    "subject_headings": [
+     "roads",
+     "United States--Idaho--Emmett",
+     "Idaho--Emmett"
+    ],
+    "subjects": [
+     "Roads",
+     "United States--Idaho--Emmett"
+    ],
+    "thumb_gallery": "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34210_150px.jpg",
+    "title": "Road cut into the barren hills which lead into Emmett, Idaho"
+   },
+   "language": [
+    "english"
+   ],
+   "languages": [
+    {
+     "english": "https://www.loc.gov/search/?fa=language:english&fo=json"
+    }
+   ],
+   "library_of_congress_control_number": "2017877582",
+   "link": "https://www.loc.gov/pictures/item/2017877582/",
+   "location": [
+    "united states",
+    "emmett",
+    "idaho"
+   ],
+   "location_city": [
+    "emmett"
+   ],
+   "location_country": [
+    "united states"
+   ],
+   "location_state": [
+    "idaho"
+   ],
+   "locations": [
+    {
+     "emmett": "https://www.loc.gov/search/?fa=location:emmett&fo=json"
+    },
+    {
+     "idaho": "https://www.loc.gov/search/?fa=location:idaho&fo=json"
+    },
+    {
+     "united states": "https://www.loc.gov/search/?fa=location:united+states&fo=json"
+    }
+   ],
+   "locations_city": [
+    {
+     "emmett": "https://www.loc.gov/search/?fa=location_city:emmett&fo=json"
+    }
+   ],
+   "locations_country": [
+    {
+     "united states": "https://www.loc.gov/search/?fa=location_country:united+states&fo=json"
+    }
+   ],
+   "locations_state": [
+    {
+     "idaho": "https://www.loc.gov/search/?fa=location_state:idaho&fo=json"
+    }
+   ],
+   "marc": "https://www.loc.gov/pictures/item/2017877582/marc/",
+   "medium": [
+    "1 transparency : color."
+   ],
+   "medium_brief": "1 transparency :",
+   "mime_type": [
+    "image/gif",
+    "image/jpg",
+    "image/tif"
+   ],
+   "modified": "2023-02-21T05:36:47Z",
+   "notes": [
+    "11671-15.",
+    "Transfer from U.S. Office of War Information, 1944.",
+    "General information about the FSA/OWI Color Photographs is available at http://hdl.loc.gov/loc.pnp/pp.fsac",
+    "Title from FSA or OWI agency caption.",
+    "Additional information about this photograph might be available through the Flickr Commons project at http://www.flickr.com/photos/library_of_congress/2178286587"
+   ],
+   "number": [
+    "2017877582",
+    "2023-02-14t16:53:04",
+    "http://www.loc.gov/item/fsa1992000243/pp",
+    "http://www.loc.gov/item/19979501",
+    "http://www.loc.gov/item/2017877582"
+   ],
+   "number_former_id": [
+    "http://www.loc.gov/item/19979501",
+    "http://www.loc.gov/item/fsa1992000243/pp",
+    "http://www.loc.gov/item/2017877582"
+   ],
+   "number_lccn": [
+    "2017877582"
+   ],
+   "number_source_modified": [
+    "2023-02-14t16:53:04"
+   ],
+   "online_format": [
+    "image"
+   ],
+   "original_format": [
+    "photo, print, drawing"
+   ],
+   "other_control_numbers": [
+    "19979501",
+    "fsa1992000243/PP"
+   ],
+   "other_formats": [
+    {
+     "label": "MARCXML Record",
+     "link": "https://lccn.loc.gov/2017877582/marcxml"
+    },
+    {
+     "label": "MODS Record",
+     "link": "https://lccn.loc.gov/2017877582/mods"
+    },
+    {
+     "label": "Dublin Core Record",
+     "link": "https://lccn.loc.gov/2017877582/dc"
+    }
+   ],
+   "partof": [
+    {
+     "count": 1623,
+     "title": "farm security administration/office of war information color photographs",
+     "url": "https://www.loc.gov/collections/fsa-owi-color-photographs/?fo=json"
+    },
+    {
+     "count": 910991,
+     "title": "prints & photographs online catalog (library of congress)",
+     "url": "https://www.loc.gov/search/?fa=partof:prints+%26+photographs+online+catalog+%28library+of+congress%29&fo=json"
+    },
+    {
+     "count": 1162328,
+     "title": "prints and photographs division",
+     "url": "https://www.loc.gov/search/?fa=partof:prints+and+photographs+division&fo=json"
+    },
+    {
+     "count": 1910068,
+     "title": "catalog",
+     "url": "https://www.loc.gov/search/?fa=partof:catalog&fo=json"
+    }
+   ],
+   "place": [
+    {
+     "latitude": "",
+     "link": "https://www.loc.gov/pictures/related/?fi=place&q=Idaho--Emmett&co=fsac",
+     "longitude": "",
+     "title": "Idaho--Emmett"
+    }
+   ],
+   "raw_collections": [
+    "ammem",
+    "diof",
+    "flickrppoc",
+    "fsac",
+    "pp",
+    "srtg"
+   ],
+   "related": {
+    "neighbors": "https://www.loc.gov/pictures/related/?&co=fsac&pk=2017877582&st=gallery&sb=call_number#focus"
+   },
+   "repository": [
+    "Library of Congress Prints and Photographs Division Washington, D.C. 20540 USA http://hdl.loc.gov/loc.pnp/pp.print"
+   ],
+   "reproduction_number": "LC-DIG-fsac-1a34210 (digital file from original transparency)\nLC-USF351-214 (color film copy slide)",
+   "reproductions": [],
+   "resource_links": [
+    "https://hdl.loc.gov/loc.pnp/fsac.1a34210"
+   ],
+   "resources": [
+    {
+     "caption": "digital file from original transparency",
+     "files": 1,
+     "image": "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34210_150px.jpg",
+     "url": "https://www.loc.gov/resource/fsac.1a34210/"
+    }
+   ],
+   "rights": [
+    "<p>The contents of the Library of Congress Farm Security Administration/Office of War Information Color Photographs are in the public domain and are free to use and reuse.</p>\r\n<p>\tCredit Line: Library of Congress, Prints &amp; Photographs Division, Farm Security Administration/Office of War Information Color Photographs.</p>\r\n<p>For information about reproducing, publishing, and citing material from this collection, as well as access to the original items, see: <a href=\"https://www.loc.gov/rr/print/res/072_fsac.html\">U.S. Farm Security Administration/Office of War Information Color Transparencies - Rights and Restrictions Information</a></p>\r\n<p>More about <a href=\"/legal/\">Copyright and other Restrictions</a> </p>\r\n<p>For guidance about compiling full citations consult <a href=\"https://www.loc.gov/teachers/usingprimarysources/citing.html\">Citing Primary Sources</a>.</p>"
+   ],
+   "rights_advisory": "No known restrictions on publication.",
+   "rights_information": "No known restrictions on publication.",
+   "score": 19.459658,
+   "shard": "00",
+   "shelf_id": "LC-USF35-214 [P&P]",
+   "site": [
+    "pictures",
+    "catalog"
+   ],
+   "sort_date": "1939",
+   "source_collection": "Farm Security Administration - Office of War Information color slides and transparencies collection (Library of Congress)",
+   "source_created": "1985-01-01T00:00:00Z",
+   "source_modified": "2023-02-14T16:53:04Z",
+   "subject": [
+    "emmett",
+    "idaho",
+    "united states",
+    "roads",
+    "transparencies",
+    "color"
+   ],
+   "subject_headings": [
+    "Roads",
+    "United States--Idaho--Emmett"
+   ],
+   "subjects": [
+    {
+     "color": "https://www.loc.gov/search/?fa=subject:color&fo=json"
+    },
+    {
+     "emmett": "https://www.loc.gov/search/?fa=subject:emmett&fo=json"
+    },
+    {
+     "idaho": "https://www.loc.gov/search/?fa=subject:idaho&fo=json"
+    },
+    {
+     "roads": "https://www.loc.gov/search/?fa=subject:roads&fo=json"
+    },
+    {
+     "transparencies": "https://www.loc.gov/search/?fa=subject:transparencies&fo=json"
+    },
+    {
+     "united states": "https://www.loc.gov/search/?fa=subject:united+states&fo=json"
+    }
+   ],
+   "thumb_gallery": "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34210_150px.jpg",
+   "timestamp": "2023-02-25T13:42:36.641Z",
+   "title": "Road cut into the barren hills which lead into Emmett, Idaho",
+   "type": [
+    "still image"
+   ],
+   "unrestricted": true,
+   "url": "https://www.loc.gov/item/2017877582/"
+  },
+  "more_like_this": [
+   {
+    "access_restricted": false,
+    "aka": [
+     "https://www.loc.gov/pictures/item/2017877590/",
+     "http://www.loc.gov/item/2017877590/",
+     "http://www.loc.gov/pictures/item/2017877590/",
+     "https://www.loc.gov/pictures/collection/fsac/item/2017877590/",
+     "http://www.loc.gov/pictures/collection/fsac/item/2017877590/",
+     "https://hdl.loc.gov/loc.pnp/fsac.1a34218",
+     "https://hdl.loc.gov/loc.pnp/fsac.1a34218",
+     "http://www.loc.gov/resource/fsac.1a34218/",
+     "http://lccn.loc.gov/2017877590"
+    ],
+    "campaigns": [],
+    "contributor": [
+     "lee, russell"
+    ],
+    "date": "1939-01-01",
+    "dates": [
+     "1939"
+    ],
+    "description": [
+     "1 transparency : color."
+    ],
+    "digitized": true,
+    "extract_timestamp": "2023-02-25T13:24:40.660Z",
+    "group": [
+     "fsac",
+     "catalog-split-14",
+     "catalog",
+     "fsa-owi-color-photographs",
+     "main-catalog-split-14",
+     "main-catalog"
+    ],
+    "hassegments": false,
+    "id": "http://www.loc.gov/item/2017877590/",
+    "image_url": [
+     "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34218_150px.jpg#h=117&w=150",
+     "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34218t.gif#h=117&w=150",
+     "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34218r.jpg#h=501&w=640",
+     "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34218v.jpg#h=802&w=1024"
+    ],
+    "index": 1,
+    "language": [
+     "english"
+    ],
+    "location": [
+     "united states",
+     "emmett",
+     "idaho"
+    ],
+    "mime_type": [
+     "image/gif",
+     "image/jpg",
+     "image/tif"
+    ],
+    "number": [
+     "http://www.loc.gov/item/19979509",
+     "2023-02-14t16:50:53",
+     "2017877590",
+     "http://www.loc.gov/item/2017877590",
+     "http://www.loc.gov/item/fsa1992000251/pp"
+    ],
+    "online_format": [
+     "image"
+    ],
+    "original_format": [
+     "photo, print, drawing"
+    ],
+    "partof": [
+     "prints and photographs division",
+     "farm security administration/office of war information color photographs",
+     "prints & photographs online catalog (library of congress)",
+     "catalog"
+    ],
+    "score": 50.006325,
+    "shelf_id": "LC-USF35-564 [P&P]",
+    "site": [
+     "pictures",
+     "catalog"
+    ],
+    "subject": [
+     "emmett",
+     "idaho",
+     "united states",
+     "cherry orchards",
+     "irrigation",
+     "transparencies",
+     "farms",
+     "color"
+    ],
+    "timestamp": "2023-02-25T13:42:36.641Z",
+    "title": "Cherry orchards, farm lands and irrigation ditch at Emmett, Idaho",
+    "type": [
+     "still image"
+    ],
+    "url": "https://www.loc.gov/item/2017877590/"
+   },
+   {
+    "access_restricted": false,
+    "aka": [
+     "https://www.loc.gov/pictures/item/2017877591/",
+     "http://www.loc.gov/item/2017877591/",
+     "http://www.loc.gov/pictures/item/2017877591/",
+     "https://www.loc.gov/pictures/collection/fsac/item/2017877591/",
+     "http://www.loc.gov/pictures/collection/fsac/item/2017877591/",
+     "https://hdl.loc.gov/loc.pnp/fsac.1a34219",
+     "https://hdl.loc.gov/loc.pnp/fsac.1a34219",
+     "http://www.loc.gov/resource/fsac.1a34219/",
+     "http://lccn.loc.gov/2017877591"
+    ],
+    "campaigns": [],
+    "contributor": [
+     "lee, russell"
+    ],
+    "date": "1939-01-01",
+    "dates": [
+     "1939"
+    ],
+    "description": [
+     "1 transparency : color."
+    ],
+    "digitized": true,
+    "extract_timestamp": "2023-02-25T13:24:40.660Z",
+    "group": [
+     "fsac",
+     "catalog-split-15",
+     "catalog",
+     "fsa-owi-color-photographs",
+     "main-catalog-split-15",
+     "main-catalog"
+    ],
+    "hassegments": false,
+    "id": "http://www.loc.gov/item/2017877591/",
+    "image_url": [
+     "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34219_150px.jpg#h=118&w=150",
+     "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34219t.gif#h=118&w=150",
+     "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34219r.jpg#h=503&w=640",
+     "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34219v.jpg#h=805&w=1024"
+    ],
+    "index": 2,
+    "language": [
+     "english"
+    ],
+    "location": [
+     "united states",
+     "emmett",
+     "idaho"
+    ],
+    "mime_type": [
+     "image/gif",
+     "image/jpg",
+     "image/tif"
+    ],
+    "number": [
+     "http://www.loc.gov/item/19979510",
+     "2023-02-14t16:50:38",
+     "http://www.loc.gov/item/2017877591",
+     "http://www.loc.gov/item/fsa1992000252/pp",
+     "2017877591"
+    ],
+    "online_format": [
+     "image"
+    ],
+    "original_format": [
+     "photo, print, drawing"
+    ],
+    "partof": [
+     "prints and photographs division",
+     "farm security administration/office of war information color photographs",
+     "prints & photographs online catalog (library of congress)",
+     "catalog"
+    ],
+    "score": 50.006325,
+    "shelf_id": "LC-USF35-565 [P&P]",
+    "site": [
+     "pictures",
+     "catalog"
+    ],
+    "subject": [
+     "emmett",
+     "idaho",
+     "united states",
+     "cherry orchards",
+     "irrigation",
+     "transparencies",
+     "farms",
+     "color"
+    ],
+    "timestamp": "2023-02-25T13:42:36.641Z",
+    "title": "Cherry orchards, farm lands and irrigation ditch at Emmett, Idaho",
+    "type": [
+     "still image"
+    ],
+    "url": "https://www.loc.gov/item/2017877591/"
+   },
+   {
+    "access_restricted": false,
+    "aka": [
+     "https://www.loc.gov/pictures/item/2017877592/",
+     "http://www.loc.gov/item/2017877592/",
+     "http://www.loc.gov/pictures/item/2017877592/",
+     "https://www.loc.gov/pictures/collection/fsac/item/2017877592/",
+     "http://www.loc.gov/pictures/collection/fsac/item/2017877592/",
+     "https://hdl.loc.gov/loc.pnp/fsac.1a34220",
+     "https://hdl.loc.gov/loc.pnp/fsac.1a34220",
+     "http://www.loc.gov/resource/fsac.1a34220/",
+     "http://lccn.loc.gov/2017877592"
+    ],
+    "campaigns": [],
+    "contributor": [
+     "lee, russell"
+    ],
+    "date": "1939-01-01",
+    "dates": [
+     "1939"
+    ],
+    "description": [
+     "1 transparency : color."
+    ],
+    "digitized": true,
+    "extract_timestamp": "2023-02-25T13:24:18.552Z",
+    "group": [
+     "fsac",
+     "catalog-split-00",
+     "catalog",
+     "fsa-owi-color-photographs",
+     "main-catalog-split-00",
+     "main-catalog"
+    ],
+    "hassegments": false,
+    "id": "http://www.loc.gov/item/2017877592/",
+    "image_url": [
+     "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34220_150px.jpg#h=116&w=150",
+     "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34220t.gif#h=116&w=150",
+     "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34220r.jpg#h=493&w=640",
+     "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34220v.jpg#h=789&w=1024"
+    ],
+    "index": 3,
+    "language": [
+     "english"
+    ],
+    "location": [
+     "united states",
+     "emmett",
+     "idaho"
+    ],
+    "mime_type": [
+     "image/gif",
+     "image/jpg",
+     "image/tif"
+    ],
+    "number": [
+     "http://www.loc.gov/item/19979512",
+     "2023-02-14t16:50:00",
+     "http://www.loc.gov/item/2017877592",
+     "http://www.loc.gov/item/fsa1992000253/pp",
+     "2017877592"
+    ],
+    "online_format": [
+     "image"
+    ],
+    "original_format": [
+     "photo, print, drawing"
+    ],
+    "partof": [
+     "prints and photographs division",
+     "farm security administration/office of war information color photographs",
+     "prints & photographs online catalog (library of congress)",
+     "catalog"
+    ],
+    "score": 50.006325,
+    "shelf_id": "LC-USF35-565 A [P&P]",
+    "site": [
+     "pictures",
+     "catalog"
+    ],
+    "subject": [
+     "emmett",
+     "idaho",
+     "united states",
+     "cherry orchards",
+     "irrigation",
+     "transparencies",
+     "farms",
+     "color"
+    ],
+    "timestamp": "2023-02-25T13:42:36.641Z",
+    "title": "Cherry orchards, farm lands and irrigation ditch at Emmett, Idaho",
+    "type": [
+     "still image"
+    ],
+    "url": "https://www.loc.gov/item/2017877592/"
+   },
+   {
+    "access_restricted": false,
+    "aka": [
+     "https://www.loc.gov/pictures/item/2017877589/",
+     "http://www.loc.gov/item/2017877589/",
+     "http://www.loc.gov/pictures/item/2017877589/",
+     "https://www.loc.gov/pictures/collection/fsac/item/2017877589/",
+     "http://www.loc.gov/pictures/collection/fsac/item/2017877589/",
+     "https://hdl.loc.gov/loc.pnp/fsac.1a34217",
+     "https://hdl.loc.gov/loc.pnp/fsac.1a34217",
+     "http://www.loc.gov/resource/fsac.1a34217/",
+     "http://lccn.loc.gov/2017877589"
+    ],
+    "campaigns": [],
+    "contributor": [
+     "lee, russell"
+    ],
+    "date": "1939-01-01",
+    "dates": [
+     "1939"
+    ],
+    "description": [
+     "1 slide : color. | Photograph shows irrigation ditch."
+    ],
+    "digitized": true,
+    "extract_timestamp": "2023-02-25T13:24:18.552Z",
+    "group": [
+     "fsac",
+     "catalog-split-06",
+     "catalog",
+     "fsa-owi-color-photographs",
+     "main-catalog-split-06",
+     "main-catalog"
+    ],
+    "hassegments": false,
+    "id": "http://www.loc.gov/item/2017877589/",
+    "image_url": [
+     "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34217_150px.jpg#h=106&w=150",
+     "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34217t.gif#h=106&w=150",
+     "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34217r.jpg#h=454&w=640",
+     "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34217v.jpg#h=726&w=1024"
+    ],
+    "index": 4,
+    "language": [
+     "english"
+    ],
+    "location": [
+     "united states",
+     "emmett",
+     "idaho"
+    ],
+    "mime_type": [
+     "image/gif",
+     "image/jpg",
+     "image/tif"
+    ],
+    "number": [
+     "http://www.loc.gov/item/2017877589",
+     "http://www.loc.gov/item/fsa1992000250/pp",
+     "2017877589",
+     "2023-02-14t16:51:11",
+     "http://www.loc.gov/item/19979508"
+    ],
+    "online_format": [
+     "image"
+    ],
+    "original_format": [
+     "photo, print, drawing"
+    ],
+    "partof": [
+     "prints and photographs division",
+     "farm security administration/office of war information color photographs",
+     "prints & photographs online catalog (library of congress)",
+     "catalog"
+    ],
+    "score": 44.407513,
+    "shelf_id": "LC-USF35-224 [P&P]",
+    "site": [
+     "pictures",
+     "catalog"
+    ],
+    "subject": [
+     "emmett",
+     "idaho",
+     "slides",
+     "united states",
+     "cherry orchards",
+     "irrigation",
+     "farms",
+     "color"
+    ],
+    "timestamp": "2023-02-25T13:42:36.641Z",
+    "title": "Cherry orchards and farming land, Emmett, Idaho",
+    "type": [
+     "still image"
+    ],
+    "url": "https://www.loc.gov/item/2017877589/"
+   },
+   {
+    "access_restricted": false,
+    "aka": [
+     "https://www.loc.gov/pictures/item/2017877583/",
+     "http://www.loc.gov/item/2017877583/",
+     "http://www.loc.gov/pictures/item/2017877583/",
+     "https://www.loc.gov/pictures/collection/fsac/item/2017877583/",
+     "http://www.loc.gov/pictures/collection/fsac/item/2017877583/",
+     "https://hdl.loc.gov/loc.pnp/fsac.1a34211",
+     "https://hdl.loc.gov/loc.pnp/fsac.1a34211",
+     "http://www.loc.gov/resource/fsac.1a34211/",
+     "http://lccn.loc.gov/2017877583"
+    ],
+    "campaigns": [],
+    "contributor": [
+     "lee, russell"
+    ],
+    "date": "1939-01-01",
+    "dates": [
+     "1939"
+    ],
+    "description": [
+     "1 slide : color."
+    ],
+    "digitized": true,
+    "extract_timestamp": "2023-02-25T13:24:40.660Z",
+    "group": [
+     "fsac",
+     "catalog-split-00",
+     "catalog",
+     "fsa-owi-color-photographs",
+     "main-catalog-split-00",
+     "main-catalog"
+    ],
+    "hassegments": false,
+    "id": "http://www.loc.gov/item/2017877583/",
+    "image_url": [
+     "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34211_150px.jpg#h=106&w=150",
+     "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34211t.gif#h=106&w=150",
+     "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34211r.jpg#h=452&w=640",
+     "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34211v.jpg#h=723&w=1024"
+    ],
+    "index": 5,
+    "language": [
+     "english"
+    ],
+    "location": [
+     "united states",
+     "emmett",
+     "idaho"
+    ],
+    "mime_type": [
+     "image/gif",
+     "image/jpg",
+     "image/tif"
+    ],
+    "number": [
+     "http://www.loc.gov/item/2017877583",
+     "http://www.loc.gov/item/fsa1992000244/pp",
+     "2017877583",
+     "http://www.loc.gov/item/19979502",
+     "2023-02-14t16:52:48"
+    ],
+    "online_format": [
+     "image"
+    ],
+    "original_format": [
+     "photo, print, drawing"
+    ],
+    "partof": [
+     "prints and photographs division",
+     "farm security administration/office of war information color photographs",
+     "prints & photographs online catalog (library of congress)",
+     "catalog"
+    ],
+    "score": 44.407513,
+    "shelf_id": "LC-USF35-215 [P&P]",
+    "site": [
+     "pictures",
+     "catalog"
+    ],
+    "subject": [
+     "emmett",
+     "idaho",
+     "slides",
+     "united states",
+     "cherry orchards",
+     "irrigation",
+     "color"
+    ],
+    "timestamp": "2023-02-25T13:42:36.641Z",
+    "title": "Cherry orchards and irrigation ditch, Emmett, Idaho",
+    "type": [
+     "still image"
+    ],
+    "url": "https://www.loc.gov/item/2017877583/"
+   },
+   {
+    "access_restricted": false,
+    "aka": [
+     "https://www.loc.gov/pictures/item/2017877580/",
+     "http://www.loc.gov/item/2017877580/",
+     "http://www.loc.gov/pictures/item/2017877580/",
+     "https://www.loc.gov/pictures/collection/fsac/item/2017877580/",
+     "http://www.loc.gov/pictures/collection/fsac/item/2017877580/",
+     "https://hdl.loc.gov/loc.pnp/fsac.1a34208",
+     "https://hdl.loc.gov/loc.pnp/fsac.1a34208",
+     "http://www.loc.gov/resource/fsac.1a34208/",
+     "http://lccn.loc.gov/2017877580"
+    ],
+    "campaigns": [],
+    "contributor": [
+     "lee, russell"
+    ],
+    "date": "1939-01-01",
+    "dates": [
+     "1939"
+    ],
+    "description": [
+     "1 slide : color."
+    ],
+    "digitized": true,
+    "extract_timestamp": "2023-02-25T13:24:40.660Z",
+    "group": [
+     "fsac",
+     "catalog-split-13",
+     "catalog",
+     "fsa-owi-color-photographs",
+     "main-catalog-split-13",
+     "main-catalog"
+    ],
+    "hassegments": false,
+    "id": "http://www.loc.gov/item/2017877580/",
+    "image_url": [
+     "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34208_150px.jpg#h=106&w=150",
+     "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34208t.gif#h=106&w=150",
+     "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34208r.jpg#h=453&w=640",
+     "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34208v.jpg#h=724&w=1024"
+    ],
+    "index": 6,
+    "language": [
+     "english"
+    ],
+    "location": [
+     "united states",
+     "emmett",
+     "idaho"
+    ],
+    "mime_type": [
+     "image/gif",
+     "image/jpg",
+     "image/tif"
+    ],
+    "number": [
+     "2023-02-14t16:53:37",
+     "http://www.loc.gov/item/19979499",
+     "http://www.loc.gov/item/2017877580",
+     "2017877580",
+     "http://www.loc.gov/item/fsa1992000241/pp"
+    ],
+    "online_format": [
+     "image"
+    ],
+    "original_format": [
+     "photo, print, drawing"
+    ],
+    "partof": [
+     "prints and photographs division",
+     "farm security administration/office of war information color photographs",
+     "prints & photographs online catalog (library of congress)",
+     "catalog"
+    ],
+    "score": 44.407513,
+    "shelf_id": "LC-USF35-210 [P&P]",
+    "site": [
+     "pictures",
+     "catalog"
+    ],
+    "subject": [
+     "emmett",
+     "idaho",
+     "slides",
+     "united states",
+     "cherry orchards",
+     "farms",
+     "color"
+    ],
+    "timestamp": "2023-02-25T13:42:36.641Z",
+    "title": "Cherry orchards and farming land, Emmett, Idaho",
+    "type": [
+     "still image"
+    ],
+    "url": "https://www.loc.gov/item/2017877580/"
+   }
+  ],
+  "options": {
+   "access_group": [
+    ""
+   ],
+   "access_group_raw": "",
+   "all": null,
+   "api_version": "1",
+   "app_context": null,
+   "application_shim": null,
+   "application_version": "$Revision$",
+   "attribute": null,
+   "attribute!": null,
+   "attribute_map": null,
+   "cache_tags": [
+    "fsac",
+    "catalog-split-15",
+    "catalog",
+    "fsa-owi-color-photographs",
+    "main-catalog-split-15",
+    "main-catalog",
+    "catalog-split-14",
+    "main-catalog-split-14",
+    "catalog-split-00",
+    "main-catalog-split-00",
+    "catalog-split-06",
+    "main-catalog-split-06",
+    "catalog-split-13",
+    "main-catalog-split-13",
+    "ndnp/newspapers",
+    "united-states-newspaper-directory",
+    "newspaper-titles",
+    "catalog-split-03",
+    "main-catalog-split-03",
+    "cms",
+    "managed-content"
+   ],
+   "callback": null,
+   "clip": null,
+   "clip_image_width": null,
+   "clip_rotation": null,
+   "content_filter": null,
+   "content_replacement": "",
+   "count": null,
+   "dates": null,
+   "default_count": 25,
+   "delimiter": null,
+   "digital_id": null,
+   "display_level": null,
+   "distance": null,
+   "downloadOption": null,
+   "duration": 2.8768107891082764,
+   "embed": [],
+   "embed!": [],
+   "error_response_status": null,
+   "excludeTerms": null,
+   "facetLimits": "",
+   "facetPrefix": null,
+   "facet_count": null,
+   "facet_style": null,
+   "field": null,
+   "format": "json",
+   "host": "www.loc.gov",
+   "ical": false,
+   "id": "2017877582/",
+   "iiif": false,
+   "index": null,
+   "inputEncoding": "UTF-8",
+   "item": null,
+   "items": null,
+   "keys": null,
+   "language": null,
+   "latlong": null,
+   "method": "GET",
+   "newSearch": null,
+   "new_clip_url": false,
+   "onsite": false,
+   "operator": null,
+   "outputEncoding": "UTF-8",
+   "page_campaigns": [],
+   "path_info": "/item/2017877582/",
+   "port": "443",
+   "proxypath": null,
+   "query_string": "fo=json",
+   "redirect_proxy": false,
+   "redirect_to_item": null,
+   "referer": "",
+   "region": "",
+   "release_id": 123456789,
+   "request_host": "www.loc.gov",
+   "request_params": {
+    "fo": [
+     "json"
+    ]
+   },
+   "request_url": "https://www.loc.gov/item/2017877582/?fo=json",
+   "resource": "",
+   "resource_sequence": null,
+   "scheme": "https",
+   "searchIn": null,
+   "searchTerms": "",
+   "segments": null,
+   "shards": [
+    "00"
+   ],
+   "site_id": null,
+   "site_type": null,
+   "solrQuery": "",
+   "sortBy": null,
+   "sortOrder": null,
+   "startPage": null,
+   "style": null,
+   "suggested": null,
+   "target": null,
+   "template": "layouts/item/layout",
+   "timestamp": 1792098774.2843926,
+   "tz_aware": null,
+   "unionFacets": "",
+   "webcast_permalink": null
+  },
+  "related": {
+   "group_record": null,
+   "lot_link": null,
+   "neighbors": "https://www.loc.gov/pictures/related/?&co=fsac&pk=2017877582&st=gallery&sb=call_number#focus",
+   "survey_link": null
+  },
+  "related_items": [
+   {
+    "access_restricted": false,
+    "aka": [
+     "http://www.loc.gov/item/2020271088/"
+    ],
+    "campaigns": [],
+    "date": "1893",
+    "dates": [
+     "[1893 TO 1925]"
+    ],
+    "description": [
+     "Weekly Began with vol. I, no. 1 (November 4, 1893); ceased November 5, 1925. Description based on: Vol. I, No. 1 (November 4, 1893); title from masthead (Chroniclingamerica.loc.gov, viewed August 17, 2020). Latest issue consulted: Thirtieth Year, No. 13 (December 27, 1923) (Chroniclingamerica.loc.gov, viewed August 17, 2020). Emmett examiner Emmett index and Emmett examiner"
+    ],
+    "digitized": true,
+    "extract_timestamp": "2026-05-19T21:37:55.525Z",
+    "group": [
+     "ndnp/newspapers",
+     "united-states-newspaper-directory"
+    ],
+    "hassegments": false,
+    "id": "http://www.loc.gov/item/2020271088/",
+    "image_url": [],
+    "index": 1,
+    "language": [
+     "english"
+    ],
+    "location": [
+     "canyon",
+     "emmett",
+     "idaho",
+     "united states",
+     "gem"
+    ],
+    "number": [
+     "2693-6046",
+     "2026-04-13t21:30:13",
+     "online resource",
+     "2020271088",
+     "1184059563"
+    ],
+    "original_format": [
+     "newspaper"
+    ],
+    "partof": [
+     "serial and government publications division",
+     "the emmett index (emmett, canyon county, daho) 1893-1925 [online resource]",
+     "directory of u.s. newspapers in american libraries"
+    ],
+    "publication_frequency": [
+     "weekly"
+    ],
+    "score": 28.510033,
+    "shelf_id": "ISSN RECORD AN2.I2 E45",
+    "site": [
+     "usnd"
+    ],
+    "subject": [
+     "emmett",
+     "canyon",
+     "idaho",
+     "newspapers",
+     "united states",
+     "emmett (idaho)",
+     "gem"
+    ],
+    "timestamp": "2026-05-26T21:00:49.563Z",
+    "title": "The Emmett index",
+    "type": [
+     "title"
+    ],
+    "url": "https://www.loc.gov/item/2020271088/"
+   },
+   {
+    "access_restricted": false,
+    "aka": [
+     "http://www.loc.gov/item/sn86091145/",
+     "http://lccn.loc.gov/sn86091145",
+     "https://search.catalog.loc.gov/instances/3f11bb18-5d69-56d4-a834-bdf00cab896c"
+    ],
+    "batch": [
+     "idhi_comoe_ver02"
+    ],
+    "campaigns": [],
+    "date": "1893",
+    "description": [
+     "Weekly Vol. 1, no. 1 (Nov. 4, 1893)- ; 32nd yr., no. 9 (Nov. 5, 1925). Archived issues are available in digital format from the Library of Congress Chronicling America online collection. Emmett examiner (DLC)sn 89055191 (OCoLC)20310698 Emmett index and Emmett examiner (DLC)sn 89055212 (OCoLC)20379200"
+    ],
+    "digitized": true,
+    "extract_timestamp": "2026-06-05T18:25:04.275Z",
+    "group": [
+     "newspaper-titles",
+     "ndnp/newspapers",
+     "catalog-split-03",
+     "catalog",
+     "united-states-newspaper-directory",
+     "main-catalog-split-03"
+    ],
+    "hassegments": false,
+    "id": "http://www.loc.gov/item/sn86091145/",
+    "image_url": [],
+    "index": 2,
+    "language": [
+     "english"
+    ],
+    "latlong": [
+     43.8736015,
+     -116.5000535
+    ],
+    "location": [
+     "canyon",
+     "emmett",
+     "idaho",
+     "united states",
+     "gem"
+    ],
+    "location_str": "",
+    "lonlat": [
+     -116.5000535,
+     43.8736015
+    ],
+    "number": [
+     "http://www.loc.gov/item/sn86091145/1923-12-27/ed-1/",
+     "http://www.loc.gov/item/sn86091145/1893-11-04/ed-1/",
+     "online resource",
+     "idaho state hist soc, libr & arch",
+     "2023-06-13t09:55:42.498701",
+     "microfilm service copy",
+     "sn86091145",
+     "sn89055191",
+     "13146941",
+     "2693-6038",
+     "microfilm master",
+     "2026-04-13t21:30:13",
+     "denver pub libr",
+     "sn89055212",
+     "1",
+     "1261",
+     "2026-08-06t12:00:41",
+     "original",
+     "univ of utah"
+    ],
+    "original_format": [
+     "newspaper"
+    ],
+    "partof": [
+     "catalog",
+     "the emmett index (emmett, idaho) 1893-1925",
+     "chronicling america",
+     "directory of u.s. newspapers in american libraries",
+     "serial and government publications division"
+    ],
+    "publication_frequency": [
+     "weekly"
+    ],
+    "score": 28.510033,
+    "shelf_id": "Newspaper AN2.I2 E45",
+    "site": [
+     "chroniclingamerica",
+     "usnd",
+     "catalog"
+    ],
+    "subject": [
+     "emmett",
+     "canyon",
+     "idaho",
+     "newspapers",
+     "united states",
+     "emmett (idaho)",
+     "gem"
+    ],
+    "timestamp": "2026-10-14T12:03:37.579Z",
+    "title": "The Emmett index",
+    "type": [
+     "title"
+    ],
+    "url": "https://www.loc.gov/item/sn86091145/"
+   },
+   {
+    "access_restricted": false,
+    "aka": [
+     "http://www.loc.gov/collections/fsa-owi-color-photographs/articles-and-essays/fsa-and-owi-photographers/"
+    ],
+    "campaigns": [],
+    "date": "1939",
+    "dates": [
+     "[1939 TO 1944]"
+    ],
+    "description": [
+     "This list identifies FSA/OWI photographers who worked with color film. The dates in parentheses indicate the period during which they produced color photographs. Following the photographer's names is a list of their color shooting assignments."
+    ],
+    "digitized": true,
+    "extract_timestamp": "2026-10-15T05:40:46.262Z",
+    "group": [
+     "cms",
+     "managed-content"
+    ],
+    "hassegments": false,
+    "id": "http://www.loc.gov/collections/fsa-owi-color-photographs/articles-and-essays/fsa-and-owi-photographers/",
+    "image_url": [
+     "https://www.loc.gov/static/collections/fsa-owi-color-photographs/500_500.jpg"
+    ],
+    "index": 3,
+    "language": [
+     "english"
+    ],
+    "location": [
+     "united states"
+    ],
+    "mime_type": [
+     "image/jpg"
+    ],
+    "online_format": [
+     "image"
+    ],
+    "original_format": [
+     "web page"
+    ],
+    "partof": [
+     "farm security administration/office of war information color photographs"
+    ],
+    "score": 17.433495,
+    "shelf_id": "~/collections/fsa-owi-color-photographs/articles-and-essays/fsa-and-owi-photographers/",
+    "site": [
+     "cms"
+    ],
+    "subject": [
+     "photographs",
+     "palmer, alfred t.",
+     "slides",
+     "delano, jack",
+     "transparencies",
+     "world war ii"
+    ],
+    "timestamp": "2026-10-15T07:16:08.037Z",
+    "title": "FSA and OWI Photographers | Articles and Essays | Farm Security Administration/Office of War Information Color Photographs | Digital Collections",
+    "type": [
+     "web page"
+    ],
+    "url": "https://www.loc.gov/collections/fsa-owi-color-photographs/articles-and-essays/fsa-and-owi-photographers/"
+   },
+   {
+    "access_restricted": false,
+    "aka": [
+     "http://www.loc.gov/collections/fsa-owi-color-photographs/articles-and-essays/owi-shooting-assignments/"
+    ],
+    "campaigns": [],
+    "date": "1939",
+    "dates": [
+     "[1939 TO 1944]"
+    ],
+    "description": [
+     "Summarized below are the subjects covered by particular photographers in the locations where they took color photographs. An index to geographic locations provides online access to images photographed in various locations."
+    ],
+    "digitized": true,
+    "extract_timestamp": "2026-10-15T05:40:46.262Z",
+    "group": [
+     "cms",
+     "managed-content"
+    ],
+    "hassegments": false,
+    "id": "http://www.loc.gov/collections/fsa-owi-color-photographs/articles-and-essays/owi-shooting-assignments/",
+    "image_url": [
+     "https://www.loc.gov/static/collections/fsa-owi-color-photographs/500_500.jpg"
+    ],
+    "index": 4,
+    "language": [
+     "english"
+    ],
+    "location": [
+     "united states"
+    ],
+    "mime_type": [
+     "image/jpg"
+    ],
+    "online_format": [
+     "image"
+    ],
+    "original_format": [
+     "web page"
+    ],
+    "partof": [
+     "farm security administration/office of war information color photographs"
+    ],
+    "score": 17.433495,
+    "shelf_id": "~/collections/fsa-owi-color-photographs/articles-and-essays/owi-shooting-assignments/",
+    "site": [
+     "cms"
+    ],
+    "subject": [
+     "photographs",
+     "palmer, alfred t.",
+     "slides",
+     "delano, jack",
+     "transparencies",
+     "world war ii"
+    ],
+    "timestamp": "2026-10-15T07:16:08.037Z",
+    "title": "OWI Shooting Assignments | Articles and Essays | Farm Security Administration/Office of War Information Color Photographs | Digital Collections",
+    "type": [
+     "web page"
+    ],
+    "url": "https://www.loc.gov/collections/fsa-owi-color-photographs/articles-and-essays/owi-shooting-assignments/"
+   },
+   {
+    "access_restricted": false,
+    "aka": [
+     "http://www.loc.gov/collections/fsa-owi-color-photographs/articles-and-essays/fsa-shooting-assignments/"
+    ],
+    "campaigns": [],
+    "date": "1939",
+    "dates": [
+     "[1939 TO 1944]"
+    ],
+    "description": [
+     "Summarized below are the subjects covered by particular photographers in the locations where they took color photographs. An index to geographic locations provides online access to images photographed in various locations."
+    ],
+    "digitized": true,
+    "extract_timestamp": "2026-10-15T05:40:46.262Z",
+    "group": [
+     "cms",
+     "managed-content"
+    ],
+    "hassegments": false,
+    "id": "http://www.loc.gov/collections/fsa-owi-color-photographs/articles-and-essays/fsa-shooting-assignments/",
+    "image_url": [
+     "https://www.loc.gov/static/collections/fsa-owi-color-photographs/500_500.jpg"
+    ],
+    "index": 5,
+    "language": [
+     "english"
+    ],
+    "location": [
+     "united states"
+    ],
+    "mime_type": [
+     "image/jpg"
+    ],
+    "online_format": [
+     "image"
+    ],
+    "original_format": [
+     "web page"
+    ],
+    "partof": [
+     "farm security administration/office of war information color photographs"
+    ],
+    "score": 17.433495,
+    "shelf_id": "~/collections/fsa-owi-color-photographs/articles-and-essays/fsa-shooting-assignments/",
+    "site": [
+     "cms"
+    ],
+    "subject": [
+     "photographs",
+     "palmer, alfred t.",
+     "slides",
+     "delano, jack",
+     "transparencies",
+     "world war ii"
+    ],
+    "timestamp": "2026-10-15T07:16:08.037Z",
+    "title": "FSA Shooting Assignments | Articles and Essays | Farm Security Administration/Office of War Information Color Photographs | Digital Collections",
+    "type": [
+     "web page"
+    ],
+    "url": "https://www.loc.gov/collections/fsa-owi-color-photographs/articles-and-essays/fsa-shooting-assignments/"
+   },
+   {
+    "access_restricted": false,
+    "aka": [
+     "http://lccn.loc.gov/2024655331",
+     "http://www.loc.gov/item/2024655331/",
+     "https://search.catalog.loc.gov/instances/71794419-7158-563a-a32d-1cae78729ac6",
+     "https://hdl.loc.gov/loc.afc/collafc.afc2024022"
+    ],
+    "campaigns": [],
+    "contributor": [
+     "storycorps (project)",
+     "american folklife center"
+    ],
+    "date": "2024",
+    "dates": [
+     "2024"
+    ],
+    "description": [
+     "This collection consists of 331 interviews with American frontline workers describing their experiences before, during, and after the height of the COVID-19 pandemic. The interviews were documented by StoryCorps staff across 30 different states, with some interviews also conducted online. Most interviews feature a single frontline worker, while others capture shared recollections between colleagues. Together, these interviews offer an important portrait of working Americans’ lives during the COVID-19 pandemic."
+    ],
+    "digitized": true,
+    "extract_timestamp": "2026-10-14T10:52:00.580Z",
+    "group": [
+     "catalog-split-15",
+     "catalog",
+     "main-catalog-split-15"
+    ],
+    "hassegments": false,
+    "id": "http://lccn.loc.gov/2024655331",
+    "image_url": [],
+    "index": 6,
+    "language": [
+     "english",
+     "spanish"
+    ],
+    "location": [
+     "south carolina",
+     "maine",
+     "texas",
+     "georgia",
+     "north carolina",
+     "idaho",
+     "montana",
+     "mississippi",
+     "pennsylvania",
+     "missouri",
+     "illinois",
+     "kansas",
+     "alabama",
+     "tennessee",
+     "michigan",
+     "arkansas",
+     "oklahoma",
+     "iowa",
+     "new york",
+     "new jersey",
+     "vermont",
+     "virginia",
+     "south dakota",
+     "united states",
+     "arizona",
+     "oregon",
+     "california",
+     "washington",
+     "ohio",
+     "alaska",
+     "kentucky"
+    ],
+    "number": [
+     "online resource",
+     "2024655331",
+     "2026-10-13t17:27:04.100000"
+    ],
+    "original_format": [
+     "sound recording",
+     "collection"
+    ],
+    "partof": [
+     "covid-19 american history project",
+     "catalog",
+     "american folklife center"
+    ],
+    "score": 14.078261,
+    "shelf_id": "http://lccn.loc.gov/2024655331",
+    "site": [
+     "catalog"
+    ],
+    "subject": [
+     "south carolina",
+     "maine",
+     "texas",
+     "georgia",
+     "social distancing (public health)",
+     "north carolina",
+     "idaho",
+     "psychological aspects",
+     "moral and ethical aspects",
+     "oral histories",
+     "economic aspects",
+     "covid-19 vaccines",
+     "social aspects",
+     "washington (state)",
+     "digital photographs",
+     "montana",
+     "mississippi",
+     "missouri",
+     "pennsylvania",
+     "interviews",
+     "color",
+     "illinois",
+     "kansas",
+     "sound recordings",
+     "alabama",
+     "tennessee",
+     "michigan",
+     "arkansas",
+     "iowa",
+     "oklahoma",
+     "new jersey",
+     "vermont",
+     "virginia",
+     "covid-19 pandemic",
+     "south dakota",
+     "united states",
+     "public health",
+     "arizona",
+     "california",
+     "oregon",
+     "new york (state)",
+     "digital recordings",
+     "ohio",
+     "alaska",
+     "influence",
+     "kentucky"
+    ],
+    "timestamp": "2026-10-14T11:04:07.322Z",
+    "title": "COVID-19 American History Project interviews collection : COVID-19 American History Project, 2024-2026",
+    "type": [
+     "sound recording-nonmusical"
+    ],
+    "url": "//lccn.loc.gov/2024655331"
+   }
+  ],
+  "reproductions": "<p>If an image is displaying, you can download it yourself. (Some images \ndisplay only as thumbnails outside the Library of Congress because of rights \nconsiderations, but you have access to larger size images on site.)\n</p>\n\n<p>  \nAlternatively, you can purchase copies of various types through Library \nof Congress Duplication Services</a>.\n</p>\n\n<p> \n<ol>\n<p>\n<li><strong>If a digital image is displaying:</strong> The qualities of the digital image \npartially depend on whether it was made from the original or an \nintermediate such as a copy negative or transparency. If the Reproduction \nNumber field above includes a reproduction number that starts with \nLC-DIG..., then there is a digital image that was made directly \nfrom the original and is of sufficient resolution for most publication\n purposes.\n</li> \n</p>\n\n<li><strong>If there is information listed in the Reproduction Number field above:</strong> \nYou can use the reproduction number to purchase a copy from Duplication \nServices.  It will be made from the source listed in the parentheses after\n the number.  \n<p> \nIf only black-and-white (&quot;b&w&quot;) sources are listed and you \n desire a copy showing color or tint (assuming the original has any), \n you can generally purchase a quality copy of the original in color by \n citing the Call Number listed above and including the catalog record \n (&quot;About This Item&quot;) with your request.\n </p>\n</li>\n\n<li><strong>If there is no information listed in the Reproduction Number field \nabove:</strong> You can generally purchase a quality copy through \nDuplication Services. Cite the Call Number listed above and include the catalog record (&quot;About This Item&quot;) with \n your request.\n</li>\n</ol>\n</p>\n\n<p> \nPrice lists, contact information, and order forms are available on the\n <a href=\"https://www.loc.gov/duplicationservices/\">Duplication Services Web site</a>.  \n</p>\n\n\n\n",
+  "resources": [
+   {
+    "caption": "digital file from original transparency",
+    "files": [
+     [
+      {
+       "height": 120,
+       "levels": 1,
+       "mimetype": "image/jpeg",
+       "size": 5848,
+       "url": "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34210_150px.jpg",
+       "width": 150
+      },
+      {
+       "height": 120,
+       "levels": 1,
+       "mimetype": "image/gif",
+       "size": 15041,
+       "url": "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34210t.gif",
+       "width": 150
+      },
+      {
+       "height": 513,
+       "levels": 1,
+       "mimetype": "image/jpeg",
+       "size": 59308,
+       "url": "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34210r.jpg",
+       "width": 640
+      },
+      {
+       "height": 822,
+       "levels": 1,
+       "mimetype": "image/jpeg",
+       "size": 328434,
+       "url": "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34210v.jpg",
+       "width": 1024
+      }
+     ]
+    ],
+    "image": "https://tile.loc.gov/storage-services/service/pnp/fsac/1a34000/1a34200/1a34210_150px.jpg",
+    "url": "https://www.loc.gov/resource/fsac.1a34210/"
+   }
+  ],
+  "thesaurus_entry": null,
+  "timestamp": 1792098777161,
+  "unrestricted": true
+ }
+}
