@@ -1,0 +1,3347 @@
+[
+ {
+  "pk": "2017877444",
+  "title": "[Cornshocks in mountain farm along the Skyline Drive in Virginia]",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "kolay",
+  "trim": [
+   0.048,
+   0.063,
+   0.055,
+   0.059
+  ],
+  "color": 68.2,
+  "flat": 0.28,
+  "n": 4
+ },
+ {
+  "pk": "2017878214",
+  "title": "Blast furnaces and iron ore at the Carnegie-Illinois Steel Corporation mills, Etna, Pennsylvania",
+  "creator": "Palmer, Alfred T.",
+  "level": "kolay",
+  "trim": [
+   0.071,
+   0.08,
+   0.065,
+   0.18
+  ],
+  "color": 57.2,
+  "flat": 0.26,
+  "n": 19
+ },
+ {
+  "pk": "2017877747",
+  "title": "Llano de San Juan, New Mexico, Catholic Church",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "orta",
+  "trim": [
+   0.065,
+   0.084,
+   0.035,
+   0.071
+  ],
+  "color": 44.0,
+  "flat": 0.15,
+  "n": 87
+ },
+ {
+  "pk": "2017878750",
+  "title": "Chapel, Vadito, near Penasco, New Mexico",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "kolay",
+  "trim": [
+   0.03,
+   0.07,
+   0.068,
+   0.076
+  ],
+  "color": 43.2,
+  "flat": 0.19,
+  "n": 99
+ },
+ {
+  "pk": "2017877446",
+  "title": "Mountain farm along Skyline Drive, Va.",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "kolay",
+  "trim": [
+   0.053,
+   0.059,
+   0.048,
+   0.063
+  ],
+  "color": 42.9,
+  "flat": 0.19,
+  "n": 104
+ },
+ {
+  "pk": "2017878435",
+  "title": "Construction work at the TVA's Douglas Dam, Tenn.",
+  "creator": "Palmer, Alfred T.",
+  "level": "uzman",
+  "trim": [
+   0.035,
+   0.075,
+   0.07,
+   0.096
+  ],
+  "color": 42.7,
+  "flat": 0.04,
+  "n": 108
+ },
+ {
+  "pk": "2017878222",
+  "title": "Back into production go these carloads of scrap metal, Allegheny Ludlum Steel[e] Corp., Brackenridge, Pa. The melting of alloy steels for defense work requires that steel mill scrapyards such as this be constantly filled. The overhead magnet deposits the scrap in a loader which carries it to the open-hearth furnace. About 50 per cent scrap steel is used in open-hearth production",
+  "creator": "Palmer, Alfred T.",
+  "level": "uzman",
+  "trim": [
+   0.035,
+   0.042,
+   0.05,
+   0.051
+  ],
+  "color": 42.5,
+  "flat": 0.05,
+  "n": 112
+ },
+ {
+  "pk": "2017878376",
+  "title": "Owens-Corning Fiberglas Corporation, Toledo, Ohio. Side view of a glass furnace melting the carefully compounded batch required for the production of Fiberglas thermal insulation being installed in the hulls of naval vessels now under construction",
+  "creator": "Palmer, Alfred T.",
+  "level": "kolay",
+  "trim": [
+   0.11,
+   0.178,
+   0.18,
+   0.178
+  ],
+  "color": 41.5,
+  "flat": 0.22,
+  "n": 117
+ },
+ {
+  "pk": "2017878707",
+  "title": "Moreno Valley, Colfax County, New Mexico",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "kolay",
+  "trim": [
+   0.055,
+   0.072,
+   0.05,
+   0.072
+  ],
+  "color": 41.5,
+  "flat": 0.26,
+  "n": 118
+ },
+ {
+  "pk": "2017878464",
+  "title": "Construction at Douglas Dam (TVA), Tenn.",
+  "creator": "Palmer, Alfred T.",
+  "level": "kolay",
+  "trim": [
+   0.18,
+   0.179,
+   0.177,
+   0.073
+  ],
+  "color": 41.4,
+  "flat": 0.16,
+  "n": 120
+ },
+ {
+  "pk": "2017877456",
+  "title": "A train bringing copper ore out of the mine, Ducktown, Tenn. Fumes from smelting copper for sulfuric acid have destroyed all vegetation and eroded the land",
+  "creator": "Wolcott, Marion Post, 1910-1990",
+  "level": "uzman",
+  "trim": [
+   0.045,
+   0.049,
+   0.053,
+   0.049
+  ],
+  "color": 41.3,
+  "flat": 0.04,
+  "n": 121
+ },
+ {
+  "pk": "2017878574",
+  "title": "Church along the Delaware River, N.Y.",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "kolay",
+  "trim": [
+   0.062,
+   0.073,
+   0.11,
+   0.079
+  ],
+  "color": 41.3,
+  "flat": 0.16,
+  "n": 122
+ },
+ {
+  "pk": "2017878753",
+  "title": "Moreno Valley, Colfax County, New Mexico",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "kolay",
+  "trim": [
+   0.048,
+   0.081,
+   0.072,
+   0.081
+  ],
+  "color": 40.7,
+  "flat": 0.21,
+  "n": 128
+ },
+ {
+  "pk": "2017877800",
+  "title": "Vicinity of Corozal, Puerto Rico",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "uzman",
+  "trim": [
+   0.042,
+   0.045,
+   0.045,
+   0.059
+  ],
+  "color": 40.4,
+  "flat": 0.05,
+  "n": 132
+ },
+ {
+  "pk": "2017877738",
+  "title": "Dugout house of Faro Caudill, homesteader with Mt. Allegro in the background, Pie Town, New Mexico",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "kolay",
+  "trim": [
+   0.048,
+   0.055,
+   0.05,
+   0.0
+  ],
+  "color": 40.3,
+  "flat": 0.16,
+  "n": 133
+ },
+ {
+  "pk": "2017877590",
+  "title": "Cherry orchards, farm lands and irrigation ditch at Emmett, Idaho",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "kolay",
+  "trim": [
+   0.055,
+   0.1,
+   0.072,
+   0.071
+  ],
+  "color": 40.1,
+  "flat": 0.25,
+  "n": 135
+ },
+ {
+  "pk": "2017878497",
+  "title": "Assembling B-25 bombers at North American Aviation, Kansas City, Kan[sas]",
+  "creator": "Palmer, Alfred T.",
+  "level": "buyukUsta",
+  "trim": [
+   0.03,
+   0.179,
+   0.068,
+   0.075
+  ],
+  "color": 39.7,
+  "flat": 0.01,
+  "n": 142
+ },
+ {
+  "pk": "2017877979",
+  "title": "Central tower from which cable buckets carry materials used in the construction of Shasta dam, California",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "kolay",
+  "trim": [
+   0.059,
+   0.18,
+   0.082,
+   0.065
+  ],
+  "color": 38.9,
+  "flat": 0.2,
+  "n": 148
+ },
+ {
+  "pk": "2017877889",
+  "title": "Part of the harbor, Christiansted, St. Croix, Virgin Islands",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "kolay",
+  "trim": [
+   0.04,
+   0.059,
+   0.048,
+   0.059
+  ],
+  "color": 38.8,
+  "flat": 0.18,
+  "n": 149
+ },
+ {
+  "pk": "2017878833",
+  "title": "Railroad cars loaded with sulphur, Freeport Sulphur Co., Hoskins Mound, Texas",
+  "creator": "Vachon, John, 1914-1975",
+  "level": "uzman",
+  "trim": [
+   0.053,
+   0.084,
+   0.07,
+   0.091
+  ],
+  "color": 38.7,
+  "flat": 0.04,
+  "n": 151
+ },
+ {
+  "pk": "2017878773",
+  "title": "Civil Air Patrol Base, Bar Harbor, Maine",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "kolay",
+  "trim": [
+   0.057,
+   0.073,
+   0.057,
+   0.073
+  ],
+  "color": 38.5,
+  "flat": 0.19,
+  "n": 157
+ },
+ {
+  "pk": "2017877976",
+  "title": "[View of Mount Shasta, Calif.]",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "kolay",
+  "trim": [
+   0.053,
+   0.065,
+   0.053,
+   0.178
+  ],
+  "color": 38.5,
+  "flat": 0.28,
+  "n": 158
+ },
+ {
+  "pk": "2017878795",
+  "title": "Street corner, Dillon, Mont. Dillon is the trading center for a prosperous cattle and sheep country",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "kolay",
+  "trim": [
+   0.045,
+   0.092,
+   0.08,
+   0.069
+  ],
+  "color": 38.4,
+  "flat": 0.26,
+  "n": 159
+ },
+ {
+  "pk": "2017877849",
+  "title": "Ruins of an old sugar mill and plantation house, vicinity of Christiansted, Saint Croix, Virgin Islands",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "orta",
+  "trim": [
+   0.056,
+   0.165,
+   0.06,
+   0.055
+  ],
+  "color": 38.4,
+  "flat": 0.12,
+  "n": 160
+ },
+ {
+  "pk": "2017877978",
+  "title": "Shasta dam under construction, California",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "kolay",
+  "trim": [
+   0.084,
+   0.057,
+   0.091,
+   0.075
+  ],
+  "color": 38.1,
+  "flat": 0.2,
+  "n": 165
+ },
+ {
+  "pk": "2017877721",
+  "title": "Pinto beans, main crop at Pie Town, New Mexico",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "uzman",
+  "trim": [
+   0.055,
+   0.069,
+   0.06,
+   0.062
+  ],
+  "color": 37.9,
+  "flat": 0.04,
+  "n": 166
+ },
+ {
+  "pk": "2017877369",
+  "title": "Industrial area in Massachusetts, possibly around New Bedford",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "kolay",
+  "trim": [
+   0.045,
+   0.055,
+   0.053,
+   0.059
+  ],
+  "color": 37.8,
+  "flat": 0.26,
+  "n": 167
+ },
+ {
+  "pk": "2017878762",
+  "title": "Chacon, Moro Co., N[ew] Mex[ico]",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "kolay",
+  "trim": [
+   0.045,
+   0.07,
+   0.068,
+   0.079
+  ],
+  "color": 37.7,
+  "flat": 0.2,
+  "n": 170
+ },
+ {
+  "pk": "2017877526",
+  "title": "House near White Plains, Ga.?",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "orta",
+  "trim": [
+   0.07,
+   0.078,
+   0.038,
+   0.078
+  ],
+  "color": 37.7,
+  "flat": 0.15,
+  "n": 171
+ },
+ {
+  "pk": "2017878141",
+  "title": "Flagman standing at a distance behind a Santa Fe R.R. west bound freight train during a stop, Bagdad, Calif.",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "orta",
+  "trim": [
+   0.062,
+   0.081,
+   0.055,
+   0.084
+  ],
+  "color": 37.5,
+  "flat": 0.14,
+  "n": 173
+ },
+ {
+  "pk": "2017877949",
+  "title": "[Gas pump with clothesline, barn and horse-drawn wagon in background]",
+  "creator": null,
+  "level": "buyukUsta",
+  "trim": [
+   0.05,
+   0.052,
+   0.048,
+   0.056
+  ],
+  "color": 37.0,
+  "flat": 0.02,
+  "n": 180
+ },
+ {
+  "pk": "2017877751",
+  "title": "General Merchandise store, Main Street, Pie Town, New Mexico",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "kolay",
+  "trim": [
+   0.068,
+   0.084,
+   0.04,
+   0.068
+  ],
+  "color": 36.8,
+  "flat": 0.21,
+  "n": 181
+ },
+ {
+  "pk": "2017877870",
+  "title": "The main shopping street, Christiansted, Saint Croix, Virgin Islands",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "kolay",
+  "trim": [
+   0.05,
+   0.066,
+   0.048,
+   0.063
+  ],
+  "color": 36.8,
+  "flat": 0.16,
+  "n": 182
+ },
+ {
+  "pk": "2017877367",
+  "title": "Near the waterfront, New Bedford, Mass.",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "orta",
+  "trim": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "color": 36.7,
+  "flat": 0.14,
+  "n": 184
+ },
+ {
+  "pk": "2017877463",
+  "title": "Farm in southern U.S. ... Louisiana?",
+  "creator": "Wolcott, Marion Post, 1910-1990",
+  "level": "kolay",
+  "trim": [
+   0.045,
+   0.059,
+   0.048,
+   0.052
+  ],
+  "color": 36.6,
+  "flat": 0.24,
+  "n": 185
+ },
+ {
+  "pk": "2017877549",
+  "title": "Shacks condemned by Board of Health, formerly (?) occupied by migrant workers and pickers, Belle Glade, Fla.",
+  "creator": "Wolcott, Marion Post, 1910-1990",
+  "level": "uzman",
+  "trim": [
+   0.042,
+   0.045,
+   0.18,
+   0.056
+  ],
+  "color": 36.3,
+  "flat": 0.05,
+  "n": 190
+ },
+ {
+  "pk": "2017878547",
+  "title": "Monticello, home of Thomas Jefferson, Charlottesville, Va.",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "orta",
+  "trim": [
+   0.072,
+   0.079,
+   0.045,
+   0.14
+  ],
+  "color": 36.2,
+  "flat": 0.12,
+  "n": 192
+ },
+ {
+  "pk": "2017878850",
+  "title": "Open-pit workings of the Utah Copper Company, Bingham Canyon, Utah. This is the Carr Fork side from which the company obtains huge amounts of ore. The Carr Fork bridge and main shops appear in the foreground",
+  "creator": "Feininger, Andreas, 1906-1999",
+  "level": "orta",
+  "trim": [
+   0.038,
+   0.079,
+   0.07,
+   0.178
+  ],
+  "color": 35.9,
+  "flat": 0.14,
+  "n": 199
+ },
+ {
+  "pk": "2017877691",
+  "title": "Faro Caudill drawing water from his well, Pie Town, New Mexico",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "buyukUsta",
+  "trim": [
+   0.05,
+   0.059,
+   0.048,
+   0.056
+  ],
+  "color": 35.8,
+  "flat": 0.01,
+  "n": 201
+ },
+ {
+  "pk": "2017877859",
+  "title": "Street in Christiansted, St. Croix, Virgin Islands",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "orta",
+  "trim": [
+   0.18,
+   0.066,
+   0.125,
+   0.052
+  ],
+  "color": 35.7,
+  "flat": 0.07,
+  "n": 203
+ },
+ {
+  "pk": "2017878581",
+  "title": "Farmland in the Taconic range, near the Hudson River Valley in New York state",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "kolay",
+  "trim": [
+   0.04,
+   0.085,
+   0.065,
+   0.072
+  ],
+  "color": 35.6,
+  "flat": 0.24,
+  "n": 208
+ },
+ {
+  "pk": "2017877343",
+  "title": "Typical southeastern Georgia farm with newly harvested field of oats",
+  "creator": "Wolcott, Marion Post, 1910-1990",
+  "level": "kolay",
+  "trim": [
+   0.045,
+   0.052,
+   0.042,
+   0.062
+  ],
+  "color": 35.5,
+  "flat": 0.18,
+  "n": 210
+ },
+ {
+  "pk": "2017878348",
+  "title": "The capitol of the Virginia colony during the 18th century, which was reconstructed and restored to its original state by John D. Rockefeller, Jr., during the 1930's, Williamsburg, Va. The capitol originally erected in 1701-5 was the meeting place of the Virginia General Assembly and General Court [and] is flying the old type of British flag with the permission of England and the United States",
+  "creator": "Hollem, Howard R.",
+  "level": "zor",
+  "trim": [
+   0.057,
+   0.082,
+   0.05,
+   0.076
+  ],
+  "color": 35.4,
+  "flat": 0.06,
+  "n": 212
+ },
+ {
+  "pk": "2017878578",
+  "title": "Farmland in the Catskill Mountains, Richmondsville, N.Y.",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "kolay",
+  "trim": [
+   0.062,
+   0.07,
+   0.055,
+   0.083
+  ],
+  "color": 35.3,
+  "flat": 0.25,
+  "n": 216
+ },
+ {
+  "pk": "2017878948",
+  "title": "Smoke stacks",
+  "creator": "Palmer, Alfred T.",
+  "level": "kolay",
+  "trim": [
+   0.045,
+   0.045,
+   0.048,
+   0.045
+  ],
+  "color": 35.2,
+  "flat": 0.17,
+  "n": 217
+ },
+ {
+  "pk": "2017877789",
+  "title": "Puerto Rico?",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "orta",
+  "trim": [
+   0.042,
+   0.062,
+   0.048,
+   0.055
+  ],
+  "color": 35.0,
+  "flat": 0.13,
+  "n": 220
+ },
+ {
+  "pk": "2017877846",
+  "title": "Ruins of an old sugar mill and plantation house, vicinity of Christiansted, Saint Croix, Virgin Islands",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "orta",
+  "trim": [
+   0.088,
+   0.059,
+   0.053,
+   0.066
+  ],
+  "color": 34.8,
+  "flat": 0.09,
+  "n": 226
+ },
+ {
+  "pk": "2017877348",
+  "title": "Cabin in Southern U.S.",
+  "creator": "Wolcott, Marion Post, 1910-1990",
+  "level": "kolay",
+  "trim": [
+   0.042,
+   0.062,
+   0.057,
+   0.069
+  ],
+  "color": 34.7,
+  "flat": 0.18,
+  "n": 229
+ },
+ {
+  "pk": "2017877907",
+  "title": "One of the steep streets on the hillsides, Charlotte Amalie, St. Thomas Island, Virgin Islands",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "kolay",
+  "trim": [
+   0.115,
+   0.095,
+   0.057,
+   0.106
+  ],
+  "color": 34.7,
+  "flat": 0.16,
+  "n": 230
+ },
+ {
+  "pk": "2017878442",
+  "title": "[Men working on telephone lines, probably near a TVA dam hydroelectric plant]",
+  "creator": "Palmer, Alfred T.",
+  "level": "orta",
+  "trim": [
+   0.057,
+   0.072,
+   0.053,
+   0.082
+  ],
+  "color": 34.7,
+  "flat": 0.12,
+  "n": 231
+ },
+ {
+  "pk": "2017878727",
+  "title": "Looking north from the Sangre de Cristo Mountains above Penasco, New Mexico",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "kolay",
+  "trim": [
+   0.048,
+   0.075,
+   0.07,
+   0.112
+  ],
+  "color": 34.5,
+  "flat": 0.18,
+  "n": 236
+ },
+ {
+  "pk": "2017878828",
+  "title": "Southland Paper Co., Kraft pulp mill under construction, Lufkin, Texas",
+  "creator": "Vachon, John, 1914-1975",
+  "level": "orta",
+  "trim": [
+   0.045,
+   0.053,
+   0.08,
+   0.177
+  ],
+  "color": 34.5,
+  "flat": 0.12,
+  "n": 237
+ },
+ {
+  "pk": "2017877604",
+  "title": "Hauling crates of peaches from the orchard to the shipping shed, Delta County, Colo.",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "uzman",
+  "trim": [
+   0.0,
+   0.0,
+   0.18,
+   0.052
+  ],
+  "color": 34.3,
+  "flat": 0.04,
+  "n": 239
+ },
+ {
+  "pk": "2017877361",
+  "title": "Street scene, [Mystic, Connecticut]",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "buyukUsta",
+  "trim": [
+   0.069,
+   0.045,
+   0.055,
+   0.055
+  ],
+  "color": 34.1,
+  "flat": 0.01,
+  "n": 241
+ },
+ {
+  "pk": "2017877863",
+  "title": "House in the Virgin Islands, Christiansted, St. Croix?",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "usta",
+  "trim": [
+   0.045,
+   0.124,
+   0.17,
+   0.056
+  ],
+  "color": 34.0,
+  "flat": 0.02,
+  "n": 242
+ },
+ {
+  "pk": "2017877946",
+  "title": "[Guernsey cow or calf lying on the ground]",
+  "creator": null,
+  "level": "kolay",
+  "trim": [
+   0.053,
+   0.062,
+   0.055,
+   0.066
+  ],
+  "color": 33.5,
+  "flat": 0.21,
+  "n": 246
+ },
+ {
+  "pk": "2017878706",
+  "title": "Trampas, New Mexico",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "kolay",
+  "trim": [
+   0.062,
+   0.179,
+   0.057,
+   0.073
+  ],
+  "color": 33.4,
+  "flat": 0.26,
+  "n": 247
+ },
+ {
+  "pk": "2017878798",
+  "title": "Bands of sheep [i.e. cattle] on the Gravelly Range at the foot of Black Butte, Madison County, Montana",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "orta",
+  "trim": [
+   0.045,
+   0.09,
+   0.08,
+   0.087
+  ],
+  "color": 33.2,
+  "flat": 0.12,
+  "n": 249
+ },
+ {
+  "pk": "2017877708",
+  "title": "Harvesting new corn from the field of Jim Norris, Pie Town, New Mexico",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "orta",
+  "trim": [
+   0.055,
+   0.063,
+   0.18,
+   0.063
+  ],
+  "color": 32.9,
+  "flat": 0.07,
+  "n": 255
+ },
+ {
+  "pk": "2017878715",
+  "title": "Placita, New Mexico, on the Rio Pueblo",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "kolay",
+  "trim": [
+   0.175,
+   0.081,
+   0.18,
+   0.078
+  ],
+  "color": 32.9,
+  "flat": 0.22,
+  "n": 257
+ },
+ {
+  "pk": "2017878549",
+  "title": "Monticello, home of Thomas Jefferson, Charlottesville, Va.",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "orta",
+  "trim": [
+   0.038,
+   0.082,
+   0.075,
+   0.177
+  ],
+  "color": 32.8,
+  "flat": 0.09,
+  "n": 260
+ },
+ {
+  "pk": "2017877356",
+  "title": "Detail of industrial building in Massachusetts",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "orta",
+  "trim": [
+   0.042,
+   0.049,
+   0.045,
+   0.059
+  ],
+  "color": 32.6,
+  "flat": 0.14,
+  "n": 261
+ },
+ {
+  "pk": "2017878702",
+  "title": "Smoke stack of TVA chemical plant where elemental phosphorus is made, vicinity of Muscle Shoals, Alabama",
+  "creator": "Palmer, Alfred T.",
+  "level": "kolay",
+  "trim": [
+   0.082,
+   0.08,
+   0.082,
+   0.045
+  ],
+  "color": 32.5,
+  "flat": 0.2,
+  "n": 262
+ },
+ {
+  "pk": "2017877836",
+  "title": "In the flat cattle country in the south western tip of Puerto Rico",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "zor",
+  "trim": [
+   0.042,
+   0.077,
+   0.068,
+   0.089
+  ],
+  "color": 32.4,
+  "flat": 0.05,
+  "n": 263
+ },
+ {
+  "pk": "2017877435",
+  "title": "Railroad crossing along the Skyline Drive, Virginia",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "orta",
+  "trim": [
+   0.042,
+   0.052,
+   0.18,
+   0.063
+  ],
+  "color": 32.2,
+  "flat": 0.11,
+  "n": 266
+ },
+ {
+  "pk": "2017877972",
+  "title": "Shasta dam under construction, California",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "buyukUsta",
+  "trim": [
+   0.065,
+   0.045,
+   0.065,
+   0.05
+  ],
+  "color": 32.2,
+  "flat": 0.0,
+  "n": 267
+ },
+ {
+  "pk": "2017878586",
+  "title": "A view looking northeast from the fire tower manned by Barbara Mortensen, a fire and airplane lookout on Pine Mountain, Gorham vicinity, N.H.",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "kolay",
+  "trim": [
+   0.062,
+   0.07,
+   0.042,
+   0.178
+  ],
+  "color": 32.2,
+  "flat": 0.18,
+  "n": 268
+ },
+ {
+  "pk": "2017878827",
+  "title": "Southland Paper mill, Kraft (chemical) pulp used in making newsprint, Lufkin, Texas",
+  "creator": "Vachon, John, 1914-1975",
+  "level": "zor",
+  "trim": [
+   0.057,
+   0.059,
+   0.08,
+   0.088
+  ],
+  "color": 32.2,
+  "flat": 0.05,
+  "n": 269
+ },
+ {
+  "pk": "2017878856",
+  "title": "[View along US 40 in Mount Vernon Canyon, Colorado]",
+  "creator": "Feininger, Andreas, 1906-1999",
+  "level": "buyukUsta",
+  "trim": [
+   0.055,
+   0.073,
+   0.05,
+   0.063
+  ],
+  "color": 32.2,
+  "flat": 0.01,
+  "n": 270
+ },
+ {
+  "pk": "2017877535",
+  "title": "Burley tobacco is placed on sticks to wilt after cutting, before it is taken into the barn for drying and curing on the Russell Spears' farm, vicinity of Lexington, Ky.",
+  "creator": "Wolcott, Marion Post, 1910-1990",
+  "level": "kolay",
+  "trim": [
+   0.057,
+   0.059,
+   0.053,
+   0.07
+  ],
+  "color": 32.1,
+  "flat": 0.23,
+  "n": 271
+ },
+ {
+  "pk": "2017877780",
+  "title": "Tobacco string in the tobacco barn? vicinity of Barranquitas? Puerto Rico",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "buyukUsta",
+  "trim": [
+   0.085,
+   0.042,
+   0.059,
+   0.048
+  ],
+  "color": 32.1,
+  "flat": 0.01,
+  "n": 272
+ },
+ {
+  "pk": "2017877961",
+  "title": "[Row houses, corner of N and Union Streets S.W., Washington, D.C.]",
+  "creator": "Rosskam, Louise, 1910-2003",
+  "level": "usta",
+  "trim": [
+   0.072,
+   0.088,
+   0.048,
+   0.12
+  ],
+  "color": 32.0,
+  "flat": 0.02,
+  "n": 273
+ },
+ {
+  "pk": "2017877752",
+  "title": "Exhibit of crops and vegetables at the Pie Town, New Mexico Fair.",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "kolay",
+  "trim": [
+   0.059,
+   0.18,
+   0.178,
+   0.18
+  ],
+  "color": 31.8,
+  "flat": 0.2,
+  "n": 276
+ },
+ {
+  "pk": "2017877945",
+  "title": "[Trees in reforestation project, Md.?]",
+  "creator": null,
+  "level": "buyukUsta",
+  "trim": [
+   0.04,
+   0.049,
+   0.062,
+   0.059
+  ],
+  "color": 31.8,
+  "flat": 0.0,
+  "n": 278
+ },
+ {
+  "pk": "2017878126",
+  "title": "A freight train stopping for coal and water at a siding enroute to Gallup, New Mexico, near Laguna, N.M.",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "kolay",
+  "trim": [
+   0.068,
+   0.072,
+   0.057,
+   0.092
+  ],
+  "color": 31.8,
+  "flat": 0.27,
+  "n": 279
+ },
+ {
+  "pk": "2017877632",
+  "title": "Distributing surplus commodities, St. Johns, Ariz.",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "buyukUsta",
+  "trim": [
+   0.045,
+   0.058,
+   0.053,
+   0.085
+  ],
+  "color": 31.6,
+  "flat": 0.01,
+  "n": 280
+ },
+ {
+  "pk": "2017877532",
+  "title": "Field of Burley tobacco on farm of Russell Spears, drying and curing barn in the background, vicinity of Lexington, Ky.",
+  "creator": "Wolcott, Marion Post, 1910-1990",
+  "level": "zor",
+  "trim": [
+   0.04,
+   0.048,
+   0.045,
+   0.059
+  ],
+  "color": 31.5,
+  "flat": 0.06,
+  "n": 282
+ },
+ {
+  "pk": "2017877830",
+  "title": "A town in Puerto Rico",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "kolay",
+  "trim": [
+   0.077,
+   0.069,
+   0.145,
+   0.13
+  ],
+  "color": 31.5,
+  "flat": 0.18,
+  "n": 283
+ },
+ {
+  "pk": "2017877909",
+  "title": "French village, a small settlement on St. Thomas Island, Virgin Islands",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "orta",
+  "trim": [
+   0.177,
+   0.063,
+   0.048,
+   0.063
+  ],
+  "color": 31.5,
+  "flat": 0.08,
+  "n": 285
+ },
+ {
+  "pk": "2017878825",
+  "title": "Southland Paper mill, Kraft (chemical) pulp used in making newsprint, Lufkin, Texas",
+  "creator": "Vachon, John, 1914-1975",
+  "level": "kolay",
+  "trim": [
+   0.083,
+   0.081,
+   0.045,
+   0.085
+  ],
+  "color": 31.4,
+  "flat": 0.21,
+  "n": 288
+ },
+ {
+  "pk": "2017877853",
+  "title": "Houses on St. Croix island, Virgin Islands",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "kolay",
+  "trim": [
+   0.042,
+   0.073,
+   0.05,
+   0.056
+  ],
+  "color": 31.3,
+  "flat": 0.25,
+  "n": 289
+ },
+ {
+  "pk": "2017878369",
+  "title": "Formerly an aircraft dock, this huge building -- thought to be the largest in the world with no interior supports -- is now the scene of many busy shops turning out aircraft sub-assembly parts, Goodyear Aircraft Corp., Akron, Ohio. Either new housing close to the plant or vastly improved public transportation will eventually have to be supplied, for the tires on the cars of the workers, and perhaps even the cars themselves, will in many instances give in before the end of the present emergency",
+  "creator": "Palmer, Alfred T.",
+  "level": "kolay",
+  "trim": [
+   0.038,
+   0.079,
+   0.18,
+   0.178
+  ],
+  "color": 31.3,
+  "flat": 0.2,
+  "n": 290
+ },
+ {
+  "pk": "2017878720",
+  "title": "Sangre de Cristo Mountain",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "kolay",
+  "trim": [
+   0.075,
+   0.073,
+   0.05,
+   0.179
+  ],
+  "color": 31.2,
+  "flat": 0.2,
+  "n": 292
+ },
+ {
+  "pk": "2017878939",
+  "title": "Children in the tenement district, Brockton, Mass.",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "orta",
+  "trim": [
+   0.048,
+   0.059,
+   0.055,
+   0.069
+  ],
+  "color": 31.2,
+  "flat": 0.07,
+  "n": 293
+ },
+ {
+  "pk": "2017877938",
+  "title": "[Trees in a reforestation project, Md.?]",
+  "creator": null,
+  "level": "buyukUsta",
+  "trim": [
+   0.05,
+   0.055,
+   0.075,
+   0.072
+  ],
+  "color": 31.0,
+  "flat": 0.0,
+  "n": 296
+ },
+ {
+  "pk": "2017878469",
+  "title": "Construction of Douglas Dam, TVA",
+  "creator": "Palmer, Alfred T.",
+  "level": "uzman",
+  "trim": [
+   0.08,
+   0.147,
+   0.073,
+   0.07
+  ],
+  "color": 31.0,
+  "flat": 0.04,
+  "n": 297
+ },
+ {
+  "pk": "2017877895",
+  "title": "Palm trees along the road, vicinity of Christiansted, Saint Croix, Virgin Islands",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "zor",
+  "trim": [
+   0.053,
+   0.069,
+   0.06,
+   0.078
+  ],
+  "color": 30.9,
+  "flat": 0.06,
+  "n": 300
+ },
+ {
+  "pk": "2017878717",
+  "title": "Sangre de Cristo Mountain, New Mexico",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "usta",
+  "trim": [
+   0.177,
+   0.073,
+   0.048,
+   0.073
+  ],
+  "color": 30.9,
+  "flat": 0.02,
+  "n": 301
+ },
+ {
+  "pk": "2017878801",
+  "title": "Cattle in corral waiting to be weighed before being trailed to railroad, Beaverhead County, Montana",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "buyukUsta",
+  "trim": [
+   0.085,
+   0.1,
+   0.05,
+   0.074
+  ],
+  "color": 30.9,
+  "flat": 0.0,
+  "n": 302
+ },
+ {
+  "pk": "2017878743",
+  "title": "Trampas, Taos County, New Mexico, a Spanish-American village in the foothills of the Sangre de Cristo Mountains dating back to 1700 which was once a sheep raising center. Due to overgrazing and loss of range title, its inhabitants now work as migratory labor and at subsistence farming",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "zor",
+  "trim": [
+   0.175,
+   0.078,
+   0.065,
+   0.075
+  ],
+  "color": 30.8,
+  "flat": 0.06,
+  "n": 304
+ },
+ {
+  "pk": "2017878122",
+  "title": "Santa Fe R.R. train, Melrose, N[ew] Mex[ico]",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "kolay",
+  "trim": [
+   0.046,
+   0.053,
+   0.178,
+   0.07
+  ],
+  "color": 30.7,
+  "flat": 0.21,
+  "n": 306
+ },
+ {
+  "pk": "2017878190",
+  "title": "Loading coal into a freighter at one of the Pennsylvania Railroad docks, Sandusky, Ohio",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "kolay",
+  "trim": [
+   0.042,
+   0.088,
+   0.08,
+   0.075
+  ],
+  "color": 30.7,
+  "flat": 0.2,
+  "n": 307
+ },
+ {
+  "pk": "2017877776",
+  "title": "On the coast of Puerto Rico?",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "kolay",
+  "trim": [
+   0.045,
+   0.055,
+   0.118,
+   0.065
+  ],
+  "color": 30.6,
+  "flat": 0.18,
+  "n": 309
+ },
+ {
+  "pk": "2017877880",
+  "title": "In the old fort built by the French, Frederiksted, Saint Croix island, Virgin Islands",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "uzman",
+  "trim": [
+   0.178,
+   0.12,
+   0.062,
+   0.053
+  ],
+  "color": 30.6,
+  "flat": 0.04,
+  "n": 311
+ },
+ {
+  "pk": "2017877900",
+  "title": "Street in a town [Frederiksted, St. Croix], in the Virgin Islands",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "orta",
+  "trim": [
+   0.055,
+   0.06,
+   0.18,
+   0.056
+  ],
+  "color": 30.5,
+  "flat": 0.11,
+  "n": 315
+ },
+ {
+  "pk": "2017878741",
+  "title": "Church of Trampas, Taos Co., N[ew] M[exico]",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "usta",
+  "trim": [
+   0.05,
+   0.082,
+   0.04,
+   0.079
+  ],
+  "color": 30.5,
+  "flat": 0.02,
+  "n": 317
+ },
+ {
+  "pk": "2017877450",
+  "title": "A train bringing copper ore out of the mines, Ducktown, Tenn. Fumes from smelting copper for sulfuric acid have destroyed all vegetation and eroded the land",
+  "creator": "Wolcott, Marion Post, 1910-1990",
+  "level": "zor",
+  "trim": [
+   0.045,
+   0.052,
+   0.05,
+   0.059
+  ],
+  "color": 30.2,
+  "flat": 0.06,
+  "n": 319
+ },
+ {
+  "pk": "2017878851",
+  "title": "View of the Utah Copper Company open-pit mine workings at Carr Fork, as seen from the railroad, Bingham Canyon, Utah",
+  "creator": "Feininger, Andreas, 1906-1999",
+  "level": "orta",
+  "trim": [
+   0.075,
+   0.073,
+   0.048,
+   0.073
+  ],
+  "color": 30.2,
+  "flat": 0.07,
+  "n": 321
+ },
+ {
+  "pk": "2017877912",
+  "title": "Lincoln, Nebraska",
+  "creator": "Vachon, John, 1914-1975",
+  "level": "usta",
+  "trim": [
+   0.04,
+   0.08,
+   0.152,
+   0.048
+  ],
+  "color": 30.1,
+  "flat": 0.02,
+  "n": 323
+ },
+ {
+  "pk": "2017877787",
+  "title": "[Christiansted, Saint Croix, Virgin Islands]",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "kolay",
+  "trim": [
+   0.045,
+   0.062,
+   0.045,
+   0.065
+  ],
+  "color": 30.0,
+  "flat": 0.22,
+  "n": 324
+ },
+ {
+  "pk": "2017878803",
+  "title": "Scrap and salvage depot, Butte, Montana",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "buyukUsta",
+  "trim": [
+   0.08,
+   0.053,
+   0.033,
+   0.082
+  ],
+  "color": 30.0,
+  "flat": 0.0,
+  "n": 325
+ },
+ {
+  "pk": "2017877415",
+  "title": "A starch factory along the Aroostook River, Caribou, Aroostook County, Me.",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "orta",
+  "trim": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "color": 29.9,
+  "flat": 0.11,
+  "n": 327
+ },
+ {
+  "pk": "2017878481",
+  "title": "Welder making boilers for a ship, Combustion Engineering Co., Chattanooga, Tenn.",
+  "creator": "Palmer, Alfred T.",
+  "level": "kolay",
+  "trim": [
+   0.18,
+   0.18,
+   0.065,
+   0.084
+  ],
+  "color": 29.8,
+  "flat": 0.16,
+  "n": 330
+ },
+ {
+  "pk": "2017878747",
+  "title": "Moreno Valley, Colfax County, New Mexico",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "kolay",
+  "trim": [
+   0.055,
+   0.079,
+   0.065,
+   0.073
+  ],
+  "color": 29.8,
+  "flat": 0.19,
+  "n": 331
+ },
+ {
+  "pk": "2017877449",
+  "title": "Copper mining and sulfuric acid plant, Copperhill], Tenn.",
+  "creator": "Wolcott, Marion Post, 1910-1990",
+  "level": "orta",
+  "trim": [
+   0.05,
+   0.062,
+   0.045,
+   0.062
+  ],
+  "color": 29.7,
+  "flat": 0.07,
+  "n": 332
+ },
+ {
+  "pk": "2017877834",
+  "title": "Small farms in the hills, vicinity of Corozal, Puerto Rico",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "orta",
+  "trim": [
+   0.062,
+   0.072,
+   0.06,
+   0.079
+  ],
+  "color": 29.7,
+  "flat": 0.11,
+  "n": 334
+ },
+ {
+  "pk": "2017877935",
+  "title": "[Field with tree stumps]",
+  "creator": null,
+  "level": "usta",
+  "trim": [
+   0.048,
+   0.048,
+   0.048,
+   0.063
+  ],
+  "color": 29.6,
+  "flat": 0.03,
+  "n": 336
+ },
+ {
+  "pk": "2017878892",
+  "title": "[Birmingham (near Detroit), Michigan. Kitchen utensils hanging below a spice rack with mint, caraway, thyme, and sage jars]",
+  "creator": "Siegel, Arthur S.",
+  "level": "usta",
+  "trim": [
+   0.076,
+   0.055,
+   0.082,
+   0.057
+  ],
+  "color": 29.6,
+  "flat": 0.03,
+  "n": 337
+ },
+ {
+  "pk": "2017878465",
+  "title": "Construction at TVA's Douglas Dam, Tenn.",
+  "creator": "Palmer, Alfred T.",
+  "level": "usta",
+  "trim": [
+   0.045,
+   0.082,
+   0.075,
+   0.123
+  ],
+  "color": 29.5,
+  "flat": 0.03,
+  "n": 340
+ },
+ {
+  "pk": "2017877818",
+  "title": "Malaria poster in small hotel, Puerto Rico ... San Juan",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "orta",
+  "trim": [
+   0.055,
+   0.045,
+   0.088,
+   0.057
+  ],
+  "color": 29.4,
+  "flat": 0.12,
+  "n": 344
+ },
+ {
+  "pk": "2017877865",
+  "title": "Christiansted, St. Croix? Virgin Islands",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "orta",
+  "trim": [
+   0.079,
+   0.048,
+   0.058,
+   0.133
+  ],
+  "color": 29.4,
+  "flat": 0.11,
+  "n": 345
+ },
+ {
+  "pk": "2017878065",
+  "title": "General view of one of the classification yards of the Chicago and Northwestern [i.e. North Western] Railroad, Chicago, Ill.",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "kolay",
+  "trim": [
+   0.072,
+   0.081,
+   0.053,
+   0.091
+  ],
+  "color": 29.4,
+  "flat": 0.29,
+  "n": 347
+ },
+ {
+  "pk": "2017877440",
+  "title": "[Mountains along the Skyline Drive in Virginia]",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "kolay",
+  "trim": [
+   0.057,
+   0.059,
+   0.05,
+   0.178
+  ],
+  "color": 29.3,
+  "flat": 0.17,
+  "n": 349
+ },
+ {
+  "pk": "2017878755",
+  "title": "Sangre de Cristo Mountains, N[ew] Mex[ico]",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "orta",
+  "trim": [
+   0.076,
+   0.065,
+   0.076,
+   0.06
+  ],
+  "color": 29.3,
+  "flat": 0.08,
+  "n": 352
+ },
+ {
+  "pk": "2017878796",
+  "title": "Bands of sheep on the Gravelly Range at the foot of Black Butte, Madison County, Montana",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "orta",
+  "trim": [
+   0.062,
+   0.1,
+   0.065,
+   0.068
+  ],
+  "color": 29.3,
+  "flat": 0.09,
+  "n": 353
+ },
+ {
+  "pk": "2017878805",
+  "title": "Butte, Montana",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "orta",
+  "trim": [
+   0.085,
+   0.097,
+   0.05,
+   0.071
+  ],
+  "color": 29.1,
+  "flat": 0.11,
+  "n": 354
+ },
+ {
+  "pk": "2017878725",
+  "title": "Village of Placita near Penasco, Taos Co., N[ew] Mex[ico]",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "kolay",
+  "trim": [
+   0.15,
+   0.076,
+   0.065,
+   0.147
+  ],
+  "color": 29.0,
+  "flat": 0.2,
+  "n": 355
+ },
+ {
+  "pk": "2017877410",
+  "title": "Potato farms in Aroostook County, Me.",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "kolay",
+  "trim": [
+   0.045,
+   0.052,
+   0.05,
+   0.059
+  ],
+  "color": 28.9,
+  "flat": 0.17,
+  "n": 359
+ },
+ {
+  "pk": "2017878583",
+  "title": "White Mountains National Forest, New Hampshire",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "usta",
+  "trim": [
+   0.068,
+   0.073,
+   0.04,
+   0.178
+  ],
+  "color": 28.8,
+  "flat": 0.02,
+  "n": 362
+ },
+ {
+  "pk": "2017878709",
+  "title": "Vista northward into Colorado",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "orta",
+  "trim": [
+   0.18,
+   0.069,
+   0.042,
+   0.18
+  ],
+  "color": 28.8,
+  "flat": 0.11,
+  "n": 363
+ },
+ {
+  "pk": "2017877829",
+  "title": "A land and utility municipal housing project, Ponce, Puerto Rico",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "orta",
+  "trim": [
+   0.065,
+   0.078,
+   0.062,
+   0.078
+  ],
+  "color": 28.7,
+  "flat": 0.14,
+  "n": 364
+ },
+ {
+  "pk": "2017877905",
+  "title": "One of the steep streets on the hillsides, Charlotte Amalie, St. Thomas, Virgin Islands",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "usta",
+  "trim": [
+   0.048,
+   0.066,
+   0.1,
+   0.171
+  ],
+  "color": 28.7,
+  "flat": 0.02,
+  "n": 365
+ },
+ {
+  "pk": "2017877750",
+  "title": "Door and window in a Spanish-American home, Costilla, New Mexico",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "uzman",
+  "trim": [
+   0.068,
+   0.04,
+   0.084,
+   0.075
+  ],
+  "color": 28.7,
+  "flat": 0.03,
+  "n": 366
+ },
+ {
+  "pk": "2017877388",
+  "title": "View of the grounds at the Vermont state fair, Rutland",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "kolay",
+  "trim": [
+   0.098,
+   0.052,
+   0.06,
+   0.052
+  ],
+  "color": 28.6,
+  "flat": 0.16,
+  "n": 367
+ },
+ {
+  "pk": "2017877547",
+  "title": "Houses which have been condemned by the Board of Health but are still occupied by Negro migratory workers, Belle Glade, Fla.",
+  "creator": "Wolcott, Marion Post, 1910-1990",
+  "level": "zor",
+  "trim": [
+   0.057,
+   0.069,
+   0.12,
+   0.069
+  ],
+  "color": 28.6,
+  "flat": 0.06,
+  "n": 368
+ },
+ {
+  "pk": "2017877432",
+  "title": "A woman painting a view of the Shenandoah Valley from the Skyline Drive, near an entrance to the Appalachian Trail, Virginia",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "zor",
+  "trim": [
+   0.072,
+   0.052,
+   0.048,
+   0.179
+  ],
+  "color": 28.5,
+  "flat": 0.06,
+  "n": 372
+ },
+ {
+  "pk": "2017877820",
+  "title": "A land and utility municipal housing project, Ponce, Puerto Rico",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "kolay",
+  "trim": [
+   0.05,
+   0.062,
+   0.072,
+   0.082
+  ],
+  "color": 28.5,
+  "flat": 0.18,
+  "n": 374
+ },
+ {
+  "pk": "2017878191",
+  "title": "Loading a lake freighter with coal for shipment to other lake ports, Sandusky, Ohio",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "orta",
+  "trim": [
+   0.172,
+   0.062,
+   0.042,
+   0.178
+  ],
+  "color": 28.4,
+  "flat": 0.12,
+  "n": 380
+ },
+ {
+  "pk": "2017878468",
+  "title": "Early stages of construction work at the TVA's Douglas Dam, Tenn.",
+  "creator": "Palmer, Alfred T.",
+  "level": "usta",
+  "trim": [
+   0.076,
+   0.068,
+   0.088,
+   0.05
+  ],
+  "color": 28.4,
+  "flat": 0.02,
+  "n": 381
+ },
+ {
+  "pk": "2017878194",
+  "title": "Loading a lake freighter with coal at the Pennsylvania R.R. coal docks, for shipment to other Great Lake ports, Sandusky, Ohio",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "kolay",
+  "trim": [
+   0.081,
+   0.075,
+   0.097,
+   0.06
+  ],
+  "color": 28.3,
+  "flat": 0.22,
+  "n": 384
+ },
+ {
+  "pk": "2017878582",
+  "title": "White Mountains National Forest, New Hampshire",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "orta",
+  "trim": [
+   0.07,
+   0.073,
+   0.045,
+   0.079
+  ],
+  "color": 28.3,
+  "flat": 0.07,
+  "n": 385
+ },
+ {
+  "pk": "2017878943",
+  "title": "C & NW RR [i.e. Chicago and North Western railroad], tank cars going over the hump at Proviso yard, Chicago, Ill.",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "orta",
+  "trim": [
+   0.068,
+   0.068,
+   0.057,
+   0.101
+  ],
+  "color": 28.3,
+  "flat": 0.13,
+  "n": 386
+ },
+ {
+  "pk": "2017877428",
+  "title": "The road along the Skyline Drive, with a light snowfall in the rocks beside, Virginia",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "kolay",
+  "trim": [
+   0.05,
+   0.059,
+   0.048,
+   0.055
+  ],
+  "color": 28.2,
+  "flat": 0.16,
+  "n": 387
+ },
+ {
+  "pk": "2017878167",
+  "title": "Trucks unloading at the inbound freight house of the Illinois Central Railroad, South Water Street freight terminal, Chicago, Ill.",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "kolay",
+  "trim": [
+   0.083,
+   0.068,
+   0.072,
+   0.107
+  ],
+  "color": 28.1,
+  "flat": 0.16,
+  "n": 390
+ },
+ {
+  "pk": "2017878196",
+  "title": "After the ore is weighed in the \"Hewlett\" [i.e. \"Hulett\"] machine it is dropped in the waiting hopper cars below; Pennsylvania R.R. iron ore docks, Cleveland, Ohio",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "uzman",
+  "trim": [
+   0.083,
+   0.086,
+   0.057,
+   0.063
+  ],
+  "color": 27.9,
+  "flat": 0.03,
+  "n": 394
+ },
+ {
+  "pk": "2017878443",
+  "title": "Above the construction work, the aggregate storage pile which provides crushed stone and sand, Fort Loudon [i.e., Loudoun] Dam, Tenn.",
+  "creator": "Palmer, Alfred T.",
+  "level": "usta",
+  "trim": [
+   0.045,
+   0.07,
+   0.068,
+   0.076
+  ],
+  "color": 27.9,
+  "flat": 0.02,
+  "n": 395
+ },
+ {
+  "pk": "2017877377",
+  "title": "A view of the old sea town, Stonington, Conn.",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "orta",
+  "trim": [
+   0.05,
+   0.059,
+   0.053,
+   0.066
+  ],
+  "color": 27.8,
+  "flat": 0.12,
+  "n": 396
+ },
+ {
+  "pk": "2017878871",
+  "title": "U.S. Supreme Court building, Washington, D.C.",
+  "creator": null,
+  "level": "orta",
+  "trim": [
+   0.073,
+   0.07,
+   0.076,
+   0.053
+  ],
+  "color": 27.8,
+  "flat": 0.14,
+  "n": 398
+ },
+ {
+  "pk": "2017877821",
+  "title": "A land and utility municipal housing project, Ponce, Puerto Rico",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "kolay",
+  "trim": [
+   0.065,
+   0.066,
+   0.065,
+   0.079
+  ],
+  "color": 27.7,
+  "flat": 0.19,
+  "n": 399
+ },
+ {
+  "pk": "2017877625",
+  "title": "Detail of the mill at the Camp Bird Mine, Ouray County, Colorado",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "orta",
+  "trim": [
+   0.053,
+   0.048,
+   0.15,
+   0.073
+  ],
+  "color": 27.6,
+  "flat": 0.11,
+  "n": 400
+ },
+ {
+  "pk": "2017878163",
+  "title": "General view of part of the South Water street Illinois Central Railroad freight terminal, Chicago, Ill.",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "orta",
+  "trim": [
+   0.057,
+   0.043,
+   0.055,
+   0.081
+  ],
+  "color": 27.6,
+  "flat": 0.11,
+  "n": 402
+ },
+ {
+  "pk": "2017878739",
+  "title": "Questa, Taos County, New Mexico",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "usta",
+  "trim": [
+   0.048,
+   0.073,
+   0.18,
+   0.07
+  ],
+  "color": 27.6,
+  "flat": 0.02,
+  "n": 403
+ },
+ {
+  "pk": "2017877626",
+  "title": "Mill at the Camp Bird Mine, Ouray [County], Colorado",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "orta",
+  "trim": [
+   0.053,
+   0.055,
+   0.18,
+   0.066
+  ],
+  "color": 27.5,
+  "flat": 0.1,
+  "n": 404
+ },
+ {
+  "pk": "2017877685",
+  "title": "Home of Jim Norris, homesteader, Pie Town, New Mexico",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "orta",
+  "trim": [
+   0.115,
+   0.059,
+   0.125,
+   0.062
+  ],
+  "color": 27.5,
+  "flat": 0.1,
+  "n": 406
+ },
+ {
+  "pk": "2017877753",
+  "title": "Mr. Leatherman, homesteader, coming out of his dugout home, Pie Town, New Mexico",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "kolay",
+  "trim": [
+   0.072,
+   0.075,
+   0.068,
+   0.098
+  ],
+  "color": 27.5,
+  "flat": 0.26,
+  "n": 407
+ },
+ {
+  "pk": "2017877452",
+  "title": "Copper mining and sulfuric acid plant, Copperhill], Tenn.",
+  "creator": "Wolcott, Marion Post, 1910-1990",
+  "level": "buyukUsta",
+  "trim": [
+   0.048,
+   0.059,
+   0.053,
+   0.062
+  ],
+  "color": 27.4,
+  "flat": 0.01,
+  "n": 409
+ },
+ {
+  "pk": "2017877801",
+  "title": "A land and utility municipal housing project, Ponce, Puerto Rico",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "zor",
+  "trim": [
+   0.12,
+   0.055,
+   0.05,
+   0.066
+  ],
+  "color": 27.4,
+  "flat": 0.06,
+  "n": 410
+ },
+ {
+  "pk": "2017878790",
+  "title": "Hanna furnaces of the Great Lakes Steel Corporation, Detroit, Mich. General view showing tank which stores gas from the coke oven. Square building and extension in middle ground is where coal is fed to a feeder belt and then transferred to a storage place on top of the coke oven. The coal is then dropped into three inverted bottle-like containers and from there fed directly into the coke ovens",
+  "creator": "Siegel, Arthur S.",
+  "level": "kolay",
+  "trim": [
+   0.064,
+   0.077,
+   0.074,
+   0.18
+  ],
+  "color": 27.3,
+  "flat": 0.17,
+  "n": 411
+ },
+ {
+  "pk": "2017878158",
+  "title": "Diesel switch engineer moving freight cars at the South Water street freight terminal of the Illinois Central R.R., Chicago, Ill. The N.Y. Central is one of the railroads that lease terminal facilities from the I.C.R.R.",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "orta",
+  "trim": [
+   0.053,
+   0.09,
+   0.083,
+   0.07
+  ],
+  "color": 27.2,
+  "flat": 0.08,
+  "n": 413
+ },
+ {
+  "pk": "2017877812",
+  "title": "Southwestern Puerto Rico in the vicinity of Guanica?",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "uzman",
+  "trim": [
+   0.045,
+   0.059,
+   0.05,
+   0.052
+  ],
+  "color": 27.1,
+  "flat": 0.03,
+  "n": 416
+ },
+ {
+  "pk": "2017877417",
+  "title": "View from the Skyline Drive, Virginia.",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "orta",
+  "trim": [
+   0.045,
+   0.058,
+   0.048,
+   0.069
+  ],
+  "color": 27.0,
+  "flat": 0.07,
+  "n": 419
+ },
+ {
+  "pk": "2017877538",
+  "title": "Burley tobacco is placed on sticks to wilt after cutting,before it is taken into the barn for drying and curing, on the Russell Spears' farm, vicinity of Lexington, Ky.",
+  "creator": "Wolcott, Marion Post, 1910-1990",
+  "level": "orta",
+  "trim": [
+   0.048,
+   0.055,
+   0.042,
+   0.055
+  ],
+  "color": 27.0,
+  "flat": 0.09,
+  "n": 420
+ },
+ {
+  "pk": "2017877580",
+  "title": "Cherry orchards and farming land, Emmett, Idaho",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "kolay",
+  "trim": [
+   0.048,
+   0.062,
+   0.053,
+   0.066
+  ],
+  "color": 27.0,
+  "flat": 0.21,
+  "n": 421
+ },
+ {
+  "pk": "2017877605",
+  "title": "Crates of peaches in the orchard, Delta County, Colo.",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "usta",
+  "trim": [
+   0.048,
+   0.055,
+   0.05,
+   0.055
+  ],
+  "color": 27.0,
+  "flat": 0.02,
+  "n": 422
+ },
+ {
+  "pk": "2017878849",
+  "title": "Carr Fork Canyon as seen from \"G\" bridge, Bingham Copper Mine, Utah",
+  "creator": "Feininger, Andreas, 1906-1999",
+  "level": "zor",
+  "trim": [
+   0.08,
+   0.055,
+   0.073,
+   0.062
+  ],
+  "color": 27.0,
+  "flat": 0.06,
+  "n": 423
+ },
+ {
+  "pk": "2017878938",
+  "title": "[Electric phosphate smelting furnace used in the making of elemental phosphorus in a TVA chemical plant in the Muscle Shoals area, Alabama]",
+  "creator": "Palmer, Alfred T.",
+  "level": "usta",
+  "trim": [
+   0.18,
+   0.171,
+   0.135,
+   0.072
+  ],
+  "color": 27.0,
+  "flat": 0.02,
+  "n": 424
+ },
+ {
+  "pk": "2017878450",
+  "title": "Section of one of the switchyards from which high tension lines carry current generated at TVA's Wilson Dam hydroelectric plant, Sheffield vicinity, Ala. Located 260 miles above the mouth of the Tennessee River, the dam has an authorized power installation of 288,000 kw., which can be increased to a possible ultimate of 444,000 kw. The reservoir at the dam adds 377,000 acre-feet of water to controlled storage on the Tennessee River system",
+  "creator": "Palmer, Alfred T.",
+  "level": "orta",
+  "trim": [
+   0.18,
+   0.179,
+   0.075,
+   0.179
+  ],
+  "color": 26.9,
+  "flat": 0.09,
+  "n": 426
+ },
+ {
+  "pk": "2017878593",
+  "title": "Another harrier of the U-boats nears completion at an eastern boat yard, Marine Construction Co., Stamford, Conn. Many new 110-foot wooden sub-chasers are taking the water these days at yards in all parts of the country",
+  "creator": "Liberman, Howard",
+  "level": "orta",
+  "trim": [
+   0.179,
+   0.088,
+   0.09,
+   0.18
+  ],
+  "color": 26.9,
+  "flat": 0.13,
+  "n": 427
+ },
+ {
+  "pk": "2017878031",
+  "title": "The regular tracks of the South Yards, at C & NW RR's Proviso (?) yard, Chicago, Ill.",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "kolay",
+  "trim": [
+   0.062,
+   0.084,
+   0.06,
+   0.088
+  ],
+  "color": 26.8,
+  "flat": 0.29,
+  "n": 429
+ },
+ {
+  "pk": "2017877854",
+  "title": "A cattle farm, vicinity of Christiansted, St. Croix, Virgin Islands",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "zor",
+  "trim": [
+   0.042,
+   0.055,
+   0.05,
+   0.055
+  ],
+  "color": 26.6,
+  "flat": 0.05,
+  "n": 435
+ },
+ {
+  "pk": "2017877548",
+  "title": "Shacks of Negro migratory workers, Belle Glade, Fla.",
+  "creator": "Wolcott, Marion Post, 1910-1990",
+  "level": "zor",
+  "trim": [
+   0.055,
+   0.063,
+   0.05,
+   0.07
+  ],
+  "color": 26.5,
+  "flat": 0.06,
+  "n": 438
+ },
+ {
+  "pk": "2017877777",
+  "title": "FSA - T[enant] P[urchase] borrowers? in their garden, by their house, Puerto Rico",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "buyukUsta",
+  "trim": [
+   0.05,
+   0.052,
+   0.13,
+   0.049
+  ],
+  "color": 26.5,
+  "flat": 0.01,
+  "n": 439
+ },
+ {
+  "pk": "2017878570",
+  "title": "A farm, Bethel, Vt.",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "uzman",
+  "trim": [
+   0.057,
+   0.07,
+   0.053,
+   0.076
+  ],
+  "color": 26.5,
+  "flat": 0.03,
+  "n": 440
+ },
+ {
+  "pk": "2017877941",
+  "title": "Timber, reforestation project, Md. (?)",
+  "creator": null,
+  "level": "buyukUsta",
+  "trim": [
+   0.087,
+   0.048,
+   0.094,
+   0.068
+  ],
+  "color": 26.4,
+  "flat": 0.0,
+  "n": 444
+ },
+ {
+  "pk": "2017877709",
+  "title": "Church at Pie Town, New Mexico. This building was a cooperative community enterprise",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "kolay",
+  "trim": [
+   0.048,
+   0.059,
+   0.152,
+   0.076
+  ],
+  "color": 26.2,
+  "flat": 0.27,
+  "n": 448
+ },
+ {
+  "pk": "2017878480",
+  "title": "Welder making boilers for a ship, Combustion Engineering Co., Chattanooga, Tenn.",
+  "creator": "Palmer, Alfred T.",
+  "level": "orta",
+  "trim": [
+   0.048,
+   0.084,
+   0.133,
+   0.084
+  ],
+  "color": 26.2,
+  "flat": 0.1,
+  "n": 451
+ },
+ {
+  "pk": "2017878761",
+  "title": "Placita, New Mexico",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "orta",
+  "trim": [
+   0.042,
+   0.078,
+   0.068,
+   0.14
+  ],
+  "color": 26.2,
+  "flat": 0.12,
+  "n": 454
+ },
+ {
+  "pk": "2017877378",
+  "title": "Connecticut town, probably Stonington, on the sea",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "orta",
+  "trim": [
+   0.045,
+   0.059,
+   0.048,
+   0.066
+  ],
+  "color": 26.1,
+  "flat": 0.12,
+  "n": 456
+ },
+ {
+  "pk": "2017877833",
+  "title": "Puerto Rico, Dec. 1941, San Juan",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "orta",
+  "trim": [
+   0.075,
+   0.081,
+   0.045,
+   0.072
+  ],
+  "color": 26.1,
+  "flat": 0.09,
+  "n": 458
+ },
+ {
+  "pk": "2017877913",
+  "title": "[Grocery store, Mt. Orab, Ohio, Route 74]",
+  "creator": "Vachon, John, 1914-1975",
+  "level": "uzman",
+  "trim": [
+   0.053,
+   0.062,
+   0.053,
+   0.066
+  ],
+  "color": 26.1,
+  "flat": 0.04,
+  "n": 459
+ },
+ {
+  "pk": "2017877827",
+  "title": "A town in Puerto Rico",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "orta",
+  "trim": [
+   0.18,
+   0.078,
+   0.07,
+   0.166
+  ],
+  "color": 26.0,
+  "flat": 0.14,
+  "n": 461
+ },
+ {
+  "pk": "2017877944",
+  "title": "[Trees in a reforestation project, Md.?]",
+  "creator": null,
+  "level": "buyukUsta",
+  "trim": [
+   0.048,
+   0.056,
+   0.18,
+   0.074
+  ],
+  "color": 26.0,
+  "flat": 0.0,
+  "n": 462
+ },
+ {
+  "pk": "2017877600",
+  "title": "Truck load of ponderosa pine, Edward Hines Lumber Co. operations in Malheur National Forest, Grant County, Oregon",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "zor",
+  "trim": [
+   0.16,
+   0.168,
+   0.15,
+   0.101
+  ],
+  "color": 25.7,
+  "flat": 0.05,
+  "n": 472
+ },
+ {
+  "pk": "2017877375",
+  "title": "Connecticut town, probably Stonington, on the sea.",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "orta",
+  "trim": [
+   0.059,
+   0.048,
+   0.059,
+   0.048
+  ],
+  "color": 25.7,
+  "flat": 0.09,
+  "n": 474
+ },
+ {
+  "pk": "2017878951",
+  "title": "Smoke stacks",
+  "creator": "Palmer, Alfred T.",
+  "level": "kolay",
+  "trim": [
+   0.05,
+   0.076,
+   0.068,
+   0.179
+  ],
+  "color": 25.6,
+  "flat": 0.26,
+  "n": 475
+ },
+ {
+  "pk": "2017878083",
+  "title": "Santa Fe R.R. freight train about to leave for the West Coast from Corwith yard, Chicago, Ill.",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "kolay",
+  "trim": [
+   0.05,
+   0.084,
+   0.057,
+   0.068
+  ],
+  "color": 25.4,
+  "flat": 0.17,
+  "n": 478
+ },
+ {
+  "pk": "2017877837",
+  "title": "The Virgin Islands, general view of the sea coast in the vicinity of Christiansted, Saint Croix",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "zor",
+  "trim": [
+   0.053,
+   0.056,
+   0.048,
+   0.056
+  ],
+  "color": 25.3,
+  "flat": 0.06,
+  "n": 481
+ },
+ {
+  "pk": "2017877420",
+  "title": "Field of a mountain farm along the Skyline Drive in Virginia",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "kolay",
+  "trim": [
+   0.053,
+   0.066,
+   0.05,
+   0.137
+  ],
+  "color": 25.2,
+  "flat": 0.17,
+  "n": 485
+ },
+ {
+  "pk": "2017877832",
+  "title": "Puerto Rico, San Juan",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "orta",
+  "trim": [
+   0.078,
+   0.042,
+   0.078,
+   0.07
+  ],
+  "color": 25.2,
+  "flat": 0.07,
+  "n": 486
+ },
+ {
+  "pk": "2017877591",
+  "title": "Cherry orchards, farm lands and irrigation ditch at Emmett, Idaho",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "orta",
+  "trim": [
+   0.048,
+   0.093,
+   0.085,
+   0.081
+  ],
+  "color": 25.1,
+  "flat": 0.12,
+  "n": 488
+ },
+ {
+  "pk": "2017878564",
+  "title": "Courtyard of the Pan American Building, Washington, D.C.",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "kolay",
+  "trim": [
+   0.092,
+   0.18,
+   0.18,
+   0.065
+  ],
+  "color": 25.1,
+  "flat": 0.2,
+  "n": 489
+ },
+ {
+  "pk": "2017878814",
+  "title": "Scrap and salvage depot, Butte, Mont.",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "uzman",
+  "trim": [
+   0.065,
+   0.091,
+   0.147,
+   0.075
+  ],
+  "color": 25.0,
+  "flat": 0.04,
+  "n": 491
+ },
+ {
+  "pk": "2017877347",
+  "title": "Cabin in Southern U.S.",
+  "creator": "Wolcott, Marion Post, 1910-1990",
+  "level": "baslangic",
+  "trim": [
+   0.05,
+   0.066,
+   0.057,
+   0.073
+  ],
+  "color": 35.6,
+  "flat": 0.31,
+  "n": 497
+ },
+ {
+  "pk": "2017877823",
+  "title": "Tobacco country, vicinity of Barranquitas, Puerto Rico",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "baslangic",
+  "trim": [
+   0.071,
+   0.057,
+   0.084,
+   0.068
+  ],
+  "color": 27.0,
+  "flat": 0.31,
+  "n": 500
+ },
+ {
+  "pk": "2017878011",
+  "title": "Looking toward the Chicago and Northwestern [i.e. North Western] railroad classification yard. The trestle runs from the ice house to the yard. The old cars in the foreground are used as living quarters for some yard workers and itinerant help. Town of Melrose Park is in background",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "baslangic",
+  "trim": [
+   0.072,
+   0.071,
+   0.05,
+   0.097
+  ],
+  "color": 25.2,
+  "flat": 0.31,
+  "n": 501
+ },
+ {
+  "pk": "2017877373",
+  "title": "Skating, vicinity of Brockton, Mass.",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "baslangic",
+  "trim": [
+   0.055,
+   0.063,
+   0.06,
+   0.059
+  ],
+  "color": 40.4,
+  "flat": 0.32,
+  "n": 504
+ },
+ {
+  "pk": "2017878724",
+  "title": "Village in New Mexico",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "baslangic",
+  "trim": [
+   0.118,
+   0.178,
+   0.07,
+   0.079
+  ],
+  "color": 37.1,
+  "flat": 0.33,
+  "n": 515
+ },
+ {
+  "pk": "2017877942",
+  "title": "[Cows on a hillside]",
+  "creator": null,
+  "level": "baslangic",
+  "trim": [
+   0.045,
+   0.055,
+   0.05,
+   0.073
+  ],
+  "color": 36.5,
+  "flat": 0.33,
+  "n": 517
+ },
+ {
+  "pk": "2017877611",
+  "title": "Home of a fruit tree rancher, Delta County, Colo.",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "baslangic",
+  "trim": [
+   0.0,
+   0.059,
+   0.045,
+   0.048
+  ],
+  "color": 48.6,
+  "flat": 0.34,
+  "n": 523
+ },
+ {
+  "pk": "2017877429",
+  "title": "Fields along the Skyline Drive in Virginia",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "baslangic",
+  "trim": [
+   0.133,
+   0.052,
+   0.05,
+   0.059
+  ],
+  "color": 31.6,
+  "flat": 0.35,
+  "n": 534
+ },
+ {
+  "pk": "2017878139",
+  "title": "Santa Fe R.R. line leaving Cadiz, Calif. This town is a junction point with a branch going to Phoenix, Ariz.",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "baslangic",
+  "trim": [
+   0.072,
+   0.075,
+   0.057,
+   0.091
+  ],
+  "color": 45.9,
+  "flat": 0.36,
+  "n": 539
+ },
+ {
+  "pk": "2017877601",
+  "title": "Horse breeding ranch, Grant Co., Oregon",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "baslangic",
+  "trim": [
+   0.077,
+   0.088,
+   0.05,
+   0.078
+  ],
+  "color": 37.7,
+  "flat": 0.36,
+  "n": 540
+ },
+ {
+  "pk": "2017878775",
+  "title": "Civil Air Patrol Base, Bar Harbor, Maine",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "baslangic",
+  "trim": [
+   0.06,
+   0.073,
+   0.06,
+   0.07
+  ],
+  "color": 44.2,
+  "flat": 0.37,
+  "n": 544
+ },
+ {
+  "pk": "2017877360",
+  "title": "Detail of industrial building in Mass.",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "baslangic",
+  "trim": [
+   0.059,
+   0.057,
+   0.066,
+   0.048
+  ],
+  "color": 33.2,
+  "flat": 0.37,
+  "n": 546
+ },
+ {
+  "pk": "2017877623",
+  "title": "Farmland in the vicinity of Mt. Sneffels, Ouray County, Colorado",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "baslangic",
+  "trim": [
+   0.048,
+   0.056,
+   0.053,
+   0.102
+  ],
+  "color": 35.1,
+  "flat": 0.38,
+  "n": 550
+ },
+ {
+  "pk": "2017878143",
+  "title": "Freight train with two helper engines climbing the steep grade of Cajon Pass (westbound), Cajon, Calif.",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "baslangic",
+  "trim": [
+   0.077,
+   0.065,
+   0.05,
+   0.094
+  ],
+  "color": 34.3,
+  "flat": 0.38,
+  "n": 551
+ },
+ {
+  "pk": "2017878878",
+  "title": "War Department Building at 21st and Virginia Avenue, N.W., Washington, D.C.",
+  "creator": null,
+  "level": "baslangic",
+  "trim": [
+   0.057,
+   0.079,
+   0.053,
+   0.116
+  ],
+  "color": 29.6,
+  "flat": 0.38,
+  "n": 552
+ },
+ {
+  "pk": "2017878708",
+  "title": "Questa vicinity, New Mexico",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "baslangic",
+  "trim": [
+   0.045,
+   0.079,
+   0.065,
+   0.069
+  ],
+  "color": 49.2,
+  "flat": 0.39,
+  "n": 556
+ },
+ {
+  "pk": "2017878829",
+  "title": "60 foot high sulphur vat, Freeport Sulphur Co., Hoskins Mound, Texas",
+  "creator": "Vachon, John, 1914-1975",
+  "level": "baslangic",
+  "trim": [
+   0.068,
+   0.078,
+   0.057,
+   0.087
+  ],
+  "color": 48.9,
+  "flat": 0.39,
+  "n": 557
+ },
+ {
+  "pk": "2017878225",
+  "title": "Higgins Industries, Inc., New Orleans, La., makes torpedo boats and other boats for the Navy",
+  "creator": "Hollem, Howard R.",
+  "level": "baslangic",
+  "trim": [
+   0.055,
+   0.073,
+   0.057,
+   0.08
+  ],
+  "color": 42.0,
+  "flat": 0.39,
+  "n": 559
+ },
+ {
+  "pk": "2017877850",
+  "title": "A farm road near one of the \"villages\" on the northern coast, Saint Croix island, Virgin Islands",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "baslangic",
+  "trim": [
+   0.053,
+   0.178,
+   0.057,
+   0.178
+  ],
+  "color": 40.1,
+  "flat": 0.39,
+  "n": 560
+ },
+ {
+  "pk": "2017877617",
+  "title": "Farmland in the vicinity of Mt. Sneffels, Ouray County, Colorado",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "baslangic",
+  "trim": [
+   0.05,
+   0.066,
+   0.05,
+   0.161
+  ],
+  "color": 31.3,
+  "flat": 0.39,
+  "n": 563
+ },
+ {
+  "pk": "2017878710",
+  "title": "Questa, Taos Co., N[ew] Mex[ico]",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "baslangic",
+  "trim": [
+   0.068,
+   0.079,
+   0.18,
+   0.178
+  ],
+  "color": 27.6,
+  "flat": 0.39,
+  "n": 566
+ },
+ {
+  "pk": "2017877359",
+  "title": "Railroad cars and factory buildings in Lawrence, Mass.",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "baslangic",
+  "trim": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "color": 46.3,
+  "flat": 0.4,
+  "n": 568
+ },
+ {
+  "pk": "2017878771",
+  "title": "Civil Air Patrol Base, Bar Harbor, Maine",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "baslangic",
+  "trim": [
+   0.05,
+   0.067,
+   0.065,
+   0.178
+  ],
+  "color": 31.9,
+  "flat": 0.4,
+  "n": 572
+ },
+ {
+  "pk": "2017878838",
+  "title": "House, Houston, Texas",
+  "creator": "Vachon, John, 1914-1975",
+  "level": "baslangic",
+  "trim": [
+   0.065,
+   0.069,
+   0.053,
+   0.076
+  ],
+  "color": 25.9,
+  "flat": 0.4,
+  "n": 574
+ },
+ {
+  "pk": "2017878831",
+  "title": "Loading sulphur from vat, Freeport Sulphur Co., Hoskins Mound, Texas",
+  "creator": "Vachon, John, 1914-1975",
+  "level": "baslangic",
+  "trim": [
+   0.062,
+   0.081,
+   0.062,
+   0.087
+  ],
+  "color": 59.6,
+  "flat": 0.41,
+  "n": 576
+ },
+ {
+  "pk": "2017877819",
+  "title": "Sugar cane land, Yabucoa Valley? Puerto Rico",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "baslangic",
+  "trim": [
+   0.045,
+   0.072,
+   0.08,
+   0.081
+  ],
+  "color": 44.2,
+  "flat": 0.41,
+  "n": 577
+ },
+ {
+  "pk": "2017877683",
+  "title": "Low flying planes from which dust or insecticide is spread onto crops by men who \"follow the season\" up the east coast, Seabrook Farm, Bridgeton, N.J.",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "baslangic",
+  "trim": [
+   0.072,
+   0.09,
+   0.14,
+   0.103
+  ],
+  "color": 36.2,
+  "flat": 0.41,
+  "n": 578
+ },
+ {
+  "pk": "2017878772",
+  "title": "Civil Air Patrol Base, Bar Harbor, Maine",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "baslangic",
+  "trim": [
+   0.06,
+   0.07,
+   0.05,
+   0.179
+  ],
+  "color": 26.5,
+  "flat": 0.41,
+  "n": 580
+ },
+ {
+  "pk": "2017878112",
+  "title": "Santa Fe R.R. yard, Gallup, N[ew] Mex[ico]",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "baslangic",
+  "trim": [
+   0.068,
+   0.091,
+   0.062,
+   0.087
+  ],
+  "color": 49.9,
+  "flat": 0.42,
+  "n": 582
+ },
+ {
+  "pk": "2017878633",
+  "title": "Marine power plane which tows the training gliders at Page Field, Parris Island, S.C.",
+  "creator": "Palmer, Alfred T.",
+  "level": "baslangic",
+  "trim": [
+   0.05,
+   0.056,
+   0.05,
+   0.063
+  ],
+  "color": 42.4,
+  "flat": 0.42,
+  "n": 583
+ },
+ {
+  "pk": "2017878006",
+  "title": "A Chicago and Northwestern [i.e. North Western] railroad roundhouse, Chicago, Ill.",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "baslangic",
+  "trim": [
+   0.08,
+   0.084,
+   0.053,
+   0.091
+  ],
+  "color": 27.3,
+  "flat": 0.42,
+  "n": 587
+ },
+ {
+  "pk": "2017878138",
+  "title": "A east bound Union Pacific railroad freight train waiting in a siding, Alray, Calif. Coming up through Cajon Pass. The Santa Fe tracks are used by the Union Pacific as far east as Daggett, Calif. Santa Fe R.R. trip",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "baslangic",
+  "trim": [
+   0.065,
+   0.084,
+   0.057,
+   0.084
+  ],
+  "color": 26.7,
+  "flat": 0.43,
+  "n": 592
+ },
+ {
+  "pk": "2017878374",
+  "title": "A battery of 1,000 and 2,000 pound furnaces roaring threats to the Axis. These are rotary, oil-fired melting furnaces at Aluminum Industries Inc. Destination of the finished aluminum products is kept secret",
+  "creator": "Palmer, Alfred T.",
+  "level": "baslangic",
+  "trim": [
+   0.18,
+   0.179,
+   0.18,
+   0.179
+  ],
+  "color": 48.1,
+  "flat": 0.44,
+  "n": 593
+ },
+ {
+  "pk": "2017877593",
+  "title": "Wheat farm, Walla Walla, Washington",
+  "creator": "Lee, Russell, 1903-1986",
+  "level": "baslangic",
+  "trim": [
+   0.053,
+   0.073,
+   0.055,
+   0.055
+  ],
+  "color": 34.9,
+  "flat": 0.45,
+  "n": 598
+ },
+ {
+  "pk": "2017878644",
+  "title": "Marine statue at Parris Island, S.C.",
+  "creator": "Palmer, Alfred T.",
+  "level": "baslangic",
+  "trim": [
+   0.056,
+   0.055,
+   0.059,
+   0.045
+  ],
+  "color": 34.7,
+  "flat": 0.45,
+  "n": 599
+ },
+ {
+  "pk": "2017877987",
+  "title": "A welder who works in the round-house at the Chicago and Northwestern Railroad's Proviso yard",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "baslangic",
+  "trim": [
+   0.18,
+   0.178,
+   0.18,
+   0.178
+  ],
+  "color": 48.4,
+  "flat": 0.46,
+  "n": 603
+ },
+ {
+  "pk": "2017878142",
+  "title": "One of the cuts through the mountains, near Cajon, Calif., Cajon Pass, Calif.",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "baslangic",
+  "trim": [
+   0.113,
+   0.078,
+   0.048,
+   0.088
+  ],
+  "color": 52.7,
+  "flat": 0.47,
+  "n": 607
+ },
+ {
+  "pk": "2017878713",
+  "title": "Village of La Alama, near Questa, Taos Co., N[ew] Mex[ico]",
+  "creator": "Collier, John, Jr., 1913-1992",
+  "level": "baslangic",
+  "trim": [
+   0.05,
+   0.178,
+   0.062,
+   0.178
+  ],
+  "color": 49.8,
+  "flat": 0.47,
+  "n": 608
+ },
+ {
+  "pk": "2017878189",
+  "title": "Loading a freighter with coal at one of the three coal docks owned by the Pennsylvania Railroad, Sandusky, Ohio",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "baslangic",
+  "trim": [
+   0.035,
+   0.088,
+   0.072,
+   0.062
+  ],
+  "color": 26.2,
+  "flat": 0.47,
+  "n": 609
+ },
+ {
+  "pk": "2017878371",
+  "title": "Large pipe elbows for the Army are formed at Tube Turns, Inc., by heating lengths of pipe with gas flames and forcing them around a die, Louisville, Ky.",
+  "creator": "Palmer, Alfred T.",
+  "level": "baslangic",
+  "trim": [
+   0.18,
+   0.179,
+   0.18,
+   0.179
+  ],
+  "color": 29.2,
+  "flat": 0.48,
+  "n": 610
+ },
+ {
+  "pk": "2017878017",
+  "title": "A train (or \"cut\") being pushed out of a receiving yard toward the hump. A brakeman rides each train to signal the engineer in the locomotive at the rear; Proviso yard, C & NW RR., Chicago, Ill.",
+  "creator": "Delano, Jack, 1914-1997",
+  "level": "baslangic",
+  "trim": [
+   0.062,
+   0.078,
+   0.057,
+   0.091
+  ],
+  "color": 31.7,
+  "flat": 0.49,
+  "n": 615
+ }
+]
