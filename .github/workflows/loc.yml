@@ -3,7 +3,7 @@ name: LoC listesi
 on:
   push:
     branches: [met-scout]
-    paths: [scout/loc/list.py]
+    paths: [scout/loc/list.py, scout/loc/probe.py]
 permissions:
   contents: write
 jobs:
@@ -15,9 +15,9 @@ jobs:
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898733+github-actions[bot]@users.noreply.github.com"
-      - run: python3 scout/loc/list.py
+      - run: python3 scout/loc/probe.py
       - if: always()
         run: |
-          git add scout/loc/list.json
+          git add scout/loc/probe.json
           git commit -m "LoC listesi" || true
           git pull --rebase --autostash && git push
