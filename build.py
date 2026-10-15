@@ -102,14 +102,25 @@ def read_cleveland(ids):
 
 
 def read_loc(ids):
-    """LoC kayıtları: hak notu, fotoğrafçı ve özgün TIFF (~150 MB)."""
+    """LoC kayıtları: hak notu, fotoğrafçı ve özgün TIFF (~150 MB). loc.gov
+    sık isteğe 429 veriyor; yalnızca yeni eserler sorulur, aralıklı."""
     found = {}
     for i in ids:
         try:
             found[i] = json.loads(get(f"{LOC}/{i}/?fo=json"))
         except RuntimeError as e:
             print(f"  {e}")
+        time.sleep(3)
     return found
+
+
+def photographer(d):
+    """"Collier, John, Jr., 1913-1992" → "John Collier Jr."; yoksa ajans."""
+    title = ((d["item"].get("creators") or [{}])[0].get("title") or "")
+    p = [x for x in title.split(", ") if x and not x[0].isdigit()]
+    if len(p) < 2:
+        return "Farm Security Administration"
+    return " ".join([p[1], p[0]] + p[2:])
 
 
 def fetch_loc(url, focus_x, trim):
@@ -143,7 +154,8 @@ def get(url):
             return data
         except Exception as e:
             print(f"  tekrar ({attempt + 1}): {url}: {e}")
-            time.sleep(5 * (attempt + 1))
+            # 429'da sunucu bir süre bekletiyor.
+            time.sleep((60 if "429" in str(e) else 5) * (attempt + 1))
     raise RuntimeError(f"indirilemedi: {url}")
 
 
@@ -283,7 +295,13 @@ def main():
         sys.exit(__doc__)
     sources = read_sources()
     museum = read_cleveland([s["cmaId"] for s in sources if s["cmaId"]])
-    library = read_loc([s["loc"] for s in sources if s["loc"]])
+    old = {}
+    if os.path.exists("catalog.json"):
+        old = {a["slug"]: a for a in json.load(open("catalog.json", encoding="utf-8"))["art"]}
+    # Kurulmuş LoC eseri yeniden sorulmaz (denetimden önce geçti).
+    built = {a.get("locId") for a in old.values()
+             if a.get("locId") and os.path.exists(f"art/{a['slug']}.jpg")}
+    library = read_loc([s["loc"] for s in sources if s["loc"] and s["loc"] not in built])
     commons = read_commons([s["file"] for s in sources if s["file"]])
 
     # Kamu malı denetimi: biri bile geçmezse hiçbir şey yazılmaz.
@@ -299,14 +317,16 @@ def main():
                 print(f"HATA:  {s['slug']} kısıtlı: {c['restrictions']}"); bad += 1
             continue
         if s["loc"]:
+            if s["loc"] in built:
+                continue
             d = library.get(s["loc"])
             res = (d or {}).get("resources") or [{}]
             if d is None:
                 print(f"HATA:  {s['slug']} ({s['loc']}) LoC'de kayıt yok"); bad += 1
             elif d["item"].get("rights_information") != "No known restrictions on publication.":
                 print(f"HATA:  {s['slug']} kısıtlı: {d['item'].get('rights_information')}"); bad += 1
-            elif res[0].get("aggregate") != "fsac" or not (res[0].get("larger") or "").endswith(".tif"):
-                print(f"HATA:  {s['slug']} FSA/OWI renkli TIFF'i yok"); bad += 1
+            elif not (res[0].get("larger") or "").endswith(".tif"):
+                print(f"HATA:  {s['slug']} TIFF'i yok: {res[0].get('aggregate')} {res[0].get('larger')}"); bad += 1
             continue
         d = museum.get(s["cmaId"])
         if d is None:
@@ -318,9 +338,6 @@ def main():
     if bad:
         sys.exit(f"{bad} eserde sorun var, hiçbir şey değişmedi.")
 
-    old = {}
-    if os.path.exists("catalog.json"):
-        old = {a["slug"]: a for a in json.load(open("catalog.json", encoding="utf-8"))["art"]}
     os.makedirs("art", exist_ok=True)
     os.makedirs("thumb", exist_ok=True)
     os.makedirs("work", exist_ok=True)
@@ -339,17 +356,21 @@ def main():
                 "source": "commons",
                 "imageId": s["file"],
             }
+        elif s["loc"] in built:
+            # Kurulmuş: künye ve görsel adresi katalogda.
+            prev = next(a for a in old.values() if a.get("locId") == s["loc"])
+            e = {k: prev[k] for k in ("artist", "source", "locId", "imageId")}
+            e = {"slug": s["slug"], "level": None, "category": s["category"], "title": s["title"],
+                 "titleEn": s["titleEn"] or prev["titleEn"], **e}
         elif s["loc"]:
             d = library[s["loc"]]
-            # "Lee, Russell, 1903-1986" → "Russell Lee"
-            name = ((d["item"].get("creators") or [{}])[0].get("title") or "").split(", ")
             e = {
                 "slug": s["slug"],
                 "level": None,
                 "category": s["category"],
                 "title": s["title"],
                 "titleEn": s["titleEn"] or d["item"]["title"],
-                "artist": f"{name[1]} {name[0]}" if len(name) > 1 else "Farm Security Administration",
+                "artist": photographer(d),
                 "source": "loc",
                 "locId": s["loc"],
                 "imageId": d["resources"][0]["larger"],
