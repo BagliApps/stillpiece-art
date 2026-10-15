@@ -7439,11 +7439,11 @@
    "source": "loc",
    "locId": "2017877455",
    "imageId": "https://tile.loc.gov/storage-services/master/pnp/fsac/1a34000/1a34300/1a34323u.tif",
-   "bright": 0.4087,
-   "detail": 0.3139,
-   "sha256": "2845801936b848d2f53d093a2f37400cc612058872d64d3489239f69b7527092",
-   "bytes": 693818,
-   "thumbSha256": "e981eb1b9082c268921efab33fa39ee9c640427ab62505ed34f25f7c1aeef1c5"
+   "bright": 0.4116,
+   "detail": 0.3047,
+   "sha256": "8cc4d25154ae12c4ce0bdd4dc3066a6d534e67e11791a37dd3fde304e5bd6fd3",
+   "bytes": 679054,
+   "thumbSha256": "2c40fdef019a307201c063ac73159ed7b3bd2f17365ea7ce3ea96c034613193b"
   },
   {
    "slug": "pie_town_corn",
@@ -7631,11 +7631,11 @@
    "source": "loc",
    "locId": "2017877627",
    "imageId": "https://tile.loc.gov/storage-services/master/pnp/fsac/1a34000/1a34100/1a34181u.tif",
-   "bright": 0.2638,
-   "detail": 0.2888,
-   "sha256": "dab55d35b66d8778d05b2c712ab0bda04a5e471483435f668949f83b086f432d",
-   "bytes": 875767,
-   "thumbSha256": "e4409d6e5a8ef833502718f0c27f233ddb71ac3b4cafd8c937e33b8303e9618a"
+   "bright": 0.2654,
+   "detail": 0.2904,
+   "sha256": "ae2fe813d74793321726e17ee716c49b6b07c21ba53fd4b528ddfa530f842ac4",
+   "bytes": 807283,
+   "thumbSha256": "9b654fc1c4fbb33f49087a7501845caff2ba37d7ee5e223ecae94536ab985e30"
   }
  ]
 }
