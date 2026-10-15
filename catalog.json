@@ -6676,6 +6676,22 @@
    "sha256": "0a5eb50490dba8d362e5666cbc2b97b623270fb2f64364c09ea4a9fad63e37e5",
    "bytes": 462662,
    "thumbSha256": "86360bb3a9ca65f0b61ceab72fd0948f3d1cebe58ebcdaac36b3e7bf08d7cd92"
+  },
+  {
+   "slug": "skyline_cornshocks",
+   "level": "baslangic",
+   "category": "eski",
+   "title": "Dağ Çiftliğinde Mısır Demetleri",
+   "titleEn": "Cornshocks on a Mountain Farm",
+   "artist": "Jack Delano",
+   "source": "loc",
+   "locId": "2017877441",
+   "imageId": "https://tile.loc.gov/storage-services/master/pnp/fsac/1a33000/1a33800/1a33819u.tif",
+   "bright": 0.4011,
+   "detail": 0.2292,
+   "sha256": "ace7d6c2935f78f3bf5fb450a376112cea1478a427590e6f484a1f0b976df7de",
+   "bytes": 265447,
+   "thumbSha256": "da9f759c8381eb3ad2199c6148c73b8e42989fa6ad3b9014d4992ff962eb743c"
   }
  ]
 }
