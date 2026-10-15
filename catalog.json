@@ -7439,11 +7439,11 @@
    "source": "loc",
    "locId": "2017877455",
    "imageId": "https://tile.loc.gov/storage-services/master/pnp/fsac/1a34000/1a34300/1a34323u.tif",
-   "bright": 0.3947,
-   "detail": 0.3009,
-   "sha256": "f95e0bb69bf76bf3e8b313b5c42103db2da34a20dd5cf88e9f4e711b1b1d3bff",
-   "bytes": 693688,
-   "thumbSha256": "7b2016256643ec8b0c817a5ef811c450ceb1a9cfb5cba66bc630ba07160a53de"
+   "bright": 0.4087,
+   "detail": 0.3139,
+   "sha256": "2845801936b848d2f53d093a2f37400cc612058872d64d3489239f69b7527092",
+   "bytes": 693818,
+   "thumbSha256": "e981eb1b9082c268921efab33fa39ee9c640427ab62505ed34f25f7c1aeef1c5"
   },
   {
    "slug": "pie_town_corn",
@@ -7551,11 +7551,11 @@
    "source": "loc",
    "locId": "2017877695",
    "imageId": "https://tile.loc.gov/storage-services/master/pnp/fsac/1a34000/1a34100/1a34107u.tif",
-   "bright": 0.4888,
-   "detail": 0.1455,
-   "sha256": "90de339cea2eeaed159ee052b92b92c4cb5a0e2b1897e3c75ea3d75450163da0",
-   "bytes": 733846,
-   "thumbSha256": "7bf0e98ce3918075e4cbe2d46cc68d09a60f66a4f9be635cdb7dbe973455e22c"
+   "bright": 0.4987,
+   "detail": 0.1468,
+   "sha256": "e0d892a542bf2d5e6a52162aacdae8b72f7c0d1886f53828057a576045c26a21",
+   "bytes": 694553,
+   "thumbSha256": "4cbc995e319952afa756eccabfc3f0b2d122abe1c5cb48eea3cab1c7125b3aa1"
   },
   {
    "slug": "copper_basin",
@@ -7631,11 +7631,11 @@
    "source": "loc",
    "locId": "2017877627",
    "imageId": "https://tile.loc.gov/storage-services/master/pnp/fsac/1a34000/1a34100/1a34181u.tif",
-   "bright": 0.2581,
-   "detail": 0.2783,
-   "sha256": "910c3bc9efabc146667ee338df937f0e82940c125f2a16b4c51d49eb701b0038",
-   "bytes": 965508,
-   "thumbSha256": "3a6a700eca1f5c2aacbfdf959994d94fd4f9f5c775e64968efe500bfd55aebab"
+   "bright": 0.2638,
+   "detail": 0.2888,
+   "sha256": "dab55d35b66d8778d05b2c712ab0bda04a5e471483435f668949f83b086f432d",
+   "bytes": 875767,
+   "thumbSha256": "e4409d6e5a8ef833502718f0c27f233ddb71ac3b4cafd8c937e33b8303e9618a"
   }
  ]
 }
