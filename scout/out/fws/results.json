@@ -3451,6 +3451,23 @@
   "desc": "Snow buntings observed on the National Elk Refuge.\nPhoto: Gannon Castle/USFWS"
  },
  {
+  "file": "scout/out/fws/1271.jpg",
+  "size": "4600x3067",
+  "width": 2044,
+  "color": 36.6,
+  "sharp": 79.3,
+  "flat": 0.15,
+  "why": [],
+  "twin": 0.91,
+  "level": "baslangic",
+  "title": "File:Common loon adult and juvenile (53150785900).jpg",
+  "query": "loon",
+  "page": "https://commons.wikimedia.org/wiki/File:Common_loon_adult_and_juvenile_(53150785900).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmidwest/\">U.S. Fish and Wildlife Service - Midwest Region</a>",
+  "desc": "We spotted this common loon adult and juvenile on a lake in Minnesota.\nPhoto by Courtney Celley/USFWS."
+ },
+ {
   "file": "scout/out/fws/028.jpg",
   "size": "5600x3732",
   "width": 2488,
@@ -7310,6 +7327,23 @@
   "desc": "Photo: Tom Koerner/USFWS"
  },
  {
+  "file": "scout/out/fws/1276.jpg",
+  "size": "3328x4992",
+  "width": 3328,
+  "color": 48.2,
+  "sharp": 77.6,
+  "flat": 0.0,
+  "why": [],
+  "twin": 0.53,
+  "level": "kolay",
+  "title": "File:Frontal view of male moose animal resting in a field.jpg",
+  "query": "moose",
+  "page": "https://commons.wikimedia.org/wiki/File:Frontal_view_of_male_moose_animal_resting_in_a_field.jpg",
+  "license": "Public domain",
+  "artist": "<bdi><a rel=\"mw:WikiLink/Interwiki\" href=\"https://www.wikidata.org/wiki/Q28112513\" title=\"d:Q28112513\" class=\"extiw\"><span title=\"American photographer with the United States Fish and Wildlife Service",
+  "desc": "\nImage title: Frontal view of \"male moose animal\" resting in a field\nImage from Public domain images website, http://www.public-domain-image.com/full-image/fauna-animals-public-domain-images-pictures/deers-public-domain-images-pictures/moose-and-elk-public-domain-images-pictures/frontal-view-of-male"
+ },
+ {
   "file": "scout/out/fws/017.jpg",
   "size": "4948x3280",
   "width": 2186,
@@ -9331,6 +9365,23 @@
   "license": "Public domain",
   "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwssoutheast/\">USFWS/Southeast</a>",
   "desc": "Roanoke Island Festival Park, Manteo, North Carolina.\nJuly 10,2018\n\nPhoto by Phil Kloer, Public Affairs Specialist with the Service Regional Office in Atlanta, Georgia."
+ },
+ {
+  "file": "scout/out/fws/1270.jpg",
+  "size": "4600x3066",
+  "width": 2044,
+  "color": 35.1,
+  "sharp": 76.0,
+  "flat": 0.0,
+  "why": [],
+  "twin": 0.18,
+  "level": "uzman",
+  "title": "File:Pine warbler (53707647941).jpg",
+  "query": "warbler",
+  "page": "https://commons.wikimedia.org/wiki/File:Pine_warbler_(53707647941).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmidwest/\">U.S. Fish and Wildlife Service - Midwest Region</a>",
+  "desc": "We spotted this pine warbler foraging under a bird feeder in St. Louis County, Minnesota.\nPhoto by Courtney Celley/USFWS."
  },
  {
   "file": "scout/out/fws/022.jpg",
@@ -17984,6 +18035,63 @@
   "desc": "A female ruby-throated hummingbird visits a hummingbird feeder.\n\nPhoto by Courtney Celley/USFWS."
  },
  {
+  "file": "scout/out/fws/1274.jpg",
+  "size": "4580x3053",
+  "width": 2035,
+  "color": 20.5,
+  "sharp": 77.5,
+  "flat": 0.19,
+  "why": [
+   "soluk"
+  ],
+  "twin": 0.67,
+  "level": "baslangic",
+  "title": "File:Wintering Elk on the National Elk Refuge (52002478924).jpg",
+  "query": "elk",
+  "page": "https://commons.wikimedia.org/wiki/File:Wintering_Elk_on_the_National_Elk_Refuge_(52002478924).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmtnprairie/\">USFWS Mountain Prairie</a>",
+  "desc": "Elk on the National Elk Refuge.\nPhoto: Gannon Castle/USFWS"
+ },
+ {
+  "file": "scout/out/fws/1277.jpg",
+  "size": "4288x2848",
+  "width": 1898,
+  "color": 9.0,
+  "sharp": 80.3,
+  "flat": 0.0,
+  "why": [
+   "soluk"
+  ],
+  "twin": 0.83,
+  "level": "baslangic",
+  "title": "File:Pronghorn (8694974225).jpg",
+  "query": "pronghorn",
+  "page": "https://commons.wikimedia.org/wiki/File:Pronghorn_(8694974225).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/54430347@N04\" class=\"external text\">Pacific Southwest Region</a> from Sacramento, US",
+  "desc": "Photo Credit:  Jeannie Stafford/USFWS\nPronghorn (Antilocapra americana) are endemic to interior western and central North America.  In North America they are  commonly referred to as pronghorn antelope or simply antelope as it closely resembles the true antelopes of the Old World.  They can run exce"
+ },
+ {
+  "file": "scout/out/fws/1278.jpg",
+  "size": "4625x3083",
+  "width": 2055,
+  "color": 17.5,
+  "sharp": 81.9,
+  "flat": 0.49,
+  "why": [
+   "soluk"
+  ],
+  "twin": 0.9,
+  "level": "baslangic",
+  "title": "File:Bighorn Sheep on the National Elk Refuge (52002761780).jpg",
+  "query": "bighorn",
+  "page": "https://commons.wikimedia.org/wiki/File:Bighorn_Sheep_on_the_National_Elk_Refuge_(52002761780).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmtnprairie/\">USFWS Mountain Prairie</a>",
+  "desc": "Bighorn sheep are one of the most visible wild animals on the Refuge during winter.\nPhoto: Gannon Castle/USFWS"
+ },
+ {
   "file": "scout/out/fws/141.jpg",
   "size": "4000x6000",
   "width": 4000,
@@ -20942,6 +21050,63 @@
   "desc": "Camp on the Sheenjek River, Arctic National Wildlife Refuge.\n\nPhoto Credit: Alexis Bonogofsky for USFWS"
  },
  {
+  "file": "scout/out/fws/1273.jpg",
+  "size": "3705x2470",
+  "width": 1646,
+  "color": 25.3,
+  "sharp": 71.4,
+  "flat": 0.03,
+  "why": [
+   "küçük"
+  ],
+  "twin": 0.4,
+  "level": "kolay",
+  "title": "File:Northern Hawk Owl (29528051673).jpg",
+  "query": "hawk",
+  "page": "https://commons.wikimedia.org/wiki/File:Northern_Hawk_Owl_(29528051673).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfws_alaska/\">USFWSAlaska</a>",
+  "desc": "A Northern Hawk Owl in black cottonwoods.\nCredit: Lisa Hupp/USFWS"
+ },
+ {
+  "file": "scout/out/fws/1275.jpg",
+  "size": "8200x5467",
+  "width": 3644,
+  "color": 22.7,
+  "sharp": 85.5,
+  "flat": 0.0,
+  "why": [
+   "soluk"
+  ],
+  "twin": 0.57,
+  "level": "kolay",
+  "title": "File:American bison (54123548618).jpg",
+  "query": "bison",
+  "page": "https://commons.wikimedia.org/wiki/File:American_bison_(54123548618).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmidwest/\">U.S. Fish and Wildlife Service - Midwest Region</a>",
+  "desc": "We spotted this American bison rubbing against a sandy bank at Theodore Roosevelt National Park in western North Dakota.\nPhoto safely taken with a zoom lens from inside a vehicle.\n\nPhoto by Courtney Celley/USFWS."
+ },
+ {
+  "file": "scout/out/fws/1279.jpg",
+  "size": "3210x2141",
+  "width": 1427,
+  "color": 50.1,
+  "sharp": 74.6,
+  "flat": 0.24,
+  "why": [
+   "küçük"
+  ],
+  "twin": 0.5,
+  "level": "kolay",
+  "title": "File:Juvenile Arctic fox (51357490933).jpg",
+  "query": "fox",
+  "page": "https://commons.wikimedia.org/wiki/File:Juvenile_Arctic_fox_(51357490933).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/54775250@N07\" class=\"external text\">Alaska Region U.S. Fish &amp; Wildlife Service</a> from Anchorage, United States",
+  "desc": "A young Arctic fox (Vulpes lagopus) rests curled up on a hillside of tundra plants outside its den. Credit: Lisa Hupp/USFWS."
+ },
+ {
   "file": "scout/out/fws/013.jpg",
   "size": "3000x2091",
   "width": 1394,
@@ -22472,6 +22637,25 @@
   "license": "Public domain",
   "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/49208525@N08\">USFWSmidwest</a>",
   "desc": "We stopped to take some photos of the swamp milkweed and look who showed up! This male monarch butterfly enjoyed some nectar and moved on to his next destination.\n\nPhoto by Courtney Celley/USFWS."
+ },
+ {
+  "file": "scout/out/fws/1272.jpg",
+  "size": "3053x2035",
+  "width": 1356,
+  "color": 59.4,
+  "sharp": 69.5,
+  "flat": 0.0,
+  "why": [
+   "küçük"
+  ],
+  "twin": 0.11,
+  "level": "uzman",
+  "title": "File:Wood Duck Drake and Green headed Mallards (15960205496).jpg",
+  "query": "wood duck",
+  "page": "https://commons.wikimedia.org/wiki/File:Wood_Duck_Drake_and_Green_headed_Mallards_(15960205496).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmtnprairie/\">USFWS Mountain Prairie</a>",
+  "desc": "This lone wood duck drake appeared out of a flock of mallards that were found overwintering on a small creek in South Dakota. \nWood Duck populations increased between 1966 and 2010, according to the North American Breeding Bird Survey. This is good news considering their dramatic declines in the lat"
  },
  {
   "file": "scout/out/fws/030.jpg",
