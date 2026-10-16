@@ -1,0 +1,102 @@
+[
+ {
+  "file": "scout/out/fws/000.jpg",
+  "size": "3000x2000",
+  "width": 1333,
+  "color": 10.2,
+  "sharp": 88.8,
+  "flat": 0.9,
+  "why": [
+   "soluk",
+   "küçük",
+   "desensiz"
+  ],
+  "twin": 0.85,
+  "level": "baslangic",
+  "title": "File:Haliaeetus leucocephalus-flight-USFWS.jpg",
+  "query": "bald eagle",
+  "page": "https://commons.wikimedia.org/wiki/File:Haliaeetus_leucocephalus-flight-USFWS.jpg",
+  "license": "Public domain",
+  "artist": "Hillebrand, Steve",
+  "desc": "Bald Eagle (Haliaeetus leucocephalus) in Flight"
+ },
+ {
+  "file": "scout/out/fws/001.jpg",
+  "size": "3095x2400",
+  "width": 1600,
+  "color": 45.3,
+  "sharp": 75.1,
+  "flat": 0.03,
+  "why": [
+   "küçük"
+  ],
+  "twin": 0.8,
+  "level": "baslangic",
+  "title": "File:Grus canadensis USFWS.jpg",
+  "query": "sandhill crane",
+  "page": "https://commons.wikimedia.org/wiki/File:Grus_canadensis_USFWS.jpg",
+  "license": "Public domain",
+  "artist": "",
+  "desc": ""
+ },
+ {
+  "file": "scout/out/fws/002.jpg",
+  "size": "3600x2352",
+  "width": 1568,
+  "color": 10.0,
+  "sharp": 70.8,
+  "flat": 0.53,
+  "why": [
+   "soluk",
+   "küçük",
+   "desensiz"
+  ],
+  "twin": 0.64,
+  "level": "baslangic",
+  "title": "File:Whooping crane FWS 1554.jpg",
+  "query": "whooping crane",
+  "page": "https://commons.wikimedia.org/wiki/File:Whooping_crane_FWS_1554.jpg",
+  "license": "Public domain",
+  "artist": "Ryan Hagerty / USFWS",
+  "desc": "Whooping crane, grus americana"
+ },
+ {
+  "file": "scout/out/fws/003.jpg",
+  "size": "5018x3345",
+  "width": 2230,
+  "color": 8.5,
+  "sharp": 88.2,
+  "flat": 0.89,
+  "why": [
+   "soluk",
+   "desensiz"
+  ],
+  "twin": 0.78,
+  "level": "baslangic",
+  "title": "File:Snow geese (43917628721).jpg",
+  "query": "snow geese",
+  "page": "https://commons.wikimedia.org/wiki/File:Snow_geese_(43917628721).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/usfws_alaska/\" class=\"external text\">USFWSAlaska</a>",
+  "desc": "Once rarely seen nesting along the Canning River delta, snow geese have expanded in recent years.\n\nCredit: Lisa Hupp/USFWS"
+ },
+ {
+  "file": "scout/out/fws/004.jpg",
+  "size": "6200x4133",
+  "width": 2755,
+  "color": 40.1,
+  "sharp": 89.0,
+  "flat": 0.94,
+  "why": [
+   "desensiz"
+  ],
+  "twin": 0.89,
+  "level": "baslangic",
+  "title": "File:American white pelicans in flight (53109414445).jpg",
+  "query": "pelican",
+  "page": "https://commons.wikimedia.org/wiki/File:American_white_pelicans_in_flight_(53109414445).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/usfwsmidwest/\" class=\"external text\">U.S. Fish and Wildlife Service - Midwest Region</a>",
+  "desc": "We spotted these American white pelicans in flight over Agassiz National Wildlife Refuge in Minnesota.\n\nPhoto by Courtney Celley/USFWS."
+ }
+]
