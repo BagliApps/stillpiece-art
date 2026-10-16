@@ -3791,6 +3791,40 @@
   "desc": "Large flocks of Snow Geese are a common late Winter Early Spring site throughout the Huron Wetland Management District in South Dakota. Windmills South of Wessington, SD in the distance. Photo from Western Beadle County 2024. Photo: Sandra Uecker\\USFWS"
  },
  {
+  "file": "scout/out/fws/1420.jpg",
+  "size": "4800x3200",
+  "width": 2133,
+  "color": 31.0,
+  "sharp": 80.9,
+  "flat": 0.19,
+  "why": [],
+  "twin": 0.88,
+  "level": "baslangic",
+  "title": "File:Common loon adult and juvenile (53150785870).jpg",
+  "query": "loon",
+  "page": "https://commons.wikimedia.org/wiki/File:Common_loon_adult_and_juvenile_(53150785870).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmidwest/\">U.S. Fish and Wildlife Service - Midwest Region</a>",
+  "desc": "We spotted this common loon adult and juvenile on a lake in Minnesota.\nPhoto by Courtney Celley/USFWS."
+ },
+ {
+  "file": "scout/out/fws/1428.jpg",
+  "size": "4940x3272",
+  "width": 2181,
+  "color": 59.1,
+  "sharp": 74.0,
+  "flat": 0.45,
+  "why": [],
+  "twin": 0.8,
+  "level": "baslangic",
+  "title": "File:Mule deer standing on a scenic hillside.jpg",
+  "query": "deer",
+  "page": "https://commons.wikimedia.org/wiki/File:Mule_deer_standing_on_a_scenic_hillside.jpg",
+  "license": "Public domain",
+  "artist": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28112513\" class=\"extiw\" title=\"d:Q28112513\"><span title=\"American photographer with the United States Fish and Wildlife Service\">Ryan Hagerty</span></a></b",
+  "desc": "\nImage title: Mule deer standing on a scenic hillside\nImage from Public domain images website, http://www.public-domain-image.com/full-image/fauna-animals-public-domain-images-pictures/deers-public-domain-images-pictures/mule-deer-standing-on-a-scenic-hillside.jpg.html"
+ },
+ {
   "file": "scout/out/fws/028.jpg",
   "size": "5600x3732",
   "width": 2488,
@@ -7973,6 +8007,23 @@
   "desc": "Photo: Tom Koerner/USFWS"
  },
  {
+  "file": "scout/out/fws/1425.jpg",
+  "size": "6000x4000",
+  "width": 2666,
+  "color": 28.3,
+  "sharp": 79.9,
+  "flat": 0.22,
+  "why": [],
+  "twin": 0.55,
+  "level": "kolay",
+  "title": "File:Moose at Seedskadee National Wildlife Refuge (51588365363).jpg",
+  "query": "moose",
+  "page": "https://commons.wikimedia.org/wiki/File:Moose_at_Seedskadee_National_Wildlife_Refuge_(51588365363).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/51986662@N05\" class=\"external text\">USFWS Mountain-Prairie</a>",
+  "desc": "Photo: Tom Koerner/U.S. Fish and Wildlife Service"
+ },
+ {
   "file": "scout/out/fws/017.jpg",
   "size": "4948x3280",
   "width": 2186,
@@ -11320,6 +11371,23 @@
   "license": "Public domain",
   "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfws_alaska/\">USFWSAlaska</a>",
   "desc": "Rock sandpipers bathe in a tundra pond on Yukon Delta Refuge.\nCredit: Mark Lindberg for USFWS"
+ },
+ {
+  "file": "scout/out/fws/1427.jpg",
+  "size": "4608x3456",
+  "width": 2304,
+  "color": 29.2,
+  "sharp": 75.3,
+  "flat": 0.0,
+  "why": [],
+  "twin": 0.34,
+  "level": "zor",
+  "title": "File:Shedding Arctic Fox (51293918357).jpg",
+  "query": "fox",
+  "page": "https://commons.wikimedia.org/wiki/File:Shedding_Arctic_Fox_(51293918357).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/54775250@N07\">Alaska Region U.S. Fish &amp; Wildlife Service</a> from Anchorage, United States",
+  "desc": "An Arctic fox sheds its long winter fur. Kigigak, AK (Yukon Delta NWR). Credit: AGB/USFWS"
  },
  {
   "file": "scout/out/fws/000.jpg",
@@ -20055,6 +20123,123 @@
   "license": "Public domain",
   "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/usfwsmidwest/\" class=\"external text\">U.S. Fish and Wildlife Service - Midwest Region</a>",
   "desc": "A female ruby-throated hummingbird visits a hummingbird feeder.\n\nPhoto by Courtney Celley/USFWS."
+ },
+ {
+  "file": "scout/out/fws/1421.jpg",
+  "size": "7200x4800",
+  "width": 3200,
+  "color": 21.0,
+  "sharp": 73.6,
+  "flat": 0.01,
+  "why": [
+   "soluk"
+  ],
+  "twin": 0.66,
+  "level": "baslangic",
+  "title": "File:Trumpeter swan (53074492277).jpg",
+  "query": "swan",
+  "page": "https://commons.wikimedia.org/wiki/File:Trumpeter_swan_(53074492277).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/49208525@N08\">USFWS Midwest Region</a> from Midwest Region, United States",
+  "desc": "An adult trumpeter swan on the water.\n\nPhoto by Courtney Celley/USFWS."
+ },
+ {
+  "file": "scout/out/fws/1422.jpg",
+  "size": "3645x2430",
+  "width": 1620,
+  "color": 59.6,
+  "sharp": 44.5,
+  "flat": 0.51,
+  "why": [
+   "bulanık",
+   "küçük",
+   "desensiz"
+  ],
+  "twin": 0.88,
+  "level": "baslangic",
+  "title": "File:Northern Hawk Owl (30042559152).jpg",
+  "query": "hawk",
+  "page": "https://commons.wikimedia.org/wiki/File:Northern_Hawk_Owl_(30042559152).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfws_alaska/\">USFWSAlaska</a>",
+  "desc": "A Northern Hawk Owl in black cottonwoods.\nCredit: Lisa Hupp/USFWS"
+ },
+ {
+  "file": "scout/out/fws/1423.jpg",
+  "size": "4630x3087",
+  "width": 2058,
+  "color": 22.3,
+  "sharp": 81.3,
+  "flat": 0.48,
+  "why": [
+   "soluk"
+  ],
+  "twin": 0.87,
+  "level": "baslangic",
+  "title": "File:Elk on the National Elk Refuge (51820767894).jpg",
+  "query": "elk",
+  "page": "https://commons.wikimedia.org/wiki/File:Elk_on_the_National_Elk_Refuge_(51820767894).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/usfwsmtnprairie/\" class=\"external text\">USFWS Mountain Prairie</a>",
+  "desc": "A herd of elk crest a hill on the National Elk Refuge.\n\nPhoto: Gannon Castle/USFWS"
+ },
+ {
+  "file": "scout/out/fws/1424.jpg",
+  "size": "8200x5467",
+  "width": 3644,
+  "color": 22.5,
+  "sharp": 85.7,
+  "flat": 0.0,
+  "why": [
+   "soluk"
+  ],
+  "twin": 0.6,
+  "level": "baslangic",
+  "title": "File:American bison (54123614749).jpg",
+  "query": "bison",
+  "page": "https://commons.wikimedia.org/wiki/File:American_bison_(54123614749).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmidwest/\">U.S. Fish and Wildlife Service - Midwest Region</a>",
+  "desc": "We spotted this American bison rubbing against a sandy bank at Theodore Roosevelt National Park in western North Dakota.\nPhoto safely taken with a zoom lens from inside a vehicle.\n\nPhoto by Courtney Celley/USFWS."
+ },
+ {
+  "file": "scout/out/fws/1426.jpg",
+  "size": "3265x2320",
+  "width": 1546,
+  "color": 28.8,
+  "sharp": 77.0,
+  "flat": 0.0,
+  "why": [
+   "küçük"
+  ],
+  "twin": 0.7,
+  "level": "baslangic",
+  "title": "File:Pronghorn at Seedskadee National Wildlife Refuge (51138380368).jpg",
+  "query": "pronghorn",
+  "page": "https://commons.wikimedia.org/wiki/File:Pronghorn_at_Seedskadee_National_Wildlife_Refuge_(51138380368).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/51986662@N05\" class=\"external text\">USFWS Mountain-Prairie</a>",
+  "desc": "Photo: Tom Koerner/U.S. Fish and Wildlife Service"
+ },
+ {
+  "file": "scout/out/fws/1429.jpg",
+  "size": "4752x2394",
+  "width": 1596,
+  "color": 19.5,
+  "sharp": 80.8,
+  "flat": 0.01,
+  "why": [
+   "soluk",
+   "küçük"
+  ],
+  "twin": 0.64,
+  "level": "baslangic",
+  "title": "File:Sea otters play (48750238062).jpg",
+  "query": "otter",
+  "page": "https://commons.wikimedia.org/wiki/File:Sea_otters_play_(48750238062).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfws_pacificsw/\">USFWS Pacific Southwest Region</a>",
+  "desc": "Southern sea otters play at Moss Landing in Monterey, California. Photo by Lilian Carswell taken on June 13, 2018."
  },
  {
   "file": "scout/out/fws/141.jpg",
