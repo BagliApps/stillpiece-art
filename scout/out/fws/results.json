@@ -3638,6 +3638,23 @@
   "desc": "Bighorn Sheep at Point of Rocks 11-13-10"
  },
  {
+  "file": "scout/out/fws/1367.jpg",
+  "size": "6960x4640",
+  "width": 3093,
+  "color": 41.4,
+  "sharp": 61.0,
+  "flat": 0.37,
+  "why": [],
+  "twin": 0.5,
+  "level": "baslangic",
+  "title": "File:Smokey Sunrise Lake Andes National Wildlife Refuge South Dakota (54008453857).jpg",
+  "query": "sunrise refuge",
+  "page": "https://commons.wikimedia.org/wiki/File:Smokey_Sunrise_Lake_Andes_National_Wildlife_Refuge_South_Dakota_(54008453857).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmtnprairie/\">USFWS Mountain Prairie</a>",
+  "desc": "Smoke on the horizon makes for a spectacular sunrise on the Lake Andes NWR in South Dakota. Photo Credit: Liz Julian/USFWS"
+ },
+ {
   "file": "scout/out/fws/028.jpg",
   "size": "5600x3732",
   "width": 2488,
@@ -7684,6 +7701,57 @@
   "desc": "Elk on the National Elk Refuge.\nPhoto: Gannon Castle/USFWS"
  },
  {
+  "file": "scout/out/fws/1366.jpg",
+  "size": "3987x2848",
+  "width": 1898,
+  "color": 37.1,
+  "sharp": 82.8,
+  "flat": 0.12,
+  "why": [],
+  "twin": 0.55,
+  "level": "kolay",
+  "title": "File:Lazy Autumn Afternoon (15635450996).jpg",
+  "query": "autumn refuge",
+  "page": "https://commons.wikimedia.org/wiki/File:Lazy_Autumn_Afternoon_(15635450996).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/51986662@N05\">USFWS Mountain-Prairie</a>",
+  "desc": "Quiet lazy afternoon at Bear River Migratory Bird Refuge stunning reflections and colors. First place Winner in Landscape 2014 Bear River Refuge, photo contest. \n\nPhoto Credit: Lloyd Bush / USFWS"
+ },
+ {
+  "file": "scout/out/fws/1368.jpg",
+  "size": "3619x2597",
+  "width": 1731,
+  "color": 50.9,
+  "sharp": 72.7,
+  "flat": 0.0,
+  "why": [],
+  "twin": 0.55,
+  "level": "kolay",
+  "title": "File:Western brook lamprey (Lampetra richardsoni) (9258476476).jpg",
+  "query": "marsh",
+  "page": "https://commons.wikimedia.org/wiki/File:Western_brook_lamprey_(Lampetra_richardsoni)_(9258476476).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/52133016@N08\">USFWS - Pacific Region</a>",
+  "desc": "Western brook lamprey, Lampetra richardsoni"
+ },
+ {
+  "file": "scout/out/fws/1369.jpg",
+  "size": "4000x4937",
+  "width": 3291,
+  "color": 71.4,
+  "sharp": 61.9,
+  "flat": 0.29,
+  "why": [],
+  "twin": 0.59,
+  "level": "kolay",
+  "title": "File:Prairie coneflower and purple prairie clover (53858415749).jpg",
+  "query": "prairie",
+  "page": "https://commons.wikimedia.org/wiki/File:Prairie_coneflower_and_purple_prairie_clover_(53858415749).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmidwest/\">U.S. Fish and Wildlife Service - Midwest Region</a>",
+  "desc": "We spotted this prairie coneflower and purple prairie clover blooming at Big Stone National Wildlife Refuge in Minnesota.\nPhoto by Mike Budd/USFWS."
+ },
+ {
   "file": "scout/out/fws/017.jpg",
   "size": "4948x3280",
   "width": 2186,
@@ -9418,6 +9486,23 @@
   "desc": "bird trumpeter swan on Seedskadee NWR 1035"
  },
  {
+  "file": "scout/out/fws/1362.jpg",
+  "size": "4941x3871",
+  "width": 2580,
+  "color": 78.4,
+  "sharp": 72.7,
+  "flat": 0.01,
+  "why": [],
+  "twin": 0.08,
+  "level": "usta",
+  "title": "File:Monarch Butterfly on Purple Coneflower in Michigan (21274543485).jpg",
+  "query": "monarch",
+  "page": "https://commons.wikimedia.org/wiki/File:Monarch_Butterfly_on_Purple_Coneflower_in_Michigan_(21274543485).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/49208525@N08\">USFWSmidwest</a>",
+  "desc": "Photo by Jim Hudgins/USFWS."
+ },
+ {
   "file": "scout/out/fws/048.jpg",
   "size": "3488x2704",
   "width": 1802,
@@ -10861,6 +10946,23 @@
   "license": "Public domain",
   "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwssoutheast/\">USFWS/Southeast</a>",
   "desc": "At Harris Neck National Wildlife Refuge. www.fws.gov/harrisneck/. Credit: Mary Ellen Urbanski."
+ },
+ {
+  "file": "scout/out/fws/1364.jpg",
+  "size": "3905x2603",
+  "width": 1735,
+  "color": 66.8,
+  "sharp": 77.5,
+  "flat": 0.03,
+  "why": [],
+  "twin": 0.21,
+  "level": "zor",
+  "title": "File:Horned clubtail dragonfly eating a familiar bluet damselfly (40809902090).jpg",
+  "query": "dragonfly",
+  "page": "https://commons.wikimedia.org/wiki/File:Horned_clubtail_dragonfly_eating_a_familiar_bluet_damselfly_(40809902090).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmidwest/\">U.S. Fish and Wildlife Service - Midwest Region</a>",
+  "desc": "Dragonflies mostly eat flying insects and some may eat hundreds of mosquitoes each day! We spotted this one chowing down on a damselfly.\nPhoto by Courtney Celley/USFWS."
  },
  {
   "file": "scout/out/fws/000.jpg",
@@ -19246,6 +19348,25 @@
   "desc": "The rusty patched bumble bee was listed as an endangered species in 2017, making it the first bumble bee to receive federal protection. Native wildflowers are the best sources of pollen and nectar, like this bergamot flower.\nPhoto by Mara Koenig/USFWS."
  },
  {
+  "file": "scout/out/fws/1363.jpg",
+  "size": "5568x3712",
+  "width": 2474,
+  "color": 47.9,
+  "sharp": 51.4,
+  "flat": 0.0,
+  "why": [
+   "bulanık"
+  ],
+  "twin": 0.0,
+  "level": "buyukUsta",
+  "title": "File:Rusty patched bumble bee on bergamot (54719496712).jpg",
+  "query": "bee flower",
+  "page": "https://commons.wikimedia.org/wiki/File:Rusty_patched_bumble_bee_on_bergamot_(54719496712).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmidwest/\">U.S. Fish and Wildlife Service - Midwest Region</a>",
+  "desc": "The rusty patched bumble bee was listed as an endangered species in 2017, making it the first bumble bee to receive federal protection. Native wildflowers are the best sources of pollen and nectar, like this bergamot flower.\nPhoto by Mara Koenig/USFWS."
+ },
+ {
   "file": "scout/out/fws/010.jpg",
   "size": "3000x2008",
   "width": 1338,
@@ -24040,6 +24161,26 @@
   "desc": "This lone wood duck drake appeared out of a flock of mallards that were found overwintering on a small creek in South Dakota. \nWood Duck populations increased between 1966 and 2010, according to the North American Breeding Bird Survey. This is good news considering their dramatic declines in the lat"
  },
  {
+  "file": "scout/out/fws/1365.jpg",
+  "size": "3456x2304",
+  "width": 1536,
+  "color": 23.5,
+  "sharp": 71.3,
+  "flat": 0.0,
+  "why": [
+   "soluk",
+   "küçük"
+  ],
+  "twin": 0.12,
+  "level": "uzman",
+  "title": "File:Mountain yellow-legged frog habitat (29177989898).jpg",
+  "query": "frog",
+  "page": "https://commons.wikimedia.org/wiki/File:Mountain_yellow-legged_frog_habitat_(29177989898).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfws_pacificsw/\">USFWS Pacific Southwest Region</a>",
+  "desc": "Historic habitat for the Southern California population of mountain yellow-legged frog. Photo by Joanna Gilkeson/USFWS."
+ },
+ {
   "file": "scout/out/fws/030.jpg",
   "size": "4928x3264",
   "width": 2176,
@@ -24748,5 +24889,44 @@
   "license": "Public domain",
   "artist": "Unknown author<link rel=\"mw:PageProp/Category\" href=\"./Category:Template_Unknown_(author)\"><span style=\"display: none;\">Unknown author</span>",
   "desc": "\nImage title: Brown bear in dog salmon creek\nImage from Public domain images website, http://www.public-domain-image.com/full-image/fauna-animals-public-domain-images-pictures/bears-public-domain-images-pictures/brown-bear-in-dog-salmon-creek.jpg.html"
+ },
+ {
+  "file": "scout/out/fws/1360.jpg",
+  "size": "3072x1728",
+  "width": 1152,
+  "color": 44.1,
+  "sharp": 34.1,
+  "flat": 0.01,
+  "why": [
+   "bulanık",
+   "küçük"
+  ],
+  "twin": 0.28,
+  "level": "zor",
+  "title": "File:Albino Alligator Gars (5543964799).jpg",
+  "query": "alligator",
+  "page": "https://commons.wikimedia.org/wiki/File:Albino_Alligator_Gars_(5543964799).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/41464593@N02\">U.S. Fish and Wildlife Service Southeast Region</a>",
+  "desc": "These two albino alligator gar are located in the Warm Springs Regional Fisheries Center aquarium.\nusfwsyouthambassadors.wordpress.com/\nwww.fws.gov/southeast/youthambassadors/meshes.html\nPhoto Taken By: Cody Meshes, USFWS \n\nDate Taken: 9-15-10"
+ },
+ {
+  "file": "scout/out/fws/1361.jpg",
+  "size": "3264x2448",
+  "width": 1632,
+  "color": 55.2,
+  "sharp": 65.9,
+  "flat": 0.0,
+  "why": [
+   "küçük"
+  ],
+  "twin": 0.2,
+  "level": "zor",
+  "title": "File:Monarch Butterfly in Minnesota (28596758166).jpg",
+  "query": "butterfly",
+  "page": "https://commons.wikimedia.org/wiki/File:Monarch_Butterfly_in_Minnesota_(28596758166).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/49208525@N08\">USFWSmidwest</a>",
+  "desc": "We stopped to take some photos of the swamp milkweed and look who showed up! This male monarch butterfly enjoyed some nectar and moved on to his next destination.\n\nPhoto by Courtney Celley/USFWS."
  }
 ]
