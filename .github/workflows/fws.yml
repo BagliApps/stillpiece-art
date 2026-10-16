@@ -1,0 +1,39 @@
+# Geçici: FWS adaylarını tarar, sonuçları bu dala ekler. main'de yok.
+name: FWS taraması
+on:
+  push:
+    branches: [met-scout]
+    paths: [scout/fws.py]
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Aday sınırı (boş: 600)"
+        required: false
+permissions:
+  contents: write
+jobs:
+  fws:
+    runs-on: macos-latest
+    timeout-minutes: 120
+    env:
+      LIMIT: ${{ inputs.limit || '5' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898733+github-actions[bot]@users.noreply.github.com"
+      # Ara kayıt: tarama sürerken 5 dakikada bir sonuçlar dala itilir.
+      - run: |
+          (while sleep 300; do
+            git add scout/out/fws && git commit -qm "FWS taraması ara kayıt" && git pull -q --rebase --autostash && git push -q
+          done) &
+          python3 scout/fws.py
+      - if: always()
+        run: |
+          git add scout/out/fws
+          git commit -m "FWS taraması sonuçları" || true
+          git pull --rebase --autostash && git push
