@@ -2686,6 +2686,57 @@
   "desc": "Arctic National Wildlife Refuge \nPhoto Credit: Danielle Brigida/ USFWS"
  },
  {
+  "file": "scout/out/fws/990.jpg",
+  "size": "6960x4640",
+  "width": 3093,
+  "color": 32.8,
+  "sharp": 73.8,
+  "flat": 0.0,
+  "why": [],
+  "twin": 0.89,
+  "level": "baslangic",
+  "title": "File:Snow Geese Lake Andes National Wildlife Refuge South Dakota (53438385710).jpg",
+  "query": "snow geese",
+  "page": "https://commons.wikimedia.org/wiki/File:Snow_Geese_Lake_Andes_National_Wildlife_Refuge_South_Dakota_(53438385710).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmtnprairie/\">USFWS Mountain Prairie</a>",
+  "desc": "Snow geese on Lake Andes lake on Lake Andes National Wildlife Refuge in South Dakota. Photo Credit: Liz Julian/USFWS"
+ },
+ {
+  "file": "scout/out/fws/992.jpg",
+  "size": "4877x3251",
+  "width": 2167,
+  "color": 29.7,
+  "sharp": 79.2,
+  "flat": 0.0,
+  "why": [],
+  "twin": 0.71,
+  "level": "baslangic",
+  "title": "File:Great Blue Heron (17897441001).jpg",
+  "query": "heron",
+  "page": "https://commons.wikimedia.org/wiki/File:Great_Blue_Heron_(17897441001).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmidwest/\">U.S. Fish and Wildlife Service - Midwest Region</a>",
+  "desc": "A great blue heron on the hunt in Saint Paul, Minnesota.\nPhoto by Courtney Celley/USFWS."
+ },
+ {
+  "file": "scout/out/fws/995.jpg",
+  "size": "6000x4001",
+  "width": 2667,
+  "color": 36.6,
+  "sharp": 73.1,
+  "flat": 0.23,
+  "why": [],
+  "twin": 0.84,
+  "level": "baslangic",
+  "title": "File:Snowy owl (53554877412).jpg",
+  "query": "owl",
+  "page": "https://commons.wikimedia.org/wiki/File:Snowy_owl_(53554877412).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/usfwsmidwest/\" class=\"external text\">U.S. Fish and Wildlife Service - Midwest Region</a>",
+  "desc": "We spotted this snowy owl perched in a tree in St. Louis County, Minnesota.\n\nPhoto by Courtney Celley/USFWS."
+ },
+ {
   "file": "scout/out/fws/028.jpg",
   "size": "5600x3732",
   "width": 2488,
@@ -7869,6 +7920,23 @@
   "license": "Public domain",
   "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/52133016@N08\">USFWS - Pacific Region</a>",
   "desc": "A Cascade torrent salamander"
+ },
+ {
+  "file": "scout/out/fws/999.jpg",
+  "size": "4812x3643",
+  "width": 2428,
+  "color": 48.5,
+  "sharp": 76.0,
+  "flat": 0.0,
+  "why": [],
+  "twin": 0.27,
+  "level": "zor",
+  "title": "File:Wood Duck (42419367701).jpg",
+  "query": "wood duck",
+  "page": "https://commons.wikimedia.org/wiki/File:Wood_Duck_(42419367701).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmtnprairie/\">USFWS Mountain Prairie</a>",
+  "desc": "Urban wildlife - even in the middle of towns and cities, wildlife can be found. A shallow wetland hidden from view, while vehicles pass close by, provides habitat for Wood Ducks in Lincoln, Nebraska. Regular disturbance from kayakers, fishermen and women, photographers, and walkers and joggers looki"
  },
  {
   "file": "scout/out/fws/000.jpg",
@@ -13647,6 +13715,104 @@
   "desc": "Eaglets grow very quickly! Within six weeks of birth, they are almost the same size as their parents.\n\nPhoto Credit: Rich Keen / DPRA"
  },
  {
+  "file": "scout/out/fws/991.jpg",
+  "size": "4436x3221",
+  "width": 2147,
+  "color": 56.2,
+  "sharp": 68.9,
+  "flat": 0.59,
+  "why": [
+   "desensiz"
+  ],
+  "twin": 0.59,
+  "level": "baslangic",
+  "title": "File:American white pelican on Seedskadee National Wildlife Refuge (36796745440).jpg",
+  "query": "pelican",
+  "page": "https://commons.wikimedia.org/wiki/File:American_white_pelican_on_Seedskadee_National_Wildlife_Refuge_(36796745440).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/51986662@N05\" class=\"external text\">USFWS Mountain-Prairie</a>",
+  "desc": "Photo: Tom Koerner/USFWS"
+ },
+ {
+  "file": "scout/out/fws/993.jpg",
+  "size": "5088x2124",
+  "width": 1416,
+  "color": 10.3,
+  "sharp": 79.2,
+  "flat": 0.88,
+  "why": [
+   "soluk",
+   "küçük",
+   "desensiz"
+  ],
+  "twin": 0.94,
+  "level": "baslangic",
+  "title": "File:Great egret in flight (51298019606).jpg",
+  "query": "egret",
+  "page": "https://commons.wikimedia.org/wiki/File:Great_egret_in_flight_(51298019606).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmidwest/\">U.S. Fish and Wildlife Service - Midwest Region</a>",
+  "desc": "We spotted this great egret at Shiawassee National Wildlife Refuge in Michigan. These birds are often found near wetlands and other bodies of water where they hunt for small fish, amphibians, reptiles, invertebrates and more!\nPhoto by Mike Budd/USFWS."
+ },
+ {
+  "file": "scout/out/fws/994.jpg",
+  "size": "4288x3216",
+  "width": 2144,
+  "color": 13.4,
+  "sharp": 79.1,
+  "flat": 0.63,
+  "why": [
+   "soluk",
+   "desensiz"
+  ],
+  "twin": 0.64,
+  "level": "baslangic",
+  "title": "File:Juvenile Paddlefish (51309738709).jpg",
+  "query": "spoonbill",
+  "page": "https://commons.wikimedia.org/wiki/File:Juvenile_Paddlefish_(51309738709).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/usfwsmtnprairie/\" class=\"external text\">USFWS Mountain Prairie</a>",
+  "desc": "Open-mouthed juvenile paddlefish reared at Garrison Dam National Fish Hatchery (2013).\nPhoto: Rob Holm/USFWS"
+ },
+ {
+  "file": "scout/out/fws/996.jpg",
+  "size": "3800x2536",
+  "width": 1690,
+  "color": 46.6,
+  "sharp": 77.8,
+  "flat": 0.8,
+  "why": [
+   "desensiz"
+  ],
+  "twin": 0.64,
+  "level": "baslangic",
+  "title": "File:Ruby-throated hummingbird (50037430497).jpg",
+  "query": "hummingbird",
+  "page": "https://commons.wikimedia.org/wiki/File:Ruby-throated_hummingbird_(50037430497).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/usfwsmidwest/\" class=\"external text\">U.S. Fish and Wildlife Service - Midwest Region</a>",
+  "desc": "A female ruby-throated hummingbird visits a hummingbird feeder.\n\nPhoto by Courtney Celley/USFWS."
+ },
+ {
+  "file": "scout/out/fws/998.jpg",
+  "size": "3113x1885",
+  "width": 1256,
+  "color": 42.5,
+  "sharp": 79.8,
+  "flat": 0.0,
+  "why": [
+   "küçük"
+  ],
+  "twin": 0.75,
+  "level": "baslangic",
+  "title": "File:Trumpeter swan (14651651590).jpg",
+  "query": "swan",
+  "page": "https://commons.wikimedia.org/wiki/File:Trumpeter_swan_(14651651590).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/51986662@N05\">USFWS Mountain-Prairie</a>",
+  "desc": "Photo credit: Katie Theule"
+ },
+ {
   "file": "scout/out/fws/141.jpg",
   "size": "4000x6000",
   "width": 4000,
@@ -18025,5 +18191,24 @@
   "license": "Public domain",
   "artist": "Bridges, R. I.",
   "desc": "Black Bear Cub (Ursus americanus)"
+ },
+ {
+  "file": "scout/out/fws/997.jpg",
+  "size": "4600x3067",
+  "width": 2044,
+  "color": 24.5,
+  "sharp": 77.5,
+  "flat": 0.05,
+  "why": [
+   "soluk"
+  ],
+  "twin": 0.22,
+  "level": "zor",
+  "title": "File:Nashville warbler (54796053861).jpg",
+  "query": "warbler",
+  "page": "https://commons.wikimedia.org/wiki/File:Nashville_warbler_(54796053861).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmidwest/\">U.S. Fish and Wildlife Service - Midwest Region</a>",
+  "desc": "We spotted this Nashville warbler perched in a red pine tree in St. Louis County, Minnesota.\nPhoto by Courtney Celley/USFWS."
  }
 ]
