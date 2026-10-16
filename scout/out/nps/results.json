@@ -2752,6 +2752,22 @@
   "desc": "<p>a road cutting through a forest toward distant snowy mountains</p>\n<p>Mountains seen while heading east on the Denali Park Road on Tuesday, September 26, 2017.</p>"
  },
  {
+  "file": "scout/out/nps/854.jpg",
+  "size": "3308x2555",
+  "width": 1703,
+  "color": 79.1,
+  "sharp": 70.4,
+  "flat": 0.03,
+  "why": [],
+  "easy": false,
+  "title": "File:Fat Bear Week 2022 Bracket (52396171958).png",
+  "query": "bear",
+  "page": "https://commons.wikimedia.org/wiki/File:Fat_Bear_Week_2022_Bracket_(52396171958).png",
+  "license": "Public domain",
+  "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/katmainps/\" class=\"external text\">KatmaiNPS</a>",
+  "desc": "Fat Bear Week 2022 Bracket"
+ },
+ {
   "file": "scout/out/nps/001.jpg",
   "size": "5184x3456",
   "width": 2304,
@@ -4672,6 +4688,22 @@
   "desc": "<p>Mountains covered in vegetation</p>\n<p>Cataloochee</p>\n<ul><li>Keywords: Great Smoky Mountains National Park; GRSM; Great Smoky Mountains; North Carolina; Cataloochee; mountains</li></ul>"
  },
  {
+  "file": "scout/out/nps/848.jpg",
+  "size": "8269x5513",
+  "width": 3675,
+  "color": 71.7,
+  "sharp": 78.1,
+  "flat": 0.14,
+  "why": [],
+  "easy": false,
+  "title": "File:Grand Geyser erupts behind Castle Geyser (32290239850).jpg",
+  "query": "geyser",
+  "page": "https://commons.wikimedia.org/wiki/File:Grand_Geyser_erupts_behind_Castle_Geyser_(32290239850).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/80223459@N05\" class=\"external text\">Yellowstone National Park</a>",
+  "desc": "NPS / Jacob W. Frank"
+ },
+ {
   "file": "scout/out/nps/095.jpg",
   "size": "4853x4289",
   "width": 2859,
@@ -6064,6 +6096,22 @@
   "desc": "Alt text: A desert bighorn sheep on a mountainside.\nNPS/Bill Bjornstad"
  },
  {
+  "file": "scout/out/nps/850.jpg",
+  "size": "7360x4912",
+  "width": 3274,
+  "color": 41.8,
+  "sharp": 82.6,
+  "flat": 0.35,
+  "why": [],
+  "easy": true,
+  "title": "File:Reporter Filming Smoke from the Elk Fire (52106004401).jpg",
+  "query": "elk",
+  "page": "https://commons.wikimedia.org/wiki/File:Reporter_Filming_Smoke_from_the_Elk_Fire_(52106004401).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/joshuatreenp/\" class=\"external text\">Joshua Tree National Park</a>",
+  "desc": "The Elk Fire began on May 26 in the town of Yucca Valley. Ultimately the fire burned around 450 acres of land including part of the northwest corner of Joshua Tree National Park. Firefighters from multiple agencies aggressively attacked the fire with the goal of full suppression. \n\n<p>This fire was "
+ },
+ {
   "file": "scout/out/nps/005.jpg",
   "size": "6000x4000",
   "width": 2666,
@@ -6382,6 +6430,22 @@
   "license": "Public domain",
   "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/130826934@N07\">NPS Natural Resources</a>",
   "desc": "NPS Photo M.Reed"
+ },
+ {
+  "file": "scout/out/nps/849.jpg",
+  "size": "5760x3840",
+  "width": 2560,
+  "color": 30.3,
+  "sharp": 79.6,
+  "flat": 0.42,
+  "why": [],
+  "easy": true,
+  "title": "File:Braving the cold (-20F) at Mammoth Hot Springs (32955459084).jpg",
+  "query": "hot spring",
+  "page": "https://commons.wikimedia.org/wiki/File:Braving_the_cold_(-20F)_at_Mammoth_Hot_Springs_(32955459084).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/80223459@N05\">Yellowstone National Park</a>",
+  "desc": "NPS / Neal Herbert"
  },
  {
   "file": "scout/out/nps/770.jpg",
@@ -7723,6 +7787,42 @@
   "license": "Public domain",
   "artist": "NPS Photo",
   "desc": "<p>A large gull with a white body, a dark gray back, pink legs and feet, and a yellow bill with a red spot near the end of its lower bill.</p>\n<p>A western gull perched on the edge of Tomales Point.</p>\n<ul><li>Keywords: point reyes; point reyes national seashore; bird; birds; western gull; gull; la"
+ },
+ {
+  "file": "scout/out/nps/851.jpg",
+  "size": "5168x3448",
+  "width": 2298,
+  "color": 15.8,
+  "sharp": 78.3,
+  "flat": 0.0,
+  "why": [
+   "soluk"
+  ],
+  "easy": false,
+  "title": "File:Bull moose (48987721877).jpg",
+  "query": "moose",
+  "page": "https://commons.wikimedia.org/wiki/File:Bull_moose_(48987721877).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/grandtetonnps/\">GrandTetonNPS</a>",
+  "desc": "NPS/Adams"
+ },
+ {
+  "file": "scout/out/nps/852.jpg",
+  "size": "3500x2324",
+  "width": 1549,
+  "color": 29.4,
+  "sharp": 82.8,
+  "flat": 0.0,
+  "why": [
+   "küçük"
+  ],
+  "easy": false,
+  "title": "File:Bison Herded by Helicopter (8244fa85-1dd8-b71b-0bf9-c7b59df11c28).JPG",
+  "query": "bison",
+  "page": "https://commons.wikimedia.org/wiki/File:Bison_Herded_by_Helicopter_(8244fa85-1dd8-b71b-0bf9-c7b59df11c28).JPG",
+  "license": "Public domain",
+  "artist": "NPS Photo",
+  "desc": "<p>Bison are driven through a corral gate by a hovering helicopter</p>\n<p>A helicopter herds bison at a walking pace through the gate of the handling facility.</p>\n<ul><li>Keywords: bison; roundup; management</li></ul>"
  },
  {
   "file": "scout/out/nps/017.jpg",
@@ -14108,6 +14208,24 @@
   "license": "Public domain",
   "artist": "drytortugasnps",
   "desc": "NPS Photo by Michelle Collier"
+ },
+ {
+  "file": "scout/out/nps/853.jpg",
+  "size": "4655x3182",
+  "width": 2121,
+  "color": 96.0,
+  "sharp": 84.8,
+  "flat": 0.51,
+  "why": [
+   "desensiz"
+  ],
+  "easy": false,
+  "title": "File:Desert Bighorn Sheep (Ovis candensis nelsoni) (52525043419).jpg",
+  "query": "bighorn",
+  "page": "https://commons.wikimedia.org/wiki/File:Desert_Bighorn_Sheep_(Ovis_candensis_nelsoni)_(52525043419).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/joshuatreenp/\">Joshua Tree National Park</a>",
+  "desc": "Alt text: An adult desert bighorn sheep perched on a mountainside.\nNPS/Bill Bjornstad"
  },
  {
   "file": "scout/out/nps/607.jpg",
