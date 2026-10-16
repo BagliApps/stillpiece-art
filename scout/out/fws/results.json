@@ -2737,6 +2737,108 @@
   "desc": "We spotted this snowy owl perched in a tree in St. Louis County, Minnesota.\n\nPhoto by Courtney Celley/USFWS."
  },
  {
+  "file": "scout/out/fws/1000.jpg",
+  "size": "2656x3718",
+  "width": 2478,
+  "color": 54.8,
+  "sharp": 69.9,
+  "flat": 0.44,
+  "why": [],
+  "twin": 0.54,
+  "level": "baslangic",
+  "title": "File:Red-tailed hawk (52869235757).jpg",
+  "query": "hawk",
+  "page": "https://commons.wikimedia.org/wiki/File:Red-tailed_hawk_(52869235757).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/49208525@N08\">USFWS Midwest Region</a> from Midwest Region, United States",
+  "desc": "Photo by Grayson Smith/USFWS"
+ },
+ {
+  "file": "scout/out/fws/1002.jpg",
+  "size": "4000x6000",
+  "width": 4000,
+  "color": 32.7,
+  "sharp": 78.1,
+  "flat": 0.34,
+  "why": [],
+  "twin": 0.92,
+  "level": "baslangic",
+  "title": "File:Elk on the National Elk Refuge (51799012523).jpg",
+  "query": "elk",
+  "page": "https://commons.wikimedia.org/wiki/File:Elk_on_the_National_Elk_Refuge_(51799012523).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmtnprairie/\">USFWS Mountain Prairie</a>",
+  "desc": "Wintering elk on the National Elk Refuge.\nPhoto: Kari Cieszkiewicz/USFWS"
+ },
+ {
+  "file": "scout/out/fws/1003.jpg",
+  "size": "6016x4000",
+  "width": 2666,
+  "color": 46.8,
+  "sharp": 74.0,
+  "flat": 0.09,
+  "why": [],
+  "twin": 0.79,
+  "level": "baslangic",
+  "title": "File:Bison Herd (9158447013).jpg",
+  "query": "bison",
+  "page": "https://commons.wikimedia.org/wiki/File:Bison_Herd_(9158447013).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/51986662@N05\" class=\"external text\">USFWS Mountain-Prairie</a>",
+  "desc": "Scenery and wildlife at Lake Ilo National Wildlife Refuge in North Dakota\n\nCredit: USFWS"
+ },
+ {
+  "file": "scout/out/fws/1006.jpg",
+  "size": "8192x5464",
+  "width": 3642,
+  "color": 40.9,
+  "sharp": 63.1,
+  "flat": 0.13,
+  "why": [],
+  "twin": 0.8,
+  "level": "baslangic",
+  "title": "File:Juvenile Arctic fox (51357486108).jpg",
+  "query": "fox",
+  "page": "https://commons.wikimedia.org/wiki/File:Juvenile_Arctic_fox_(51357486108).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/usfws_alaska/\" class=\"external text\">USFWSAlaska</a>",
+  "desc": "A young Arctic fox (Vulpes lagopus) stands on a hillside of tundra plants outside its den. Credit: Lisa Hupp/USFWS."
+ },
+ {
+  "file": "scout/out/fws/1009.jpg",
+  "size": "4752x3168",
+  "width": 2112,
+  "color": 32.0,
+  "sharp": 66.3,
+  "flat": 0.33,
+  "why": [],
+  "twin": 0.66,
+  "level": "baslangic",
+  "title": "File:Male sea otter eating a green crab.png",
+  "query": "otter",
+  "page": "https://commons.wikimedia.org/wiki/File:Male_sea_otter_eating_a_green_crab.png",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/54430347@N04\">Pacific Southwest Region USFWS</a> from Sacramento, US",
+  "desc": "A territorial male sea otter in Moss Landing eats an invasive exotic green crab. Photo by Lilian Carswell/USFWS."
+ },
+ {
+  "file": "scout/out/fws/1019.jpg",
+  "size": "6000x4000",
+  "width": 2666,
+  "color": 34.7,
+  "sharp": 84.9,
+  "flat": 0.02,
+  "why": [],
+  "twin": 0.6,
+  "level": "baslangic",
+  "title": "File:Billy Frank Jr Nisqually National Wildlife Refuge (53358750786).jpg",
+  "query": "autumn refuge",
+  "page": "https://commons.wikimedia.org/wiki/File:Billy_Frank_Jr_Nisqually_National_Wildlife_Refuge_(53358750786).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwspacific/\">USFWS Pacific</a>",
+  "desc": "Billy Frank Jr. Nisqually National Wildlife Refuge in Washington\nNovember 23, 2023\nwww.fws.gov/refuge/billy-frank-jr-nisqually\n\nUSFWS/A. LaValle"
+ },
+ {
   "file": "scout/out/fws/028.jpg",
   "size": "5600x3732",
   "width": 2488,
@@ -5746,6 +5848,23 @@
   "desc": "Photo by Courtney Celley/USFWS"
  },
  {
+  "file": "scout/out/fws/1014.jpg",
+  "size": "5000x3394",
+  "width": 2262,
+  "color": 78.0,
+  "sharp": 70.5,
+  "flat": 0.17,
+  "why": [],
+  "twin": 0.27,
+  "level": "kolay",
+  "title": "File:Monarch Butterfly on Swamp Milkweed (28780185640).jpg",
+  "query": "monarch",
+  "page": "https://commons.wikimedia.org/wiki/File:Monarch_Butterfly_on_Swamp_Milkweed_(28780185640).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/49208525@N08\">USFWSmidwest</a>",
+  "desc": "Spotted in the monarch garden at the Michigan Private Lands Office.\n\nPhoto by Jim Hudgins/USFWS."
+ },
+ {
   "file": "scout/out/fws/017.jpg",
   "size": "4948x3280",
   "width": 2186,
@@ -6494,6 +6613,40 @@
   "desc": "A bull moose (Shiras) feeding on the leaves of coyote willow (Salix exigua) along the banks of the Green River on Seedskadee NWR.  He would grab a stem, raise his head, and strip just the leaves off, leaving the red stem behind.    Photo:  Tom Koerner/USFWS"
  },
  {
+  "file": "scout/out/fws/1010.jpg",
+  "size": "5600x3739",
+  "width": 2492,
+  "color": 35.8,
+  "sharp": 81.8,
+  "flat": 0.0,
+  "why": [],
+  "twin": 0.37,
+  "level": "orta",
+  "title": "File:Beaver lodge (52080858839).jpg",
+  "query": "beaver",
+  "page": "https://commons.wikimedia.org/wiki/File:Beaver_lodge_(52080858839).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmidwest/\">U.S. Fish and Wildlife Service - Midwest Region</a>",
+  "desc": "This large beaver lodge was a nice basking spot for a painted turtle. Look very closely and you'll see its dark shell!\nPhoto by Courtney Celley/USFWS."
+ },
+ {
+  "file": "scout/out/fws/1018.jpg",
+  "size": "4295x2843",
+  "width": 1895,
+  "color": 65.8,
+  "sharp": 66.8,
+  "flat": 0.0,
+  "why": [],
+  "twin": 0.37,
+  "level": "orta",
+  "title": "File:Wildflowers on the National Elk Refuge (52136206128).jpg",
+  "query": "wildflowers",
+  "page": "https://commons.wikimedia.org/wiki/File:Wildflowers_on_the_National_Elk_Refuge_(52136206128).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmtnprairie/\">USFWS Mountain Prairie</a>",
+  "desc": "Shooting star (Dodecatheon meadia).\nPhoto: Hannah Bradburn / USFWS"
+ },
+ {
   "file": "scout/out/fws/014.jpg",
   "size": "5184x3456",
   "width": 2304,
@@ -6951,6 +7104,23 @@
   "license": "Public domain",
   "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/54430347@N04\">Pacific Southwest Region USFWS</a> from Sacramento, US",
   "desc": "Photo by Joanna Gilkeson/USFWS"
+ },
+ {
+  "file": "scout/out/fws/1016.jpg",
+  "size": "7200x4800",
+  "width": 3200,
+  "color": 59.6,
+  "sharp": 65.7,
+  "flat": 0.0,
+  "why": [],
+  "twin": 0.1,
+  "level": "usta",
+  "title": "File:Spiny baskettail dragonfly (54561894342).jpg",
+  "query": "dragonfly",
+  "page": "https://commons.wikimedia.org/wiki/File:Spiny_baskettail_dragonfly_(54561894342).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/usfwsmidwest/\" class=\"external text\">U.S. Fish and Wildlife Service - Midwest Region</a>",
+  "desc": "We found a hotspot of dragonfly emergence along Pelican Lake in St. Louis County, Minnesota. This adult spiny baskettail was resting and drying its wings near the shore before taking its first flight!\n\nPhoto by Courtney Celley/USFWS."
  },
  {
   "file": "scout/out/fws/048.jpg",
@@ -7937,6 +8107,23 @@
   "license": "Public domain",
   "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmtnprairie/\">USFWS Mountain Prairie</a>",
   "desc": "Urban wildlife - even in the middle of towns and cities, wildlife can be found. A shallow wetland hidden from view, while vehicles pass close by, provides habitat for Wood Ducks in Lincoln, Nebraska. Regular disturbance from kayakers, fishermen and women, photographers, and walkers and joggers looki"
+ },
+ {
+  "file": "scout/out/fws/1013.jpg",
+  "size": "3888x2592",
+  "width": 1728,
+  "color": 35.5,
+  "sharp": 65.8,
+  "flat": 0.0,
+  "why": [],
+  "twin": 0.32,
+  "level": "zor",
+  "title": "File:Monarch Butterfly in Ohio (28894122575).jpg",
+  "query": "butterfly",
+  "page": "https://commons.wikimedia.org/wiki/File:Monarch_Butterfly_in_Ohio_(28894122575).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/49208525@N08\">USFWSmidwest</a>",
+  "desc": "Photo courtesy of Marci Lininger/USFWS."
  },
  {
   "file": "scout/out/fws/000.jpg",
@@ -13813,6 +14000,121 @@
   "desc": "Photo credit: Katie Theule"
  },
  {
+  "file": "scout/out/fws/1001.jpg",
+  "size": "5184x3456",
+  "width": 2304,
+  "color": 48.0,
+  "sharp": 72.0,
+  "flat": 0.52,
+  "why": [
+   "desensiz"
+  ],
+  "twin": 0.71,
+  "level": "baslangic",
+  "title": "File:Osprey Nest at Ennis National Fish Hatchery (51266622563).jpg",
+  "query": "osprey",
+  "page": "https://commons.wikimedia.org/wiki/File:Osprey_Nest_at_Ennis_National_Fish_Hatchery_(51266622563).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmtnprairie/\">USFWS Mountain Prairie</a>",
+  "desc": "Two osprey photographed in the nest that was built by Ennis National Fish Hatchery on the hatchery grounds.\nPhoto: Ennis NFH/USFWS"
+ },
+ {
+  "file": "scout/out/fws/1004.jpg",
+  "size": "4748x3506",
+  "width": 2337,
+  "color": 10.8,
+  "sharp": 79.3,
+  "flat": 0.14,
+  "why": [
+   "soluk"
+  ],
+  "twin": 0.74,
+  "level": "baslangic",
+  "title": "File:Moose at Seedskadee National Wildlife Refuge (51588502598).jpg",
+  "query": "moose",
+  "page": "https://commons.wikimedia.org/wiki/File:Moose_at_Seedskadee_National_Wildlife_Refuge_(51588502598).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/51986662@N05\" class=\"external text\">USFWS Mountain-Prairie</a>",
+  "desc": "Photo: Tom Koerner/U.S. Fish and Wildlife Service"
+ },
+ {
+  "file": "scout/out/fws/1005.jpg",
+  "size": "3600x5400",
+  "width": 3600,
+  "color": 18.3,
+  "sharp": 82.5,
+  "flat": 0.01,
+  "why": [
+   "soluk"
+  ],
+  "twin": 0.7,
+  "level": "baslangic",
+  "title": "File:Pronghorn (54120569427).jpg",
+  "query": "pronghorn",
+  "page": "https://commons.wikimedia.org/wiki/File:Pronghorn_(54120569427).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/usfwsmidwest/\" class=\"external text\">U.S. Fish and Wildlife Service - Midwest Region</a>",
+  "desc": "We spotted this young pronghorn at Theodore Roosevelt National Park in western North Dakota.\n\nPhoto by Courtney Celley/USFWS."
+ },
+ {
+  "file": "scout/out/fws/1008.jpg",
+  "size": "6016x4016",
+  "width": 2677,
+  "color": 41.5,
+  "sharp": 81.8,
+  "flat": 0.53,
+  "why": [
+   "desensiz"
+  ],
+  "twin": 0.67,
+  "level": "baslangic",
+  "title": "File:Dawn at Deer Flat National Wildlife Refuge (52810617549).jpg",
+  "query": "deer",
+  "page": "https://commons.wikimedia.org/wiki/File:Dawn_at_Deer_Flat_National_Wildlife_Refuge_(52810617549).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/usfwspacific/\" class=\"external text\">USFWS Pacific</a>",
+  "desc": "Dawn arrives at Lake Lowell and Deer Flat National Wildlife Refuge in western Idaho, April 5, 2023. USFWS photo: Lena Chang\n\nThe refuge just outside Boise protects a wide range of wildlife habitats, including sagebrush uplands and grassland surrounding Lake Lowell, which is a reservoir about 9,000 a"
+ },
+ {
+  "file": "scout/out/fws/1011.jpg",
+  "size": "3072x2048",
+  "width": 1365,
+  "color": 18.1,
+  "sharp": 81.8,
+  "flat": 0.0,
+  "why": [
+   "soluk",
+   "küçük"
+  ],
+  "twin": 0.73,
+  "level": "baslangic",
+  "title": "File:Alligator animal on pond.jpg",
+  "query": "alligator",
+  "page": "https://commons.wikimedia.org/wiki/File:Alligator_animal_on_pond.jpg",
+  "license": "Public domain",
+  "artist": "U.S. Fish and Wildlife Service",
+  "desc": "\nImage title: Alligator animal on pond\nImage from Public domain images website, https://www.public-domain-image.com/full-image/fauna-animals-public-domain-images-pictures/reptiles-and-amphibians-public-domain-images-pictures/alligators-and-crocodiles-pictures/alligator-animal-on-pond.jpg.html"
+ },
+ {
+  "file": "scout/out/fws/1012.jpg",
+  "size": "3593x2400",
+  "width": 1600,
+  "color": 72.2,
+  "sharp": 85.5,
+  "flat": 0.34,
+  "why": [
+   "küçük"
+  ],
+  "twin": 0.45,
+  "level": "baslangic",
+  "title": "File:Florida manatees (4587175202).jpg",
+  "query": "manatee",
+  "page": "https://commons.wikimedia.org/wiki/File:Florida_manatees_(4587175202).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwssoutheast/\">USFWS/Southeast</a>",
+  "desc": "Florida manatees can be found at Crystal River and Chassahowitzka National Wildlife Refuges. Photo by Jim Reid, USFWS. www.fws.gov/crystalriver/ and www.fws.gov/chassahowitzka/"
+ },
+ {
   "file": "scout/out/fws/141.jpg",
   "size": "4000x6000",
   "width": 4000,
@@ -16315,6 +16617,25 @@
   "desc": "Close-up of snow patterns and spruce branches at Selawik National Wildlife Refuge. Credit: Lisa Hupp/USFWS"
  },
  {
+  "file": "scout/out/fws/1017.jpg",
+  "size": "3000x2003",
+  "width": 1335,
+  "color": 39.6,
+  "sharp": 67.7,
+  "flat": 0.03,
+  "why": [
+   "küçük"
+  ],
+  "twin": 0.53,
+  "level": "kolay",
+  "title": "File:Northern Leopard Frog (48472565056).jpg",
+  "query": "frog",
+  "page": "https://commons.wikimedia.org/wiki/File:Northern_Leopard_Frog_(48472565056).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmidwest/\">U.S. Fish and Wildlife Service - Midwest Region</a>",
+  "desc": "A northern leopard frog hides out in the grass after making a leap from the path.\nPhoto by Courtney Celley/USFWS."
+ },
+ {
   "file": "scout/out/fws/013.jpg",
   "size": "3000x2091",
   "width": 1394,
@@ -17694,6 +18015,25 @@
   "desc": "We stopped to take some photos of the swamp milkweed and look who showed up! This male monarch butterfly enjoyed some nectar and moved on to his next destination.\n\nPhoto by Courtney Celley/USFWS."
  },
  {
+  "file": "scout/out/fws/1015.jpg",
+  "size": "3748x2451",
+  "width": 1634,
+  "color": 62.9,
+  "sharp": 65.7,
+  "flat": 0.03,
+  "why": [
+   "küçük"
+  ],
+  "twin": 0.07,
+  "level": "uzman",
+  "title": "File:Honey bee feasting away on Virginia Waterleaf, a flower native to Minnesota and much of the Northeastern United States (18308253168).jpg",
+  "query": "bee flower",
+  "page": "https://commons.wikimedia.org/wiki/File:Honey_bee_feasting_away_on_Virginia_Waterleaf,_a_flower_native_to_Minnesota_and_much_of_the_Northeastern_United_States_(18308253168).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/usfwsmidwest/\" class=\"external text\">U.S. Fish and Wildlife Service - Midwest Region</a>",
+  "desc": "Photo by Joanna Gilkeson/USFWS."
+ },
+ {
   "file": "scout/out/fws/030.jpg",
   "size": "4928x3264",
   "width": 2176,
@@ -18210,5 +18550,24 @@
   "license": "Public domain",
   "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmidwest/\">U.S. Fish and Wildlife Service - Midwest Region</a>",
   "desc": "We spotted this Nashville warbler perched in a red pine tree in St. Louis County, Minnesota.\nPhoto by Courtney Celley/USFWS."
+ },
+ {
+  "file": "scout/out/fws/1007.jpg",
+  "size": "5472x3648",
+  "width": 2432,
+  "color": 15.8,
+  "sharp": 82.6,
+  "flat": 0.0,
+  "why": [
+   "soluk"
+  ],
+  "twin": 0.35,
+  "level": "zor",
+  "title": "File:Mexican Wolf (15730361541).jpg",
+  "query": "wolf",
+  "page": "https://commons.wikimedia.org/wiki/File:Mexican_Wolf_(15730361541).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwshq/\">USFWS Headquarters</a>",
+  "desc": "Shot at the Cleveland Metroparks Zoo April 2014 Photo:Kayt Jonsson"
  }
 ]
