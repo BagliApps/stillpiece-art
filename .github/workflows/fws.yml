@@ -1,9 +1,6 @@
 # Geçici: FWS adaylarını tarar, sonuçları bu dala ekler. main'de yok.
 name: FWS taraması
 on:
-  push:
-    branches: [met-scout]
-    paths: [scout/fws.py]
   workflow_dispatch:
     inputs:
       limit:
@@ -14,9 +11,9 @@ permissions:
 jobs:
   fws:
     runs-on: macos-latest
-    timeout-minutes: 120
+    timeout-minutes: 300
     env:
-      LIMIT: ${{ inputs.limit || '5' }}
+      LIMIT: ${{ inputs.limit || '600' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

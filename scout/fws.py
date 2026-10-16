@@ -2,10 +2,10 @@
 # hayvan ve doğa konuları, sorgu başına 40, en az 2600 px. skip.txt'dekiler atlanır.
 # Seviye iki ölçüden: düz alan (quality.flat) ve benzer parça (Usta ızgarasında
 # birbirine çok benzeyen parça oranı). Düz alan seviyeyi verir, benzer parça
-# tavanı; çim, kar, gün batımı gibi tekdüze dokular üst seviyelere çıkmaz.
+# tavanı (Zor ve üstünü de o ayırır); çim, kar, gün batımı gibi tekdüze dokular üst seviyelere çıkmaz.
 # Sonuç scout/out/fws/results.json; workflow 5 dakikada bir dala commit'ler.
 import json, os, re, subprocess, statistics, sys, time, urllib.parse
-from concurrent.futures import ProcessPoolExecutor
+from concurrent.futures import ProcessPoolExecutor, as_completed
 sys.path.insert(0, "scout"); sys.path.insert(0, "tool")
 from nps import get, info, meta, API, SKIP, BAD_RESTRICTIONS, BAD_WORDS
 import quality
@@ -51,12 +51,13 @@ def twin_share(path, T=14, N=8):
 
 
 def level(flat, twin, width):
-    by_flat = 0 if flat >= 0.30 else 1 if flat >= 0.15 else 2 if flat >= 0.06 else 3
-    cap = 0 if twin >= 0.80 else 1 if twin >= 0.60 else 2 if twin >= 0.45 else 4 if twin >= 0.30 else 6
-    if by_flat == 3:
-        by_flat = (6 if twin < 0.20 and width >= 2400 else
-                   5 if twin < 0.30 and width >= 2000 else
-                   4 if twin < 0.40 else 3)
+    by_flat = 0 if flat >= 0.30 else 1 if flat >= 0.15 else 2 if flat >= 0.06 else 6
+    # Eşikler ilk seçimde kullanıcının verdiği seviyelerden (2026-10-16, 81 eser).
+    cap = next(i for i, t in enumerate((0.60, 0.38, 0.36, 0.20, 0.12, 0.03, -1)) if twin >= t)
+    if cap == 6 and width < 2400:
+        cap = 5
+    if cap == 5 and width < 2000:
+        cap = 4
     return LEVELS[min(by_flat, cap)]
 
 
@@ -152,10 +153,14 @@ def main():
             c["file"] = f"{OUT}/{k:03}.jpg"
             open(c["file"], "wb").write(data)
             jobs.append(pool.submit(score, c))
-            if k % 25 == 24:
-                save(done + [j.result() for j in jobs if j.done()])
             time.sleep(0.2)
-        results = done + [r for r in (j.result() for j in jobs) if r]
+        # Puanlama indirmeden yavaş; her 10 sonuçta kaydet ki süre dolarsa kaybolmasın.
+        got = []
+        for i, j in enumerate(as_completed(jobs)):
+            got.append(j.result())
+            if i % 10 == 9:
+                save(done + got)
+        results = done + [r for r in got if r]
     save(results)
     ok = [r for r in results if not r["why"]]
     print(f"{len(ok)}/{len(results)} geçti", {l: sum(r["level"] == l for r in ok) for l in LEVELS})

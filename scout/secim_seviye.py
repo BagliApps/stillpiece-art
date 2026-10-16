@@ -1,17 +1,24 @@
 # Seviyeli tarama sonucundan seçim sayfası: geçenler seviyelere göre gruplu, her
 # karede düz alan ve benzer parça. Tıklayınca seçilir; seviye kutusundan değiştirilebilir.
 # "Seçilenleri kopyala" numara listesini verir, seviyesi değişenler "12:orta" biçiminde.
-# Kullanım: python3 scout/secim_seviye.py scout/out/fws
+# Seviye her seferinde fws.level ile yeniden hesaplanır (eşik değişirse sayfa da değişir).
+# İkinci argüman verilirse (önceki sayfada gösterilenler) onlar atlanır, numara sürer.
+# Kullanım: python3 scout/secim_seviye.py scout/out/fws [scout/fws/bakilan.json]
 import html, json, os, sys
+sys.path.insert(0, "scout")
+from fws import level
 
 LEVELS = [("baslangic", "Başlangıç"), ("kolay", "Kolay"), ("orta", "Orta"), ("zor", "Zor"),
           ("uzman", "Uzman"), ("usta", "Usta"), ("buyukUsta", "Büyük Usta")]
 out = sys.argv[1]
 res = json.load(open(f"{out}/results.json"))
-ok = [r for r in res if not r["why"]]
+seen = json.load(open(sys.argv[2])) if len(sys.argv) > 2 else {}
+ok = [r for r in res if not r["why"] and r["title"] not in seen]
+for r in ok:
+    r["level"] = level(r["flat"], r["twin"], r["width"])
 rank = {k: i for i, (k, _) in enumerate(LEVELS)}
 ok.sort(key=lambda r: (rank[r["level"]], r["twin"]))
-sections, n = [], 0
+sections, n = [], max(seen.values(), default=0)
 for key, name in LEVELS:
     group = [r for r in ok if r["level"] == key]
     cells = []
@@ -34,7 +41,7 @@ page = f"""<!doctype html><meta charset=utf-8><meta name=viewport content="width
 .im img{{width:100%;height:100%;object-fit:cover;display:block}}input{{display:none}}input:checked+.im{{outline-color:#1a7f37;opacity:1}}
 .n{{font-weight:700}}h2{{margin:28px 0 8px}}#bar{{position:sticky;top:0;background:#fff;padding:8px 0;z-index:1}}</style>
 <div id=bar><b>{len(ok)} aday</b> ({len(res)} taranan) — {counts}<br>
-Seviye: düz alan seviyeyi verir, benzer parça tavanı (≥0.80 Başlangıç, ≥0.60 Kolay, ≥0.45 Orta, ≥0.30 Uzman).
+Seviye: düz alan seviyeyi verir, benzer parça tavanı (≥0.60 Başlangıç, ≥0.38 Kolay, ≥0.36 Orta, ≥0.20 Zor, ≥0.12 Uzman, ≥0.03 Usta).
 Kareler 2:3 kırpılmış gibi. Tıklayarak seç, seviyeyi kutudan değiştir, sonra
 <button onclick="let v=[...document.querySelectorAll('input:checked')].map(e=>{{let s=e.closest('.w>div').querySelector('select').value;return s==e.dataset.l?e.value:e.value+':'+s}}).join(',');navigator.clipboard.writeText(v);this.textContent='Kopyalandı ('+(v?v.split(',').length:0)+')'">Seçilenleri kopyala</button></div>
 {''.join(sections)}"""
