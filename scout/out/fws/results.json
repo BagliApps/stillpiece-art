@@ -3400,6 +3400,23 @@
   "desc": "We spotted this trumpeter swan pair on the ice near open water in St. Louis County, Minnesota.\n\nPhoto by Courtney Celley/USFWS."
  },
  {
+  "file": "scout/out/fws/1240.jpg",
+  "size": "4096x2732",
+  "width": 1821,
+  "color": 39.8,
+  "sharp": 82.3,
+  "flat": 0.3,
+  "why": [],
+  "twin": 0.51,
+  "level": "baslangic",
+  "title": "File:Arctic fox siblings (51357990844).jpg",
+  "query": "fox",
+  "page": "https://commons.wikimedia.org/wiki/File:Arctic_fox_siblings_(51357990844).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/54775250@N07\" class=\"external text\">Alaska Region U.S. Fish &amp; Wildlife Service</a> from Anchorage, United States",
+  "desc": "Two young Arctic fox (Vulpes lagopus) stay close together on the hill outside their tundra den. Credit: Lisa Hupp/USFWS."
+ },
+ {
   "file": "scout/out/fws/028.jpg",
   "size": "5600x3732",
   "width": 2488,
@@ -8109,6 +8126,40 @@
   "desc": "Birds"
  },
  {
+  "file": "scout/out/fws/1246.jpg",
+  "size": "3888x2592",
+  "width": 1728,
+  "color": 42.2,
+  "sharp": 74.3,
+  "flat": 0.14,
+  "why": [],
+  "twin": 0.22,
+  "level": "orta",
+  "title": "File:Monarch Butterfly in Ohio (28279131693).jpg",
+  "query": "butterfly",
+  "page": "https://commons.wikimedia.org/wiki/File:Monarch_Butterfly_in_Ohio_(28279131693).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/49208525@N08\">USFWSmidwest</a>",
+  "desc": "Photo courtesy of Marci Lininger/USFWS."
+ },
+ {
+  "file": "scout/out/fws/1247.jpg",
+  "size": "3933x2712",
+  "width": 1808,
+  "color": 59.2,
+  "sharp": 59.5,
+  "flat": 0.09,
+  "why": [],
+  "twin": 0.29,
+  "level": "orta",
+  "title": "File:Monarch and Showy Milkweed on Seedskadee NWR (27862329024).jpg",
+  "query": "monarch",
+  "page": "https://commons.wikimedia.org/wiki/File:Monarch_and_Showy_Milkweed_on_Seedskadee_NWR_(27862329024).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/51986662@N05\">USFWS Mountain-Prairie</a>",
+  "desc": "This monarch was nectaring on a showy milkweed.  It was  accompanied by other monarchs, rufous hummingbirds, hummingbird moths, bumblebees, and other pollinators in this patch of showy milkweed. \n\nPhoto: Tom Koerner/USFWS"
+ },
+ {
   "file": "scout/out/fws/014.jpg",
   "size": "5184x3456",
   "width": 2304,
@@ -8738,6 +8789,40 @@
   "desc": "We spotted this pine warbler foraging under a bird feeder in St. Louis County, Minnesota.\nPhoto by Courtney Celley/USFWS."
  },
  {
+  "file": "scout/out/fws/1245.jpg",
+  "size": "5000x3333",
+  "width": 2222,
+  "color": 37.3,
+  "sharp": 80.1,
+  "flat": 0.0,
+  "why": [],
+  "twin": 0.0,
+  "level": "usta",
+  "title": "File:Turtle pile Everglades NP Brendan Burke (55248952498).jpg",
+  "query": "manatee",
+  "page": "https://commons.wikimedia.org/wiki/File:Turtle_pile_Everglades_NP_Brendan_Burke_(55248952498).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwshq/\">USFWS Headquarters</a>",
+  "desc": "turtle pile_Everglades NP_Brendan Burke"
+ },
+ {
+  "file": "scout/out/fws/1248.jpg",
+  "size": "5568x3712",
+  "width": 2474,
+  "color": 41.0,
+  "sharp": 61.5,
+  "flat": 0.02,
+  "why": [],
+  "twin": 0.06,
+  "level": "usta",
+  "title": "File:Rusty patched bumble bee on bergamot (54720328471).jpg",
+  "query": "bee flower",
+  "page": "https://commons.wikimedia.org/wiki/File:Rusty_patched_bumble_bee_on_bergamot_(54720328471).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmidwest/\">U.S. Fish and Wildlife Service - Midwest Region</a>",
+  "desc": "The rusty patched bumble bee was listed as an endangered species in 2017, making it the first bumble bee to receive federal protection. Native wildflowers are the best sources of pollen and nectar, like this bergamot flower.\nPhoto by Mara Koenig/USFWS."
+ },
+ {
   "file": "scout/out/fws/048.jpg",
   "size": "3488x2704",
   "width": 1802,
@@ -9127,6 +9212,23 @@
   "license": "Public domain",
   "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwshq/\">USFWS Headquarters</a>",
   "desc": "Purple gallinule_Everglades NP_Brendan Burke"
+ },
+ {
+  "file": "scout/out/fws/1241.jpg",
+  "size": "3577x2924",
+  "width": 1949,
+  "color": 57.7,
+  "sharp": 76.6,
+  "flat": 0.03,
+  "why": [],
+  "twin": 0.14,
+  "level": "uzman",
+  "title": "File:Red Wolf Information Session (42462256205).jpg",
+  "query": "wolf",
+  "page": "https://commons.wikimedia.org/wiki/File:Red_Wolf_Information_Session_(42462256205).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwssoutheast/\">USFWS/Southeast</a>",
+  "desc": "Roanoke Island Festival Park, Manteo, North Carolina.\nJuly 10,2018\n\nPhoto by Phil Kloer, Public Affairs Specialist with the Service Regional Office in Atlanta, Georgia."
  },
  {
   "file": "scout/out/fws/022.jpg",
@@ -17550,6 +17652,25 @@
   "desc": "A bull moose appears out of the early morning fog on Seedskadee NWR.  Photo: Tom Koerner/USFWS"
  },
  {
+  "file": "scout/out/fws/1244.jpg",
+  "size": "4729x1834",
+  "width": 1222,
+  "color": 48.1,
+  "sharp": 79.2,
+  "flat": 0.0,
+  "why": [
+   "küçük"
+  ],
+  "twin": 0.76,
+  "level": "baslangic",
+  "title": "File:Alligator in water (7729726906).jpg",
+  "query": "alligator",
+  "page": "https://commons.wikimedia.org/wiki/File:Alligator_in_water_(7729726906).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwssoutheast/\">USFWS/Southeast</a>",
+  "desc": "At Harris Neck National Wildlife Refuge. www.fws.gov/harrisneck/. Credit: Mary Ellen Urbanski."
+ },
+ {
   "file": "scout/out/fws/141.jpg",
   "size": "4000x6000",
   "width": 4000,
@@ -20413,6 +20534,44 @@
   "desc": "Addie, Missouri River Fish and Wildlife Conservation Office, with a paddlefish captured during fish sampling in the Missouri River System (2017).\nPhoto: USFWS"
  },
  {
+  "file": "scout/out/fws/1243.jpg",
+  "size": "4928x3264",
+  "width": 2176,
+  "color": 19.1,
+  "sharp": 81.8,
+  "flat": 0.03,
+  "why": [
+   "soluk"
+  ],
+  "twin": 0.53,
+  "level": "kolay",
+  "title": "File:Beaver Lodge (21776959562).jpg",
+  "query": "beaver",
+  "page": "https://commons.wikimedia.org/wiki/File:Beaver_Lodge_(21776959562).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmidwest/\">U.S. Fish and Wildlife Service - Midwest Region</a>",
+  "desc": "Active beaver lodge on Birch Lake.\nPhoto by USFWS."
+ },
+ {
+  "file": "scout/out/fws/1249.jpg",
+  "size": "3240x1822",
+  "width": 1214,
+  "color": 26.8,
+  "sharp": 80.9,
+  "flat": 0.18,
+  "why": [
+   "küçük"
+  ],
+  "twin": 0.52,
+  "level": "kolay",
+  "title": "File:Halloween Pennant Dragonfly (48404228482).jpg",
+  "query": "dragonfly",
+  "page": "https://commons.wikimedia.org/wiki/File:Halloween_Pennant_Dragonfly_(48404228482).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmidwest/\">U.S. Fish and Wildlife Service - Midwest Region</a>",
+  "desc": "Photo by Grayson Smith/USFWS."
+ },
+ {
   "file": "scout/out/fws/013.jpg",
   "size": "3000x2091",
   "width": 1394,
@@ -21139,6 +21298,25 @@
   "license": "Public domain",
   "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmidwest/\">U.S. Fish and Wildlife Service - Midwest Region</a>",
   "desc": "We spotted this American bison at Theodore Roosevelt National Park in western North Dakota.\nPhoto safely taken with a zoom lens from inside a vehicle.\n\nPhoto by Courtney Celley/USFWS."
+ },
+ {
+  "file": "scout/out/fws/1242.jpg",
+  "size": "3008x1960",
+  "width": 1306,
+  "color": 47.7,
+  "sharp": 72.7,
+  "flat": 0.01,
+  "why": [
+   "küçük"
+  ],
+  "twin": 0.37,
+  "level": "orta",
+  "title": "File:Herd of piebald deer mammals.jpg",
+  "query": "deer",
+  "page": "https://commons.wikimedia.org/wiki/File:Herd_of_piebald_deer_mammals.jpg",
+  "license": "Public domain",
+  "artist": "U.S. Fish and Wildlife Service",
+  "desc": "\nImage title: Herd of piebald deer mammals\nImage from Public domain images website, http://www.public-domain-image.com/full-image/fauna-animals-public-domain-images-pictures/deers-public-domain-images-pictures/herd-of-piebald-deer-mammals.jpg.html"
  },
  {
   "file": "scout/out/fws/457.jpg",
