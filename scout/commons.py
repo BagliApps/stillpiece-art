@@ -7,7 +7,7 @@ sys.path.insert(0, "tool")
 import quality
 
 OUT = "scout/out/commons2"; os.makedirs(OUT, exist_ok=True)
-UA = {"User-Agent": "StillpieceScout/1.0 (https://github.com/Walletude/stillpiece-art)"}
+UA = {"User-Agent": "StillpieceScout/1.0 (https://github.com/BagliApps/stillpiece-art)"}
 API = "https://commons.wikimedia.org/w/api.php"
 AGENCIES = ["PD-USGov-NPS", "PD-USGov-FWS", "PD-USGov-NOAA", "PD-USGov-USGS",
             "PD-USGov-USDA-FS", "PD-USGov-BLM"]

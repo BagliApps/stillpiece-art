@@ -10,7 +10,7 @@ sys.path.insert(0, "tool")
 import quality
 
 OUT = "scout/out/nps"; os.makedirs(OUT, exist_ok=True)
-UA = {"User-Agent": "StillpieceScout/1.0 (https://github.com/Walletude/stillpiece-art)"}
+UA = {"User-Agent": "StillpieceScout/1.0 (https://github.com/BagliApps/stillpiece-art)"}
 API = "https://commons.wikimedia.org/w/api.php"
 PARKS = ["Yellowstone", "Yosemite", "Glacier", "Zion", "Grand Teton", "Acadia", "Arches",
          "Great Smoky", "Denali", "Olympic", "Rocky Mountain", "Bryce", "Grand Canyon",

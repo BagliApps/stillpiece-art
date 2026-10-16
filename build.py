@@ -44,8 +44,8 @@ BAD_RESTRICTIONS = {"personality", "trademarked", "insignia"}
 # Müze AIC-User-Agent başlığını rica ediyor; Python'un varsayılan
 # "Python-urllib" kimliği ise 403 alıyor.
 UA = {
-    "AIC-User-Agent": "Stillpiece (yapboz uygulamasi; github.com/Walletude/stillpiece-art)",
-    "User-Agent": "Stillpiece/1.0 (+https://github.com/Walletude/stillpiece-art)",
+    "AIC-User-Agent": "Stillpiece (yapboz uygulamasi; github.com/BagliApps/stillpiece-art)",
+    "User-Agent": "Stillpiece/1.0 (+https://github.com/BagliApps/stillpiece-art)",
 }
 
 
