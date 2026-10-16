@@ -1,8 +1,8 @@
 # stillpiece-art
 
 Stillpiece yapboz uygulamasının eser görselleri, GitHub Pages ile sunulur:
-`https://walletude.github.io/stillpiece-art/catalog.json` (yedek:
-`https://cdn.jsdelivr.net/gh/Walletude/stillpiece-art@main/catalog.json`).
+`https://bagliapps.github.io/stillpiece-art/catalog.json` (yedek:
+`https://cdn.jsdelivr.net/gh/BagliApps/stillpiece-art@main/catalog.json`).
 
 - `sources.tsv`: elle seçilen eserler (müze numarası, slug, kategori, Türkçe ad). Slug değişmez; uygulamadaki kayıtlar ona bağlı.
 - `build.py`: kamu malı denetimi, indirme, 2:3 kırpma, ölçüm ve seviye dağıtımı; `catalog.json`'u yazar. Yalnızca eksik görselleri indirir.
