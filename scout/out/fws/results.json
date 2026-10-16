@@ -3859,6 +3859,23 @@
   "desc": "Aug. 18, 2016\nUSFWS Photo/Steve Martarano"
  },
  {
+  "file": "scout/out/fws/1398.jpg",
+  "size": "5568x3712",
+  "width": 2474,
+  "color": 42.3,
+  "sharp": 55.1,
+  "flat": 0.02,
+  "why": [],
+  "twin": 0.02,
+  "level": "buyukUsta",
+  "title": "File:Rusty patched bumble bee on bergamoT (54720548989).jpg",
+  "query": "bee flower",
+  "page": "https://commons.wikimedia.org/wiki/File:Rusty_patched_bumble_bee_on_bergamoT_(54720548989).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmidwest/\">U.S. Fish and Wildlife Service - Midwest Region</a>",
+  "desc": "The rusty patched bumble bee was listed as an endangered species in 2017, making it the first bumble bee to receive federal protection. Native wildflowers are the best sources of pollen and nectar, like this bergamot flower.\nPhoto by Mara Koenig/USFWS."
+ },
+ {
   "file": "scout/out/fws/005.jpg",
   "size": "2848x4256",
   "width": 2837,
@@ -9603,6 +9620,40 @@
   "license": "Public domain",
   "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/49208525@N08\">USFWSmidwest</a>",
   "desc": "Photo by Jim Hudgins/USFWS."
+ },
+ {
+  "file": "scout/out/fws/1395.jpg",
+  "size": "5086x3391",
+  "width": 2260,
+  "color": 33.0,
+  "sharp": 74.5,
+  "flat": 0.0,
+  "why": [],
+  "twin": 0.01,
+  "level": "usta",
+  "title": "File:Pied billed grebe Everglades NP Brendan Burke (55247906792).jpg",
+  "query": "manatee",
+  "page": "https://commons.wikimedia.org/wiki/File:Pied_billed_grebe_Everglades_NP_Brendan_Burke_(55247906792).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwshq/\">USFWS Headquarters</a>",
+  "desc": "pied billed grebe_Everglades NP_Brendan Burke"
+ },
+ {
+  "file": "scout/out/fws/1397.jpg",
+  "size": "4590x3306",
+  "width": 2204,
+  "color": 64.3,
+  "sharp": 69.3,
+  "flat": 0.0,
+  "why": [],
+  "twin": 0.01,
+  "level": "usta",
+  "title": "File:Roosting Monarch Butterflies (37043659021).jpg",
+  "query": "monarch",
+  "page": "https://commons.wikimedia.org/wiki/File:Roosting_Monarch_Butterflies_(37043659021).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/49208525@N08\">USFWSmidwest</a>",
+  "desc": "These monarch butterflies were spotted roosting in an oak tree at Port Louisa National Wildlife Refuge in Iowa!\n\nPhoto by Jessica Bolser/USFWS."
  },
  {
   "file": "scout/out/fws/048.jpg",
@@ -19624,6 +19675,66 @@
   "desc": "A bull moose appears out of the early morning fog on Seeskadee NWR.  Photo: Tom Koerner/USFWS"
  },
  {
+  "file": "scout/out/fws/1390.jpg",
+  "size": "5479x3653",
+  "width": 2435,
+  "color": 0.0,
+  "sharp": 51.8,
+  "flat": 0.57,
+  "why": [
+   "soluk",
+   "bulanık",
+   "desensiz"
+  ],
+  "twin": 0.88,
+  "level": "baslangic",
+  "title": "File:Silver fox in silhouette at Yukon Flats National Wildlife Refuge (46794898814).jpg",
+  "query": "fox",
+  "page": "https://commons.wikimedia.org/wiki/File:Silver_fox_in_silhouette_at_Yukon_Flats_National_Wildlife_Refuge_(46794898814).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/usfws_alaska/\" class=\"external text\">USFWSAlaska</a>",
+  "desc": "A silver fox in silhouette. Credit: Lisa Hupp/USFWS"
+ },
+ {
+  "file": "scout/out/fws/1393.jpg",
+  "size": "3413x2481",
+  "width": 1654,
+  "color": 50.3,
+  "sharp": 80.4,
+  "flat": 0.01,
+  "why": [
+   "küçük"
+  ],
+  "twin": 0.8,
+  "level": "baslangic",
+  "title": "File:North American Beaver at Seedskadee National Wildlife Refuge (50957096862).jpg",
+  "query": "beaver",
+  "page": "https://commons.wikimedia.org/wiki/File:North_American_Beaver_at_Seedskadee_National_Wildlife_Refuge_(50957096862).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmtnprairie/\">USFWS Mountain Prairie</a>",
+  "desc": "Photo: Tom Koerner/U.S. Fish and Wildlife Service"
+ },
+ {
+  "file": "scout/out/fws/1394.jpg",
+  "size": "3072x1728",
+  "width": 1152,
+  "color": 24.8,
+  "sharp": 84.2,
+  "flat": 0.07,
+  "why": [
+   "soluk",
+   "küçük"
+  ],
+  "twin": 0.63,
+  "level": "baslangic",
+  "title": "File:Albino Alligator Gar (5543969739).jpg",
+  "query": "alligator",
+  "page": "https://commons.wikimedia.org/wiki/File:Albino_Alligator_Gar_(5543969739).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/41464593@N02\">U.S. Fish and Wildlife Service Southeast Region</a>",
+  "desc": "Close-up of an albino alligator gar. Photo Taken By: Cody Meshes, USFWS"
+ },
+ {
   "file": "scout/out/fws/141.jpg",
   "size": "4000x6000",
   "width": 4000,
@@ -22943,6 +23054,44 @@
   "desc": "Urban wildlife - even in the middle of towns and cities, wildlife can be found. A shallow wetland hidden from view, while vehicles pass close by, provides habitat for Wood Ducks in Lincoln, Nebraska. Regular disturbance from kayakers, fishermen and women, photographers, and walkers and joggers looki"
  },
  {
+  "file": "scout/out/fws/1391.jpg",
+  "size": "4800x3200",
+  "width": 2133,
+  "color": 18.0,
+  "sharp": 86.6,
+  "flat": 0.01,
+  "why": [
+   "soluk"
+  ],
+  "twin": 0.58,
+  "level": "kolay",
+  "title": "File:White-tailed deer (53523785912).jpg",
+  "query": "deer",
+  "page": "https://commons.wikimedia.org/wiki/File:White-tailed_deer_(53523785912).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/49208525@N08\" class=\"external text\">USFWS Midwest Region</a> from Midwest Region, United States",
+  "desc": "We spotted this young white-tailed deer eating dropped sunflower seeds under a bird feeder in St. Louis County, Minnesota.\n\nPhoto by Courtney Celley/USFWS."
+ },
+ {
+  "file": "scout/out/fws/1392.jpg",
+  "size": "11303x7680",
+  "width": 5120,
+  "color": 20.1,
+  "sharp": 78.8,
+  "flat": 0.17,
+  "why": [
+   "soluk"
+  ],
+  "twin": 0.56,
+  "level": "kolay",
+  "title": "File:River otter (54529819221).jpg",
+  "query": "otter",
+  "page": "https://commons.wikimedia.org/wiki/File:River_otter_(54529819221).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmidwest/\">U.S. Fish and Wildlife Service - Midwest Region</a>",
+  "desc": "We spotted this river otter in the Yellow Bank River at Big Stone National Wildlife Refuge in Minnesota.\nPhoto by Mike Budd/USFWS."
+ },
+ {
   "file": "scout/out/fws/013.jpg",
   "size": "3000x2091",
   "width": 1394,
@@ -24552,6 +24701,25 @@
   "desc": "Historic habitat for the Southern California population of mountain yellow-legged frog. Photo by Joanna Gilkeson/USFWS."
  },
  {
+  "file": "scout/out/fws/1399.jpg",
+  "size": "3500x2333",
+  "width": 1555,
+  "color": 56.0,
+  "sharp": 74.8,
+  "flat": 0.01,
+  "why": [
+   "küçük"
+  ],
+  "twin": 0.04,
+  "level": "uzman",
+  "title": "File:Green Darner Dragonfly (42209043920).jpg",
+  "query": "dragonfly",
+  "page": "https://commons.wikimedia.org/wiki/File:Green_Darner_Dragonfly_(42209043920).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmidwest/\">U.S. Fish and Wildlife Service - Midwest Region</a>",
+  "desc": "Photo by Jim Hudgins/USFWS."
+ },
+ {
   "file": "scout/out/fws/030.jpg",
   "size": "4928x3264",
   "width": 2176,
@@ -25299,5 +25467,24 @@
   "license": "Public domain",
   "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/49208525@N08\">USFWSmidwest</a>",
   "desc": "We stopped to take some photos of the swamp milkweed and look who showed up! This male monarch butterfly enjoyed some nectar and moved on to his next destination.\n\nPhoto by Courtney Celley/USFWS."
+ },
+ {
+  "file": "scout/out/fws/1396.jpg",
+  "size": "3888x2592",
+  "width": 1728,
+  "color": 32.3,
+  "sharp": 51.9,
+  "flat": 0.03,
+  "why": [
+   "bulanık"
+  ],
+  "twin": 0.3,
+  "level": "zor",
+  "title": "File:Monarch Butterfly in Ohio (28279132783).jpg",
+  "query": "butterfly",
+  "page": "https://commons.wikimedia.org/wiki/File:Monarch_Butterfly_in_Ohio_(28279132783).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/49208525@N08\">USFWSmidwest</a>",
+  "desc": "Photo courtesy of Marci Lininger/USFWS."
  }
 ]
