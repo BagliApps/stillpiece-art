@@ -1309,6 +1309,40 @@
   "desc": "Elk on the National Elk Refuge.\n\nPhoto: Gannon Castle/USFWS"
  },
  {
+  "file": "scout/out/fws/572.jpg",
+  "size": "5484x3656",
+  "width": 2437,
+  "color": 43.0,
+  "sharp": 82.7,
+  "flat": 0.29,
+  "why": [],
+  "twin": 0.87,
+  "level": "baslangic",
+  "title": "File:Bighorn Sheep on the National Elk Refuge (51820769719).jpg",
+  "query": "bighorn",
+  "page": "https://commons.wikimedia.org/wiki/File:Bighorn_Sheep_on_the_National_Elk_Refuge_(51820769719).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmtnprairie/\">USFWS Mountain Prairie</a>",
+  "desc": "Bighorn ewe high up Miller Butte"
+ },
+ {
+  "file": "scout/out/fws/576.jpg",
+  "size": "4608x3232",
+  "width": 2154,
+  "color": 40.5,
+  "sharp": 80.9,
+  "flat": 0.0,
+  "why": [],
+  "twin": 0.68,
+  "level": "baslangic",
+  "title": "File:Columbian White-tailed Deer (52574195340).jpg",
+  "query": "deer",
+  "page": "https://commons.wikimedia.org/wiki/File:Columbian_White-tailed_Deer_(52574195340).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwspacific/\">USFWS Pacific</a>",
+  "desc": "Columbian White-tailed Deer at the Julia Butler Hansen Refuge for the Columbian White-tailed Deer along the lower Columbia River in southwest Washington, Aug. 10, 2022. USFWS photo: Jake Bonello\nMore info: www.fws.gov/refuge/julia-butler-hansen-columbian-white-ta..."
+ },
+ {
   "file": "scout/out/fws/028.jpg",
   "size": "5600x3732",
   "width": 2488,
@@ -3060,6 +3094,40 @@
   "desc": "usfws-roseate-spoonbill-JocelynNungarayNWR-NormanWelsh"
  },
  {
+  "file": "scout/out/fws/578.jpg",
+  "size": "3685x2586",
+  "width": 1724,
+  "color": 69.0,
+  "sharp": 82.0,
+  "flat": 0.0,
+  "why": [],
+  "twin": 0.42,
+  "level": "kolay",
+  "title": "File:North American Beaver at Seedskadee National Wildlife Refuge (53470554054).jpg",
+  "query": "beaver",
+  "page": "https://commons.wikimedia.org/wiki/File:North_American_Beaver_at_Seedskadee_National_Wildlife_Refuge_(53470554054).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/usfwsmtnprairie/\" class=\"external text\">USFWS Mountain Prairie</a>",
+  "desc": "A North American beaver feeds on willows at Seedskadee National Wildlife Refuge. Photo: Tom Koerner/USFWS"
+ },
+ {
+  "file": "scout/out/fws/581.jpg",
+  "size": "5096x3402",
+  "width": 2268,
+  "color": 73.5,
+  "sharp": 69.9,
+  "flat": 0.29,
+  "why": [],
+  "twin": 0.32,
+  "level": "kolay",
+  "title": "File:Monarch on milkweed pod (38005057795).jpg",
+  "query": "monarch",
+  "page": "https://commons.wikimedia.org/wiki/File:Monarch_on_milkweed_pod_(38005057795).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/49208525@N08\">USFWSmidwest</a>",
+  "desc": "Photo by Edward K. Boggess"
+ },
+ {
   "file": "scout/out/fws/017.jpg",
   "size": "4948x3280",
   "width": 2186,
@@ -3619,6 +3687,23 @@
   "license": "Public domain",
   "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/43322816@N08\">U. S. Fish and Wildlife Service - Northeast Region</a>",
   "desc": "Emily, addressing the CDIPs"
+ },
+ {
+  "file": "scout/out/fws/574.jpg",
+  "size": "6720x4480",
+  "width": 2986,
+  "color": 108.0,
+  "sharp": 68.6,
+  "flat": 0.08,
+  "why": [],
+  "twin": 0.17,
+  "level": "orta",
+  "title": "File:Bear bile (55052538377).jpg",
+  "query": "bear",
+  "page": "https://commons.wikimedia.org/wiki/File:Bear_bile_(55052538377).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwshq/\">USFWS Headquarters</a>",
+  "desc": "Seized bear bile. Credit: Rebecca Fabbri/USFWS"
  },
  {
   "file": "scout/out/fws/014.jpg",
@@ -7578,6 +7663,45 @@
   "desc": "Photo: Tom Koerner/U.S. Fish and Wildlife Service"
  },
  {
+  "file": "scout/out/fws/577.jpg",
+  "size": "5184x3456",
+  "width": 2304,
+  "color": 15.0,
+  "sharp": 87.0,
+  "flat": 0.92,
+  "why": [
+   "soluk",
+   "desensiz"
+  ],
+  "twin": 0.99,
+  "level": "baslangic",
+  "title": "File:River Otter Tracks (38449285474).jpg",
+  "query": "otter",
+  "page": "https://commons.wikimedia.org/wiki/File:River_Otter_Tracks_(38449285474).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmidwest/\">U.S. Fish and Wildlife Service - Midwest Region</a>",
+  "desc": "We spotted these river otter tracks and slides on the Mississippi River.\nPhoto by Courtney Celley/USFWS."
+ },
+ {
+  "file": "scout/out/fws/579.jpg",
+  "size": "3593x2400",
+  "width": 1600,
+  "color": 75.7,
+  "sharp": 84.8,
+  "flat": 0.47,
+  "why": [
+   "küçük"
+  ],
+  "twin": 0.55,
+  "level": "baslangic",
+  "title": "File:Florida manatee (4586550451).jpg",
+  "query": "manatee",
+  "page": "https://commons.wikimedia.org/wiki/File:Florida_manatee_(4586550451).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/usfwssoutheast/\" class=\"external text\">USFWS/Southeast</a>",
+  "desc": "Manatees swim close to the surface and frequently come up for air. They also come to Florida in the summer months. Manatees will probably run into the oil spill in the Gulf, and there could be very serious results. Photo by Jim Reid, USFWS. www.fws.gov/crystalriver/ and www.fws.gov/chassahowitzka/"
+ },
+ {
   "file": "scout/out/fws/141.jpg",
   "size": "4000x6000",
   "width": 4000,
@@ -9184,6 +9308,25 @@
   "desc": "It always amazes me how an animal as big as a bull moose can be there one moment and gone the next. They are very skilled at using vegetation and terrain  to hide themselves in plain view. His antlers are now polished up and the moose rut will be starting soon.\nPhoto: Bull moose on Seedskadee NWR. \n"
  },
  {
+  "file": "scout/out/fws/573.jpg",
+  "size": "3585x2196",
+  "width": 1464,
+  "color": 40.5,
+  "sharp": 70.7,
+  "flat": 0.01,
+  "why": [
+   "küçük"
+  ],
+  "twin": 0.41,
+  "level": "kolay",
+  "title": "File:Fox Den 2 (15198999401).jpg",
+  "query": "fox",
+  "page": "https://commons.wikimedia.org/wiki/File:Fox_Den_2_(15198999401).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/51986662@N05\">USFWS Mountain-Prairie</a>",
+  "desc": "Fox Den 2"
+ },
+ {
   "file": "scout/out/fws/013.jpg",
   "size": "3000x2091",
   "width": 1394,
@@ -10122,6 +10265,45 @@
   "license": "Public domain",
   "artist": "Steve Hillebrand, U.S. Fish and Wildlife Service",
   "desc": "\nImage title: Brown bear cubs playing\nImage from Public domain images website, http://www.public-domain-image.com/full-image/fauna-animals-public-domain-images-pictures/bears-public-domain-images-pictures/brown-bear-cubs-playing.jpg.html"
+ },
+ {
+  "file": "scout/out/fws/575.jpg",
+  "size": "3264x2448",
+  "width": 1632,
+  "color": 34.8,
+  "sharp": 81.6,
+  "flat": 0.01,
+  "why": [
+   "küçük"
+  ],
+  "twin": 0.06,
+  "level": "uzman",
+  "title": "File:Wolf on Trail Camera (50222775102).jpg",
+  "query": "wolf",
+  "page": "https://commons.wikimedia.org/wiki/File:Wolf_on_Trail_Camera_(50222775102).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmtnprairie/\">USFWS Mountain Prairie</a>",
+  "desc": "You never know who you may find captured on your trail camera. It is always thrilling to find images of wolves.\nThis black wolf has been making frequent appearances on our trail camera. It is easily identifiable due to its extremely short tail. What a beautiful wild animal!\n\nPhoto: Kari Cieszkiewicz"
+ },
+ {
+  "file": "scout/out/fws/580.jpg",
+  "size": "3456x2304",
+  "width": 1536,
+  "color": 80.6,
+  "sharp": 43.7,
+  "flat": 0.05,
+  "why": [
+   "bulanık",
+   "küçük"
+  ],
+  "twin": 0.08,
+  "level": "uzman",
+  "title": "File:Monarch butterfly (11221507176).jpg",
+  "query": "butterfly",
+  "page": "https://commons.wikimedia.org/wiki/File:Monarch_butterfly_(11221507176).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/49208525@N08\">USFWSmidwest</a>",
+  "desc": "Monarch butterfly on butterfly weed. Photo by Rick Hansen/USFWS."
  },
  {
   "file": "scout/out/fws/030.jpg",
