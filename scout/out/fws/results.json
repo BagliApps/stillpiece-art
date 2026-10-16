@@ -2992,6 +2992,57 @@
   "desc": "Spotted in the monarch garden at the Michigan Private Lands Office.\n\nPhoto by Jim Hudgins/USFWS."
  },
  {
+  "file": "scout/out/fws/1060.jpg",
+  "size": "6000x3234",
+  "width": 2156,
+  "color": 104.1,
+  "sharp": 78.2,
+  "flat": 0.29,
+  "why": [],
+  "twin": 0.83,
+  "level": "baslangic",
+  "title": "File:Sunrise at Seedskadee National Wildlife Refuge (45816429541).jpg",
+  "query": "sunrise refuge",
+  "page": "https://commons.wikimedia.org/wiki/File:Sunrise_at_Seedskadee_National_Wildlife_Refuge_(45816429541).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfwsmtnprairie/\">USFWS Mountain Prairie</a>",
+  "desc": "Photo: Tom Koerner/USFWS"
+ },
+ {
+  "file": "scout/out/fws/1062.jpg",
+  "size": "4000x6000",
+  "width": 4000,
+  "color": 26.5,
+  "sharp": 73.3,
+  "flat": 0.02,
+  "why": [],
+  "twin": 0.91,
+  "level": "baslangic",
+  "title": "File:Montana prairie dog (47707946432).jpg",
+  "query": "prairie",
+  "page": "https://commons.wikimedia.org/wiki/File:Montana_prairie_dog_(47707946432).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/usfwsmtnprairie/\" class=\"external text\">USFWS Mountain Prairie</a>",
+  "desc": "A prairie dog peeks out of its burrow in a northeastern Montana landscape.\n\nPhoto by Jennifer Strickland, USFWS."
+ },
+ {
+  "file": "scout/out/fws/1063.jpg",
+  "size": "7736x5160",
+  "width": 3440,
+  "color": 72.9,
+  "sharp": 87.6,
+  "flat": 0.31,
+  "why": [],
+  "twin": 0.89,
+  "level": "baslangic",
+  "title": "File:Snowy tundra and mountains (52828279085).jpg",
+  "query": "tundra",
+  "page": "https://commons.wikimedia.org/wiki/File:Snowy_tundra_and_mountains_(52828279085).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfws_alaska/\">USFWSAlaska</a>",
+  "desc": "View towards the mountains and tundra of Selawik National Wildlife Refuge from the village of Selawik. Credit: Lisa Hupp/USFWS"
+ },
+ {
   "file": "scout/out/fws/028.jpg",
   "size": "5600x3732",
   "width": 2488,
@@ -6137,6 +6188,23 @@
   "desc": "A young Arctic fox (Vulpes lagopus) rests curled up on a hillside of tundra plants outside its den. Credit: Lisa Hupp/USFWS."
  },
  {
+  "file": "scout/out/fws/1066.jpg",
+  "size": "7883x3870",
+  "width": 2580,
+  "color": 40.3,
+  "sharp": 83.1,
+  "flat": 0.23,
+  "why": [],
+  "twin": 0.38,
+  "level": "kolay",
+  "title": "File:Arctic Refuge - Brooks Range (48771986343).jpg",
+  "query": "Alaska refuge",
+  "page": "https://commons.wikimedia.org/wiki/File:Arctic_Refuge_-_Brooks_Range_(48771986343).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfws_alaska/\">USFWSAlaska</a>",
+  "desc": "Arctic National Wildlife Refuge. \nPhoto Credit: Danielle Brigida/ USFWS"
+ },
+ {
   "file": "scout/out/fws/017.jpg",
   "size": "4948x3280",
   "width": 2186,
@@ -8498,6 +8566,23 @@
   "license": "Public domain",
   "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/50838842@N06\">U.S. Fish and Wildlife Service Headquarters</a>",
   "desc": "A fall day at Selawik National Wildlife Refuge\n\nPhoto credit: Steve Hillebrand"
+ },
+ {
+  "file": "scout/out/fws/1064.jpg",
+  "size": "6016x4016",
+  "width": 2677,
+  "color": 29.0,
+  "sharp": 82.5,
+  "flat": 0.01,
+  "why": [],
+  "twin": 0.29,
+  "level": "zor",
+  "title": "File:High Falls on the Pigeon River (53835729912).jpg",
+  "query": "waterfall",
+  "page": "https://commons.wikimedia.org/wiki/File:High_Falls_on_the_Pigeon_River_(53835729912).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/usfwsmidwest/\" class=\"external text\">U.S. Fish and Wildlife Service - Midwest Region</a>",
+  "desc": "High Falls on the Pigeon River at Grand Portage State Park in Minnesota are rushing after recent rainfall.\n\nPhoto by Courtney Celley/USFWS"
  },
  {
   "file": "scout/out/fws/000.jpg",
@@ -14700,6 +14785,82 @@
   "desc": "We spotted this northern leopard frog along the Big Fork River in Koochiching County, Minnesota.\n\nPhoto by Courtney Celley/USFWS."
  },
  {
+  "file": "scout/out/fws/1065.jpg",
+  "size": "3422x2282",
+  "width": 1521,
+  "color": 65.4,
+  "sharp": 72.7,
+  "flat": 0.17,
+  "why": [
+   "küçük"
+  ],
+  "twin": 0.66,
+  "level": "baslangic",
+  "title": "File:Textures of snow at Selawik National Wildlife Refuge (52828110954).jpg",
+  "query": "snow refuge",
+  "page": "https://commons.wikimedia.org/wiki/File:Textures_of_snow_at_Selawik_National_Wildlife_Refuge_(52828110954).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/usfws_alaska/\">USFWSAlaska</a>",
+  "desc": "Close-up of snow patterns and spruce branches at Selawik National Wildlife Refuge. Credit: Lisa Hupp/USFWS"
+ },
+ {
+  "file": "scout/out/fws/1067.jpg",
+  "size": "4040x2802",
+  "width": 1868,
+  "color": 86.4,
+  "sharp": 73.8,
+  "flat": 0.78,
+  "why": [
+   "desensiz"
+  ],
+  "twin": 0.79,
+  "level": "baslangic",
+  "title": "File:Bald eagle at Seedskadee National Wildlife Refuge (38962726355).jpg",
+  "query": "bald eagle",
+  "page": "https://commons.wikimedia.org/wiki/File:Bald_eagle_at_Seedskadee_National_Wildlife_Refuge_(38962726355).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/51986662@N05\">USFWS Mountain-Prairie</a>",
+  "desc": "Photo: Tom Koerner/USFWS"
+ },
+ {
+  "file": "scout/out/fws/1068.jpg",
+  "size": "3504x2336",
+  "width": 1557,
+  "color": 39.2,
+  "sharp": 68.1,
+  "flat": 0.24,
+  "why": [
+   "küçük"
+  ],
+  "twin": 0.77,
+  "level": "baslangic",
+  "title": "File:Mississippi Sandhill crane (46258905221).jpg",
+  "query": "sandhill crane",
+  "page": "https://commons.wikimedia.org/wiki/File:Mississippi_Sandhill_crane_(46258905221).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/usfwssoutheast/\" class=\"external text\">USFWS/Southeast</a>",
+  "desc": "Mississippi Sandhill crane. Photo by Brian Ellington, USFWS."
+ },
+ {
+  "file": "scout/out/fws/1069.jpg",
+  "size": "5184x3456",
+  "width": 2304,
+  "color": 41.5,
+  "sharp": 89.4,
+  "flat": 0.96,
+  "why": [
+   "desensiz"
+  ],
+  "twin": 0.95,
+  "level": "baslangic",
+  "title": "File:Snow Geese Lake Andes Wetland Management District South Dakota (52793331650).jpg",
+  "query": "snow geese",
+  "page": "https://commons.wikimedia.org/wiki/File:Snow_Geese_Lake_Andes_Wetland_Management_District_South_Dakota_(52793331650).jpg",
+  "license": "Public domain",
+  "artist": "<a rel=\"mw:ExtLink nofollow\" href=\"https://www.flickr.com/people/usfwsmtnprairie/\" class=\"external text\">USFWS Mountain Prairie</a>",
+  "desc": "Snow geese fly overhead on Lake Andes Wetland Management District in South Dakota. Photo Credit: Mick Hanan/USFWS"
+ },
+ {
   "file": "scout/out/fws/141.jpg",
   "size": "4000x6000",
   "width": 4000,
@@ -17314,6 +17475,25 @@
   "license": "Public domain",
   "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/41464593@N02\">U.S. Fish and Wildlife Service Southeast Region</a>",
   "desc": "Sophia, a rehabilitated turtle at the José A Rivero, Puerto Rico Zoo.\nScientific name:  Chelonia mydas\nCommon name Spanish:  Peje Blanco, tortuga verde\nPhoto Location:  Mayaguez, Puerto Rico\nPhoto by Lilibeth Serrano, USFWS\n\nMore information:  ecos.fws.gov/speciesProfile/profile/speciesProfile.actio"
+ },
+ {
+  "file": "scout/out/fws/1061.jpg",
+  "size": "3504x2336",
+  "width": 1557,
+  "color": 27.2,
+  "sharp": 83.4,
+  "flat": 0.26,
+  "why": [
+   "küçük"
+  ],
+  "twin": 0.5,
+  "level": "kolay",
+  "title": "File:Pristine marshland.jpg",
+  "query": "marsh",
+  "page": "https://commons.wikimedia.org/wiki/File:Pristine_marshland.jpg",
+  "license": "Public domain",
+  "artist": "U.S. Fish and Wildlife Service",
+  "desc": "\nImage title: Pristine marshland\nImage from Public domain images website, http://www.public-domain-image.com/full-image/nature-landscapes-public-domain-images-pictures/wetlands-and-swamps-public-domain-images-pictures/pristine-marshland.jpg.html"
  },
  {
   "file": "scout/out/fws/013.jpg",
