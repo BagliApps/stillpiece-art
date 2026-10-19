@@ -1,0 +1,37 @@
+# Eserleri (art/, thumb/, catalog.json) GitHub Pages'e yayımlar. Bu depoya
+# yalnızca gizli stillpiece-art-studio'nun "Eserleri kur" iş akışı yazar.
+name: Yayımla
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Site
+        run: |
+          mkdir site
+          cp -r art thumb catalog.json site/
+          touch site/.nojekyll
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4

@@ -1,14 +1,6 @@
 # stillpiece-art
 
-Stillpiece yapboz uygulamasının eser görselleri, GitHub Pages ile sunulur:
-`https://bagliapps.github.io/stillpiece-art/catalog.json` (yedek:
-`https://cdn.jsdelivr.net/gh/BagliApps/stillpiece-art@main/catalog.json`).
+Images and catalog downloaded by the [Stillpiece](https://bagliapps.github.io/stillpiece/) jigsaw puzzle app.
+The original works are public domain; the collection and the catalog are not free to reuse. See [LICENSE](LICENSE).
 
-- `sources.tsv`: elle seçilen eserler (müze numarası, slug, kategori, Türkçe ad). Slug değişmez; uygulamadaki kayıtlar ona bağlı.
-- `build.py`: kamu malı denetimi, indirme, 2:3 kırpma, ölçüm ve seviye dağıtımı; `catalog.json`'u yazar. Yalnızca eksik görselleri indirir.
-- Seviye ölçülerek verilir: aydınlık ve ayrıntı (kenar yoğunluğu) arttıkça daha yüksek seviye. Bir kez verilen seviye değişmez.
-- `art/<slug>.jpg`: Başlangıç–Zor 1000 px, Uzman ve üstü 1686 px genişlik. `thumb/<slug>.jpg`: 300 px.
-
-Eser eklemek: `sources.tsv`'ye satır ekle, push'la; workflow gerisini yapar.
-
-Görseller The Art Institute of Chicago'nun açık arşivinden, CC0.
+Stillpiece yapboz uygulamasının indirdiği görseller ve katalog. Orijinal eserler kamu malıdır; seçki ve katalog serbestçe kullanılamaz, bkz. [LICENSE](LICENSE).
