@@ -6358,22 +6358,6 @@
    "thumbSha256": "6cf7e7fd23dec186fd01d457269c1724ee32f201602ef808f8adb7215f4c5683"
   },
   {
-   "slug": "woman_of_the_sabines",
-   "level": "kolay",
-   "category": "tablo",
-   "title": "Sabin Kadını",
-   "titleEn": "A Woman of the Sabines",
-   "artist": "Clarence Holbrook Carter",
-   "source": "cma",
-   "cmaId": 148754,
-   "imageId": "https://openaccess-cdn.clevelandart.org/1929.1976/1929.1976_print.jpg",
-   "bright": 0.3425,
-   "detail": 0.0409,
-   "sha256": "91099a7b46ab9f830c367ae7455dad5e16e16607554304d5bf6019a0592afba2",
-   "bytes": 247626,
-   "thumbSha256": "c83d2d0788f07812577c7bc3c37b56b91c97eec29080af90b19ceba47c36a20b"
-  },
-  {
    "slug": "dora_wheeler",
    "level": "orta",
    "category": "tablo",
@@ -6404,22 +6388,6 @@
    "sha256": "330a24c78c4061ccda8cfcac0b22a8771ec1864483b8ad4fc40b2d0c68b27561",
    "bytes": 422478,
    "thumbSha256": "13e83920c55730727b77f815e99c760361e9c9f4a99764e575f9dd6aebc62ecd"
-  },
-  {
-   "slug": "primrose_collins",
-   "level": "orta",
-   "category": "tablo",
-   "title": "Çuha Çiçeği",
-   "titleEn": "Primrose",
-   "artist": "Mary Susan Collins",
-   "source": "cma",
-   "cmaId": 147828,
-   "imageId": "https://openaccess-cdn.clevelandart.org/1929.1974/1929.1974_print.jpg",
-   "bright": 0.3963,
-   "detail": 0.2706,
-   "sha256": "15bc4f1446f9f0ea2b1fc81055ba98476af923be162a2baddff5d427791e0f8b",
-   "bytes": 359139,
-   "thumbSha256": "8e2a0f01fde21bdfdb80d78e1fa5c7c4c8092cd71dfe70b7d939fb3cc64daae3"
   },
   {
    "slug": "pitcher_and_glass",
@@ -6500,22 +6468,6 @@
    "sha256": "ff79259221067557d3335065e0507b5447b0718a13dfe5e161960053f6ec2e86",
    "bytes": 329140,
    "thumbSha256": "2c348552fab45490c94e4790ea3dccb041efbddb6bfbfe03ac1bc23997c6b68c"
-  },
-  {
-   "slug": "holiday_on_hudson",
-   "level": "zor",
-   "category": "tablo",
-   "title": "Hudson'da Tatil",
-   "titleEn": "Holiday on the Hudson",
-   "artist": "George Luks",
-   "source": "cma",
-   "cmaId": 172828,
-   "imageId": "https://openaccess-cdn.clevelandart.org/1933.2291/1933.2291_print.jpg",
-   "bright": 0.32,
-   "detail": 0.2028,
-   "sha256": "7b87b4a9be34df9eabf053ff532e73b52248c61b966fa97f15975f71077c3acc",
-   "bytes": 405647,
-   "thumbSha256": "c1c4334431c8a8ba357f8827682eba9a497bd170483ab1ffeaa9a75abd4abb76"
   },
   {
    "slug": "early_spring_california",
