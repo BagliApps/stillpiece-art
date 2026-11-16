@@ -7589,5 +7589,38 @@
    "bytes": 807283,
    "thumbSha256": "9b654fc1c4fbb33f49087a7501845caff2ba37d7ee5e223ecae94536ab985e30"
   }
+ ],
+ "themes": [
+  {
+   "id": "kis-2026",
+   "start": "2026-11-16",
+   "end": "2027-01-06",
+   "cover": "crater_lake_winter",
+   "art": [
+    "crater_lake_winter",
+    "glacier_snow_valley",
+    "sage_grouse_snow",
+    "glacier_may_snow",
+    "canary_spring_snow",
+    "stanton_mountain",
+    "elk_in_snow",
+    "elk_mountain",
+    "nativity_ferrer"
+   ],
+   "title": {
+    "tr": "Kış seçkisi",
+    "en": "Winter collection",
+    "de": "Winterauswahl",
+    "es": "Colección de invierno",
+    "fr": "Sélection d'hiver"
+   },
+   "note": {
+    "tr": "Karlı vadiler, kışın hayvanlar ve bir doğuş sahnesi.",
+    "en": "Snowy valleys, animals in winter and a nativity scene.",
+    "de": "Verschneite Täler, Tiere im Winter und eine Geburtsszene.",
+    "es": "Valles nevados, animales en invierno y una escena del nacimiento.",
+    "fr": "Vallées enneigées, animaux en hiver et une Nativité."
+   }
+  }
  ]
 }
