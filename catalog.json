@@ -10442,14 +10442,22 @@
     "en": "Winter & Christmas",
     "de": "Winter & Weihnachten",
     "es": "Invierno y Navidad",
-    "fr": "Hiver et Noël"
+    "fr": "Hiver et Noël",
+    "pt": "Inverno e Natal",
+    "ja": "冬とクリスマス",
+    "ko": "겨울과 크리스마스",
+    "it": "Inverno e Natale"
    },
    "note": {
     "tr": "Noel tabloları, kuzey ışıkları, karlı manzaralar, kızak köpekleri ve kışın hayvanlar.",
     "en": "Nativity paintings, northern lights, snowy landscapes, sled dogs and animals in winter.",
     "de": "Weihnachtsbilder, Polarlichter, verschneite Landschaften, Schlittenhunde und Tiere im Winter.",
     "es": "Pinturas navideñas, auroras boreales, paisajes nevados, perros de trineo y animales en invierno.",
-    "fr": "Tableaux de Noël, aurores boréales, paysages enneigés, chiens de traîneau et animaux en hiver."
+    "fr": "Tableaux de Noël, aurores boréales, paysages enneigés, chiens de traîneau et animaux en hiver.",
+    "pt": "Pinturas de Natal, auroras boreais, paisagens nevadas, cães de trenó e animais no inverno.",
+    "ja": "クリスマスの名画、オーロラ、雪景色、そり犬、冬の動物たち。",
+    "ko": "크리스마스 명화, 오로라, 눈 덮인 풍경, 썰매견, 겨울 동물들.",
+    "it": "Dipinti di Natale, aurore boreali, paesaggi innevati, cani da slitta e animali d'inverno."
    }
   }
  ]
